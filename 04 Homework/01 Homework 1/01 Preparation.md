@@ -1,16 +1,18 @@
-# Readings
+# Preparation
+
+## Readings
 
 How To Think Like A Computer Scientist: Monday - chapters 1 (all), 2 (all) & 4.12. Tuesday - Chapter 4.1, 4.2, 4.4-4.7, 6.1 & 6.2.
 
-# What to turn in
+## What to turn in
 
 Turn in a printout of your code exercises, stapled to your answers to the written exercises, at 2 PM on Wednesday, January 5th.
 
-# Exercise 1.0 – Installing Python
+## Exercise 1.0 – Installing Python
 
 Follow the instructions on installing Python and IDLE on your own computer on the Materials page of the course website, in the Handouts section. Be sure to install Python 2.6.x. Ask an LA for help if you run into any trouble. Before continuing, play around with the Python shell a bit and explore how you can use it as a calculator.
 
-# Exercise 1.1 – Hello, world!
+## Exercise 1.1 – Hello, world!
 
 Recall that a program is just a set of instructions for the computer to execute. Let’s start with a basic command: print x: Prints the value of the expression x, followed by a new line.
 
