@@ -97,19 +97,20 @@ This is just for practice, solutions will not be graded or collected in class.
 
 Use IDLE to calculate:
 
-1. 6+4*10
-2. (6+4)*10 (Compare this to #1, and note that Python uses parentheses just like you would in normal math to
-determine order of operations!)
-3. 23.0 to the 5th power
-4. Positive root of the following equation:
-	34*x^2 + 68*x - 510
-	Recall:
-	a*x^2 + b*x + c
-	x1 = ( - b + sqrt ( b*b - 4*a*c ) ) / ( 2*a)
+1.	$6 + 4 * 10$
+2.	$(6 + 4) * 10$
+	Compare this to #1, and note that Python uses parentheses just like you 
+	would in normal math to determine order of operations!
+3.	23.0 to the 5th power
+4.	Positive root of the following equation:  
+	$34 * x ^ 2 + 68 * x - 510$  
+	Recall:  
+	$a * x ^ 2 + b * x + c$  
+	$x1 = ( - b + sqrt (b * b - 4 * a * c) ) / (2 * a)$
 
-The tutorial for IDLE is based on the official IDLE tutorial by Daryl Harms.
-Asfandyar Qureshi, Feb 2006.
-Edited by Vladimir Bychkovsky, Sept 2006. Edited by Calvin On, Feb 2007.
-Edited by Yang Zhang, Sep 2008.
-Edited by Chih-yu Chao, Feb 2009.
+The tutorial for IDLE is based on the official IDLE tutorial by Daryl Harms.  
+Asfandyar Qureshi, Feb 2006.  
+Edited by Vladimir Bychkovsky, Sept 2006. Edited by Calvin On, Feb 2007.  
+Edited by Yang Zhang, Sep 2008.  
+Edited by Chih-yu Chao, Feb 2009.  
 Edited by Sari Canelake, Dec 2009.
