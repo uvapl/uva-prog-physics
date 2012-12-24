@@ -116,7 +116,7 @@ Use IDLE to calculate:
 	
 	you can get one root using:
 	
-	$x_1 = ( -b + sqrt (b^2 - 4ac) ) / (2a)$.
+	$x_1 = ( -b + sqrt (b ^ 2 - 4ac) ) / ( 2a )$.
 
 ## Attribution
 
