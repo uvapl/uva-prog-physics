@@ -98,15 +98,22 @@ This is just for practice, solutions will not be graded or collected in class.
 Use IDLE to calculate:
 
 1.	$6 + 4 * 10$
+
 2.	$(6 + 4) * 10$
+
 	Compare this to #1, and note that Python uses parentheses just like you 
 	would in normal math to determine order of operations!
+	
 3.	23.0 to the 5th power
-4.	Positive root of the following equation:  
+
+4.	Positive root of the following equation:
+
 	$34 * x ^ 2 + 68 * x - 510$  
 	Recall:  
 	$a * x ^ 2 + b * x + c$  
 	$x1 = ( - b + sqrt (b * b - 4 * a * c) ) / (2 * a)$
+
+## Attribution
 
 The tutorial for IDLE is based on the official IDLE tutorial by Daryl Harms.  
 Asfandyar Qureshi, Feb 2006.  
