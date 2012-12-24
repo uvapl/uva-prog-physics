@@ -210,7 +210,7 @@ We strongly suggest you finish all the written exercises now, before continuing 
 
 In this exercise, you are going to practice using conditionals (`if`, `elif`, `else`). You will write a small program that will determine the result of a *rock, paper, scissors* game, given Player 1 and Player 2's choices. Your program will print out the result. Here are the rules of the game:
 
-![image]()
+![Rock, paper, scissors](rock.png)
 
 1. First create a truth table for all the possible choices for player 1 and 2, and the outcome of the game. This will help you figure out how to code the game!
 
