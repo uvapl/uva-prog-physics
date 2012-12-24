@@ -84,20 +84,20 @@ The purpose of this exercise is to understand conditionals. Tiberius is looking 
 
 For each of the following job offers, write down the output that would be generated. Do this without running the code. It is an important skill to be able to understand what a piece of code does without running it.
 
-1. location = "Massachusetts"  
-   pay = 50000
+1. `location = "Massachusetts"`  
+   `pay = 50000`
 
-2. location = "Iowa"  
-   pay = 50000
+2. `location = "Iowa"`  
+   `pay = 50000`
 
-3. location = "California"  
-   pay = 50000
+3. `location = "California"`  
+   `pay = 50000`
 
-4. location = "U.S.S. Enterprise"  
-   pay = 1
+4. `location = "U.S.S. Enterprise"`  
+   `pay = 1`
 
-5. location = "California"  
-   pay = 25000
+5. `location = "California"`  
+   `pay = 25000`
 
 # Exercise 1.14 – Understanding loops
 
