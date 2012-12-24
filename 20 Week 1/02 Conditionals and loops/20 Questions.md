@@ -57,13 +57,9 @@ Boolean operators can seem tricky at first, and it takes practice to evaluate th
 	c = False
 
 1. `b and c` <input name="e12-1" type="text">
-
 2. `b or c` <input name="e12-2" type="text">
-
 3. `not a and b` <input name="e12-3" type="text">
-
 4. `(a and b) or not c` <input name="e12-3" type="text">
-
 5. `not b and not (a or c)` <input name="e12-3" type="text">
 
 # Exercise 1.13 – Conditionals
