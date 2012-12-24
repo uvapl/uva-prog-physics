@@ -2,28 +2,32 @@
 
 The Python interpreter has strict rules for variable names. Which of the following are legal Python names? If the name is not legal, state the reason.
 
-1. `and` <input name="e1-9-1" type="text">
-2. `_and` <input name="e1-9-2" type="text">
-3. `var` <input name="e1-9-3" type="text">
-4. `var1` <input name="e1-9-4" type="text">
-5. `1var` <input name="e1-9-5" type="text">
-6. `my-name` <input name="e1-9-6" type="text">
-7. `your_name` <input name="e1-9-7" type="text">
-8. `COLOR` <input name="e1-9-8" type="text">
+|expression |legal?                           |
+|-----------|---------------------------------|
+|`and`      |<input name="e1-9-1" type="text">|
+|`_and`     |<input name="e1-9-2" type="text">|
+|`var`      |<input name="e1-9-3" type="text">|
+|`var1`     |<input name="e1-9-4" type="text">|
+|`1var`     |<input name="e1-9-5" type="text">|
+|`my-name`  |<input name="e1-9-6" type="text">|
+|`your_name`|<input name="e1-9-7" type="text">|
+|`COLOR`    |<input name="e1-9-8" type="text">|
 
 # Exercise 1.10 – Types
 
 It is important that we know the type of the values stored in a variable so that we can use the correct operators (as we have already seen!). Python automatically infers the type from the value you assign to the variable. Write down the type of the values stored in each of the variables below. Pay special attention to punctuation: values are not always the type they seem!
 
-1. `a = False` <input name="e1-10-1" type="text">
-2. `b = 3.7` <input name="e1-10-2" type="text">
-3. `c = 'Alex'` <input name="e1-10-3" type="text">
-4. `d = 7` <input name="e1-10-4" type="text">
-5. `e = 'True'` <input name="e1-10-5" type="text">
-6. `f = 17` <input name="e1-10-6" type="text">
-7. `g = '17'` <input name="e1-10-7" type="text">
-8. `h = True` <input name="e1-10-8" type="text">
-9. `i = '3.14159'` <input name="e1-10-9" type="text">
+|variable       |type                              |
+|---------------|----------------------------------|
+|`a = False`    |<input name="e1-10-1" type="text">|
+|`b = 3.7`      |<input name="e1-10-2" type="text">|
+|`c = 'Alex'`   |<input name="e1-10-3" type="text">|
+|`d = 7`        |<input name="e1-10-4" type="text">|
+|`e = 'True'`   |<input name="e1-10-5" type="text">|
+|`f = 17`       |<input name="e1-10-6" type="text">|
+|`g = '17'`     |<input name="e1-10-7" type="text">|
+|`h = True`     |<input name="e1-10-8" type="text">|
+|`i = '3.14159'`|<input name="e1-10-9" type="text">|
 
 To verify your answers, you can use the interactive Python shell, but first try to do the exercise without help.
 
@@ -56,11 +60,13 @@ Boolean operators can seem tricky at first, and it takes practice to evaluate th
 	b = True
 	c = False
 
-1. `b and c` <input name="e12-1" type="text">
-2. `b or c` <input name="e12-2" type="text">
-3. `not a and b` <input name="e12-3" type="text">
-4. `(a and b) or not c` <input name="e12-3" type="text">
-5. `not b and not (a or c)` <input name="e12-3" type="text">
+|expression              |value                           |
+|------------------------|--------------------------------|
+|`b and c`               |<input name="e12-1" type="text">|
+|`b or c`                |<input name="e12-2" type="text">|
+|`not a and b`           |<input name="e12-3" type="text">|
+|`(a and b) or not c`    |<input name="e12-3" type="text">|
+|`not b and not (a or c)`|<input name="e12-3" type="text">|
 
 # Exercise 1.13 – Conditionals
 
