@@ -123,13 +123,13 @@ For each of the following fragments of code, write what the output would be. Aga
 		print num
 		num = num - 1
 
-<textarea name="e1-14-1"></textarea>
+> <textarea name="e1-14-1"></textarea>
 
 	divisor = 2
 	for i in range(0, 10, 2):
 		print i/divisor
 
-<textarea name="e1-14-1"></textarea>
+> <textarea name="e1-14-1"></textarea>
 
 	num = 10
 	while True:
@@ -138,14 +138,14 @@ For each of the following fragments of code, write what the output would be. Aga
 		print num
 		num -= 1
 
-<textarea name="e1-14-1"></textarea>
+> <textarea name="e1-14-1"></textarea>
 
 	count = 0
 	for letter in 'Snow!':
 		print 'Letter #', count, 'is', letter
 		count += 1
 
-<textarea name="e1-14-1"></textarea>
+> <textarea name="e1-14-1"></textarea>
 
 # Exercise 1.15 – Buggy loop (aka Find The Bug!)
 
