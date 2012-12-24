@@ -2,28 +2,28 @@
 
 The Python interpreter has strict rules for variable names. Which of the following are legal Python names? If the name is not legal, state the reason.
 
-1. and
-2. _and
-3. var
-4. var1
-5. 1var
-6. my-name
-7. your_name
-8. COLOR
+1. `and`
+2. `_and`
+3. `var`
+4. `var1`
+5. `1var`
+6. `my-name`
+7. `your_name`
+8. `COLOR`
 
 # Exercise 1.10 – Types
 
 It is important that we know the type of the values stored in a variable so that we can use the correct operators (as we have already seen!). Python automatically infers the type from the value you assign to the variable. Write down the type of the values stored in each of the variables below. Pay special attention to punctuation: values are not always the type they seem!
 
-1. a = False
-2. b = 3.7
-3. c = 'Alex'
-4. d = 7
-5. e = 'True'
-6. f = 17
-7. g = '17'
-8. h = True
-9. i = '3.14159'
+1. `a = False`
+2. `b = 3.7`
+3. `c = 'Alex'`
+4. `d = 7`
+5. `e = 'True'`
+6. `f = 17`
+7. `g = '17'`
+8. `h = True`
+9. `i = '3.14159'`
 
 To verify your answers, you can use the interactive Python shell, but first try to do the exercise without help.
 
@@ -86,12 +86,16 @@ For each of the following job offers, write down the output that would be genera
 
 1. location = "Massachusetts"  
    pay = 50000
+
 2. location = "Iowa"  
    pay = 50000
+
 3. location = "California"  
    pay = 50000
+
 4. location = "U.S.S. Enterprise"  
    pay = 1
+
 5. location = "California"  
    pay = 25000
 
