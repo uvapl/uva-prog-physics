@@ -109,9 +109,14 @@ Use IDLE to calculate:
 4.	Positive root of the following equation:
 
 	$34 * x ^ 2 + 68 * x - 510$  
-	Recall:  
+	
+	Recall that given an equation  
+	
 	$a * x ^ 2 + b * x + c$  
-	$x1 = ( - b + sqrt (b * b - 4 * a * c) ) / (2 * a)$
+	
+	you can get one root using:
+	
+	$x_1 = ( -b + sqrt (b^2 - 4ac) ) / (2a)$.
 
 ## Attribution
 
