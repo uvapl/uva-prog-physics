@@ -160,7 +160,7 @@ OPTIONAL: Now, for something completely different... a discussion on how to prin
 
 Note that none of the commas are in this output! To do that you want something like this:
 
-	print mo, day + ’,’, year
+	print mo, day + ',', year
 
 The `+` sign concatenates two strings, but can only be used on two strings. Using it on a number and a string will cause an error (because it is ambiguous as to what you want the program to do!)
 
@@ -214,17 +214,17 @@ In this exercise, you are going to practice using conditionals (`if`, `elif`, `e
 
 1. First create a truth table for all the possible choices for player 1 and 2, and the outcome of the game. This will help you figure out how to code the game!
 
-	|Player 1|Player 2|Result  |
-	|--------|--------|--------|
-	|Rock    |Rock    |Tie     |
-	|Rock    |Scissors|Player 1|
-	|        |        |        |
-	|        |        |        |
-	|        |        |        |
-	|        |        |        |
-	|        |        |        |
-	|        |        |        |
-	|        |        |        |
+	|Player 1      |Player 2      |Result        |
+	|--------------|--------------|--------------|
+	|Rock          |Rock          |Tie           |
+	|Rock          |Scissors      |Player 1      |
+	|&nbsp;        |&nbsp;        |&nbsp;        |
+	|&nbsp;        |&nbsp;        |&nbsp;        |
+	|&nbsp;        |&nbsp;        |&nbsp;        |
+	|&nbsp;        |&nbsp;        |&nbsp;        |
+	|&nbsp;        |&nbsp;        |&nbsp;        |
+	|&nbsp;        |&nbsp;        |&nbsp;        |
+	|&nbsp;        |&nbsp;        |&nbsp;        |
 
 2. Create a new file `rps.py` that will generate the outcome of the rock, scissors, paper game. The program should ask the user for input and display the answer as follows:
 
