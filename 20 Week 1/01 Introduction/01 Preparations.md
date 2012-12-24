@@ -108,11 +108,11 @@ Use IDLE to calculate:
 
 4.	Positive root of the following equation:
 
-	$34 * x ^ 2 + 68 * x - 510$  
+	$34x ^ 2 + 68x - 510$  
 	
 	Recall that given an equation  
 	
-	$a * x ^ 2 + b * x + c$  
+	$ax ^ 2 + bx + c$  
 	
 	you can get one root using:
 	
