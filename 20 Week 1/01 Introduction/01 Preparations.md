@@ -12,7 +12,8 @@ If you are working on your own machine, you will probably need to install Python
 
 * **Windows**
 
-  Go to the website and download the windows MSI installer for either x86 or x86-64, depending on which version of Windows you are running.
+  Go to the website and download the windows MSI installer for either x86 or
+  x86-64, depending on which version of Windows you are running.
 
 * **Mac OS X**
 
@@ -24,7 +25,10 @@ If you are working on your own machine, you will probably need to install Python
 
       python -V
 
-  at a terminal. If you have a newer version of Python already installed - eg Python 2.7.x or 3.1.x, you can set Python 2.6 as the default by following the instructions listed here. Otherwise, you should be able to do one of the following options:
+  at a terminal. If you have a newer version of Python already installed - eg
+  Python 2.7.x or 3.1.x, you can set Python 2.6 as the default by following
+  the instructions listed here. Otherwise, you should be able to do one of the
+  following options:
 
       sudo apt-get install python2.6
 
@@ -32,7 +36,10 @@ If you are working on your own machine, you will probably need to install Python
 
       sudo apt-get install idle
 
-  to install Idle for Python 2.6. If you have Python and Idle installed with a newer version of Python (eg Python 3.1... Python 2.7 won't cause a conflict for 6.189 and you can leave it alone for now), you'll want to instead run these two commands to install the correct version of Idle:
+  to install Idle for Python 2.6. If you have Python and Idle installed with a
+  newer version of Python (eg Python 3.1... Python 2.7 won't cause a conflict
+  for 6.189 and you can leave it alone for now), you'll want to instead run
+  these two commands to install the correct version of Idle:
 
       sudo apt-get install idle-python2.6
       sudo ln -s /usr/bin/idle-python2.6 /usr/bin/idle
@@ -41,7 +48,9 @@ If you are working on your own machine, you will probably need to install Python
 
       idle&
 
-  from the command prompt. If you would rather compile from source, visit the Python 2.6.4 release page for compressed tarballs. If you're having problems, please ask an LA for assistance.
+  from the command prompt. If you would rather compile from source, visit the
+  Python 2.6.4 release page for compressed tarballs. If you're having
+  problems, please ask an LA for assistance.
 
 Warning: On the Python homepage, the latest version available for download is actually 3.0. Do not install this! This version is not backwards compatible with the code that you'll be writing in this course (for example, you have to type print("test") instead of print "test"). Instead, be sure to download the version listed above.
 
@@ -57,7 +66,7 @@ During the following discussion of IDLE's features, instead of passively reading
 
 When you start up IDLE, a window with an interactive Python shell will pop up:
 
-![IDLE Shell](02-shell.png)
+![IDLE Shell](shell.png)
 
 You can type Python code directly into this shell, at the `>>>` prompt. Whenever you enter a complete code fragment, it will be executed. For instance, typing:
 
