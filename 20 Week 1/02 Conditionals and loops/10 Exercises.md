@@ -1,6 +1,6 @@
 # Exercise 1.0 – Installing Python
 
-Follow the instructions on installing Python and IDLE on your own computer on the Materials page of the course website, in the Handouts section. Be sure to install Python 2.6.x. Ask an LA for help if you run into any trouble. Before continuing, play around with the Python shell a bit and explore how you can use it as a calculator.
+Follow the instructions on installing Python and IDLE on your own computer on the Materials page of the course website, in the Handouts section. Be sure to install Python version 2.6.x. Ask an assistant for help if you run into any trouble. Before continuing, play around with the Python shell a bit and explore how you can use it as a calculator.
 
 # Exercise 1.1 – Hello, world!
 
@@ -48,91 +48,100 @@ Expected output:
 
 Recall that variables are containers for storing information. For example,
 
-* Program Text:
+Program Text:
 
-		a = "Hello, world!"
-		print a
+	a = "Hello, world!"
+	print a
 
-* Output:
+Output:
 
-		Hello, world!
+	Hello, world!
 
 The `=` sign is an assignment operator which tells the interpreter to assign the value `"Hello, world!"` to the variable `a`.
 
-* Program Text:
+Program Text:
 
-		a = "Hello, world!"
-		a = "and goodbye..."
-		print a
+	a = "Hello, world!"
+	a = "and goodbye..."
+	print a
 		
-* Output:
+Output:
 
-		and goodbye...
+	and goodbye...
 		
 Taking this second example, the value of a after executing the first line above is `"Hello, world!"`. But, after executing the second line, the value of a changes to `"and goodbye..."`. Since we ask the program to print out a only after the second assignment statement, that is the value that gets printed. If you wanted to save the values of both strings, you should change the second variable to another valid variable name, such as `b`.
 
-Variables are useful because they can cut down on the amount of code you have to write. In `homework_1.py`, write a program that prints out the tic-tac-toe board from exercise 1.2, but which uses variables to cut down on the amount of typing you have to do. **Hint** - how many different variables should you need?
+Variables are useful because they can cut down on the amount of code you have to write. In `homework_1.py`, write a program that prints out the tic-tac-toe board from exercise 1.2, but which uses variables to cut down on the amount of typing you have to do. **Hint**: how many different variables should you need?
 
 # Exercise 1.4 – Operators/Order of Operation
 
 Python has the ability to be used as a cheap, 5-dollar calculator. In particular, it supports basic mathematical operators `+`, `-`, `*`, `/` as well as the power operator `**` and the modulus operator `%`.
 
-* Program Text:
+Program Text:
 
-		x = 5 + 7
-		print x
-		y = x + 10
-		print y
+	x = 5 + 7
+	print x
+	y = x + 10
+	print y
 
-* Output:
+Output:
 
-		12
-		22
+	12
+	22
 
-Note that we can use variables in the definition of other variables! Mathematical operators only work on numbers --- ints or floats. Statements such as `'Hi' + 5` or `'5 + 7` will not work.
+Note that we can use variables in the definition of other variables! Mathematical operators only work on numbers: `int`s or `float`s. Statements such as `'Hi' + 5` or `'5 + 7` will not work.
 
-* Part I: Input the following sets of equations, and note the difference between int arithmetic and float arithmetic. You can do this just in your interpreter (you don't need to turn anything in for this part), but pay attention to the output!
-
-	1. $5/2$, $5/2.0$, and $5.0/2$ Note that as long as one argument is a float, all of your math will be floating point!
+**Part I**: Input the following sets of equations, and note the difference between `int` arithmetic and `float` arithmetic. You can do this just in your interpreter (you don't need to turn anything in for this part), but pay attention to the output!
 	
-	2. $7*(1/2)$ and $7*(1/2.0)$
-	
-	3. `5∗∗2`, `5.0∗∗2`, and `5∗∗2.0`
-	
-	4. $1/3.0$. Note the final digit is rounded. Python does this for non-terminating decimal numbers, as computers 3.0
-cannot store infinite numbers!
+1.	$ 5 / 2 $, $ 5 / 2.0 $, and $ 5.0 / 2 $
 
-* Part II: In homework_1.py, transcribe the following equations into Python (without simplifying!), preserving order of operation with parenthesis as needed. Save each as the value of a variable, and then print the variable.
+	Note that as long as one argument is a float, all of your math 
+	will be floating point!
 
-	1. $(3*5)/(2+3)$
-	
-	2. $sqrt(7+9)*2$
-	
-	3. $(4-7)^3$
-	
-	4. $4 sqrt(-19+100)$
-	
-	5. 6 mod 4 - If you aren't familiar with modular arithmetic, it is pretty straightforward --- the modulus operator, in the expression `x mod y`, gives the remainder when `x` is divided by `y`. Try a couple of modular expressions until you get the hang of it.
+2.	$7 xx (1 / 2)$ and $7 xx (1 / 2.0)$
 
-* Part III: In homework_1.py, use order of operation mathematics to create two equations that look the same (i.e., have the same numbers) but evaluate to different values (due to parenthesization). Save each as the value of a variable, then print the variables.
+3.	`5 ∗∗ 2`, `5.0 ∗∗ 2`, and `5 ∗∗ 2.0`
+
+4.	$1/3.0$
+
+	Note that the final digit is rounded. Python does this for
+	non-terminating decimal numbers, as computers cannot store infinite
+	numbers!
+
+**Part II**: In `homework_1.py`, transcribe the following equations into Python (without simplifying!), preserving order of operation with parenthesis as needed. Save each as the value of a variable, and then print the variable.
+
+1.	$(3 xx 5) / (2 + 3)$
+
+2.	$sqrt(7 + 9) xx 2$
+
+3.	$(4 - 7) ^ 3$
+
+4.	$root4(-19+100)$
+
+5.	$6 mod 4$
+
+	If you aren't familiar with modular arithmetic, it is pretty
+	straightforward: the modulus operator, in the expression $x mod y$,
+	gives the remainder when $x$ is divided by $y$. Try a couple of modular
+	expressions until you get the hang of it.
+
+**Part III**: In `homework_1.py`, use order of operation mathematics to create two equations that look the same (i.e., have the same numbers) but evaluate to different values (due to parenthesization). Save each as the value of a variable, then print the variables.
 
 # Exercise 1.5 – User input
 
-Do this exercise in homework_1.py. In this exercise, we will ask the user for his/her first and last name, and date of birth, and print them out formatted. Recall that you can get input from the user using the command `raw_input("text")`, as shown in lecture.
+Do this exercise in `homework_1.py`. In this exercise, we will ask the user for his/her first and last name, and date of birth, and print them out formatted. Recall that you can get input from the user using the command `raw_input("text")`, as shown in lecture.
 
 **Note**: There are two functions to get user input. The first, `raw_input`, turns whatever the user inputs into a `string` automatically. The second, `input`, preserves type. So, if the user inputs an `int`, or a `float`, you will get an `int` or a `float` (rather than a `string`). Be careful though: you still want to use raw input if you want a string back, or otherwise the user will have to put quotes around their answer. Use raw input here: it's good for string processing, like this problem. `input` will come in handy when using user input to compute math, like in Exercise 1.8.
 
 Here is an example of what this program should do:
 
-* Output:
-
-		Enter your first name: Chuck
-		Enter your last name: Norris
-		Enter your date of birth:
-		Month? March
-		Day? 10
-		Year? 1940
-		Chuck Norris was born on March 10, 1940.
+	Enter your first name: Chuck
+	Enter your last name: Norris
+	Enter your date of birth:
+	Month? March
+	Day? 10
+	Year? 1940
+	Chuck Norris was born on March 10, 1940.
 		
 To print a string and a number in one line, you just need to separate the arguments with a comma (this works for any two types within a print statement). The comma adds a space between the two arguments. For example, the lines:
 
@@ -245,11 +254,11 @@ Create a new file called `loops.py` and use it for all parts of this exercise. R
 
 Be sure to test your code for each part before moving on to the next part.
 
-1. Using a for loop, write a program that prints out the decimal equivalents of $1/2, 1/3, 1/4, ..., 1/10$.
+1. Using a for loop, write a program that prints out the decimal equivalents of $1 / 2, 1/3, 1 / 4, ..., 1/10$.
 
 2. Write a program using a while loop that asks the user for a number, and prints a countdown from that number to zero. What should your program do if the user inputs a negative number? As a programmer, you should always consider "edge conditions" like these when you program! (Another way to put it: always assume the users of your program will be trying to find a way to break it! If you don't include a condition that catches negative numbers, what will your program do?)
 
-3. Write a program using a for loop that calculates exponentials. Your program should ask the user for a base `base` and an exponent `exp`, and calculate `base`^`exp`. You can't use the `^` operator!
+3. Write a program using a for loop that calculates exponentials. Your program should ask the user for a base `base` and an exponent `exp`, and calculate `base`^(`exp`). You can't use the `^` operator!
 
 4. Write a program using a while loop that asks the user to enter a number that is divisible by 2. Give the user a witty message if they enter something that is not divisible by 2, *and make them enter a new number*. Don't let them stop until they enter an even number! Print a congratulatory message when they *finally* get it right.
 
