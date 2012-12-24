@@ -54,35 +54,49 @@ To be able to generate the cipher above, we need to understand a little bit abou
 
 Start small. Do not try to implement the entire program at once. Break the program into parts as follows:
 
-1. Create a file called `cipher.py`. Start your program by asking the user for a phrase to encode and the shift value. Then begin the structure of your program by entering in this loop (we’ll build on it more in a bit):
+1.	Create a file called `cipher.py`. Start your program by asking the user
+	for a phrase to encode and the shift value. Then begin the structure of
+	your program by entering in this loop (we’ll build on it more in a bit):
 
 		encoded_phrase = ''
-			for c in phrase:
-				encoded_phrase = encoded_phrase + c
+		for c in phrase:
+			encoded_phrase = encoded_phrase + c
 
-	What does this loop do? Make sure you understand what the code does before moving on!
+	What does this loop do? Make sure you understand what the code does before
+	moving on!
 
-2. Now modify the program above to replace all the alphabetic characters with 'x'. For example:
+2.	Now modify the program above to replace all the alphabetic characters with
+	'x'. For example:
 
 		Enter sentence to encrypt: Mayday! Mayday!
 		Enter shift value: 4
 		The encoded phrase is:  Xxxxxx! Xxxxxx!
 
-	We are going to apply the cipher only to the alphabetic characters and we will ignore the others.
+	We are going to apply the cipher only to the alphabetic characters and we
+	will ignore the others.
 
-3. Now modify your code, so that it produces the encoded string using the cyclic cipher with the shift value entered by the user. Let's see how one might do a cyclic shift. Let’s say we have the sequence:
+3.	Now modify your code, so that it produces the encoded string using the
+	cyclic cipher with the shift value entered by the user. Let's see how one
+	might do a cyclic shift. Let’s say we have the sequence:
 
 		012345
 
-	If we use a shift value of 4 and just shift all the numbers, the result will be:
+	If we use a shift value of 4 and just shift all the numbers, the result
+	will be:
 
 		456789
 
-	We want the values of the numbers to remain between `0` and `5`. To do this we will use the modulus operator. The expression `x % y` will return a number in the range `0` to `y - 1` inclusive, e.g. `4 % 6 = 4`, `6 % 6 = 0`, `7 % 6 = 1`. Thus the result of the operation will be:
+	We want the values of the numbers to remain between `0` and `5`. To do
+	this we will use the modulus operator. The expression `x % y` will return
+	a number in the range `0` to `y - 1` inclusive, e.g. `4 % 6 = 4`,
+	`6 % 6 = 0`, `7 % 6 = 1`. Thus the result of the operation will be:
 
 		450123
 		
-	**Hint**: Note that the ASCII value of `A` is `65` and `a` is `97`, not `0`. So you will have to think how to use the modulus operator to achieve the desired result. Apply the cipher separately to the upper and lower case letters.
+	**Hint**: Note that the ASCII value of `A` is `65` and `a` is `97`, not
+	`0`. So you will have to think how to use the modulus operator to achieve
+	the desired result. Apply the cipher separately to the upper and lower
+	case letters.
 	
 Here is what you program should output:
 
