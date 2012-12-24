@@ -33,7 +33,7 @@ To verify your answers, you can use the interactive Python shell, but first try 
 
 	>>> x = 100
 	>>> type(x)
-	<type ’int’>
+	<type 'int'>
 	>>>
 
 # Exercise 1.11 – Natural Language Processing

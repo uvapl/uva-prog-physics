@@ -10,49 +10,49 @@ Python should be set up correctly on the Linux athena* machines. Type 'idle' at 
 
 If you are working on your own machine, you will probably need to install Python. We will be using the standard Python software, available here. You should download and install version 2.6.x, NOT 2.7.x or 3.x All MIT Course 6 classes currently use a version of Python 2.6.
 
-* **Windows**
+*	**Windows**
 
-  Go to the website and download the windows MSI installer for either x86 or
-  x86-64, depending on which version of Windows you are running.
+	Go to the website and download the windows MSI installer for either x86 or
+	x86-64, depending on which version of Windows you are running.
 
-* **Mac OS X**
+*	**Mac OS X**
 
-  Download and install the Mac Installer disk image from the site.
+	Download and install the Mac Installer disk image from the site.
 
-* **Other Linux**
+*	**Other Linux**
 
-  Check which version of Python you have by running
+	Check which version of Python you have by running
 
-      python -V
+		python -V
 
-  at a terminal. If you have a newer version of Python already installed - eg
-  Python 2.7.x or 3.1.x, you can set Python 2.6 as the default by following
-  the instructions listed here. Otherwise, you should be able to do one of the
-  following options:
+	at a terminal. If you have a newer version of Python already installed,
+	for example Python 2.7.x or 3.1.x, you can set Python 2.6 as the default
+	by following the instructions listed here. Otherwise, you should be able
+	to do one of the following options:
 
-      sudo apt-get install python2.6
+		sudo apt-get install python2.6
 
-  if you don't already have Python 2.6 installed; if you do, run
+	if you don't already have Python 2.6 installed; if you do, run
 
-      sudo apt-get install idle
+		sudo apt-get install idle
 
-  to install Idle for Python 2.6. If you have Python and Idle installed with a
-  newer version of Python (eg Python 3.1... Python 2.7 won't cause a conflict
-  for 6.189 and you can leave it alone for now), you'll want to instead run
-  these two commands to install the correct version of Idle:
+	to install Idle for Python 2.6. If you have Python and Idle installed with
+	a newer version of Python (eg Python 3.1... Python 2.7 won't cause a
+	conflict for 6.189 and you can leave it alone for now), you'll want to
+	instead run these two commands to install the correct version of Idle:
 
-      sudo apt-get install idle-python2.6
-      sudo ln -s /usr/bin/idle-python2.6 /usr/bin/idle
+		sudo apt-get install idle-python2.6
+		sudo ln -s /usr/bin/idle-python2.6 /usr/bin/idle
 
-  You should then be able to run Idle by simply running
+	You should then be able to run Idle by simply running
 
-      idle&
+		idle&
 
-  from the command prompt. If you would rather compile from source, visit the
-  Python 2.6.4 release page for compressed tarballs. If you're having
-  problems, please ask an LA for assistance.
+	from the command prompt. If you would rather compile from source, visit
+	the Python 2.6.4 release page for compressed tarballs. If you're having
+	problems, please ask an assistant for... assistance (ahem).
 
-Warning: On the Python homepage, the latest version available for download is actually 3.0. Do not install this! This version is not backwards compatible with the code that you'll be writing in this course (for example, you have to type print("test") instead of print "test"). Instead, be sure to download the version listed above.
+Warning: On the Python homepage, the latest version available for download is actually 3.0. Do not install this! This version is not backwards compatible with the code that you'll be writing in this course (for example, you have to type `print("test")` instead of `print "test"`). Instead, be sure to download the version listed above.
 
 ## Using IDLE
 
