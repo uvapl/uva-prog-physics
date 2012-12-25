@@ -1,0 +1,8 @@
+Required:
+    - form
+    - homework_1.py
+    - rps.py
+    - loops.py
+Optional:
+    - zellers.py
+    - cipher.py
