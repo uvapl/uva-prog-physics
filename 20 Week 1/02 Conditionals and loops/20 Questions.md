@@ -4,14 +4,14 @@ The Python interpreter has strict rules for variable names. Which of the followi
 
 |expression |legal?                           |
 |-----------|---------------------------------|
-|`and`      |<input name="e1-9-1" type="text">|
-|`_and`     |<input name="e1-9-2" type="text">|
-|`var`      |<input name="e1-9-3" type="text">|
-|`var1`     |<input name="e1-9-4" type="text">|
-|`1var`     |<input name="e1-9-5" type="text">|
-|`my-name`  |<input name="e1-9-6" type="text">|
-|`your_name`|<input name="e1-9-7" type="text">|
-|`COLOR`    |<input name="e1-9-8" type="text">|
+|`and`      |<input name="a[1-9-1]" type="text">|
+|`_and`     |<input name="a[1-9-2]" type="text">|
+|`var`      |<input name="a[1-9-3]" type="text">|
+|`var1`     |<input name="a[1-9-4]" type="text">|
+|`1var`     |<input name="a[1-9-5]" type="text">|
+|`my-name`  |<input name="a[1-9-6]" type="text">|
+|`your_name`|<input name="a[1-9-7]" type="text">|
+|`COLOR`    |<input name="a[1-9-8]" type="text">|
 
 # Exercise 1.10 – Types
 
@@ -19,15 +19,15 @@ It is important that we know the type of the values stored in a variable so that
 
 |variable       |type                              |
 |---------------|----------------------------------|
-|`a = False`    |<input name="e1-10-1" type="text">|
-|`b = 3.7`      |<input name="e1-10-2" type="text">|
-|`c = 'Alex'`   |<input name="e1-10-3" type="text">|
-|`d = 7`        |<input name="e1-10-4" type="text">|
-|`e = 'True'`   |<input name="e1-10-5" type="text">|
-|`f = 17`       |<input name="e1-10-6" type="text">|
-|`g = '17'`     |<input name="e1-10-7" type="text">|
-|`h = True`     |<input name="e1-10-8" type="text">|
-|`i = '3.14159'`|<input name="e1-10-9" type="text">|
+|`a = False`    |<input name="a[1-10-1]" type="text">|
+|`b = 3.7`      |<input name="a[1-10-2]" type="text">|
+|`c = 'Alex'`   |<input name="a[1-10-3]" type="text">|
+|`d = 7`        |<input name="a[1-10-4]" type="text">|
+|`e = 'True'`   |<input name="a[1-10-5]" type="text">|
+|`f = 17`       |<input name="a[1-10-6]" type="text">|
+|`g = '17'`     |<input name="a[1-10-7]" type="text">|
+|`h = True`     |<input name="a[1-10-8]" type="text">|
+|`i = '3.14159'`|<input name="a[1-10-9]" type="text">|
 
 To verify your answers, you can use the interactive Python shell, but first try to do the exercise without help.
 
@@ -48,7 +48,7 @@ Consider the following sentence:
 
 3. Write the sentence in two different ways, that clarifies the meaning of each of your sketches (hint: rewrite the sentence using extra words, commas, etc).
 
-<textarea name="e1-11-3"></textarea>
+<textarea name="a[1-11-3]"></textarea>
 
 The ambiguity illustrated by this sentence is known as "prepositional phrase attachment." Think about this as you continue to learn how to program, and consider how programming languages are designed to avoid the ambiguity illustrated by this example!
 
@@ -62,11 +62,11 @@ Boolean operators can seem tricky at first, and it takes practice to evaluate th
 
 |expression              |value                           |
 |------------------------|--------------------------------|
-|`b and c`               |<input name="e12-1" type="text">|
-|`b or c`                |<input name="e12-2" type="text">|
-|`not a and b`           |<input name="e12-3" type="text">|
-|`(a and b) or not c`    |<input name="e12-3" type="text">|
-|`not b and not (a or c)`|<input name="e12-3" type="text">|
+|`b and c`               |<input name="a[12-1]" type="text">|
+|`b or c`                |<input name="a[12-2]" type="text">|
+|`not a and b`           |<input name="a[12-3]" type="text">|
+|`(a and b) or not c`    |<input name="a[12-3]" type="text">|
+|`not b and not (a or c)`|<input name="a[12-3]" type="text">|
 
 # Exercise 1.13 – Conditionals
 
@@ -94,27 +94,27 @@ For each of the following job offers, write down the output that would be genera
 1.	`location = "Massachusetts"`  
 	`pay = 50000`
 
-	<textarea name="e1-13-1"></textarea>
+	<textarea name="a[1-13-1]"></textarea>
 
 2.	`location = "Iowa"`  
 	`pay = 50000`
 
-	<textarea name="e1-13-2"></textarea>
+	<textarea name="a[1-13-2]"></textarea>
 
 3.	`location = "California"`  
 	`pay = 50000`
 
-	<textarea name="e1-13-3"></textarea>
+	<textarea name="a[1-13-3]"></textarea>
 
 4.	`location = "U.S.S. Enterprise"`  
 	`pay = 1`
 
-	<textarea name="e1-13-4"></textarea>
+	<textarea name="a[1-13-4]"></textarea>
 
 5.	`location = "California"`  
 	`pay = 25000`
 
-	<textarea name="e1-13-5"></textarea>
+	<textarea name="a[1-13-5]"></textarea>
 
 # Exercise 1.14 – Understanding loops
 
@@ -125,13 +125,13 @@ For each of the following fragments of code, write what the output would be. Aga
 		print num
 		num = num - 1
 
-> <textarea name="e1-14-1"></textarea>
+> <textarea name="a[1-14-1]"></textarea>
 
 	divisor = 2
 	for i in range(0, 10, 2):
 		print i/divisor
 
-> <textarea name="e1-14-1"></textarea>
+> <textarea name="a[1-14-1]"></textarea>
 
 	num = 10
 	while True:
@@ -140,14 +140,14 @@ For each of the following fragments of code, write what the output would be. Aga
 		print num
 		num -= 1
 
-> <textarea name="e1-14-1"></textarea>
+> <textarea name="a[1-14-1]"></textarea>
 
 	count = 0
 	for letter in 'Snow!':
 		print 'Letter #', count, 'is', letter
 		count += 1
 
-> <textarea name="e1-14-1"></textarea>
+> <textarea name="a[1-14-1]"></textarea>
 
 # Exercise 1.15 – Buggy loop (aka Find The Bug!)
 
@@ -171,10 +171,10 @@ What do you think this code is doing? Without comments it is hard to guess what 
 	write down the values of the variables as they would be at the line
 	containing the print statement.
 
-	<textarea name="e1-15-1"></textarea>
+	<textarea name="a[1-15-1]"></textarea>
 
 2.	Ben made a lot of mistakes. State what you think Ben was trying to do and
 	suggest one or more ways he could fix his code (there's a few good answers
 	for this depending on what you think the code should be doing).
 
-	<textarea name="e1-15-1"></textarea>
+	<textarea name="a[1-15-1]"></textarea>

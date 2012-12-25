@@ -1,5 +1,6 @@
+Form: true
+
 Required:
-    - form
     - homework_1.py
     - rps.py
     - loops.py

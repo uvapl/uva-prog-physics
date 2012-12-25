@@ -1,6 +1,18 @@
-    site_title: Mobile software engineering
-    site_short: MSE
-    admins: mstegem1
-    cas_login_url: https://bt-lap.ic.uva.nl/cas/login?service=
-    cas_validate_url: https://bt-lap.ic.uva.nl/cas/serviceValidate?ticket=
-    cas_logout_url: https://bt-lap.ic.uva.nl/cas/logout
+course:
+    title: Programmeren voor Natuur- en Sterrenkunde
+    short: ProgNS
+
+acknowledgements:
+    - 'Canelake, Sarina. 6.189 A Gentle Introduction to Programming Using Python, January IAP 2011. (Massachusetts Institute of Technology: MIT OpenCourseWare), http://ocw.mit.edu (Accessed 25 Dec, 2012). License: Creative Commons BY-NC-SA'
+    - 'Grimson, Eric, and John Guttag. 6.00 Introduction to Computer Science and Programming,Fall 2008. (Massachusetts Institute of Technology: MIT OpenCourseWare), http://ocw.mit.edu (Accessed 25 Dec, 2012). License: Creative Commons BY-NC-SA'
+
+security:
+    professors:
+        - mstegem1
+    assistants:
+        - mstegem1
+
+cas:
+    cas_login_url: https://secure.uva.nl/cas/login?service=
+    cas_validate_url: https://secure.uva.nl/cas/serviceValidate?ticket=
+    cas_logout_url: https://secure.uva.nl/cas/logout
