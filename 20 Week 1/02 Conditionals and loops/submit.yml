@@ -1,9 +1,9 @@
-Form: true
+form: true
 
-Required:
+required:
     - homework_1.py
     - rps.py
     - loops.py
-Optional:
+optional:
     - zellers.py
     - cipher.py
