@@ -265,7 +265,7 @@ The only valid inputs are `rock`, `paper`, and `scissors`. If the user enters an
 ~~~ python
 if (player1 == 'rock' and
 	player2 == 'scissors'):
-	print ’Player 1 wins.’
+	print 'Player 1 wins.'
 ~~~
 
 Or, you can use the *backslash* symbol to indicate to Python that the next line is still part of the previous line of code, e.g.
