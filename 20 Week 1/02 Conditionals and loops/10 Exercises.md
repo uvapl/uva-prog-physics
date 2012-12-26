@@ -50,24 +50,32 @@ Recall that variables are containers for storing information. For example,
 
 Program Text:
 
-	a = "Hello, world!"
-	print a
+~~~ python
+a = "Hello, world!"
+print a
+~~~~~~~~~~~~~~~~~~~
 
 Output:
 
-	Hello, world!
+~~~~~~~~~~~~~
+Hello, world!
+~~~~~~~~~~~~~
 
 The `=` sign is an assignment operator which tells the interpreter to assign the value `"Hello, world!"` to the variable `a`.
 
 Program Text:
 
-	a = "Hello, world!"
-	a = "and goodbye..."
-	print a
+~~~ python
+a = "Hello, world!"
+a = "and goodbye..."
+print a
+~~~~~~~~~~~~~~~~~~~~
 		
 Output:
 
-	and goodbye...
+~~~~~~~~~~~~~~
+and goodbye...
+~~~~~~~~~~~~~~
 		
 Taking this second example, the value of a after executing the first line above is `"Hello, world!"`. But, after executing the second line, the value of a changes to `"and goodbye..."`. Since we ask the program to print out a only after the second assignment statement, that is the value that gets printed. If you wanted to save the values of both strings, you should change the second variable to another valid variable name, such as `b`.
 
@@ -79,15 +87,19 @@ Python has the ability to be used as a cheap, 5-dollar calculator. In particular
 
 Program Text:
 
-	x = 5 + 7
-	print x
-	y = x + 10
-	print y
+~~~ python
+x = 5 + 7
+print x
+y = x + 10
+print y
+~~~~~~~~~~
 
 Output:
 
-	12
-	22
+~~
+12
+22
+~~
 
 Note that we can use variables in the definition of other variables! Mathematical operators only work on numbers: `int`s or `float`s. Statements such as `'Hi' + 5` or `'5 + 7` will not work.
 
@@ -135,24 +147,30 @@ Do this exercise in `homework_1.py`. In this exercise, we will ask the user for 
 
 Here is an example of what this program should do:
 
-	Enter your first name: Chuck
-	Enter your last name: Norris
-	Enter your date of birth:
-	Month? March
-	Day? 10
-	Year? 1940
-	Chuck Norris was born on March 10, 1940.
+~~~
+Enter your first name: Chuck
+Enter your last name: Norris
+Enter your date of birth:
+Month? March
+Day? 10
+Year? 1940
+Chuck Norris was born on March 10, 1940.
+~~~
 		
 To print a string and a number in one line, you just need to separate the arguments with a comma (this works for any two types within a print statement). The comma adds a space between the two arguments. For example, the lines:
 
-	mo = 'October'
-	day = '20'
-	year = '1977'
-	print mo, day, year
+~~~ python
+mo = 'October'
+day = '20'
+year = '1977'
+print mo, day, year
+~~~
 
 will have the output
 
-	October 20 1977
+~~~
+October 20 1977
+~~~
 
 # Pretty printing
 
@@ -160,7 +178,9 @@ OPTIONAL: Now, for something completely different... a discussion on how to prin
 
 Note that none of the commas are in this output! To do that you want something like this:
 
-	print mo, day + ',', year
+~~~ python
+print mo, day + ',', year
+~~~
 
 The `+` sign concatenates two strings, but can only be used on two strings. Using it on a number and a string will cause an error (because it is ambiguous as to what you want the program to do!)
 
@@ -176,31 +196,37 @@ Open up IDLE and play around with the new operators showed today in class. Make 
 
 They work on all types, not just numbers, and return a `Boolean` (`True`/`False`) value. Remember, if you are using `Boolean`s, to capitalize `True` and `False`! Here's an example shell session; try other examples you can think of.
 
-	>>> 5 >= 7
-	False
-	>>> 'abc' != 'def'
-	True
-	>>> x = 'abc'
-	>>> x == 'abc'
-	True
+~~~
+>>> 5 >= 7
+False
+>>> 'abc' != 'def'
+True
+>>> x = 'abc'
+>>> x == 'abc'
+True
+~~~
 
 This next example is strange! Try to understand what’s going on here, and ask if you’re confused.
 
-	>>> a = True
-	>>> b = (5 < 7)
-	>>> a == b
-	True
+~~~
+>>> a = True
+>>> b = (5 < 7)
+>>> a == b
+True
+~~~
 
 Next, the operators `+=`, `-=`, `*=`, `/=` change the value of a stored variable in a quicker way. In the following example, we add 6 to a variable in two different ways; note that we get the same result! Try using all of these operators in your interpreter window before moving on.
 
-	>>> x = 5
-	>>> x = x + 6
-	>>> print x
-	11
-	>>> y = 5
-	>>> y += 6
-	>>> print y
-	11
+~~~
+>>> x = 5
+>>> x = x + 6
+>>> print x
+11
+>>> y = 5
+>>> y += 6
+>>> print y
+11
+~~~
 
 # Exercises
 
@@ -236,15 +262,19 @@ The only valid inputs are `rock`, `paper`, and `scissors`. If the user enters an
 
 **Note**: If you have a long condition in your `if` statement, and you want to split it into multiple lines, you can either enclose the entire expression in parenthesis, e.g.
 
-	if (player1 == 'rock' and
-		player2 == 'scissors'):
-		print ’Player 1 wins.’
-		
+~~~ python
+if (player1 == 'rock' and
+	player2 == 'scissors'):
+	print ’Player 1 wins.’
+~~~
+
 Or, you can use the *backslash* symbol to indicate to Python that the next line is still part of the previous line of code, e.g.
 
-	if player1 == 'rock' and\
-		player2 == 'scissors':
-		print 'Player 1 wins.'
+~~~ python
+if player1 == 'rock' and\
+	player2 == 'scissors':
+	print 'Player 1 wins.'
+~~~
 
 Use whichever form you feel comfortable using. When you are done coding *and testing*, print a copy of the file and turn it in. Make sure your name and section number is in the comment section of your program.
 
