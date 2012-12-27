@@ -105,7 +105,7 @@ Note that we can use variables in the definition of other variables! Mathematica
 
 **Part I**: Input the following sets of equations, and note the difference between `int` arithmetic and `float` arithmetic. You can do this just in your interpreter (you don't need to turn anything in for this part), but pay attention to the output!
 	
-1.	$ 5 / 2 $, $ 5 / 2.0 $, and $ 5.0 / 2 $
+1.	$$5/2$$, $$5/2.0$$, and $ 5.0 / 2 $
 
 	Note that as long as one argument is a float, all of your math 
 	will be floating point!
