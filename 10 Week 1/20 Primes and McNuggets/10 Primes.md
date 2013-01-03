@@ -2,7 +2,9 @@
 
 Schrijf een programma dat het duizendste priemgetal berekent en op het scherm print.
 
-Hint: één manier om te testen of een getal $a$ een veelvoud is van een getal $b$ ($b$ deelt $a$ met rest $0$) is het gebruik van de `%`-operator. In Python geeft `a % b` de rest: `8 % 3` is `2`. Check de werking in de Python shell.
+Hint: één manier om te testen of een getal $a$ een veelvoud is van een getal $b$ 
+($b$ deelt $a$ met rest $0$) is het gebruik van de `%`-operator. In Python geeft 
+`a % b` de rest: `8 % 3` is `2`. Check zelf de werking in de Python shell.
 
 Hoewel een computer je in staat stelt om snel te rekenen is het toch belangrijk om voor elk probleem de optimale strategie te bepalen. Hier bijvoorbeeld:
 
