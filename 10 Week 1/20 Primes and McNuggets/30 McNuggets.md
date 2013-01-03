@@ -42,7 +42,7 @@ van 6,9 en 20.
 
 ### Strategie Hints: ###
 
-* Gebruik de antwoorden uit vraag 3 en 4 in je strategie.
+* Gebruik de antwoorden uit vraag 3 en 4 in je strategie om te bepalen wanneer je kan stoppen
 * Bedenk voor je begint goed welke grootheden je bij moet houden als je
 door de verschillende mogelijkheden heen-'loopt'.
 
