@@ -244,13 +244,13 @@ In this exercise, you are going to practice using conditionals (`if`, `elif`, `e
 	|--------------|--------------|--------------|
 	|Rock          |Rock          |Tie           |
 	|Rock          |Scissors      |Player 1      |
-	|&nbsp;        |&nbsp;        |&nbsp;        |
-	|&nbsp;        |&nbsp;        |&nbsp;        |
-	|&nbsp;        |&nbsp;        |&nbsp;        |
-	|&nbsp;        |&nbsp;        |&nbsp;        |
-	|&nbsp;        |&nbsp;        |&nbsp;        |
-	|&nbsp;        |&nbsp;        |&nbsp;        |
-	|&nbsp;        |&nbsp;        |&nbsp;        |
+	|<input name="a[1-7-1]" type="text"> |<input name="a[1-7-2]" type="text"> |<input name="a[1-7-3]" type="text"> |
+	|<input name="a[1-7-4]" type="text"> |<input name="a[1-7-5]" type="text"> |<input name="a[1-7-6]" type="text"> |
+	|<input name="a[1-7-7]" type="text"> |<input name="a[1-7-8]" type="text"> |<input name="a[1-7-9]" type="text"> |
+	|<input name="a[1-7-10]" type="text">|<input name="a[1-7-11]" type="text">|<input name="a[1-7-12]" type="text">|
+	|<input name="a[1-7-13]" type="text">|<input name="a[1-7-14]" type="text">|<input name="a[1-7-15]" type="text">|
+	|<input name="a[1-7-16]" type="text">|<input name="a[1-7-17]" type="text">|<input name="a[1-7-18]" type="text">|
+	|<input name="a[1-7-19]" type="text">|<input name="a[1-7-20]" type="text">|<input name="a[1-7-21]" type="text">|
 
 2. Create a new file `rps.py` that will generate the outcome of the rock, scissors, paper game. The program should ask the user for input and display the answer as follows:
 
