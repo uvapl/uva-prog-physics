@@ -1,38 +1,38 @@
 # Exercise 1.0 – Installing Python
 
-Follow the instructions on installing Python and IDLE on your own computer on the Materials page of the course website, in the Handouts section. Be sure to install Python version 2.6.x. Ask an assistant for help if you run into any trouble. Before continuing, play around with the Python shell a bit and explore how you can use it as a calculator.
+Follow the instructions on installing Python and IDLE in the **Getting Started** section. Be sure to install Python version 2.7.x! Ask an assistant for help if you run into any trouble. Before continuing, play around with the Python shell a bit and explore how you can use it as a calculator.
 
 # Exercise 1.1 – Hello, world!
 
-Recall that a program is just a set of instructions for the computer to execute. Let’s start with a basic command: print x: Prints the value of the expression x, followed by a new line.
+Recall that a program is just a set of instructions for the computer to execute. Let's start with a basic command `print x` which prints the value of the expression `x`, followed by a *newline*.
 
-Create a new program called hello world.py. You will use this file to write your very first ‘Hello, world!’ program, as well as your answers for the rest of the exercises for today. How to create a program file:
+Create a new program called `hello_world.py`. You will use this file to write your very first 'Hello, world!' program. How to create a program file:
 
-1. Open a new window by choosing New Window from the File menu.
+1. Open a new window by choosing **New Window** from the **File** menu.
 
 	![File -> New](file-new.png)
 
-2. Save the file as hello world.py. Do NOT skip the '.py' portion of the file name - otherwise, you will lose out on syntax highlighting!
+2. Save the file as `hello_world.py`. Do NOT skip the `.py` portion of the file name --- otherwise, you will lose out on syntax highlighting!
 
 	![Filename](filename.png)
 
-3. Start every program with a bank of comments, with a comment line for your name, your recitation section, the name of your file, and today’s date. Recall that a comment line begins with a ‘#’ (pound) symbol.
+3. Start every program with a bank of comments, with a comment line for your name, the name of your file, the day of the week, and today's date. Recall that a comment line begins with a '#' (pound) symbol.
 
-You can now write your very own Hello, world! program. This is the first program that most programmers write in a new programming language. In Python, Hello world! is a very simple program to write. Do this now... it should be only be one line!
+You can now write your very own *Hello, world!* program. This is the first program that most programmers write in a new programming language. In Python, *Hello world!* is a very simple program to write. Do this now... it should be only be one line!
 
 When you are done, save your work and run it. Your code should look similar to this:
 
 ![Hello World example](hello-world.png)
 
-To run your program, chose Run Module from the Run menu (or just hit F5 on Windows/Linux, or fn-F5 on a Mac). When you run the code, your shell should look similar to this:
+To run your program, chose **Run Module** from the **Run** menu (or just hit F5 on Windows/Linux, or fn-F5 on a Mac). When you run the code, your shell should look similar to this:
 
 ![Shell Hello World](shell.png)
 
-When you run your code, it first prints the line >>> ===== RESTART =====, then runs your code underneath that line.
+When you run your code, it first prints the line `>>> ===== RESTART =====`, then runs your code underneath that line. See?
 
 ## Exercise 1.2 – Printing
 
-From the course website, download the `homework_1.py` LINK template. Remember to put your name and section at the top. If you don't we'll be highly grumpy.
+From the course website, download the [`homework_1.py`](homework_1.py) template. Remember to put your name and section at the top. If you don't we'll be highly grumpy.
 
 Write a program using print that, when run, prints out a tic-tac-toe board. Remember to save your program regularly, to keep from losing your work! The purpose of this exercise is to make sure you understand how to write programs using your computing environment; many students in introductory courses experience trouble with assignments not because they have trouble with the material, but because of some weird environment quirk.
 
