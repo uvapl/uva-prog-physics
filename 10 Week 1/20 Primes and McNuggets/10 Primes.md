@@ -24,4 +24,4 @@ matchen met een lijst bekende priemgetallen: <http://primes.utm.edu/lists/small/
 1. Maak bij het testen van een getal `n` gebruik van de kennis over de priemgetallen onder de `n`. Bepaal 
 hoeveel sneller dat is voor grote getallen. En tot welk priemgetal kan je komen binnen 1 minuut?
 
-2. Welke getallen (onder `n`=10000) vormen de langste reeks aaneengesloten niet-priemgetallen ?
+2. Welke getallen (onder n=10000) vormen de langste reeks aaneengesloten niet-priemgetallen ?
