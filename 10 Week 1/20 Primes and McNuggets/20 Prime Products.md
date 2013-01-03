@@ -13,7 +13,7 @@ als je wiskundige operaties wilt gebruiken in python moet je die eerst 'beschikb
 
 	from math import *
 
-### Strategie en wat wiskundige:###
+### Strategie en wat wiskunde:###
 
 Een directe manier zou zijn om het product van de priemgetallen te vergelijken met $e ^ n$, maar het product van veel grote priemgetallen levert al snel een zeer groot getal op. Dit levert snel problemen om met numerieke precisie (dat bespreken we later nog). Door aan beide kanten van het $=$--teken de logaritme te nemen wordt het product van priemgetallen een som van de logaritmes. De oorspronkelijke vergelijking hierboven wordt dan:
 
