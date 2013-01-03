@@ -8,7 +8,7 @@ Schrijf een programma dat laat zien dat dit zo is. Meer specifiek: schrijf een p
 2. de som van de logaritmes van alle priemgetallen onder $n$, en
 3. hun ratio
 
-###Computing hint:###
+##Computing hint:##
 als je wiskundige operaties wilt gebruiken in python moet je die eerst 'beschikbaar' maken. Dat doe je door ze bovenin je programma te 'importeren':
 
 	from math import *
