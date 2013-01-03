@@ -2,11 +2,11 @@
 
 Schrijf een programma dat het duizendste priemgetal berekent en op het scherm print.
 
-###Computing hint:###
+### Computing hint:###
 één manier om te testen of een getal $a$ een veelvoud is van een getal $b$ ($b$ deelt $a$ met rest $0$) is het gebruik van de `%`-operator. In Python geeft `a % b` de rest: `8 % 3` is `2`. Check zelf de werking in de Python shell.
 
 
-###Strategie hints:###
+### Strategie hints:###
 Hoewel een computer je in staat stelt om snel te rekenen is het toch belangrijk om 
 voor elk probleem de optimale strategie te bepalen. Hier bijvoorbeeld:
 
@@ -19,7 +19,7 @@ voor elk probleem de optimale strategie te bepalen. Hier bijvoorbeeld:
 Als je wilt controleren of je programma goed werkt kan je je gevonden lijst priemgetallen hier 
 matchen met een lijst bekende priemgetallen: <http://primes.utm.edu/lists/small/1000.txt>.
 
-# Hacker edition
+## Hacker edition ##
 
 1. Maak bij het testen van een getal `n` gebruik van de kennis over de priemgetallen onder de `n`. Bepaal 
 hoeveel sneller dat is voor grote getallen. En tot welk priemgetal kan je komen binnen 1 minuut?
