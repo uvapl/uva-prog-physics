@@ -1,5 +1,4 @@
 course:
-    title: Programmeren voor Natuur- en Sterrenkunde
     short: ProgNS
 
 acknowledgements:
@@ -12,9 +11,3 @@ security:
     professors:
         - mstegem1
         - ivvulpe1
-    assistants:
-        - mvbeek1
-
-# this will not work currently, it's hardcoded in config/application.rb
-cas:
-    cas_url: https://secure.uva.nl/cas/
