@@ -66,7 +66,7 @@ During the following discussion of IDLE's features, instead of passively reading
 
 When you start up IDLE, a window with an interactive Python shell will pop up:
 
-![IDLE Shell](shell.png)
+![IDLE Shell](st-shell.png)
 
 You can type Python code directly into this shell, at the `>>>` prompt. Whenever you enter a complete code fragment, it will be executed. For instance, typing:
 
