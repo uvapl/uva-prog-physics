@@ -9,7 +9,7 @@ Voor ziekmelden, overleg over de voortgang, individuele afspraken, spreek je doc
 Ivo van Vulpen  
 <ivo.van.vulpen@nikhef.nl>
 
-Martijn Stegeman
+Martijn Stegeman  
 <stegeman@uva.nl>  
 
 ## Verwachtingen
