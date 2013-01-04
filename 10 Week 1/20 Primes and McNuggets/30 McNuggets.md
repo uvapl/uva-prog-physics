@@ -46,8 +46,9 @@ van 6,9 en 20.
 * Bedenk voor je begint goed welke grootheden je bij moet houden als je
 door de verschillende mogelijkheden heen-'loopt'.
 
-Youtube filmpje met het goede antwoord: 
-<http://www.youtube.com/watch?v=vNTSugyS038&list=UUoxcjq-8xIDTYp3uz647V5A&index=5&feature=plcp>
+Het goede antwoord kun je vinden in dit filmpje: 
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/vNTSugyS038?list=UUoxcjq-8xIDTYp3uz647V5A" frameborder="0" allowfullscreen></iframe>
 
 Nu we een concrete vraag hebben opgelost kunnen we ons programma uitbreiden naar een meer algemene 
 oplossing. We gaan nu oplossingen bekijken voor verschillende keuzes van doosjes grootte (wel nog steeds 
