@@ -79,7 +79,7 @@ and goodbye...
 		
 Taking this second example, the value of a after executing the first line above is `"Hello, world!"`. But, after executing the second line, the value of a changes to `"and goodbye..."`. Since we ask the program to print out a only after the second assignment statement, that is the value that gets printed. If you wanted to save the values of both strings, you should change the second variable to another valid variable name, such as `b`.
 
-Variables are useful because they can cut down on the amount of code you have to write. In `homework_1.py`, write a program that prints out the tic-tac-toe board from exercise 1.2, but which uses variables to cut down on the amount of typing you have to do. **Hint**: how many different variables should you need?
+Variables are useful because they can cut down on the amount of code you have to write. In your own `homework_1.py`, write a program that prints out the tic-tac-toe board from exercise 1.2, but which uses variables to cut down on the amount of typing you have to do. **Hint**: how many different variables should you need?
 
 # Exercise 1.4 – Operators/Order of Operation
 
@@ -87,19 +87,19 @@ Python has the ability to be used as a cheap, 5-dollar calculator. In particular
 
 Program Text:
 
-~~~ python
-x = 5 + 7
-print x
-y = x + 10
-print y
-~~~~~~~~~~
+{:.python}
+
+	x = 5 + 7
+	print x
+	y = x + 10
+	print y
 
 Output:
 
-~~
+~~~
 12
 22
-~~
+~~~
 
 Note that we can use variables in the definition of other variables! Mathematical operators only work on numbers: `int`s or `float`s. Statements such as `'Hi' + 5` or `'5 + 7` will not work.
 
@@ -239,6 +239,8 @@ In this exercise, you are going to practice using conditionals (`if`, `elif`, `e
 ![Rock, paper, scissors](rock.png)
 
 1. First create a truth table for all the possible choices for player 1 and 2, and the outcome of the game. This will help you figure out how to code the game!
+
+   **Protip**: you can fill out the table below in your browser. If you are logged in to the website, your answers will be saved and remembered for the next time you login.
 
 	|Player 1      |Player 2      |Result        |
 	|--------------|--------------|--------------|
