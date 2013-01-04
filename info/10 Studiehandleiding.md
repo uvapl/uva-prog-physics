@@ -6,11 +6,11 @@ Welkom bij deze cursus *Inleiding Programmeren*. We gaan programmeren in Python,
 
 Voor ziekmelden, overleg over de voortgang, individuele afspraken, spreek je docent aan tijdens het practicum, of stuur een mail.
 
-Ivo van Vulpen  
-<ivo.van.vulpen@nikhef.nl>
-
-Martijn Stegeman  
+Martijn Stegeman (Python practice op dinsdag en donderdag)  
 <stegeman@uva.nl>  
+
+Ivo van Vulpen (Natuurkunde-programmeren op woensdag en vrijdag)  
+<ivo.van.vulpen@nikhef.nl>
 
 ## Verwachtingen
 
