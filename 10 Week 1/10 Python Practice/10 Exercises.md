@@ -271,4 +271,4 @@ Be sure to test your code for each part before moving on to the next part.
 
 4. Write a program using a while loop that asks the user to enter a number that is divisible by 2. Give the user a witty message if they enter something that is not divisible by 2, *and make them enter a new number*. Don't let them stop until they enter an even number! Print a congratulatory message when they *finally* get it right.
 
-When you are done, print a copy of the file and turn it in. Make sure your name and section number is in the comment section of your program.
+When you are done, make sure you have answers all exercise questions, and submit your files at the submit tab! If you have time left, take a go at the Hacker edition :-)
