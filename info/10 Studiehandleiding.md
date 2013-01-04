@@ -74,4 +74,4 @@ We gebruiken bij de beoordeling van de opdrachten ook plagiaatdetectie. Als blij
 Zie ook:
 
 * de [fraude- en plagiaatwebsite](http://studentenserviceplein.uva.nl/serviceplein/content/fraude-plagiaat-en-bronvermelding/plagiaat-volgens-de-uva/plagiaat-volgens-de-uva.html) van de universiteit;
-* de [OER van Kunstmatige intelligentie](http://www.student.uva.nl/ki/reglementen.cfm/BE728892-EC98-4D5A-8041C36C41A4F648).
+* de onderwijs- en examenregeling van Natuur- en Sterrenkunde.
