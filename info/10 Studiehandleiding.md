@@ -1,5 +1,3 @@
-# Programmeren voor Natuur- en Sterrenkunde 2013
-
 Welkom bij deze cursus *Inleiding Programmeren*. We gaan programmeren in Python, een eenvoudige taal met vele mogelijkheden. Je leert over de basis van het programmeren, maar je gaat ook elke week aan de slag met een toepassing uit de wiskunde, natuurkunde of sterrenkunde.
 
 ## Contact
