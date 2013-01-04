@@ -17,6 +17,7 @@ Eén van de volgende twee vragen is meestal zeer relevant om te beantwoorden:
 
 Variabelenamen leggen vaak al een beetje uit waarvoor ze dienen, en maken je code leesbaarder. En zo leg je dan uit wat je *precies* opslaat in de variabele:
 
+{: .language-python}
     # compute student's average
     average = sum / QUIZZES + 0.5
 
@@ -24,6 +25,7 @@ Middenin je code schrijf je geen volzinnen, maar om het leesbaar te houden zet j
 
 Dus niet zo:
 
+{: .language-python}
     #compute student's average
     # Compute student's average.
 
@@ -31,6 +33,7 @@ Dus niet zo:
 
 Start altijd met de commentaarregels zoals voorgeschreven in de opdracht. Je mag ook nog iets toevoegen over de algehele werking van het programma; wat is het doel?
 
+{: .language-python}
     # Problem Set 1
     # Name: Jane Lee
     # Collaborators: John Doe
@@ -51,6 +54,7 @@ Vermijd regels langer dan 79 tekens; zo weet je zeker dat het op elk scherm en o
 
 Indentatie is het toevoegen van witruimte aan het begin van een regel om structuur zichtbaar te maken. Dat is in Python niet alleen voor de leesbaarheid: in veel gevallen is het in Python verplicht witruimte aan te brengen. Dit moet voor de leesbaarheid wel consequent gebeuren.
 
+{: .language-python}
     def sum(x, y):
         result = x + y
         return result
@@ -61,6 +65,7 @@ Gebruik zoals hier minimaal **4 spaties** om het onderscheid duidelijk te houden
 
 Gebruik voor witruimte alleen spaties of alleen tabs, en niet door elkaar. Een tab wordt namelijk op diverse computers als een verschillend aantal spaties weergegeven. Als het er netjes zo uitziet zoals hierboven, kan het er op een andere computer zo uitzien:
 
+{: .language-python}
     def sum(x, y):
         result = x + y     # vier spaties
             return result  # 1 tab is hier 8 spaties geworden
@@ -73,6 +78,7 @@ Naarmater je functies wat langer worden leidt dit tot grotere onleesbaarheid doo
 
 In Python kun je er doorgaans vanuit gaan dat na elke regel eindigend op een `:`, de volgende regel met een extra niveau indentatie moet worden geschreven. Dat geldt voor alle volgende regels die ondergeschikt zijn aan de regel die met een `:` eindigt:
 
+{: .language-python}
     # onderstaande functie bestaat uit vier regels of instructies
     def sum(arrayOfNumbers):
         result = 0
@@ -89,6 +95,7 @@ Veel elementen in je Python-programma kunnen een *naam* krijgen, waaronder funct
 
 Functienamen mogen zo lang zijn als je wilt, maar moeten geschreven worden met underscores tussen de woorden:
 
+{: .language-python}
     def user_average_this_year():
 
 ### Variabelen
@@ -97,6 +104,7 @@ Variabelenamen zijn doorgaans wat korter dan functienamen, maar één of twee wo
 
 Vanzelfsprekend kun je gebruikelijke symboliek uit de wiskunde overnemen als je een wiskundig probleem aanpakt. De meeste andere probleemdomeinen kennen dergelijke symboliek niet en vereisen langere namen.
 
+{: .language-python}
     d = 0.002                   # delta voor een benaderingsfunctie
     resterend_pensioen -= 2000  # geen commentaar nodig
 
@@ -108,6 +116,7 @@ Net als bij andere media waar teksten geschreven worden om te lezen, voegen we b
 
 Als je je code opdeelt in kleine blokken, met bijvoorbeeld een regeltjes commentaar erboven, voeg je boven dat commentaar een witregel toe.
 
+{: .language-python}
 	# user input
 	user_input = input("Please enter a number: ")
 	
@@ -122,6 +131,7 @@ Als je je code opdeelt in kleine blokken, met bijvoorbeeld een regeltjes comment
 
 Operators zijn zeer compact genaamde functies, zoals `+`, `==`, `%` of `?`. Code die gebruikt maakt van operators is leesbaar te houden door een spatie in te voegen vóór en achter de operator:
 
+{: .language-python}
     i = i + 1
     submitted += 1
     x = x * 2 - 1

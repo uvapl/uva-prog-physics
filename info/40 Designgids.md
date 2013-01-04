@@ -4,6 +4,7 @@
 
 In Python, it is sometimes tempting to write code like this:
 
+{: .language-python}
 	while True
 	    # do something
 	    print "Hello."
@@ -14,8 +15,11 @@ The problem is that -- especially with longer loops -- you must look over the wh
 
 It is almost always possible to rewrite the loop without the `while True`. For example, the loop above is equivalent to this one:
 
-	print "Hello." # (one time)
+{: .language-python}
+	# first, one time
+	print "Hello."
 	
+	# then, multiple times, unless <condition>
 	while not <condition>
 	    # do something
 	    print "Hello."

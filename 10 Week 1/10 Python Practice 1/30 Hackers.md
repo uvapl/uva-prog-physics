@@ -46,6 +46,7 @@ Cipher:  DEFGHIJKLMNOPQRSTUVWXYZABC
 
 To be able to generate the cipher above, we need to understand a little bit about how text is represented inside the computer. Each character has a numerical value and one of the standard encodings is ASCII (American Standard Code for Information Interchange). It is a mapping between the numerical value and the character graphic. For example, the ASCII value of 'A' is 65 and the ASCII value of 'a' is 97. To convert between the ASCII code and the character value in Python, you can use the following code:
 
+{: .language-python}
 	letter = 'a'
 
 	# converts a letter to ascii code
@@ -62,6 +63,7 @@ Start small. Do not try to implement the entire program at once. Break the progr
 	for a phrase to encode and the shift value. Then begin the structure of
 	your program by entering in this loop (we'll build on it more in a bit):
 
+	{: .language-python}
 		encoded_phrase = ''
 		for c in phrase:
 			encoded_phrase = encoded_phrase + c

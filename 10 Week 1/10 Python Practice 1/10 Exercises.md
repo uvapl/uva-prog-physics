@@ -4,7 +4,7 @@ These exercises will take you on a trip through Python. You are supposed to try 
 
 ## Exercise 1.0 – Installing Python
 
-Follow the instructions on installing Python and IDLE in the **Getting Started** section. Be sure to install Python version 2.7.x! Ask an assistant for help if you run into any trouble. Before continuing, play around with the Python shell a bit and explore how you can use it as a calculator.
+Follow the instructions on installing Python and IDLE in the **Getting Started** section of the course homepage (click the <i class="icon-home"></i> button). Be sure to install Python version 2.7.x! Ask an assistant for help if you run into any trouble. Before continuing, play around with the Python shell a bit and explore how you can use it as a calculator.
 
 ## Exercise 1.1 – Hello, world!
 
