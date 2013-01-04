@@ -6,9 +6,7 @@ Please prepare for this day using the readings below. They will not always immed
 
 # Readings
 
-From *How to think like a computer scientist* (Allen Downey).
-
-<http://www.greenteapress.com/thinkpython/html/index.html>
+From [*How to think like a computer scientist* (Allen Downey)](http://www.greenteapress.com/thinkpython/html/index.html).
 
 * Before today: chapters 1 (all), 2 (all) & 4.12
 * After today: chapters 4.1, 4.2, 4.4-4.7, 6.1 & 6.2.
