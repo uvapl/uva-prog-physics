@@ -65,17 +65,14 @@ The `=` sign is an assignment operator which tells the interpreter to assign the
 
 Program Text:
 
-~~~ python
-a = "Hello, world!"
-a = "and goodbye..."
-print a
-~~~~~~~~~~~~~~~~~~~~
+{: .language-python}
+	a = "Hello, world!"
+	a = "and goodbye..."
+	print a
 		
 Output:
 
-~~~~~~~~~~~~~~
-and goodbye...
-~~~~~~~~~~~~~~
+	and goodbye...
 		
 Taking this second example, the value of a after executing the first line above is `"Hello, world!"`. But, after executing the second line, the value of a changes to `"and goodbye..."`. Since we ask the program to print out a only after the second assignment statement, that is the value that gets printed. If you wanted to save the values of both strings, you should change the second variable to another valid variable name, such as `b`.
 
@@ -95,16 +92,14 @@ Program Text:
 
 Output:
 
-~~~
-12
-22
-~~~
+	12
+	22
 
 Note that we can use variables in the definition of other variables! Mathematical operators only work on numbers: `int`s or `float`s. Statements such as `'Hi' + 5` or `'5 + 7` will not work.
 
 **Part I**: Input the following sets of equations, and note the difference between `int` arithmetic and `float` arithmetic. You can do this just in your interpreter (you don't need to turn anything in for this part), but pay attention to the output!
 	
-1.	$$5/2$$, $$5/2.0$$, and $ 5.0 / 2 $
+1.	$5/2$, $5/2.0$, and $5.0/2$
 
 	Note that as long as one argument is a float, all of your math 
 	will be floating point!
