@@ -88,7 +88,6 @@ Python has the ability to be used as a cheap, 5-dollar calculator. In particular
 Program Text:
 
 {:.python}
-
 	x = 5 + 7
 	print x
 	y = x + 10
