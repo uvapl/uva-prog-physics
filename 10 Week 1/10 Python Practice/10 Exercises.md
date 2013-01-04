@@ -219,7 +219,7 @@ In this exercise, you are going to practice using conditionals (`if`, `elif`, `e
 
 1. First create a truth table for all the possible choices for player 1 and 2, and the outcome of the game. This will help you figure out how to code the game!
 
-   **Protip**: you can fill out the table below in your browser. If you are logged in to the website, your answers will be saved and remembered for the next time you login.
+   **Protip**: you can fill out the table below in your browser. If you are logged in to the website, your answers will be saved and remembered until the next time you login.
 
 	|Player 1      |Player 2      |Result        |
 	|--------------|--------------|--------------|
@@ -235,9 +235,9 @@ In this exercise, you are going to practice using conditionals (`if`, `elif`, `e
 
 2. Create a new file `rps.py` that will generate the outcome of the rock, scissors, paper game. The program should ask the user for input and display the answer as follows:
 
-	Player 1? rock
-	Player 2? scissors
-	Player 1 wins.
+		Player 1? rock
+		Player 2? scissors
+		Player 1 wins.
 
 The only valid inputs are `rock`, `paper`, and `scissors`. If the user enters anything else, your program should output "This is not a valid object selection". Use the truth table you created to help with creating the conditions for your if statement(s).
 
