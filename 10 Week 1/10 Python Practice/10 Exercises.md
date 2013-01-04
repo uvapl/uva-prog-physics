@@ -1,3 +1,7 @@
+# Coding exercises
+
+These exercises will take you on a trip through Python. You are supposed to try out the code in your Python interpreter as often as possible.
+
 ## Exercise 1.0 – Installing Python
 
 Follow the instructions on installing Python and IDLE in the **Getting Started** section. Be sure to install Python version 2.7.x! Ask an assistant for help if you run into any trouble. Before continuing, play around with the Python shell a bit and explore how you can use it as a calculator.
@@ -171,9 +175,9 @@ The `+` sign concatenates two strings, but can only be used on two strings. Usin
 
 That's why it's a great idea to use raw_input for this problem; if you use input you'd have to convert the `int` to a `string`. We'll cover this more in-depth later on, when we get to strings, but you may want to play with string concatenation operations now to get everything to look its prettiest.
 
-## Intermezzo: exercises
+## Intermezzo: Questions
 
-At this point, we suggest completing written exercises 1.9--1.11 to cement your understanding of these topics. Just go to the next tab, do the exercises and return here to code some more.
+At this point, we suggest completing questions 1.9--1.11 to cement your understanding of these topics. Just go to the next tab, answer the questions and return here to code some more.
 
 ## Exercise 1.6 – New Operators
 
@@ -207,9 +211,9 @@ Next, the operators `+=`, `-=`, `*=`, `/=` change the value of a stored variable
 	>>> print y
 	11
 
-## Intermezzo: exercises
+## Intermezzo: Questions
 
-We strongly suggest you finish all the written exercises now, before continuing on with the next code problem. Just go to the next tab and return here when you have finished.
+We strongly suggest you finish all questions now, before continuing on with the next exercise. Just go to the next tab and return here when you have finished.
 
 ## Exercise 1.7 – Rock, Paper, Scissors
 

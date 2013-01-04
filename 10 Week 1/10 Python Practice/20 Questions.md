@@ -1,4 +1,8 @@
-# Before you start
+# Questions
+
+These exercises do not ask you to create a new Python program, but instead ask you to read some code and predict the answer. Sometimes the questions are about other things related to programming.
+
+## Before you start
 
 Sign in to the website *before* you start filling in these forms. If you do, your answers will be saved and you can submit your answers when the day is done.
 
