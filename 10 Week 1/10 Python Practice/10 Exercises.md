@@ -243,19 +243,17 @@ The only valid inputs are `rock`, `paper`, and `scissors`. If the user enters an
 
 **Note**: If you have a long condition in your `if` statement, and you want to split it into multiple lines, you can either enclose the entire expression in parenthesis, e.g.
 
-~~~ python
-if (player1 == 'rock' and
-	player2 == 'scissors'):
-	print 'Player 1 wins.'
-~~~
+{: .language-python}
+	if (player1 == 'rock' and
+		player2 == 'scissors'):
+		print 'Player 1 wins.'
 
 Or, you can use the *backslash* symbol to indicate to Python that the next line is still part of the previous line of code, e.g.
 
-~~~ python
-if player1 == 'rock' and\
-	player2 == 'scissors':
-	print 'Player 1 wins.'
-~~~
+{: .language-python}
+	if player1 == 'rock' and\
+		player2 == 'scissors':
+		print 'Player 1 wins.'
 
 Use whichever form you feel comfortable using. When you are done coding *and testing*, print a copy of the file and turn it in. Make sure your name and section number is in the comment section of your program.
 

@@ -75,6 +75,7 @@ Boolean operators can seem tricky at first, and it takes practice to evaluate th
 
 The purpose of this exercise is to understand conditionals. Tiberius is looking for his dream job, but has some restrictions. He loves California and would take a job there if it paid over 40,000 a year. He hates Massachusetts and demands at least 100,000 to work there. Any other place he's content to work for 60,000 a year, unless he can work in space in which case he would work for free. The following code shows his basic strategy for evaluating a job offer.
 
+{: .language-python}
 	pay = _____
 	location = _____
 
@@ -123,6 +124,7 @@ For each of the following job offers, write down the output that would be genera
 
 For each of the following fragments of code, write what the output would be. Again, do this without running the code (although feel free to check yourself when you're done).
 
+{: .language-python}
 	num = 10
 	while num > 3:
 		print num
@@ -130,12 +132,14 @@ For each of the following fragments of code, write what the output would be. Aga
 
 > <textarea name="a[1-14-1]"></textarea>
 
+{: .language-python}
 	divisor = 2
 	for i in range(0, 10, 2):
 		print i/divisor
 
 > <textarea name="a[1-14-1]"></textarea>
 
+{: .language-python}
 	num = 10
 	while True:
 		if num < 7:
@@ -145,6 +149,7 @@ For each of the following fragments of code, write what the output would be. Aga
 
 > <textarea name="a[1-14-1]"></textarea>
 
+{: .language-python}
 	count = 0
 	for letter in 'Snow!':
 		print 'Letter #', count, 'is', letter
@@ -156,6 +161,7 @@ For each of the following fragments of code, write what the output would be. Aga
 
 Consider the following program that Ben Bitdiddle handed in to the course staff (again, try to do this exercise without running the code in IDLE!):
 
+{: .language-python}
 	n = 10
 	i = 10
 	
