@@ -1,8 +1,8 @@
-# Exercise 1.0 – Installing Python
+## Exercise 1.0 – Installing Python
 
 Follow the instructions on installing Python and IDLE in the **Getting Started** section. Be sure to install Python version 2.7.x! Ask an assistant for help if you run into any trouble. Before continuing, play around with the Python shell a bit and explore how you can use it as a calculator.
 
-# Exercise 1.1 – Hello, world!
+## Exercise 1.1 – Hello, world!
 
 Recall that a program is just a set of instructions for the computer to execute. Let's start with a basic command `print x` which prints the value of the expression `x`, followed by a *newline*.
 
@@ -44,7 +44,7 @@ Expected output:
 	--------
 	  |  |
 
-# Exercise 1.3 – Variables
+## Exercise 1.3 – Variables
 
 Recall that variables are containers for storing information. For example,
 
@@ -75,7 +75,7 @@ Taking this second example, the value of a after executing the first line above 
 
 Variables are useful because they can cut down on the amount of code you have to write. In your own `homework_1.py`, write a program that prints out the tic-tac-toe board from exercise 1.2, but which uses variables to cut down on the amount of typing you have to do. **Hint**: how many different variables should you need?
 
-# Exercise 1.4 – Operators/Order of Operation
+## Exercise 1.4 – Operators/Order of Operation
 
 Python has the ability to be used as a cheap, 5-dollar calculator. In particular, it supports basic mathematical operators `+`, `-`, `*`, `/` as well as the power operator `**` and the modulus operator `%`.
 
@@ -130,7 +130,7 @@ Note that we can use variables in the definition of other variables! Mathematica
 
 **Part III**: In `homework_1.py`, use order of operation mathematics to create two equations that look the same (i.e., have the same numbers) but evaluate to different values (due to parenthesization). Save each as the value of a variable, then print the variables.
 
-# Exercise 1.5 – User input
+## Exercise 1.5 – User input
 
 Do this exercise in `homework_1.py`. In this exercise, we will ask the user for his/her first and last name, and date of birth, and print them out formatted. Recall that you can get input from the user using the command `raw_input("text")`, as shown in lecture.
 
@@ -158,7 +158,7 @@ will have the output
 
 	October 20 1977
 
-# Pretty printing
+## Pretty printing
 
 **Optional**: Now, for something completely different... a discussion on how to print strings, most prettily...
 
@@ -171,11 +171,11 @@ The `+` sign concatenates two strings, but can only be used on two strings. Usin
 
 That's why it's a great idea to use raw_input for this problem; if you use input you'd have to convert the `int` to a `string`. We'll cover this more in-depth later on, when we get to strings, but you may want to play with string concatenation operations now to get everything to look its prettiest.
 
-# Exercises
+## Intermezzo: exercises
 
 At this point, we suggest completing written exercises 1.9--1.11 to cement your understanding of these topics. Just go to the next tab, do the exercises and return here to code some more.
 
-# Exercise 1.6 – New Operators
+## Exercise 1.6 – New Operators
 
 Open up IDLE and play around with the new operators showed today in class. Make sure that you understand how to use them and what they are used for! The operators `==`, `!=`, `<`, `>`, `<=`, `>=` are called *relation* operators. 
 
@@ -207,11 +207,11 @@ Next, the operators `+=`, `-=`, `*=`, `/=` change the value of a stored variable
 	>>> print y
 	11
 
-# Exercises
+## Intermezzo: exercises
 
 We strongly suggest you finish all the written exercises now, before continuing on with the next code problem. Just go to the next tab and return here when you have finished.
 
-# Exercise 1.7 – Rock, Paper, Scissors
+## Exercise 1.7 – Rock, Paper, Scissors
 
 In this exercise, you are going to practice using conditionals (`if`, `elif`, `else`). You will write a small program that will determine the result of a "rock, paper, scissors" game, given Player 1 and Player 2's choices. Your program will print out the result. Here are the rules of the game:
 
@@ -257,7 +257,7 @@ Or, you can use the *backslash* symbol to indicate to Python that the next line 
 
 Use whichever form you feel comfortable using. When you are done coding *and testing*, print a copy of the file and turn it in. Make sure your name and section number is in the comment section of your program.
 
-# Exercise 1.8 – For & While Loops
+## Exercise 1.8 – For & While Loops
 
 Create a new file called `loops.py` and use it for all parts of this exercise. Remember the difference between input and raw input? If not, look at Exercise 1.5 again.
 

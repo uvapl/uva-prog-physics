@@ -1,12 +1,16 @@
-# Exercise OPT.1 -- Zeller’s Algorithm
+# Hacker exercises
 
-OPTIONAL! --- Some problem sets will have optional exercises at the end. Feel free to work on these problems if you have time at the end of the assignment, but you certainly don't have to do them. However, you will get excellent practice in Python, and we will give you feedback on any optional work you turn in.
+These are really nice exercises for students who are more experienced or are very quick to go through the previous exercises (so make sure you have done them, they are compulsory!). If you have some time left, take a go at one of these below, and see if you're up to it!
 
-Zeller's algorithm computes the day of the week on which a given date will fall (or fell). In this exercise, you will write a program to run Zeller's algorithm on a specific date. You will need to create a new file for this program, `zellers.py`. The program should use the algorithm outlined below to compute the day of the week on which the user’s birthday fell in the year you were born and print the result to the screen.
+You definitely do not *have* to do them if you only have a little bit of time left. However, you will get excellent practice in Python, and we will give you feedback on any optional work you turn in.
+
+## Zeller's Algorithm
+
+Zeller's algorithm computes the day of the week on which a given date will fall (or fell). In this exercise, you will write a program to run Zeller's algorithm on a specific date. You will need to create a new file for this program, `zellers.py`. The program should use the algorithm outlined below to compute the day of the week on which the user's birthday fell in the year you were born and print the result to the screen.
 
 Start with the program in Exercise 1.5, but ask for the month as a number between 1-12 where March is 1 and February is 12. If born in Jan or Feb, enter previous year (see the notes below). In the end, print out the name of the user and on what they of the week they were born.
 
-Zeller’s algorithm is defined as follows:
+Zeller's algorithm is defined as follows:
 
 Let A, B, C, D denote integer variables that have the following values:
 
@@ -25,13 +29,13 @@ Let W, X, Y, Z, R also denote integer variables. Compute their values in the fol
 * `Z = W + X + Y + B + C - 2 * D`
 * `R = the remainder when Z is divided by 7`
 	
-The value of R is the day of the week, where 0 represents Sunday, 1 is Monday, ..., 6 is Saturday. If the computed value of R is a negative number, add 7 to get a non negative number between 0 and 6 (you don’t need to do this in the code). Print out R. You can check to be sure your code is working by looking at [timeanddate.com](http://www.timeanddate.com/calendar/).
+The value of R is the day of the week, where 0 represents Sunday, 1 is Monday, ..., 6 is Saturday. If the computed value of R is a negative number, add 7 to get a non negative number between 0 and 6 (you don't need to do this in the code). Print out R. You can check to be sure your code is working by looking at [timeanddate.com](http://www.timeanddate.com/calendar/).
 
-Run some test cases: try today’s date, your birth date, and whatever else interests you! Feel free to submit your `zellers.py` code if you wish, we’ll certainly take a look at it if you do.
+Run some test cases: try today's date, your birth date, and whatever else interests you! Feel free to submit your `zellers.py` code if you wish, we'll certainly take a look at it if you do.
 
-# Exercise OPT.2 -- Secret Messages
+## Secret Messages
 
-OPTIONAL! This exercise is tricky! Be sure to ask the assistants for help if you need them!
+This exercise is tricky! Be sure to ask the assistants for help if you need them!
 
 The goal of this exercise is to write a cyclic cipher to encrypt messages. This type of cipher was used by Julius Caesar to communicate with his generals. It is very simple to generate but it can actually be easily broken and does not provide the security one would hope for.
 
@@ -56,7 +60,7 @@ Start small. Do not try to implement the entire program at once. Break the progr
 
 1.	Create a file called `cipher.py`. Start your program by asking the user
 	for a phrase to encode and the shift value. Then begin the structure of
-	your program by entering in this loop (we’ll build on it more in a bit):
+	your program by entering in this loop (we'll build on it more in a bit):
 
 		encoded_phrase = ''
 		for c in phrase:
@@ -77,7 +81,7 @@ Start small. Do not try to implement the entire program at once. Break the progr
 
 3.	Now modify your code, so that it produces the encoded string using the
 	cyclic cipher with the shift value entered by the user. Let's see how one
-	might do a cyclic shift. Let’s say we have the sequence:
+	might do a cyclic shift. Let's say we have the sequence:
 
 		012345
 

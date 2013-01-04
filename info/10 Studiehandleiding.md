@@ -49,21 +49,21 @@ De bedoeling is dat je tijdens de cursus steeds betere en leesbaardere programma
 
 Het is prima om vóór je instuurt de assistent nog even te vragen naar je opgave te kijken.
 
-## Samenwerken en plagiaat
+## Samenwerken
 
 Samenwerken tijdens dit vak is niet toegestaan. Dit vak heeft als doel jouw persoonlijke programmeervaardigheid te ontwikkelen. Bij vervolgvakken is het vaak wél mogelijk om samen te programmeren.
 
 Tijdens de practica is het natuurlijk prima als je de opgave bespreekt met de student die naast je zit. Het is echter **niet toegestaan** om delen van code van je medestudenten, of van internet, over te nemen.
 
-Een belangrijk verschil: je kunt discussiëren over de manier waarop je een probleem aanpakt, maar je kopieert nooit code van anderen. Je kijkt dus ook niet op het scherm van een ander.
+Een belangrijk verschil: je kunt discussiëren over de manier waarop je een probleem aanpakt, maar je kopieert nooit code van anderen. Je kijkt dus ook doorgaans niet op het scherm van een ander.
 
 Als je merkt dat je zodanig aan het overleggen bent dat je dezelfde code krijgt als de student die naast je zit, wordt het tijd om te stoppen en de assistent om hulp te vragen.
 
 Kom je in tijdnood? Bespreek het even met de docent. We willen het graag zo oplossen dat je het vak zelfstandig kunt halen.
 
-## Plagiaat
+## Plagiaatregeling
 
-*Fraude en plagiaat: "Het handelen of nalaten van een student waardoor een juist oordeel over zijn kennis, inzicht en vaardigheden geheel of gedeeltelijk onmogelijk wordt."*
+*Fraude: "Het handelen of nalaten van een student waardoor een juist oordeel over zijn kennis, inzicht en vaardigheden geheel of gedeeltelijk onmogelijk wordt."*
 
 We gebruiken bij de beoordeling van de opdrachten ook plagiaatdetectie. Als blijkt dat je opgave geheel of gedeeltelijk overeenkomt met een andere inzending of een uitwerking van internet, dan zijn er twee mogelijkheden.
 
