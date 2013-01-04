@@ -32,7 +32,7 @@ When you run your code, it first prints the line `>>> ===== RESTART =====`, then
 
 ## Exercise 1.2 – Printing
 
-From the course website, download the [`homework_1.py`](homework_1.py) template. Remember to put your name and section at the top. If you don't we'll be highly grumpy.
+From the course website, download the [homework_1.py](homework_1.py) template. Remember to put your name and section at the top. If you don't we'll be highly grumpy.
 
 Write a program using print that, when run, prints out a tic-tac-toe board. Remember to save your program regularly, to keep from losing your work! The purpose of this exercise is to make sure you understand how to write programs using your computing environment; many students in introductory courses experience trouble with assignments not because they have trouble with the material, but because of some weird environment quirk.
 
@@ -50,16 +50,13 @@ Recall that variables are containers for storing information. For example,
 
 Program Text:
 
-~~~ python
-a = "Hello, world!"
-print a
-~~~~~~~~~~~~~~~~~~~
+{: .language-python}
+	a = "Hello, world!"
+	print a
 
 Output:
 
-~~~~~~~~~~~~~
-Hello, world!
-~~~~~~~~~~~~~
+	Hello, world!
 
 The `=` sign is an assignment operator which tells the interpreter to assign the value `"Hello, world!"` to the variable `a`.
 
@@ -141,40 +138,34 @@ Do this exercise in `homework_1.py`. In this exercise, we will ask the user for 
 
 Here is an example of what this program should do:
 
-~~~
-Enter your first name: Chuck
-Enter your last name: Norris
-Enter your date of birth:
-Month? March
-Day? 10
-Year? 1940
-Chuck Norris was born on March 10, 1940.
-~~~
+	Enter your first name: Chuck
+	Enter your last name: Norris
+	Enter your date of birth:
+	Month? March
+	Day? 10
+	Year? 1940
+	Chuck Norris was born on March 10, 1940.
 		
 To print a string and a number in one line, you just need to separate the arguments with a comma (this works for any two types within a print statement). The comma adds a space between the two arguments. For example, the lines:
 
-~~~ python
-mo = 'October'
-day = '20'
-year = '1977'
-print mo, day, year
-~~~
+{: .language-python}
+	mo = 'October'
+	day = '20'
+	year = '1977'
+	print mo, day, year
 
 will have the output
 
-~~~
-October 20 1977
-~~~
+	October 20 1977
 
 # Pretty printing
 
-OPTIONAL: Now, for something completely different... a discussion on how to print strings, most prettily...
+**Optional**: Now, for something completely different... a discussion on how to print strings, most prettily...
 
 Note that none of the commas are in this output! To do that you want something like this:
 
-~~~ python
-print mo, day + ',', year
-~~~
+{: .language-python}
+	print mo, day + ',', year
 
 The `+` sign concatenates two strings, but can only be used on two strings. Using it on a number and a string will cause an error (because it is ambiguous as to what you want the program to do!)
 
@@ -182,7 +173,7 @@ That's why it's a great idea to use raw_input for this problem; if you use input
 
 # Exercises
 
-At this point, we suggest completing written exercises 1.9--1.11 to cement your understanding of these topics.
+At this point, we suggest completing written exercises 1.9--1.11 to cement your understanding of these topics. Just go to the next tab, do the exercises and return here to code some more.
 
 # Exercise 1.6 – New Operators
 
@@ -190,41 +181,35 @@ Open up IDLE and play around with the new operators showed today in class. Make 
 
 They work on all types, not just numbers, and return a `Boolean` (`True`/`False`) value. Remember, if you are using `Boolean`s, to capitalize `True` and `False`! Here's an example shell session; try other examples you can think of.
 
-~~~
->>> 5 >= 7
-False
->>> 'abc' != 'def'
-True
->>> x = 'abc'
->>> x == 'abc'
-True
-~~~
+	>>> 5 >= 7
+	False
+	>>> 'abc' != 'def'
+	True
+	>>> x = 'abc'
+	>>> x == 'abc'
+	True
 
 This next example is strange! Try to understand what’s going on here, and ask if you’re confused.
 
-~~~
->>> a = True
->>> b = (5 < 7)
->>> a == b
-True
-~~~
+	>>> a = True
+	>>> b = (5 < 7)
+	>>> a == b
+	True
 
 Next, the operators `+=`, `-=`, `*=`, `/=` change the value of a stored variable in a quicker way. In the following example, we add 6 to a variable in two different ways; note that we get the same result! Try using all of these operators in your interpreter window before moving on.
 
-~~~
->>> x = 5
->>> x = x + 6
->>> print x
-11
->>> y = 5
->>> y += 6
->>> print y
-11
-~~~
+	>>> x = 5
+	>>> x = x + 6
+	>>> print x
+	11
+	>>> y = 5
+	>>> y += 6
+	>>> print y
+	11
 
 # Exercises
 
-We strongly suggest you finish all the written exercises now, before continuing on with the next code problem.
+We strongly suggest you finish all the written exercises now, before continuing on with the next code problem. Just go to the next tab and return here when you have finished.
 
 # Exercise 1.7 – Rock, Paper, Scissors
 

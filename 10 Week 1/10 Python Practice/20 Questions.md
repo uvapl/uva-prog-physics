@@ -1,9 +1,13 @@
+# Before you start
+
+Sign in to the website *before* you start filling in these forms. If you do, your answers will be saved and you can submit your answers when the day is done.
+
 # Exercise 1.9 – Variable Names
 
 The Python interpreter has strict rules for variable names. Which of the following are legal Python names? If the name is not legal, state the reason.
 
-|expression |legal?                           |
-|-----------|---------------------------------|
+|expression |legal?                             |
+|-----------|-----------------------------------|
 |`and`      |<input name="a[1-9-1]" type="text">|
 |`_and`     |<input name="a[1-9-2]" type="text">|
 |`var`      |<input name="a[1-9-3]" type="text">|
@@ -17,8 +21,8 @@ The Python interpreter has strict rules for variable names. Which of the followi
 
 It is important that we know the type of the values stored in a variable so that we can use the correct operators (as we have already seen!). Python automatically infers the type from the value you assign to the variable. Write down the type of the values stored in each of the variables below. Pay special attention to punctuation: values are not always the type they seem!
 
-|variable       |type                              |
-|---------------|----------------------------------|
+|variable       |type                                |
+|---------------|------------------------------------|
 |`a = False`    |<input name="a[1-10-1]" type="text">|
 |`b = 3.7`      |<input name="a[1-10-2]" type="text">|
 |`c = 'Alex'`   |<input name="a[1-10-3]" type="text">|
@@ -56,12 +60,11 @@ The ambiguity illustrated by this sentence is known as "prepositional phrase att
 
 Boolean operators can seem tricky at first, and it takes practice to evaluate them correctly. Write the value (`True` or `False`) produced by each expession below, using the assigned values of the variables `a`, `b`, and `c`. Try to do this without using your interpreter, but you should check yourself when you think you've got it. Hint: Work from the inside out, starting with the inner-most expressions, like in arithmetic.
 
-	a = False
-	b = True
-	c = False
-
-|expression              |value                           |
-|------------------------|--------------------------------|
+|expression              |value                             |
+|------------------------|----------------------------------|
+|`a`                     |False                             |
+|`b`                     |True                              |
+|`c`                     |False                             |
 |`b and c`               |<input name="a[12-1]" type="text">|
 |`b or c`                |<input name="a[12-2]" type="text">|
 |`not a and b`           |<input name="a[12-3]" type="text">|
