@@ -1,7 +1,7 @@
 form: true
 
 required:
-    - homework_1.py
+    - homework1.py
     - rps.py
     - loops.py
 optional:

@@ -36,7 +36,7 @@ When you run your code, it first prints the line `>>> ===== RESTART =====`, then
 
 ## Exercise 1.2 – Printing
 
-From the course website, download the [homework_1.py](homework_1.py) template. Remember to put your name and section at the top. If you don't we'll be highly grumpy.
+From the course website, download the [homework1.py](homework1.py) template. Remember to put your name and section at the top. If you don't we'll be highly grumpy.
 
 Write a program using print that, when run, prints out a tic-tac-toe board. Remember to save your program regularly, to keep from losing your work! The purpose of this exercise is to make sure you understand how to write programs using your computing environment; many students in introductory courses experience trouble with assignments not because they have trouble with the material, but because of some weird environment quirk.
 
@@ -77,7 +77,7 @@ Output:
 		
 Taking this second example, the value of a after executing the first line above is `"Hello, world!"`. But, after executing the second line, the value of a changes to `"and goodbye..."`. Since we ask the program to print out a only after the second assignment statement, that is the value that gets printed. If you wanted to save the values of both strings, you should change the second variable to another valid variable name, such as `b`.
 
-Variables are useful because they can cut down on the amount of code you have to write. In your own `homework_1.py`, write a program that prints out the tic-tac-toe board from exercise 1.2, but which uses variables to cut down on the amount of typing you have to do. **Hint**: how many different variables should you need?
+Variables are useful because they can cut down on the amount of code you have to write. In your own `homework1.py`, write a program that prints out the tic-tac-toe board from exercise 1.2, but which uses variables to cut down on the amount of typing you have to do. **Hint**: how many different variables should you need?
 
 ## Exercise 1.4 – Operators/Order of Operation
 
@@ -115,7 +115,7 @@ Note that we can use variables in the definition of other variables! Mathematica
 	non-terminating decimal numbers, as computers cannot store infinite
 	numbers!
 
-**Part II**: In `homework_1.py`, transcribe the following equations into Python (without simplifying!), preserving order of operation with parenthesis as needed. Save each as the value of a variable, and then print the variable.
+**Part II**: In `homework1.py`, transcribe the following equations into Python (without simplifying!), preserving order of operation with parenthesis as needed. Save each as the value of a variable, and then print the variable.
 
 1.	$(3 xx 5) / (2 + 3)$
 
@@ -132,11 +132,11 @@ Note that we can use variables in the definition of other variables! Mathematica
 	gives the remainder when $x$ is divided by $y$. Try a couple of modular
 	expressions until you get the hang of it.
 
-**Part III**: In `homework_1.py`, use order of operation mathematics to create two equations that look the same (i.e., have the same numbers) but evaluate to different values (due to parenthesization). Save each as the value of a variable, then print the variables.
+**Part III**: In `homework1.py`, use order of operation mathematics to create two equations that look the same (i.e., have the same numbers) but evaluate to different values (due to parenthesization). Save each as the value of a variable, then print the variables.
 
 ## Exercise 1.5 – User input
 
-Do this exercise in `homework_1.py`. In this exercise, we will ask the user for his/her first and last name, and date of birth, and print them out formatted. Recall that you can get input from the user using the command `raw_input("text")`, as shown in lecture.
+Do this exercise in `homework1.py`. In this exercise, we will ask the user for his/her first and last name, and date of birth, and print them out formatted. Recall that you can get input from the user using the command `raw_input("text")`, as shown in lecture.
 
 **Note**: There are two functions to get user input. The first, `raw_input`, turns whatever the user inputs into a `string` automatically. The second, `input`, preserves type. So, if the user inputs an `int`, or a `float`, you will get an `int` or a `float` (rather than a `string`). Be careful though: you still want to use raw input if you want a string back, or otherwise the user will have to put quotes around their answer. Use raw input here: it's good for string processing, like this problem. `input` will come in handy when using user input to compute math, like in Exercise 1.8.
 
