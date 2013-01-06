@@ -1,3 +1,4 @@
+ 
 # Diophantische McNuggets
 
 In de wiskunde bestaat er een klasse vergelijkingen die bekend zijn onder diophantische vergelijkingen. Het 

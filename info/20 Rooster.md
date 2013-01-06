@@ -35,4 +35,4 @@ Je dagelijkse assistenten zijn:
 ## Week 4
 
 * Dag 1: Python
-* Dag 2: Zonnevlekken
+* Dag 2: Data analyse
