@@ -1,7 +1,6 @@
+name: day2
 form: false
-
 required:
     - primes.py
     - products.py
     - nuggets.py
-optional:
