@@ -1,3 +1,6 @@
+Note: deze opgave is een kopie van een opgave uit de MIT OpenCourseWare Python Programming  
+ <http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/index.htm>
+ 
 # Diophantische McNuggets
 
 In de wiskunde bestaat er een klasse vergelijkingen die bekend zijn onder diophantische vergelijkingen. Het 
