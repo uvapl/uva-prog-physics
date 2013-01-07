@@ -1,4 +1,4 @@
-# Hacker exercises
+# Hacker Practice
 
 These are really nice exercises for students who are more experienced or are very quick to go through the previous exercises (so make sure you have done them, they are compulsory!). If you have some time left, take a go at one of these below, and see if you're up to it!
 
