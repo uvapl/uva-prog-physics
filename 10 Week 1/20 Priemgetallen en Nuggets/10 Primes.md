@@ -1,7 +1,7 @@
 # Priemgetallen berekenen
 
 ##Exercise 1.0 - het duizendste priemgetal
-Schrijf een programma dat het duizendste priemgetal berekent en op het scherm print.
+Schrijf een programma `primes.py` dat het duizendste priemgetal berekent en op het scherm print.
 
 ### Computing hint:###
 
@@ -21,7 +21,8 @@ Als je wilt controleren of je programma goed werkt kan je je gevonden lijst prie
 matchen met een lijst bekende priemgetallen: <http://primes.utm.edu/lists/small/1000.txt>.
 
 ## Exercise 2.0 - eigenschappen priemreeksen
-Welke getallen (onder n=10000) vormen de langste reeks aaneengesloten niet-priemgetallen ?
+Welke getallen (onder n=10000) vormen de langste reeks aaneengesloten niet-priemgetallen ? Start met de code in `primes.py`
+en voeg dit toe als output aan het eind van je programma
 
 ## Hacker edition ##
 
