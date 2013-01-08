@@ -20,21 +20,25 @@ $6a + 9b + 20c = n$
 Voor we in opgave 5 gaan bepalen wat het grootste aantal McNuggets is dat
 niet precies besteld kan worden proberen we 2 strategie-hints uit te werken.
 
-## Opgave 3
+## Exercise 3.1 - McNuggets, de eerste stappen
 
 Laat zien dat het mogelijk is om precies 50, 51, 52, 53, 54 en 55 McNuggets te bestellen (met pen en papier of eigen programma). Laat steeds zien hoeveel doosjes van 6,9 en 20 McNuggets je krijgt.
 
 **Theorema**: Als het mogelijk is exact $x, x+1, ..., x+5$ McNuggets te bestellen dan betekent dat, dat je 
 elk aantal McNuggets $>=x$ kan bestellen als de McNuggets komen in doosjes van 6, 9 en 20.
 
-## Opgave 4
+Note: Zorg ervoor dat dit verschijnt als je de file `nuggets.py` start, de python file die we gaan gebruiken voor deze opgave.
+
+## Exercise 3.2 - Strategie en wiskunde achtergrond
 
 Beschrijf waarom bovenstaand theorema waar is (in tekst) en overtuig jezelf dat het antwoord uit vraag 3 
 ($50, 51, ..., 55$) betekent dat ook ($56, 57, ... 61$) een oplossing zijn. Sterker: alle aantallen boven de 50.
 
-## Opgave 5
+Note: Zorg ervoor dat dit verschijnt als je de file `nuggets.py` start, de python file die we gaan gebruiken voor deze opgave.
 
-Schrijf een programma dat het grootste aantal McNuggets (Nmax) bepaalt dat niet precies past in doosjes 
+## Exercise 3.3 - McNuggets, de echte opgave
+
+Schrijf een programma `nuggets.py` dat het grootste aantal McNuggets (Nmax) bepaalt dat niet precies past in doosjes 
 van 6,9 en 20.
 
 **Note**: de output van het programma moet als volgt op het scherm komen:
@@ -56,9 +60,9 @@ oplossing. We gaan nu oplossingen bekijken voor verschillende keuzes van doosjes
 3 doosjes). Stel dat er een variabele in je programma is (tuple of array van lengte 3) is die packages 
 heet en de grootte van de verschillende McNugget doosjes bevat.
 
-## Opgave 6
+## Exercise 3.4 - Algemene oplossing van het probleem
 
-Schrijf een programma dat, gegeven 3 verschillende doosjes, het grootste aantal McNuggets vindt (onder de 200) 
+Schrijf een programma (in `nuggets.py`) dat, gegeven 3 verschillende doosjes, het grootste aantal McNuggets vindt (onder de 200) 
 dat niet precies in een geheel aantal doosjes past.
 
 Zorg dat je programma de volgende output geeft:
