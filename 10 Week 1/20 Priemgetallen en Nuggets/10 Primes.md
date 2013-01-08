@@ -1,7 +1,6 @@
-
 # Priemgetallen berekenen
 
-Schrijf een programma dat het duizendste priemgetal berekent en op het scherm print.
+##Exercise 1.0 - Schrijf een programma dat het duizendste priemgetal berekent en op het scherm print.
 
 ### Computing hint:###
 
@@ -20,9 +19,11 @@ voor elk probleem de optimale strategie te bepalen. Hier bijvoorbeeld:
 Als je wilt controleren of je programma goed werkt kan je je gevonden lijst priemgetallen hier 
 matchen met een lijst bekende priemgetallen: <http://primes.utm.edu/lists/small/1000.txt>.
 
+## Exercise 2.0 - e
+Welke getallen (onder n=10000) vormen de langste reeks aaneengesloten niet-priemgetallen ?
+
 ## Hacker edition ##
 
 1. Maak bij het testen van een getal `n` gebruik van de kennis over de priemgetallen onder de `n`. Bepaal 
 hoeveel sneller dat is voor grote getallen. En tot welk priemgetal kan je komen binnen 1 minuut?
 
-2. Welke getallen (onder n=10000) vormen de langste reeks aaneengesloten niet-priemgetallen ?
