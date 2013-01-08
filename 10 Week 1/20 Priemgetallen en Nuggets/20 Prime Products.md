@@ -1,9 +1,9 @@
-
 # Product van priemgetallen
 
 Vanuit de elementaire getaltheorie is bekend dat voor grote $n$ het product van alle priemgetallen onder de $n$ minder is dan $e ^ n$ en dat bij groeiende $n$ het product steeds dichter bij $e ^ n$ komt te liggen.
 
-Schrijf een programma dat laat zien dat dit zo is. Meer specifiek: schrijf een programma dat voor elk getal $n$ de som van de logaritmes van alle priemgetallen uitrekent (van $2$ tot het getal $n$) en vervolgens op het scherm print:
+## Exercise 2.0 - eigenschappen priemgetallen
+Schrijf een programma `products.py` dat laat zien dat dit zo is. Meer specifiek: schrijf een programma dat voor elk getal $n$ de som van de logaritmes van alle priemgetallen uitrekent (van $2$ tot het getal $n$) en vervolgens op het scherm print:
 
 1. het getal $n$,
 2. de som van de logaritmes van alle priemgetallen onder $n$, en
