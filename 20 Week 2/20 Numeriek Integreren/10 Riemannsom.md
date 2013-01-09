@@ -1,4 +1,19 @@
-## Numeriek integreren - de Riemannsom
+# Numeriek integreren - de Riemannsom  (de opgaves)
+
+Maak, gebruikmakend van de Riemannsom de volgende integralen
+
+  a) blabla
+     Hint: test je methode door
+ 
+  b) blabla
+     Hint: test je methode door
+
+  c) blabla
+     Hint: test je methode door
+
+
+
+# Numeriek integreren - de Riemannsom  (de theorie)
 
 Evalueer een integraal door het te schrijven als som van kleine rechthoekjes: een zogenaamde Riemannsom.
 
@@ -39,3 +54,5 @@ Het is mogelijk de evaluatie van de integraal te verbeteren door niet te uit te 
 (te simpele) lineaire benadering. De Simpsonregel bijvoorbeeld is een parabolische benadering 
 (let op, N=even) waarbij f(x) op het interval (xi−1,xi+1) wordt benaderd door een parabool door 
 de 3 punten (fi−1, fi, fi+1). Zoek op of werk zelf uit als je deze wilt gebruiken.
+
+
