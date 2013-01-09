@@ -29,9 +29,9 @@ De sommatie voor de integraal uit vergelijking (1) is dan te schrijven als:
 
 $\int_a^b f(x) dx$ 
 
-$\frac(1)(2)$ 
+$\frac(\Delta x)(2)$ 
 
-$(f_0 + 2f_1 + 2f_2 + ... + 2f_N + f_N)$ 
+$(f_0)$ 
 
 
 ### Extra: hogere orde (meer precieze) benaderingen:
