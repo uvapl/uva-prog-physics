@@ -1,15 +1,18 @@
 # Numeriek integreren - de Riemannsom  (de opgaves)
 
-Maak, gebruikmakend van de Riemannsom de volgende integralen
+# Numeriek integreren - Monte Carlo (de opgaves)
 
-  a) blabla
-     Hint: test je methode door
- 
-  b) blabla
-     Hint: test je methode door
+Bereken, gebruikmakend van de Riemannsom en de Monte Carlo-techniek de volgende integralen. 
+Maak ook een grafiek met behulp van Matplotlib.
 
-  c) blabla
-     Hint: test je methode door
+### opgave 2.1 blabla
+Hint: test door
+
+### opgave 2.2 blabla
+Hint: test door
+
+### opgave 2.3 blabla
+Hint: test door
 
 
 
