@@ -1,13 +1,13 @@
 ## Fouten propagatie
 
 ### a] Het probleem:
-Bepaal de onzekerheid op z als z = f (a, b), met onzekerheden ∆a en ∆b.
+Bepaal de onzekerheid op z als z=f(a,b), met onzekerheden $\Delta$ a en $\Delta$ b.
 
 Tijdens het practicum is aandacht besteed aan het bepalen van de onzekerheid 
 op een grootheid z die een functie is van twee variabelen x$pm \Delta$ x en y$pm \Delta$ y. 
 De spreiding, voor (ongecorreleerde) variabelen, wordt gegeven door:
 
-$(\Delta z)^2 \frac(\partialz)(\partial a)^2 (\Delta a)^2$
+$(\Delta z)^2 = (\frac(\partial z)(\partial a)^2 (\Delta a)^2$
 
 bla
 
