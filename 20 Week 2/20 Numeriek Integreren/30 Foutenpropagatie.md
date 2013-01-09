@@ -4,9 +4,12 @@
 Bepaal de onzekerheid op z als z = f (a, b), met onzekerheden ∆a en ∆b.
 
 Tijdens het practicum is aandacht besteed aan het bepalen van de onzekerheid 
-op een grootheid z die een functie is van twee variabelen x$pm \Delta$x en y$pm \Delta$y. De 
-spreiding, voor (ongecorreleerde) variabelen, wordt gegeven door:
-􏰀∂z􏰁2 􏰀∂z􏰁2 (∆z)2 =  ∂x	(∆x)2 +	∂y	(∆y)2
+op een grootheid z die een functie is van twee variabelen x$pm \Delta$ x en y$pm \Delta$ y. 
+De spreiding, voor (ongecorreleerde) variabelen, wordt gegeven door:
+
+$(\Delta z)^2 \frac(\partialz)(\partial a)^2 (\Delta a)^2$
+
+bla
 
 Dit is natuurlijk uit te breiden naar meer (en gecorreleerde) variabelen.
 Het is niet altijd (makkelijk) om een analytische uitdrukking te krijgen voor ∆z (gaan we in het prakticum op in). De manier om numeriek inzicht te krijgen in de verdeling en spreiding op z is het uitvoeren van ’test experimenten’ en zo de verdeling van uitkomsten voor z te bepalen.
