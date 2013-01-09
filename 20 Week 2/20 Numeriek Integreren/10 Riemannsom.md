@@ -27,7 +27,7 @@ $f(x) = \frac( f_i + f_i)(2) $
 
 De sommatie voor de integraal uit vergelijking (1) is dan te schrijven als:
 
-$\int_a^b f(x) dx \frac(\Delta x)(2) (f_0 + 2f_1 + 2f_2 + ... + 2f_N + f_N) $ 
+$\int_a^b f(x) dx \frac(1)(2) (f_0 + 2f_1 + 2f_2 + ... + 2f_N + f_N)$ 
 
 
 ### Extra: hogere orde (meer precieze) benaderingen:
