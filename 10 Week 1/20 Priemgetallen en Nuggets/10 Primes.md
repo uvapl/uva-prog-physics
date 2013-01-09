@@ -7,14 +7,16 @@ Schrijf een programma `primes.py` dat het duizendste priemgetal berekent en op h
 
 * Eén manier om te testen of een getal $a$ een veelvoud is van een getal $b$ ($b$ deelt $a$ met rest $0$) is het gebruik van de `%`-operator. In Python geeft `a % b` de rest: `8 % 3` is `2`. Check zelf de werking in de Python shell.
 * Vandaag gaan we ook een data type `arrays` gebruiken. Het is een 'rijtje', lees erover in de documentatie. Voorbeeldje:
+
        x = []  #declareer een leeg rijtje
        x.append(17)    # voeg het getal 17 toe
        x.append(2)     # voeg het getal 2 toe
        x.append(1367)  # voeg het getal 1367 toe
        print x
-       [17,2,1367]
+       [17,2,1367]    # dit is de output
 
 Toegang tot de informatie in de lijst is als volgt. Let op, het eerste object in het rijtje staat op plek 0
+
        a = x[0]
        print a
        17
