@@ -14,7 +14,7 @@ $f_i=f(x_i)$, waarbij $x_i = a + i \Delta x$, met  (i=0,1,2,...,N en $\Delta x$ 
 
 Schrijf de integraal dan als een Riemannsom:
 
-$\int_a^b f(x) dx = \sum_i^N f(x) dx \int_(x i)^(x+1) f(x) dx$
+$\int_a^b f(x) dx = \sum_i^N f(x) dx \int_(x_i)^(x+1) f(x) dx$
 
 ### c] Benader centrale waarde voor f(x) in elke bin en doe sommatie:
 
