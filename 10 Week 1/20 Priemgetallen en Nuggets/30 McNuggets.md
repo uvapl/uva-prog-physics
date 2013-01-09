@@ -69,7 +69,7 @@ Zorg dat je programma de volgende output geeft:
 
 	Gegeven 3 McNuggets doosjes met grootte x, y en z, dan is het grootste aantal McNuggets dat niet exact besteld kan worden: Nmax.
 
-#### Strategie hints:###
+#### Strategie hints:
 
 * We limiteren onze test tot 200 omdat er in sommige gevallen geen grootste aantal is, denk bijvoorbeeld aan 3 doosjes van 10.
 * Test je programma op een groot aantal keuzes door de variabele in packages te veranderen en vergeet niet ook (6,9,20) mee te nemen.
