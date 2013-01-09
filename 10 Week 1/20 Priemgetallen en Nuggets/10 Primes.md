@@ -10,12 +10,12 @@ Schrijf een programma `primes.py` dat het duizendste priemgetal berekent en op h
 
 Vul een array met 3 getallen en print aan het eind het rijtje:
 
-       x = []          #declareer een leeg rijtje
+       x = []          # declareer een leeg rijtje
        x.append(17)    # voeg het getal 17 toe
        x.append(2)     # voeg het getal 2 toe
        x.append(1367)  # voeg het getal 1367 toe
-       print x
-       [17,2,1367]    # dit is de output
+       print x         # vraag Python om de array te printen
+       [17,2,1367]     # dit is de output
 
 
 Toegang tot de informatie in de lijst is als volgt. Let op, het eerste object in het rijtje staat op plek 0.
