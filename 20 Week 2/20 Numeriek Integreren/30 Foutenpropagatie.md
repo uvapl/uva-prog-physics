@@ -1,4 +1,4 @@
-## Fouten propagatie
+## Foutenpropagatie (de theorie)
 
 ### a] Het probleem:
 Bepaal de onzekerheid op z als z=f(a,b), met onzekerheden $\Delta$ a en $\Delta$ b.
@@ -30,3 +30,21 @@ computing hints:
      en breedte sigma gaat als volgt: 
 
        x_i = gauss(mu, sigma) i.p.v. het ’gewone’ random x_i = random()
+
+
+## Foutenpropagatie (de opgaves)
+
+### opgave 3.1
+Stel dat je twee variabelen a en b hebt gemeten met hun respectievelijke meetfout $\Delta$ a and $\Delta$ b: 
+a = 20 $\pm$ 2 en b = 10 $\pm$ 2. Bereken de spreiding (RMS of variantie) op een grootheid c die een combinatie 
+is van deze variabelen. Gebruik ook de foutenpropagatie uit het practicumhandleiding om te berekenen wat je 
+verwacht.
+
+  a) Bereken c en $\Delta$ c als c = a + b
+  b) Bereken c en $\Delta$ c als c = ab 
+  c) Bereken c en $\Delta$ c als c = a/b 
+  d) Bereken c en $\Delta$ c als c = atan(a/100)sin(b/10).
+
+
+
+
