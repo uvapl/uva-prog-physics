@@ -1,6 +1,22 @@
-## Numeriek integreren - de Riemannsom
 
-Evalueer een integraal door het te schrijven als som van kleine rechthoekjes: een zogenaamde Riemannsom.
+# Numeriek integreren - Monte Carlo (de opgaves)
+
+Bereken, gebruikmakend van de Riemannsom en de Monte Carlo-techniek de volgende integralen. 
+Maak ook een grafiek met behulp van Matplotlib.
+
+  a) blabla
+     Hint: test door
+
+  b) blabla
+     Hint: test door
+
+  c) blabla
+     Hint: test door
+
+# Numeriek integreren - Monte Carlo (de theorie)
+
+Benader de integraal door gebruik te maken van random getallen. Gooi in een gebied rond de 
+integratie regio random punten en kijk welke fractie binnen het integratiegebied valt.
 
 ### a] Het probleem
 Gegeven f(x) op a $leq$ x $leq$ b: bereken $int_a^b f(x)dx$
