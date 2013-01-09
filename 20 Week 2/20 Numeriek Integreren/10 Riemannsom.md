@@ -16,7 +16,7 @@ Schrijf de integraal dan als een Riemannsom:
 
 $\int_a^b f(x) dx$ = 
 
-$\Sum_[i=0]^[N-1] f(x) dx$
+$\sum_i^N f(x) dx$
 
 $\int_(x_i)^(x_(i+1)) f(x) dx$
 
