@@ -4,7 +4,7 @@
 Bepaal de onzekerheid op z als z=f(a,b), met onzekerheden $\Delta$ a en $\Delta$ b.
 
 Tijdens het practicum is aandacht besteed aan het bepalen van de onzekerheid 
-op een grootheid z die een functie is van twee variabelen x$pm \Delta$ x en y$pm \Delta$ y. 
+op een grootheid z die een functie is van twee variabelen a$pm \Delta$ a en b$pm \Delta$ b. 
 De spreiding, voor (ongecorreleerde) variabelen, wordt gegeven door:
 
 $(\Delta z)^2 = (\frac(\partial z)(\partial a))^2 (\Delta a)^2+(\frac(\partial z)(\partial b))^2 (\Delta b)^2$
@@ -23,8 +23,10 @@ kan je de spreiding schatten door de RMS of variantie te bepalen, de gemiddelde 
 
 $RMS = langle z^2 \rangle$
 
-$\frac((z_i-<z>)^2)(N)$
+$\frac(z)(N)$
 
 computing hints: 
-   * Een random gesimuleerde meting xi trekken uit gaussisch verdeelde x met gemiddelde mu 
-     en breedte sigma gaat als volgt: xi = gauss(mu, sigma) i.p.v. ’gewone’ random xi = random()
+   * Een random gesimuleerde meting $x_i$ trekken uit gaussisch verdeelde x met gemiddelde mu 
+     en breedte sigma gaat als volgt: 
+
+       x_i = gauss(mu, sigma) i.p.v. het ’gewone’ random x_i = random()
