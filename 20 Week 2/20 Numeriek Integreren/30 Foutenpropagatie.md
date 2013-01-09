@@ -41,8 +41,11 @@ is van deze variabelen. Gebruik ook de foutenpropagatie uit het practicumhandlei
 verwacht.
 
   a) Bereken c en $\Delta$ c als c = a + b
+
   b) Bereken c en $\Delta$ c als c = ab 
+
   c) Bereken c en $\Delta$ c als c = a/b 
+
   d) Bereken c en $\Delta$ c als c = atan(a/100)sin(b/10).
 
 
