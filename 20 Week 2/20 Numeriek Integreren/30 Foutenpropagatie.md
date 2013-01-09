@@ -1,4 +1,4 @@
-## Foutenpropagatie (de theorie)
+# Foutenpropagatie (de theorie)
 
 ### a] Het probleem:
 Bepaal de onzekerheid op z als z=f(a,b), met onzekerheden $\Delta$ a en $\Delta$ b.
@@ -32,7 +32,7 @@ computing hints:
        x_i = gauss(mu, sigma) i.p.v. het ’gewone’ random x_i = random()
 
 
-## Foutenpropagatie (de opgaves)
+# Foutenpropagatie (de opgaves)
 
 ### opgave 3.1
 Stel dat je twee variabelen a en b hebt gemeten met hun respectievelijke meetfout $\Delta$ a and $\Delta$ b: 
