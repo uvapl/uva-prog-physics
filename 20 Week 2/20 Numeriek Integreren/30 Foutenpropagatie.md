@@ -25,6 +25,6 @@ $RMS = langle z^2 \rangle$
 
 $\frac((z_i-<z>)^2)(N)$
 
-computing hints:
+computing hints: 
    * Een random gesimuleerde meting xi trekken uit gaussisch verdeelde x met gemiddelde mu 
      en breedte sigma gaat als volgt: xi = gauss(mu, sigma) i.p.v. ’gewone’ random xi = random()
