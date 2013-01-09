@@ -14,7 +14,7 @@ $f_i=f(x_i)$, waarbij $x_i = a + i \Delta x$, met  (i=0,1,2,...,N en $\Delta x$ 
 
 Schrijf de integraal dan als een Riemannsom:
 
-$\int_a^b f(x) dx = \sum_i^N f(x) dx \int_x^x) f(x) dx$
+$\int_a^b f(x) dx = \sum_i^N f(x) dx \int_x_i^x f(x) dx$
 
 
 ### c] Benader centrale waarde voor f(x) in elke bin en doe sommatie:
@@ -23,7 +23,7 @@ Met behulp van een lineaire benadering (de trapeziumregel) kunnen we de centrale
 f(x) benaderen in elke bin door het gemiddelde van de waarden van f(x) op de linker en rechter 
 rand van de bin. In deze lineaire benadering op het interval $(x_i,x_(i+1))$ is f(x) dan te schrijven als:
 
-$f(x) = \frac( f_(i+1) + f_(i))(2) + Order(\Delta x)$
+$f(x) = \frac( f_i + f_i)(2) $
 
 De sommatie voor de integraal uit vergelijking (1) is dan te schrijven als:
 
