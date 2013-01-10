@@ -72,8 +72,8 @@ Boolean operators can seem tricky at first, and it takes practice to evaluate th
 |`b and c`               |<input name="a[12-1]" type="text">|
 |`b or c`                |<input name="a[12-2]" type="text">|
 |`not a and b`           |<input name="a[12-3]" type="text">|
-|`(a and b) or not c`    |<input name="a[12-3]" type="text">|
-|`not b and not (a or c)`|<input name="a[12-3]" type="text">|
+|`(a and b) or not c`    |<input name="a[12-4]" type="text">|
+|`not b and not (a or c)`|<input name="a[12-5]" type="text">|
 
 ## Exercise 1.13 – Conditionals
 
@@ -141,7 +141,7 @@ For each of the following fragments of code, write what the output would be. Aga
 	for i in range(0, 10, 2):
 		print i/divisor
 
-> <textarea name="a[1-14-1]"></textarea>
+> <textarea name="a[1-14-2]"></textarea>
 
 {: .language-python}
 	num = 10
@@ -151,7 +151,7 @@ For each of the following fragments of code, write what the output would be. Aga
 		print num
 		num -= 1
 
-> <textarea name="a[1-14-1]"></textarea>
+> <textarea name="a[1-14-3]"></textarea>
 
 {: .language-python}
 	count = 0
@@ -159,7 +159,7 @@ For each of the following fragments of code, write what the output would be. Aga
 		print 'Letter #', count, 'is', letter
 		count += 1
 
-> <textarea name="a[1-14-1]"></textarea>
+> <textarea name="a[1-14-4]"></textarea>
 
 ## Exercise 1.15 – Buggy loop (aka Find The Bug!)
 
@@ -190,4 +190,4 @@ What do you think this code is doing? Without comments it is hard to guess what 
 	suggest one or more ways he could fix his code (there's a few good answers
 	for this depending on what you think the code should be doing).
 
-	<textarea name="a[1-15-1]"></textarea>
+	<textarea name="a[1-15-2]"></textarea>
