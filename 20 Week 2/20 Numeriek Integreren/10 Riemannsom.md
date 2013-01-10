@@ -38,15 +38,11 @@ Met behulp van een lineaire benadering (de trapeziumregel) kunnen we de centrale
 f(x) benaderen in elke bin door het gemiddelde van de waarden van f(x) op de linker en rechter 
 rand van de bin. In deze lineaire benadering op het interval $(x_i,x_(i+1))$ is f(x) dan te schrijven als:
 
-$f(x) = \frac(f_(i+1)+f_(i))(2)$
+$f(x) = \frac(f\_(i+1)+f\_(i))(2)$
 
 De sommatie voor de integraal uit vergelijking (1) is dan te schrijven als:
 
-$\int_a^b f(x) dx$ 
-
-$\frac(\Delta x)(2)$ 
-
-$(f_0)$ 
+$\int_a^b f(x) dx = \frac(\Delta x)(2) (f\_0+)$ 
 
 
 ### Extra: hogere orde (meer precieze) benaderingen:
