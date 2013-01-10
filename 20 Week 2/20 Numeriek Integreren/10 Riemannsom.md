@@ -32,7 +32,7 @@ $f_i=f(x_i)$, waarbij $x_i = a + i \Delta x$, met  (i=0,1,2,...,N en $\Delta x$ 
 
 Schrijf de integraal dan als een Riemannsom:
 
-$$int\_a^b f(x) dx = sum\_(i=0)^(N-1) f(x) dx int\_(x\_i)^(x_i+1) f(x) dx$$
+$int\_a^b f(x) dx = sum\_(i=0)^(N-1) f(x) dx int\_(x\_i)^(x_i+1) f(x) dx$
 
 ### c] Benader centrale waarde voor f(x) in elke bin en doe sommatie:
 
