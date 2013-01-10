@@ -1,8 +1,6 @@
 # Numeriek integreren - de Riemannsom  (de opgaves)
 
-# Numeriek integreren - Monte Carlo (de opgaves)
-
-Bereken, gebruikmakend van de Riemannsom en de Monte Carlo-techniek de volgende integralen. 
+Bereken, gebruikmakend van de Riemannsom de volgende integralen. 
 Maak ook een grafiek met behulp van Matplotlib.
 
 ### opgave 2.1 blabla
@@ -32,7 +30,7 @@ $f_i=f(x_i)$, waarbij $x_i = a + i \Delta x$, met  (i=0,1,2,...,N en $\Delta x$ 
 
 Schrijf de integraal dan als een Riemannsom:
 
-$int\_a^b f(x) dx = sum\_(i=0)^(N-1) f(x) dx int\_(x\_i)^(x\_(i+1)) f(x) dx$
+$int\_a^b f(x) dx = sum\_(i=0)^(N-1) int\_(x\_i)^(x\_(i+1)) f(x) dx$
 
 ### c] Benader centrale waarde voor f(x) in elke bin en doe sommatie:
 
@@ -40,7 +38,7 @@ Met behulp van een lineaire benadering (de trapeziumregel) kunnen we de centrale
 f(x) benaderen in elke bin door het gemiddelde van de waarden van f(x) op de linker en rechter 
 rand van de bin. In deze lineaire benadering op het interval $(x_i,x_(i+1))$ is f(x) dan te schrijven als:
 
-$f(x) = \frac( f_i + f_i)(2) $
+$f(x) = \frac( f_(i+1) + f_(i))(2) + Order(\Delta x)$
 
 De sommatie voor de integraal uit vergelijking (1) is dan te schrijven als:
 
