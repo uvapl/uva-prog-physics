@@ -34,7 +34,9 @@ In de meeste toepassingen wordt gekozen voor $x\_(min)$ = a en $x\_(max)$ = b.
 
 Gooi een groot aantal random punten ($x_i$,$y_i$) in de box en bekijk voor 
 elk punt of het binnen de functie ligt (’goed’) of erbuiten (’fout’):
+
   * $x_i$ : random getal tussen $x\_(min)$ en $x\_(max)$ 
+
   * $y_i$ :	random getal tussen $y\_(min)$ en $y\_(max)$
 
 Is het punt ’goed’ (binnen de functie) of ’fout’ (buiten de functie) ? ’goed’: 
