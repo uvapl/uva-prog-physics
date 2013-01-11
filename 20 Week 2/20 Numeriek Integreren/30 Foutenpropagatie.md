@@ -21,7 +21,7 @@ Simuleer een groot aantal experimenten $i$ door een random waarde te â€™trekkenâ
 b: $a_i$ en $b_i$ respectievelijk en daarvoor een waarde van $z_i$ te bepalen. Uit de verdeling van z 
 kan je de spreiding schatten door de RMS of variantie te bepalen, de gemiddelde afwijking van het gemiddelde:
 
-$RMS = langle z^2 \rangle  = \sqrt(\frac( \Sum\_(i)(z\_i - \langle z \rangle )^2 )(N))$
+$RMS = langle z^2 \rangle  = \sqrt(\frac( \sum\_(i)(z\_i - \langle z \rangle )^2 )(N))$
 
 computing hints: 
    * Een random gesimuleerde meting $x_i$ trekken uit gaussisch verdeelde x met gemiddelde mu 
