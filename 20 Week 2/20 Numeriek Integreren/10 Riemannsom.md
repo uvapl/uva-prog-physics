@@ -26,7 +26,7 @@ Gegeven f(x) op a $leq$ x $leq$ b: bereken $int_a^b f(x)dx$
 Verdeel het interval (a, b) in N intervallen van gelijke lengte $\Delta x$ en 
 representeer $f(x)$ door de waarde van de functie op discrete $x$-waarden $x_i$:
 
-$f_i=f(x_i)$, waarbij $x_i = a + i \Delta x$, met  (i=0,1,2,...,N en $\Delta x$ =a−b) 
+$f_i=f(x_i)$, waarbij $x_i = a + i \Delta x$, met  (i=0,1,2,...,N en $\Delta x = \frac(a-b)(N)$) 
 
 Schrijf de integraal dan als een Riemannsom:
 
