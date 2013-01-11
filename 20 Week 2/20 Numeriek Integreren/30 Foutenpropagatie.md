@@ -1,7 +1,7 @@
 # Foutenpropagatie (de theorie)
 
 ### a] Het probleem:
-Bepaal de onzekerheid op z als z=f(a,b), met onzekerheden $\Delta$ a en $\Delta$ b.
+Bepaal de onzekerheid op z als $z=f(a,b)$, met onzekerheden $\Delta$ a en $\Delta$ b.
 
 Tijdens het practicum is aandacht besteed aan het bepalen van de onzekerheid 
 op een grootheid z die een functie is van twee variabelen a$pm \Delta$ a en b$pm \Delta$ b. 
@@ -21,7 +21,7 @@ Simuleer een groot aantal experimenten $i$ door een random waarde te â€™trekkenâ
 b: $a_i$ en $b_i$ respectievelijk en daarvoor een waarde van $z_i$ te bepalen. Uit de verdeling van z 
 kan je de spreiding schatten door de RMS of variantie te bepalen, de gemiddelde afwijking van het gemiddelde:
 
-$RMS = langle z^2 \rangle  = \sqrt(\frac( (z\_i - \langle z \rangle )^2 )(N))$
+$RMS = langle z^2 \rangle  = \sqrt(\frac( \Sum\_(i)(z\_i - \langle z \rangle )^2 )(N))$
 
 computing hints: 
    * Een random gesimuleerde meting $x_i$ trekken uit gaussisch verdeelde x met gemiddelde mu 
