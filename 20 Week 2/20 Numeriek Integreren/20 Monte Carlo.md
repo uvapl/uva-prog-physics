@@ -39,8 +39,10 @@ elk punt of het binnen de functie ligt (’goed’) of erbuiten (’fout’):
 
   * $y_i$ :	random getal tussen $y\_(min)$ en $y\_(max)$
 
-Is het punt ’goed’ (binnen de functie) of ’fout’ (buiten de functie) ? ’goed’: 
-$y_i < f(xi)$ of ’fout’: $y_i > f(xi)$
+Is het punt ’goed’ (binnen de functie) of ’fout’ (buiten de functie) ?
+
+Hierbij geldt dus: 'goed': $y_i < f(xi)$ of ’fout’: $y_i > f(xi)$
+
 Let op: bij negatieve f(x) draait definitie om. Visualiseer altijd de functie.
 
 ### d] Bepaal de integraal:
