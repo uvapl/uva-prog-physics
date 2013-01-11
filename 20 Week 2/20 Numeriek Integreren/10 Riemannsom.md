@@ -42,7 +42,7 @@ $f(x) = \frac(f\_(i+1)+f\_(i))(2)$
 
 De sommatie voor de integraal uit vergelijking (1) is dan te schrijven als:
 
-$\int_a^b f(x) dx = \frac(\Delta x)(2) (f\_0+)$ 
+$\int_a^b f(x) dx = \frac(\Delta x)(2) (f\_0+2f\_1+2f\_1+...++2f\_(N-1)+f\_N)$ 
 
 
 ### Extra: hogere orde (meer precieze) benaderingen:
