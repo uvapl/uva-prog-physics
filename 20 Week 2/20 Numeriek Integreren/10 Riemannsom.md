@@ -42,7 +42,7 @@ $f(x) = \frac(f\_(i+1)+f\_(i))(2)$
 
 De sommatie voor de integraal uit vergelijking (1) is dan te schrijven als:
 
-$\int_a^b f(x) dx \approx \frac(\Delta x)(2) (f\_0+2f\_1+2f\_1+...++2f\_(N-1)+f\_N)$ 
+$\int_a^b f(x) dx \approx \frac(\Delta x)(2) (f\_0+2f\_1+2f\_1+...++2f\_(N-1)+f\_N) \mathcal(O)$ 
 
 
 ### Extra: hogere orde (meer precieze) benaderingen:
@@ -50,6 +50,6 @@ $\int_a^b f(x) dx \approx \frac(\Delta x)(2) (f\_0+2f\_1+2f\_1+...++2f\_(N-1)+f\
 Het is mogelijk de evaluatie van de integraal te verbeteren door niet te uit te gaan van de 
 (te simpele) lineaire benadering. De Simpsonregel bijvoorbeeld is een parabolische benadering 
 (let op, N=even) waarbij $f(x)$ op het interval (x-_(i−1),x\_(i+1)) wordt benaderd door een parabool door 
-de 3 punten (f\_(i−1), f\_i, f\_(i+1)). Zoek op of werk zelf uit als je deze wilt gebruiken.
+de 3 punten ($f\_(i−1)$, $f\_i$, $f\_(i+1)$). Zoek op of werk zelf uit als je deze wilt gebruiken.
 
 
