@@ -1,9 +1,7 @@
 # Numeriek integreren - Monte Carlo (de opgaves)
 
 Bereken, gebruikmakend van de Monte Carlo-techniek de volgende integralen. 
-Benader de integraal door gebruik te maken van random getallen. Gooi in een 
-gebied rond de integratie regio random punten en kijk welke fractie binnen 
-het integratiege- bied valt. Maak ook een grafiek met behulp van Matplotlib.
+Maak ook een grafiek met behulp van Matplotlib.
 
 ### opgave 2.1 blabla
 Hint: test door
