@@ -9,21 +9,19 @@ De spreiding, voor (ongecorreleerde) variabelen, wordt gegeven door:
 
 $(\Delta z)^2 = (\frac(\partial z)(\partial a))^2 (\Delta a)^2+(\frac(\partial z)(\partial b))^2 (\Delta b)^2$
 
+Dit is natuurlijk uit te breiden naar meer (en gecorreleerde) variabelen. 
 
-Dit is natuurlijk uit te breiden naar meer (en gecorreleerde) variabelen. Het is niet altijd (makkelijk) 
-om een analytische uitdrukking te krijgen voor ∆z (gaan we in het prakticum op in). De manier om numeriek 
-inzicht te krijgen in de verdeling en spreiding op z is het uitvoeren van ’test experimenten’ en zo de 
-verdeling van uitkomsten voor z te bepalen.
+Het is niet altijd (makkelijk) om een analytische uitdrukking te krijgen voor $\Delta$z (gaan we 
+in het prakticum op in). De manier om numeriek inzicht te krijgen in de verdeling en spreiding 
+op z is het uitvoeren van ’test experimenten’ en zo de verdeling van uitkomsten voor z te bepalen.
 
 ### b] simuleer een groot aantal experimenten en bereken de spreiding:
 
-Simuleer een groot aantal experimenten i door een random waarde te ’trekken’ uit de verdeling voor a en 
+Simuleer een groot aantal experimenten $i$ door een random waarde te ’trekken’ uit de verdeling voor a en 
 b: $a_i$ en $b_i$ respectievelijk en daarvoor een waarde van $z_i$ te bepalen. Uit de verdeling van z 
 kan je de spreiding schatten door de RMS of variantie te bepalen, de gemiddelde afwijking van het gemiddelde:
 
-$RMS = langle z^2 \rangle$
-
-$\frac(z)(N)$
+$RMS = langle z^2 \rangle \frac( (z\_i - \langle z \rangle )^2 )(N)$
 
 computing hints: 
    * Een random gesimuleerde meting $x_i$ trekken uit gaussisch verdeelde x met gemiddelde mu 
