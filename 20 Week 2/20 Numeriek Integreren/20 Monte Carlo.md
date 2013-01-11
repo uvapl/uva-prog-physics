@@ -1,7 +1,9 @@
 # Numeriek integreren - Monte Carlo (de opgaves)
 
 Bereken, gebruikmakend van de Monte Carlo-techniek de volgende integralen. 
-Maak ook een grafiek met behulp van Matplotlib.
+Benader de integraal door gebruik te maken van random getallen. Gooi in een 
+gebied rond de integratie regio random punten en kijk welke fractie binnen 
+het integratiege- bied valt. Maak ook een grafiek met behulp van Matplotlib.
 
 ### opgave 2.1 blabla
 Hint: test door
@@ -49,6 +51,6 @@ oppervlakte van de totale box. In ons geval (rechthoek als box) geldt dan:
 $int_a^b f(x)dx = \frac(N\_(goed))(N\_(goed)+N\_(fout)) (x\_(max)-x\_(min)) (y\_(max)-y\_(min))$
 
 ### Extra:
-í¯¿
+ï¿½ï¿½ï¿½
 In â€™echteâ€™ toepassingen wordt uit het oogpunt van effici Ìˆentie de box vaak zo gekozen dat hij de
 integraal zo nauw mogelijk omsluit. De fractie â€™goedeâ€™ worpen is dan zo groot mogelijk.
