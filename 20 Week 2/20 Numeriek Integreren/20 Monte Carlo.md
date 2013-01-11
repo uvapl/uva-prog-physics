@@ -12,7 +12,9 @@ Hint: test door
 ### opgave 2.3 blabla
 Hint: test door
 
+### opgave 2.4 spherical cap
 
+![Python](SpericalCap.png)
 
 # Numeriek integreren - Monte Carlo (de theorie)
 
