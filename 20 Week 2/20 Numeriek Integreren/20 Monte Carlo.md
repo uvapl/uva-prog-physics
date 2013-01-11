@@ -53,6 +53,5 @@ oppervlakte van de totale box. In ons geval (rechthoek als box) geldt dan:
 $int_a^b f(x)dx = \frac(N\_(goed))(N\_(goed)+N\_(fout)) (x\_(max)-x\_(min)) (y\_(max)-y\_(min))$
 
 ### Extra:
-���
 In ’echte’ toepassingen wordt uit het oogpunt van effici ̈entie de box vaak zo gekozen dat hij de
 integraal zo nauw mogelijk omsluit. De fractie ’goede’ worpen is dan zo groot mogelijk.
