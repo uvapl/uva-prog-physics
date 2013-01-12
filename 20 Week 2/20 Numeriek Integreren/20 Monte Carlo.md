@@ -36,13 +36,13 @@ In de meeste toepassingen wordt gekozen voor $x\_(min)$ = a en $x\_(max)$ = b.
 
 Gooi een groot aantal random punten ($x_i$,$y_i$) in de box:
 
-  * $x_i$ : random getal tussen $x\_(min)$ en $x\_(max)$ 
+  * $x_i$ : random getal tussen $x\_(min) $ en $x\_(max)$ 
 
-  * $y_i$ :	random getal tussen $y\_(min)$ en $y\_(max)$
+  * $y_i$ :	random getal tussen $y\_(min) $ en $y\_(max)$
 
 en bekijk voor elk punt of het binnen de functie ligt (’goed’) of erbuiten (’fout’):
 
-Hierbij geldt dus: 'goed': $y_i < f(xi)$ of ’fout’: $y_i > f(xi)$
+Hierbij geldt dus: 'goed': $y_i < f(x_i)$ of ’fout’: $y_i > f(x_i)$
 
 Let op: bij negatieve f(x) draait definitie om. Visualiseer altijd de functie.
 
