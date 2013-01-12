@@ -14,14 +14,16 @@ Hint: test door
 
 ### opgave 2.4 spherical cap
 
-![Python](SpericalCap.png)
+![Spherical Cap](SphericalCap.png)
 
 # Numeriek integreren - Monte Carlo (de theorie)
 
-Benader de integraal door gebruik te maken van random getallen. Gooi in een gebied rond de 
-integratie regio random punten en kijk welke fractie binnen het integratiegebied valt.
+Benader de integraal door gebruik te maken van random getallen. Gooi in 
+een gebied rond de integratie regio random punten en kijk welke fractie 
+binnen het integratiegebied valt.
 
 ### a] Het probleem
+
 Gegeven f(x) op a $leq$ x $leq$ b: bereken $int_a^b f(x)dx$
 
 ### b] Definieer een ’box’ om de integraalregio heen:
@@ -36,13 +38,12 @@ In de meeste toepassingen wordt gekozen voor $x\_(min)$ = a en $x\_(max)$ = b.
 
 Gooi een groot aantal random punten ($x_i$,$y_i$) in de box:
 
-  * $x_i$ : random getal tussen $x\_(min) $ en $x\_(max)$ 
-
+  * $x_i$ : random getal tussen $x\_(min) $ en $x\_(max)$
   * $y_i$ :	random getal tussen $y\_(min) $ en $y\_(max)$
 
-en bekijk voor elk punt of het binnen de functie ligt (’goed’) of erbuiten (’fout’):
+en bekijk voor elk punt of het binnen de functie ligt ("goed") of erbuiten ("fout"):
 
-Hierbij geldt dus: 'goed': $y_i < f(x_i)$ of ’fout’: $y_i > f(x_i)$
+Hierbij geldt dus: "goed": $y\_i < f(x\_i)$ of "fout": $y\_i > f(x\_i)$
 
 Let op: bij negatieve f(x) draait definitie om. Visualiseer altijd de functie.
 
@@ -54,5 +55,5 @@ oppervlakte van de totale box. In ons geval (rechthoek als box) geldt dan:
 $int_a^b f(x)dx = \frac(N\_(goed))(N\_(goed)+N\_(fout)) (x\_(max)-x\_(min)) (y\_(max)-y\_(min))$
 
 ### Extra:
-In ’echte’ toepassingen wordt uit het oogpunt van effici ̈entie de box vaak zo gekozen dat hij de
-integraal zo nauw mogelijk omsluit. De fractie ’goede’ worpen is dan zo groot mogelijk.
+
+In "echte" toepassingen wordt uit het oogpunt van efficiëntie de box vaak zo gekozen dat hij de integraal zo nauw mogelijk omsluit. De fractie goede worpen is dan zo groot mogelijk.
