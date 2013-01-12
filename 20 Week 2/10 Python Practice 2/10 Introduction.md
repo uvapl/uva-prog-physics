@@ -20,7 +20,6 @@ From [*How to think like a computer scientist* (Allen Downey)](http://www.greent
 * [A. Debugging](http://www.greenteapress.com/thinkpython/html/thinkpython021.html)
 * [10.12-10.13 Lists with functions](http://www.greenteapress.com/thinkpython/html/thinkpython011.html)
 * [6.5-6.9 Encapsulation](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html)
-* []()
 
 ## What to turn in
 
