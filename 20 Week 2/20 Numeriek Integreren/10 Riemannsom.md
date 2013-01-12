@@ -42,7 +42,7 @@ $f(x) = \frac(f\_(i)+f\_(i+1))(2)+ \mathcal(O)(\Delta x)$
 
 De sommatie voor de integraal uit vergelijking (1) is dan te schrijven als:
 
-$\int_a^b f(x) dx \approx \frac(\Delta x)(2) (f\_0+2f\_1+2f\_2+...++2f\_(N-1)+f\_N) + \mathcal(O)((\Delta x)^2)$ 
+$\int_a^b f(x) dx \approx \frac(\Delta x)(2) (f\_0+2f\_1+2f\_2+...+2f\_(N-1)+f\_N) + \mathcal(O)((\Delta x)^2)$ 
 
 
 ### Extra: hogere orde (meer precieze) benaderingen:
