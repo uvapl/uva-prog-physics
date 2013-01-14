@@ -30,4 +30,46 @@ get stuck).
 |`now[4]`                             |<input name="e[2-12]-6" type="text">|
 |`look*2 + look[:-1] + now + look[-1]`|<input name="e[2-12-7]" type="text">|
 
-For more on strings, see (the Python docs)[http://docs.python.org/release/2.6.6/library/stdtypes.html#string-methods].
+For more on strings, see [the Python docs](http://docs.python.org/release/2.6.6/library/stdtypes.html#string-methods).
+
+## List operations
+
+For the following, write the line(s) of code that will emit the given output.
+For each problem there may be more than one correct answer; just give one. 
+
+More on lists: [the Python docs](http://docs.python.org/release/2.6.6/tutorial/datastructures.html)
+
+	a_list = [3, 5, 6, 12]
+
+1.	Output: `3`
+
+	<textarea name="e[2-13-1]"></textarea>
+
+2.	Output: `12`
+
+	<textarea name="e[2-13-1]"></textarea>
+
+3.	Output: `[5, 6, 12]`
+
+	<textarea name="e[2-13-1]"></textarea>
+
+4.	Output:
+
+		3
+		5
+		6
+		12
+
+	<textarea name="e[2-13-1]"></textarea>
+
+5.	Output: `[12, 6, 5, 3]`
+
+	<textarea name="e[2-13-1]"></textarea>
+
+6.	Output: `[9, 15, 18, 36]`
+
+	<textarea name="e[2-13-1]"></textarea>
+
+7.	Output: `[False, False, True, True]`
+
+	<textarea name="e[2-13-1]"></textarea>
