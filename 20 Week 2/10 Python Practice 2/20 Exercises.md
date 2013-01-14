@@ -145,5 +145,5 @@ top of your program, right underneath the comments with your name:
 
 	import math
 
-If you want to find out what is $sin(90circ)$, we first need to convert 
+If you want to find out what is $sin(90^circ)$, we first need to convert 
 from degrees to radians and then use the sin function in the math module:
