@@ -12,16 +12,17 @@ the end. So:
 |image    |imagehay |
 
 It will be useful to define a list at the top of your code file called 
-VOWELS. This way, you can check if a letter `x` is a vowel with the 
-expression x in VOWELS. Remember: to get a word except for the first 
-letter, you can use word[1:].
+`VOWELS`. This way, you can check if a letter `x` is a vowel with the 
+expression `x in VOWELS`. Remember: to get a word except for the first 
+letter, you can use `word[1:]`.
 
-Test your function with some interesting tests!
+Test your function with some interesting tests of which you already know
+the answer!
 
 ## Sentences
 
 Converting one word to Pig Latin is okay, but it would be more useful to be
-able to convert whole sentences; so for this exercise, we'll use raw_input
+able to convert whole sentences; so for this exercise, we'll use `raw_input`
 to ask the user for a full sentence and translate it, word by word. It's
 tricky for us to deal with punctuation and numbers with what we know so far,
 so instead, ask the user to enter only words and spaces. You can convert 

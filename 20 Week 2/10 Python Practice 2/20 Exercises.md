@@ -264,3 +264,11 @@ $i$-th element is the sum of the first $i+1$ elements from the original list.
 For example, the cumulative sum of `[4, 3, 6]` is `[4, 7, 13]`.
 
 Such a useful function!
+
+## 2.8 Plotting
+
+Ooooh this is nice! Graphical output with Python.
+
+Work through the [Pyplot tutorial](http://matplotlib.org/users/pyplot_tutorial.html)
+and create a file called `pyplot.py` to save your tutorial tests. Put each 
+example in a separate function!
