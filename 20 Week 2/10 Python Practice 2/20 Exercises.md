@@ -207,3 +207,60 @@ yourself debugging two methods at the same time, which can be very difficult.
 	Try $x=5$ as a test; your output should look like:
 	
 		yikes(5) is 1.0303150673
+
+## 2.6 More functions
+
+Here's two more functions to try your hand at.
+
+1.	Write a method `rand_divis_3` that takes no parameters, generates and
+	prints a random number, and finally returns `True` if the randomly 
+	generated number is divisible by 3, and `False` otherwise. For this 
+	method we'll use a new module, the `random` module. At the top of your
+	code, underneath `import math`, add the line `import random`. We'll 
+	use this module to generate a random integer using the function 
+	`randint`, which works as follows:
+
+		random.randint(lo, hi)
+
+	where `lo` and `hi` are integers that tell the code the range in which
+	to generate a random integer (this range is *inclusive*). 0 to 100 is
+	probably a decent range.
+
+2.	Write a method roll dice that takes in 2 parameters:
+
+	* the number of sides of the die, and
+	* the number of dice to roll
+	
+	and generates random roll values for each die rolled. Print out each
+	roll and then return the string "That's all!". An example output:
+	
+    	>>> roll_dice(6, 3)
+		4
+		1
+		6
+		That's all!
+
+## 2.7 Working with lists
+
+Check out this function that sums all numbers in a list:
+
+	def sum_all(number_list):
+	    # number_list is a list of numbers
+	    total = 0
+	    for num in number_list:
+	        total += num
+
+	    return total
+
+Note how we specify, with a comment, what the type of the **parameter** must
+be. Here's two tests:
+
+	# tests for sum_all
+	print "sum_all of [4, 3, 6] is:", sum_all([4, 3, 6])
+	print "sum_all of [1, 2, 3, 4] is:", sum_all([1, 2, 3, 4])
+
+Now make a new function `cumulative_sum` that returns a new list where the 
+$i$-th element is the sum of the first $i+1$ elements from the original list.
+For example, the cumulative sum of `[4, 3, 6]` is `[4, 7, 13]`.
+
+Such a useful function!
