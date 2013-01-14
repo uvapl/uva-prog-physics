@@ -183,9 +183,9 @@ yourself debugging two methods at the same time, which can be very difficult.
 2. Underneath your function definition, compute the following values using 
    `multadd` and print out the result:
 
-   `angle_test =` $sin(pi/4) + cos(pi/4)/2$
+   `angle_test = ` $sin(pi/4) + cos(pi/4)/2$
 	
-   `ceiling_test =` $ceil(276/19) + 2 log_7(12)$
+   `ceiling_test = ` $|~(276/19)~| + 2 log_7(12)$
 
    If you are unfamiliar with the notation $ceil(x)$, this represents the 
    **ceiling** of a number. The ceiling of some `float x` means that we
