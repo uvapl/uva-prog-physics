@@ -82,13 +82,12 @@ neighbor what name would be best.
 > practice in writing test, you are to include **at least 3** test cases
 > below your code for each exercise.
 
-> Because rock, paper, scissors now is a function that returns a value,
-> you can easily call it in a test.
-
 ## 2.2 Testing your function
 
-Write three test cases for rock, paper, scissors. Put them directly below
-your function and mark in a comment that they are testing statements.
+Because rock, paper, scissors now is a function that returns a value,
+you can easily call it in a test. Write three test cases for
+rock, paper, scissors. Put them directly below your function and mark in a
+comment that they are testing statements.
 
 ## 2.3 Writing simple methods
 
@@ -102,6 +101,7 @@ including at least 3 test cases for each method.
 
    Here's three test cases for that one:
 
+		# tests for is_divisible
 		print "is_divisible(10, 5) == True",  is_divisible(10, 5) == True
 		print "is_divisible(18, 7) == False", is_divisible(18, 7) == False
 		print "is_divisible(42, 0) == ",      is_divisible(42, 0) == False
@@ -131,6 +131,7 @@ Put the following test cases below your program and make sure your results
 are the same. Order doesn't matter, as long as the list contains the same 
 elements.
 
+	# tests for list_intersection
 	list_intersection([1, 3, 5], [5, 3, 1])               # [1, 3, 5]
 	list_intersection([1, 3, 6, 9], [10, 14, 3, 72, 9])   # [3, 9]
     list_intersection([2, 3], [3,  3,  3,  2, 10])        # [3, 2]
@@ -145,5 +146,64 @@ top of your program, right underneath the comments with your name:
 
 	import math
 
-If you want to find out what is $sin(90^circ)$, we first need to convert 
-from degrees to radians and then use the sin function in the math module:
+If you want to find out what is $sin(90^circ)$, you first need to convert 
+from degrees to radians and then use the `sin` function in the `math`
+module:
+
+	radians = (90.0 / 360.0) * 2 * math.pi
+	print math.sin(radians)
+
+You can do this work in the Python Shell by typing import math and then 
+these lines.
+
+For mathematical functions, you can generally call `math.func`, where
+`func` is whatever function you want to call. For example, if you want the
+sine of an angle a (where a is in radians), you can call `math.sin(a)`.
+For logarithms, the function `math.log(n)` calculates the natural logarithm 
+of `n` (So that's $ln(n)$ not $log(n)$!). You can calculate the log of
+any base b using `math.log(n, b)`. The `math` module even includes
+**constants** such as $e$ (`math.e`) and $pi$ (`math.pi`).
+
+Documentation for the math module is available at:  
+<http://docs.python.org/release/2.6.6/library/math.html>
+
+Many computations can be expressed concisely using the "multadd" operation,
+which takes three operands and computes $a ∗ b + c$. One of the purposes of
+this exercise is to practice pattern matching: the ability to recognize a
+specific problem as an instance of a general category of problems.
+
+In the last part, you get a chance to write a method that invokes a method
+you wrote. Whenever you do that, it is a good idea to test the first method 
+carefully before you start working on the second. Otherwise, you might find
+yourself debugging two methods at the same time, which can be very difficult.
+
+1. Write a function `multadd` that takes three parameters, `a`, `b` and `c`.
+   Test your function well before moving on.
+
+2. Underneath your function definition, compute the following values using 
+   `multadd` and print out the result:
+
+   `angle_test =` $sin(pi/4) + cos(pi/4)/2$
+	
+   `ceiling_test =` $ceil(276/19) + 2 log_7(12)$
+
+   If you are unfamiliar with the notation $ceil(x)$, this represents the 
+   **ceiling** of a number. The ceiling of some `float x` means that we
+   always "round up" `x`. For example, $ceil(2.1) = ceil(2.9) = 3.0$.
+   Look at the `math` module documentation for a way to do this!
+
+   If everything is working correctly, your output should look like:
+
+       sin(pi/4) + cos(pi/4)/2 is: 1.06066017178
+       ceiling(276/19) + 2 log_7(12) is: 17.5539788165
+
+3. 	Write a new function called `yikes` that has one argument and uses the
+    multadd function to calculate the following:
+
+	$xe^(-x) + sqrt(1-e^(-x))$
+	
+	There are two different ways to raise $e$ to a power: check out the
+	`math` module documentation. Be sure to `return` the result!
+	Try $x=5$ as a test; your output should look like:
+	
+		yikes(5) is 1.0303150673

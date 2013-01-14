@@ -29,7 +29,9 @@ The lecture contains:
 
 * a short live coding session of the prime finder;
 * making the prime finder into a function;
-* testing the prime finder with a few test cases.
+* testing the prime finder with a few test cases;
+* a bit of math in the Python Shell;
+
 
 ## What to turn in
 
