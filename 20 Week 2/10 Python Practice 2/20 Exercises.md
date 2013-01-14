@@ -185,11 +185,11 @@ yourself debugging two methods at the same time, which can be very difficult.
 
    `angle_test = ` $sin(pi/4) + cos(pi/4)/2$
 	
-   `ceiling_test = ` $\|~(276/19)~\| + 2 log_7(12)$
+   `ceiling_test = ` $\|~276/19~\| + 2 log_7(12)$
 
-   If you are unfamiliar with the notation $ceil(x)$, this represents the 
+   If you are unfamiliar with the notation $\|~x~\|$, this represents the 
    **ceiling** of a number. The ceiling of some `float x` means that we
-   always "round up" `x`. For example, $ceil(2.1) = ceil(2.9) = 3.0$.
+   always "round up" `x`. For example, $\|~2.1~\| = \|~2.9~\| = 3.0$.
    Look at the `math` module documentation for a way to do this!
 
    If everything is working correctly, your output should look like:
