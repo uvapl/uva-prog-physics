@@ -1,0 +1,5 @@
+name: day4
+required:
+    - riemann.py
+    - montecarlo.py
+    - errors.py
