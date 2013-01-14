@@ -2,3 +2,5 @@ name: day3
 form: true
 required:
     - homework2.py
+optional:
+    - pig_latin.py

@@ -2,8 +2,8 @@
 
 ## 2.0 Print vs Return
 
-This isn't really an exercise, just an important bit of reading. Download the
-file [homework2.py](homework2.py). In it, these two functions are defined:
+This isn't really an exercise, just an important bit of reading. These two
+functions are defined:
 
 	def f1(x):
 	    print x + 1

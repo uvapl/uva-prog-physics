@@ -31,7 +31,7 @@ The lecture contains:
 * making the prime finder into a function;
 * testing the prime finder with a few test cases;
 * a bit of math in the Python Shell;
-
+* graphs in the Python Shell.
 
 ## What to turn in
 
