@@ -1,5 +1,10 @@
 # Exercises
 
+**Important**: most of these exercises should be put in a file called
+`homework2.py`. You should make sure this file immediately runs and gives
+correct output for every exercise. The same goes for all other files you
+submit.
+
 ## 2.0 Print vs Return
 
 This isn't really an exercise, just an important bit of reading. These two
