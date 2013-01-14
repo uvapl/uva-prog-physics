@@ -5,7 +5,7 @@
 Recall that a string is **immutable**, while a list is **mutable**. What does
 this mean? Research it with your neighbor!
 
-<textarea name="e[2-11]"></textarea>
+<textarea name="a[2-11]"></textarea>
 
 ## String operations
 
@@ -22,13 +22,13 @@ get stuck).
 
 |expression                           |value                               |
 |-------------------------------------|------------------------------------|
-|`look[:4]`                           |<input name="e[2-12-1]" type="text">|
-|`look[-1]`                           |<input name="e[2-12-2]" type="text">|
-|`look*2`                             |<input name="e[2-12-3]" type="text">|
-|`look[:-1] + now + look[-1]`         |<input name="e[2-12-4]" type="text">|
-|`now[1]`                             |<input name="e[2-12-5]" type="text">|
-|`now[4]`                             |<input name="e[2-12]-6" type="text">|
-|`look*2 + look[:-1] + now + look[-1]`|<input name="e[2-12-7]" type="text">|
+|`look[:4]`                           |<input name="a[2-12-1]" type="text">|
+|`look[-1]`                           |<input name="a[2-12-2]" type="text">|
+|`look*2`                             |<input name="a[2-12-3]" type="text">|
+|`look[:-1] + now + look[-1]`         |<input name="a[2-12-4]" type="text">|
+|`now[1]`                             |<input name="a[2-12-5]" type="text">|
+|`now[4]`                             |<input name="a[2-12-6]" type="text">|
+|`look*2 + look[:-1] + now + look[-1]`|<input name="a[2-12-7]" type="text">|
 
 For more on strings, see [the Python docs](http://docs.python.org/release/2.6.6/library/stdtypes.html#string-methods).
 
@@ -45,15 +45,15 @@ More on lists: [the Python docs](http://docs.python.org/release/2.6.6/tutorial/d
 
 1.	Output: `3`
 
-	<textarea name="e[2-13-1]"></textarea>
+	<textarea name="a[2-13-1]"></textarea>
 
 2.	Output: `12`
 
-	<textarea name="e[2-13-2]"></textarea>
+	<textarea name="a[2-13-2]"></textarea>
 
 3.	Output: `[5, 6, 12]`
 
-	<textarea name="e[2-13-3]"></textarea>
+	<textarea name="a[2-13-3]"></textarea>
 
 4.	Output:
 
@@ -62,16 +62,16 @@ More on lists: [the Python docs](http://docs.python.org/release/2.6.6/tutorial/d
 		6
 		12
 
-	<textarea name="e[2-13-4]"></textarea>
+	<textarea name="a[2-13-4]"></textarea>
 
 5.	Output: `[12, 6, 5, 3]`
 
-	<textarea name="e[2-13-5]"></textarea>
+	<textarea name="a[2-13-5]"></textarea>
 
 6.	Output: `[9, 15, 18, 36]`
 
-	<textarea name="e[2-13-6]"></textarea>
+	<textarea name="a[2-13-6]"></textarea>
 
 7.	Output: `[False, False, True, True]`
 
-	<textarea name="e[2-13-7]"></textarea>
+	<textarea name="a[2-13-7]"></textarea>
