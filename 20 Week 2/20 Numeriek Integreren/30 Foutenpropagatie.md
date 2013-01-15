@@ -44,13 +44,16 @@ a = 20 $\pm$ 2 en b = 10 $\pm$ 2. Bereken de spreiding (RMS of variantie) op een
 is van deze variabelen. Gebruik ook de foutenpropagatie uit het practicumhandleiding om te berekenen wat je 
 verwacht.
 
-  a) Bereken c en $\Delta$ c als c = a + b
+Maak een grafiek van c voor een groot aantal test-experimenten en bepaal zowel het gemiddelde 
+$ \langle c \rangle$ als de spreiding (RMS of $\Delta$c) op $c$ als:
 
-  b) Bereken c en $\Delta$ c als c = ab 
+  a) c = a + b
 
-  c) Bereken c en $\Delta$ c als c = a/b 
+  b) c als c = ab 
 
-  d) Bereken c en $\Delta$ c als c = atan(a/100)sin(b/10).
+  c) c als c = a/b 
+
+  d) c = atan(a/100)sin(b/10).
 
 
 
