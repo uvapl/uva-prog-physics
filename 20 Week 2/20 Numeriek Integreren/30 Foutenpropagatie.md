@@ -47,9 +47,9 @@ wat je verwacht.
 
   a) c = a + b
 
-  b) c als c = ab 
+  b) c = ab 
 
-  c) c als c = a/b 
+  c) c = a/b 
 
   d) c = atan(a/100)sin(b/10).
 
