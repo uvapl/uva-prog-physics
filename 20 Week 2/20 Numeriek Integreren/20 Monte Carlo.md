@@ -16,15 +16,25 @@ Hint: test je functie door te testen of je $int\_(0)^(\pi) sin(x) dx $ goed voor
 ### opgave 2.3 
 bereken $int\_(0)^(\pi) sin(x^2) dx$
 
-### opgave 2.4 spherical cap
+### opgave 2.4 Hacker edition: spherical cap
+
+Bereken met behulp van een Monte Carlo techniek een functie die de integral van een spherical 
+cap geeft voor een eenheidsbol (zie figuur) als functie van de hoogte $h $. Maak vervolgens 
+een grafiek van de inhoud als functie van $h $ en vergelik het met het analytosch resultaat.
 
 ![Spherical Cap](SphericalCap.png){:.inline}{: style="width:150px"} Hier wat tekst zodat het plaatje in de tekst geplaatst wordt.
 
 
 
+.
 
+.
 
+.
 
+.
+
+.
 
 # Numeriek integreren - Monte Carlo (de theorie)
 
