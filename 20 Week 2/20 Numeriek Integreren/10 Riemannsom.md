@@ -16,7 +16,12 @@ Hint: test je functie door te testen of je $int\_(0)^(\pi) sin(x) dx$ goed voors
 ### opgave 2.3 
 bereken $int\_(0)^(\pi) sin(x^2) dx$
 
+### opgave 2.4 HACKER EDITION: precision
 
+Bepaal de integraal $int\_(0)^(\pi) sin(x) dx$ dmv een Riemannsom voor 
+zowel de lineaire (trapezium) als de Simpsonregel. Plot voor beide het 
+verschil met de echte waarde als functie van het aantal intervallen $N$. 
+Wat zie je ?
 
 
 # Numeriek integreren - de Riemannsom  (de theorie)
