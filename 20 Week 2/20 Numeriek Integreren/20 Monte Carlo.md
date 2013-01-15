@@ -19,7 +19,7 @@ bereken $int\_(0)^(\pi) sin(x^2) dx$
 ### opgave 2.4 HACKER EDITION: spherical cap
 
 Bereken met behulp van een Monte Carlo techniek een functie die de inhoud van een zogenaamde 
-'spherical cap' geeft voor een eenheidsbol (zie figuur) als functie van de hoogte $h $. Maak 
+'spherical cap' geeft voor een eenheidsbol (r=1, zie figuur) als functie van de hoogte $h $. Maak 
 vervolgens een grafiek van de inhoud als functie van $h $ en vergelijk het met het analytisch 
 resultaat.
 
