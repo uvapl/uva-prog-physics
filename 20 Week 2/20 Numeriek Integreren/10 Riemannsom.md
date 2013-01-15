@@ -23,6 +23,15 @@ zowel de lineaire (trapezium) als de Simpsonregel. Plot voor beide het
 verschil met de echte waarde als functie van het aantal intervallen $N$. 
 Wat zie je ?
 
+.
+
+.
+
+.
+
+.
+
+.
 
 # Numeriek integreren - de Riemannsom  (de theorie)
 
