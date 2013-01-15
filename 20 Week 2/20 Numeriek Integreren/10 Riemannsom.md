@@ -18,8 +18,8 @@ bereken $int\_(0)^(\pi) sin(x^2) dx$
 
 ### opgave 2.4 HACKER EDITION: precision
 
-Bepaal de integraal $int\_(0)^(\pi) sin(x) dx$ dmv een Riemannsom voor 
-zowel de lineaire (trapezium) als de Simpsonregel. Plot voor beide het 
+Bepaal de integraal $int\_(0)^(\pi) sin(x) dx$ met behulp van een Riemannsom 
+voor zowel de lineaire (trapezium) als de Simpsonregel. Plot voor beide het 
 verschil met de echte waarde als functie van het aantal intervallen $N$. 
 Wat zie je ?
 
