@@ -14,7 +14,7 @@ Hint: test door
 
 ### opgave 2.4 spherical cap
 
-![Spherical Cap](SphericalCap.png){:.inline} Hier wat tekst zodat het plaatje in de tekst geplaatst wordt.
+![Spherical Cap](SphericalCap.png){:.inline}{: style="width:50px"} Hier wat tekst zodat het plaatje in de tekst geplaatst wordt.
 
 # Numeriek integreren - Monte Carlo (de theorie)
 
