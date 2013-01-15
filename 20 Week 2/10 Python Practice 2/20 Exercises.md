@@ -73,10 +73,10 @@ are separated by commas. Try this:
 ## 2.1 Defining A Function
 
 Recall how we define a function using `def`, and how we pass in parameters. 
-In homework2.py (download this from the website if you haven’t yet), 
-transform your code from exercise 1.7 (the rock, paper, scissors game) into 
-a function that takes parameters, instead of asking the user for input. Make 
-sure to return your answer, rather than printing it.
+In homework2.py, paste your code from exercise 1.7 (the rock, paper, scissors
+game). Then, transform it into a function that takes parameters, instead of
+asking the user for input. Make sure to return your answer, rather than 
+printing it.
 
 Think a bit about the name you give to the function. Discuss with your 
 neighbor what name would be best.
