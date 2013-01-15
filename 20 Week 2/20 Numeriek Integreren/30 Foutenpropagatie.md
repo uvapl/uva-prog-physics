@@ -40,12 +40,10 @@ computing hints:
 
 ### opgave 3.1
 Stel dat je twee variabelen a en b hebt gemeten met hun respectievelijke meetfout $\Delta$ a and $\Delta$ b: 
-a = 20 $\pm$ 2 en b = 10 $\pm$ 2. Bereken de spreiding (RMS of variantie) op een grootheid c die een combinatie 
-is van deze variabelen. Gebruik ook de foutenpropagatie uit het practicumhandleiding om te berekenen wat je 
-verwacht.
-
-Maak een grafiek van c voor een groot aantal test-experimenten en bepaal zowel het gemiddelde 
-$ \langle c \rangle$ als de spreiding (RMS of $\Delta$c) op $c$ als:
+a = 20 $\pm$ 2 en b = 10 $\pm$ 2. Maak een grafiek van c voor een groot aantal test-experimenten en bepaal 
+zowel het gemiddelde $ \langle c \rangle$ als de spreiding (RMS of $\Delta$c) op $c$ voor onderstaande 
+combinaties van $a$ en $b$. Gebruik ook de foutenpropagatie uit het practicumhandleiding om te berekenen 
+wat je verwacht.
 
   a) c = a + b
 
