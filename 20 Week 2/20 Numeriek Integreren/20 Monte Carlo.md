@@ -54,6 +54,7 @@ Definieer een box om de integraalregio heen: definieer een
 $x\_(min)$, $x\_(max)$, $y\_(min)$ en $y\_(max)$ zodanig 
 dat: $x\_(min) \leq$ a en $x\_(max) \geq$ b en dat ook geldt: 
 voor a $leq$ x $leq$ b: $y\_(min) leq f(x) leq y\_(max)$. 
+
 In de meeste toepassingen wordt gekozen voor $x\_(min)$ = a en $x\_(max)$ = b.
 
 ### c] Gooi random punten in de box:
