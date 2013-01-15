@@ -24,11 +24,17 @@ kan je de spreiding schatten door de RMS of variantie te bepalen, de gemiddelde 
 $RMS = langle z^2 \rangle  = \sqrt(\frac( \sum\_(i)(z\_i - \langle z \rangle )^2 )(N))$
 
 computing hints: 
+
    * Een random gesimuleerde meting $x_i$ trekken uit gaussisch verdeelde x met gemiddelde mu 
      en breedte sigma gaat als volgt: 
 
        x_i = gauss(mu, sigma) i.p.v. het ’gewone’ random x_i = random()
 
+.
+
+.
+
+.
 
 # Foutenpropagatie (de opgaves)
 
