@@ -4,8 +4,8 @@ Bereken, gebruikmakend van de Riemannsom de volgende integralen.
 Maak ook een grafiek met behulp van Matplotlib.
 
 ### opgave 2.1 
-bereken $int_0^1 x^x dx$
-Hint: test je functie door te testen of je $int_0^1 x^2 dx$ goed voorspelt
+bereken $int\_(0)^(1) x^(x) dx$
+Hint: test je functie door te testen of je $int\_(0)^(1) x^(2) dx$ goed voorspelt
 
 ### opgave 2.2 blabla
 bereken $int\_(0.1)^(2.0) sin(x) dx$
