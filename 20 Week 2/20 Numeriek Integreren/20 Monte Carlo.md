@@ -22,9 +22,7 @@ Bereken met behulp van een Monte Carlo techniek een functie die de integral van 
 cap geeft voor een eenheidsbol (zie figuur) als functie van de hoogte $h $. Maak vervolgens 
 een grafiek van de inhoud als functie van $h $ en vergelik het met het analytosch resultaat.
 
-![Spherical Cap](SphericalCap.png){:.inline}{: style="width:150px"} Hier wat tekst zodat het plaatje in de tekst geplaatst wordt.
-
-
+![Spherical Cap](SphericalCap.png){:.inline}{: style="width:150px"} 
 
 .
 
@@ -35,6 +33,9 @@ een grafiek van de inhoud als functie van $h $ en vergelik het met het analytosc
 .
 
 .
+
+.
+
 
 # Numeriek integreren - Monte Carlo (de theorie)
 
