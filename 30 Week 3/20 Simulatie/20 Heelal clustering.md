@@ -3,7 +3,7 @@
 We gaan het heelal simuleren. Nou ok, een bescheiden 2-dimensionaal heelal met
 een klein aantal deeltjes en alleen de zwaartekracht, maar toch. Het is
 precies wat verschillende onderzoeksgroepen (bijvoorbeeld [*MICE
-collaboratie*](http://maia.ice.cat/mice/) doen: bedenk een initieel heelal,
+collaboratie*](http://maia.ice.cat/mice/) ) doen: bedenk een initieel heelal,
 reken door hoe het er 13 miljard jaar later uitziet en vergelijk het met de
 huidige observaties.
 
@@ -22,7 +22,7 @@ In ons geval beginnen we simpel. We gebruiken puntdeeltjes met massa $m$
 (meestal $m=1$) en gebruiken alleen de zwaartekracht. De kracht tussen de
 deeltjes is dus gegeven door:
 
-$F = G\frac(Mm)(r\^(2))$. 
+$F = G\frac(Mm)(r\^(2))$ 
 
 Een andere simplificatie in ons heelal is dat de deeltjes elastisch tegen de
 rand botsen. Het aantal deeltjes in ons heelal is dus constant.
@@ -43,30 +43,35 @@ te bekijken hoe een groep deeltjes zich gaan verplaatsen. Volg de deeltjes in
 de tijd (neem kleine stapjes in $t$) en hou positie, snelheid en versnelling
 van de deeltjes bij.
 
-Probeer voor elke opgave animatie van je heelal te maken of andere tests.
+Probeer voor elke opgave een animatie van je heelal te maken zodat je ziet 
+wat er gebeurt.
 
 ## Opgave 2.1: Felix Baumgartner
 
 ![HeelalBaumgartner](HeelalBaumgartner.png){:.inline}{: style="width:200px"}
 
-Initieer een heelal met 2 deeltjes: een grote massa $m=1000$ op $x=0.5$ en
-$y=0.1$ en een kleine massa $m=1$ op $x=0.5$ en $y=0.9$. Bepaal op welke
-$y$-waarde de deeltjes elkaar tegenkomen: $y\_(collide)$. Specifiek: maak een
-grafiek van $y\_(collide)$ als functie van de grote massa M.
+Initieer een heelal met 2 deeltjes: een grote massa M=100 op ($x,y$) = (0.5,0.1) 
+en een kleine massa m=1 op (x,y) = (0.5,0.9). Bepaal op welke $y$-waarde de 
+deeltjes elkaar tegenkomen: $y\_(collide)$. 
+Specifiek: maak een grafiek van $y\_(collide)$ als functie van de grote massa M. 
+Kies hierbij M in de range tussen 1 en 1000 (paar stappen). 
 
 In deze opgave is het goed om wat check-plots te maken om wat van de fysica 
 te volgen (en tegelijk je programma te checken). Maak in deze opgave grafieken 
 van:
 
-* de afstand tussen de deeltjes als functie van de tijd
-* de $y$-positie van de grote massa als functie van de tijd
+* de $y$-positie van de kleine en grote massa als functie van de tijd
 * de totale kinetische energie als functie van de tijd
+
+Een goede test zou bijvoorbeeld zijn om te beginnen met 2 deeltjes met gelijke massa.
 
 ## Opgave 2.2: uniform heelal
 
-Initieer een heelal met 25 deeltjes: uniform $10xx10$ op een grid, dus deeltje 
-1 bevindt zich op $(x\_(1),y\_(1)) = (0.10, 0.10)$ en $\Delta\_(x)$ en 
-$\Delta\_(y)$ zijn steeds 0.20. 
+![HeelalUniform](HeelalUniform.png){:.inline}{: style="width:200px"}
+
+Initieer een heelal met 25 deeltjes: uniform (5x5), dus deeltje 1 bevindt 
+zich op $(x\_(1),y\_(1)) = (0.10, 0.10)$ en $\Delta\_(x)$ en $\Delta\_(y)$ 
+zijn steeds 0.20. 
 
 Kijk hoe de deeltjes gaan bewegen. Specifiek:
 
