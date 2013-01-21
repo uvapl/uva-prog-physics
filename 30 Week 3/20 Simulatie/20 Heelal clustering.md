@@ -32,8 +32,8 @@ rand botsen. Het aantal deeltjes in ons heelal is dus constant.
 * Zorg dat je G kan veranderen in je programma
   Het is een algemene schaalfactor. Gebruik het om je programma te 'versnellen' zo nodig.
 * Behandel x en y afzonderlijk
-* Gebruik (zelfde voor y): $x\_(i+1) = x\_(i) + v\_(x)(i)\Delta t $ 
-* Gebruik (zelfde voor y): $v\_(i+1) = v\_(i) + a\_(x)(i)\Delta t $ 
+* Gebruik (zelfde voor y): $x\_(i+1) = x\_(i) + v\_(x,i)\Delta t $ 
+* Gebruik (zelfde voor y): $v\_(x,i+1) = v\_(x,i) + a\_(x,i)\Delta t $ 
 
 Net als in de vorige opgave gaan we bekijken hoe een groep deeltjes 
 zich door het heelal gaat verplaatsen. Volg de deeltjes in de tijd 
