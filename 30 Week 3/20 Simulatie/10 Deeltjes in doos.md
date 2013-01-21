@@ -18,9 +18,11 @@ Geef elk van de deeltjes een random richting en snelheid op t=0:
 * hoek($\alpha$):  $0 < \alpha < 2\pi$
 
 
-Bepaal voor elk de snelheid in de x-richting ($v\_(x)$) en de y-richting ($v\_(y)$). 
-Volg het deeltje daarna in de tijd (neem kleine stapje in t). Hou hierbij steeds de positie 
-en snelheden van de deeltjes bij, zowel in de x-richting als de y-richting
+
+Bepaal voor elk de snelheid in de x-richting ($v\_(x)$) en de y-richting ($v\_(y)$) 
+en volg het deeltje daarna in de tijd (door kleine stappen in t te nemen). Hou 
+hierbij steeds de positie en snelheden van de deeltjes bij, zowel in de x-richting 
+als de y-richting.
 
 
 ### Natuurkunde tip: 
@@ -28,23 +30,29 @@ en snelheden van de deeltjes bij, zowel in de x-richting als de y-richting
 * behandel de x- en y-richting afzonderlijk
 
 ### Algemene tip:
-test je code door te volgen (pad in grafiek) hoe 1 deeltje door de doos beweegt
+test je code door te volgen (pad in grafiek) hoe 1 of 2 deeltjes door de doos bewegen.
 
 .
 
+## de gesloten doos:
+
+Voor de eerste 2 sub-opgaves is de doos volledig gesloten en is het aantal deeltjes 
+dus constant.
 
 ### opgave 1.1: uniformiteit
 
-Maak een grafiek van het aantal deeltjes aan de rechterkant van de doos ($x\_(i) > 0.5$) als functie van de tijd.
+Maak een grafiek van het aantal deeltjes aan de rechterkant van de doos 
+($x\_(i) > 0.5$) als functie van de tijd.
 
 ### opgave 1.2: gemiddelde afstand
 
 Maak een grafiek van de gemiddelde afstand tussen de deeltjes als functie van de tijd.
 
-.
+
+## een gat in de doos:
 
 Stel nou dat er een gat in de doos zit ($y\_(gat) = 0$ en $0.8 \leq x\_(gat) \leq 0.9$). 
-Het is dan mogelijk dat deeltjes uit de doos ontsnappen.
+Het is nu dus mogelijk dat deeltjes uit de doos ontsnappen.
 
 ### opgave 1.3: wegraken deeltjes (normaal)
 
