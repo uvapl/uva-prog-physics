@@ -50,9 +50,9 @@ de tijd.
 
 # deel B: een gat in de doos
 
-Stel nou dat er een gat in de doos zit:
+Stel nou dat er een gat (rechts onder) in de doos zit:
 
-Rechtonderin: $y\_(gat) = 0$ en $0.8 \leq x\_(gat) \leq 0.9$.
+locatie gat: $y\_(gat) = 0$ en $0.8 \leq x\_(gat) \leq 0.9$.
 
 Het is nu dus mogelijk dat deeltjes uit de doos ontsnappen.
 
