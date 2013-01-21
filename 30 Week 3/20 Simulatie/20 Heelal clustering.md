@@ -24,8 +24,9 @@ deeltjes is dus gegeven door:
 
 $F = G\frac(Mm)(r\^(2))$ 
 
-Een andere simplificatie in ons heelal is dat de deeltjes elastisch tegen de
-rand botsen. Het aantal deeltjes in ons heelal is dus constant.
+In deze opgave kies je het heelal groot: er zijn geen randen. Het is handig 
+om je assenstelsel niet precies rond (0,0) te kiezen omdat je dan soms in de 
+knoop komt met min-tekens etc.
 
 ## Natuurkunde-tips
 
@@ -52,9 +53,9 @@ wat er gebeurt.
 
 Initieer een heelal met 2 deeltjes: een grote massa M=100 op ($x,y$) = (0.5,0.1) 
 en een kleine massa m=1 op (x,y) = (0.5,0.9). Bepaal op welke $y$-waarde de 
-deeltjes elkaar tegenkomen: $y\_(collide)$. 
-Specifiek: maak een grafiek van $y\_(collide)$ als functie van de grote massa M. 
-Kies hierbij M in de range tussen 1 en 1000 (paar stappen). 
+deeltjes elkaar tegenkomen: $y\_(collide)$. Specifiek: maak een grafiek van 
+$y\_(collide)$ als functie van de grote massa M. Kies hierbij M in de range 
+tussen 1 en 1000 (paar stappen). 
 
 In deze opgave is het goed om wat check-plots te maken om wat van de fysica 
 te volgen (en tegelijk je programma te checken). Maak in deze opgave grafieken 
@@ -65,7 +66,25 @@ van:
 
 Een goede test zou bijvoorbeeld zijn om te beginnen met 2 deeltjes met gelijke massa.
 
-## Opgave 2.2: uniform heelal
+Let op: zoals eerder gemeld kan je het assenstelsel ook verplaatsen en G vergroten 
+of verkleinen. Het gaat om de natuurkunde-dynamica van het systeem.
+
+
+## Opgave 2.1: satellieten
+
+![HeelalMaan](HeelalMaan.png){:.inline}{: style="width:200px"}
+
+In deze situatie geven we de kleine massa een snelheid loodrecht op de as naar 
+de grote massa toe. Schrijf een programma dat de dynamica van het systeem nabootst:
+
+* een animatie van het systeem
+* de afstand tussen de 2 deeltjes als functie van de tijd
+* de beweging van het massamiddelpunt als functie van de tijd
+* een grafiek van de kinetische energie en potentiele energie van de kleine massa
+
+# Hacker editions
+
+## HACKER EDITION opgave 2.3: uniform heelal
 
 ![HeelalUniform](HeelalUniform.png){:.inline}{: style="width:200px"}
 
@@ -83,7 +102,7 @@ Kijk hoe de deeltjes gaan bewegen. Specifiek:
 
 Als je code werkt, probeer het dan eens met een groter aantal deeltjes.
 
-## Opgave 2.3: de Big Bang
+## HACKER EDITION opgave 2.3: de Big Bang
 
 ![HeelalBigBang](HeelalBigBang.png){:.inline}{: style="width:200px"}
 
