@@ -78,7 +78,7 @@ Kijk hoe de deeltjes gaan bewegen. Specifiek:
 
 Als je code werkt, probeer het dan eens met een groter aantal deeltjes.
 
-### Opgave 2.3: de Big Bang
+## Opgave 2.3: de Big Bang
 
 ![HeelalBigBang](HeelalBigBang.png){:.inline}{: style="width:200px"}
 
