@@ -35,17 +35,19 @@ rand botsen. Het aantal deeltjes in ons heelal is dus constant.
 * Gebruik (zelfde voor y): $x\_(i+1) = x\_(i) + v\_(x,i)\Delta t $ 
 * Gebruik (zelfde voor y): $v\_(x,i+1) = v\_(x,i) + a\_(x,i)\Delta t $ 
 
-Net als in de vorige opgave gaan we bekijken hoe een groep deeltjes 
-zich door het heelal gaat verplaatsen. Volg de deeltjes in de tijd 
-(neem kleine stapje in t) en hou positie, snelheid en versnelling 
+Net als in de vorige opgave gaan we een programma schrijven (`heelal.py`) 
+om te bekijken hoe een groep deeltjes zich gaan verplaatsen. Volg de deeltjes 
+in de tijd (neem kleine stapje in t) en hou positie, snelheid en versnelling 
 van de deeltjes bij.
 
-Maak voor elke opgave een grafiek van de gemiddelde afstand tussen de deeltjes 
-als functie van de tijd en probeer een animatie van je heelal te maken.
+Probeer voor elke opgave animatie van je heelal te maken of andere tests.
 
 ### opgave 2.1: Felix Baumgartner
 
-Initieer een heelal met 2 deeltjes: een grote massa (m=1000) op (x=0.5 en y=0.1) en een kleine massa (m=1) op (x=0.5 en y=0.9).
+Initieer een heelal met 2 deeltjes: een grote massa (m=1000) op (x=0.5 en y=0.1) 
+en een kleine massa (m=1) op (x=0.5 en y=0.9). Bepaal op welke y-waarde de deeltjes 
+elkaar tegenkomen: $y\_(bots)$. Specifiek: maak een grafiek van $y\_(bots)$ als 
+functie van de grote massa M.
 
 
 ![HeelalBaumgartner](HeelalBaumgartner.png){:.inline}{: style="width:200px"}
@@ -55,8 +57,6 @@ Kijk hoe de 2 deeltjes gaan bewegen. Specifiek:
 * plot de afstand tussen de deeltjes als functie van de tijd
 * plot de y-positie van de grote massa als functie van de tijd
 * plot de totale kinetische energie als functie van de tijd
-* bepaal op welke y-waarde de deeltjes elkaar tegenkomen ($y\_(bots)$). 
-  Maak een grafiek van $y\_(bots)$ als functie van de grote massa M
 
 
 ### opgave 2.2: uniform heelal
