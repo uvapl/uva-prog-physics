@@ -6,15 +6,12 @@ deeltjes geproduceerd met een random snelheid en richting.
 ![Doos](Doos.png){:.inline}{: style="width:250px"}
 
 We gaan in deze opgave bekijken hoe deze deeltjes zich door de doos gaan 
-verplaatsen als functie van de tijd.
-
-###Let op: 
-de deeltjes kunnen de doos niet uit en ketsen elastisch tegen de wanden.
-
+verplaatsen als functie van de tijd. De deeltjes ketsen elastisch tegen 
+de wanden kunnen de doos niet uit.
 
 Schijf een programma `doos.py` en genereer een (groot) aantal deeltjes $i$. Geef elk van de deeltjes 
 een random richting en snelheid op t=0:
-![Kinematica](Kinematica.png){:.inline}{: style="width:200px"}
+![Kinematica](Kinematica.png){:.inline}{: style="width:200px" align="left"}
 
 * snelheid ($v\_i$): 0 < $v\_(i)$ < 0.10
 
