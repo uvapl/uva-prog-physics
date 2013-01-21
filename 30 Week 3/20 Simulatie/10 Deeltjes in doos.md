@@ -10,13 +10,14 @@ $(x_(source),y\_(source)) = (0.25,0.75)$.
 bekijken hoe deze deeltjes zich door de doos gaan verplaatsen als functie van
 de tijd. De deeltjes ketsen elastisch tegen de wanden kunnen de doos niet uit.
 
-Schijf een programma `doos.py` en genereer een (groot) aantal deeltjes $i$.
-Geef elk van de deeltjes een random richting en snelheid op t=0:
-![Kinematica](Kinematica.png){:.inline}{: style="width:200px" align="left"} 
+Schijf een programma `doos.py` en genereer een groot aantal deeltjes $i$.
+Geef elk van de deeltjes een random richting en snelheid op $t=0$:
 
-* snelheid ($v\_i$): 0 < $v\_(i)$ < 0.10
+![Kinematica](Kinematica.png){:.inline}{:style="width:200px; float:left;"}
 
-* hoek($\alpha$):  $0 < \alpha < 2\pi$
+* snelheid $v\_i$: $0 < v\_i < 0.10$
+
+* hoek $alpha$: $0 < alpha < 2pi$
 
 
 
