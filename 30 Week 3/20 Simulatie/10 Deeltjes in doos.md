@@ -65,6 +65,6 @@ computerprogramma een schatting te geven.
 
 ### Opgave 1.4: wegraken deeltjes (warmer gas)
 
-Stel nou dat de deeltjes gemiddeld met een $2xx$ hogere hogere snelheid
+Stel nou dat de deeltjes gemiddeld met een $2$ keer hogere hogere snelheid
 beginnen: $v\_i$ is random tussen 0 en 0.20. Maak weer dezelfde grafiek als
 bij opgave 1.3 en bepaal opnieuw $t\_(1/2)$. Hoe verschillen deze?
