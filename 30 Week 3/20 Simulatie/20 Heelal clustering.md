@@ -24,14 +24,16 @@ en gebruiken alleen de zwaartekracht. De kracht tussen de deeltjes is dus gegeve
 
 $F = G\frac(Mm)(r\^(2))$. 
 
+Een andere simplificatie in ons heelal is dat de deeltjes elastisch tegen de 
+rand botsen. Het aantal deeltjes in ons heelal is dus constant.
+
+
 ### Natuurkunde tip:
 * Zorg dat je G kan veranderen in je programma
   Het is een algemene schaalfactor. Gebruik het om je programma te 'versnellen' zo nodig.
-* Gebruik: $x\_(i+1) = x\_(i) + v\_(x)(i)\Delta t$ (zelfde voor y-richting)
-* Gebruik: $v\_(i+1) = v\_(i) + a\_(x)(i)\Delta t$ (zelfde voor y-richting)
-
-### Note: 
-de deeltjes ketsen in ons voorbeeld elastisch tegen de rand van het heelal
+* Behandel x en y afzonderlijk
+* Gebruik: $x\_(i+1) = x\_(i) + v\_(x)(i)\Delta t   $ (zelfde voor y-richting)
+* Gebruik: $v\_(i+1) = v\_(i) + a\_(x)(i)\Delta t   $ (zelfde voor y-richting)
 
 Net als in de vorige opgave gaan we bekijken hoe een groep deeltjes 
 zich door het heelal gaat verplaatsen. Volg de deeltjes in de tijd 
