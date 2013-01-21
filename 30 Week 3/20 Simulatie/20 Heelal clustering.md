@@ -3,7 +3,7 @@
 We gaan het heelal simuleren. Nou ok, een bescheiden 2-dimensionaal heelal met
 een klein aantal deeltjes en alleen de zwaartekracht, maar toch. Het is
 precies wat verschillende onderzoeksgroepen (bijvoorbeeld [*MICE
-collaboratie*](http://maia.ice.cat/mice/) doen: bedenk een initieel heelal,
+collaboratie*](http://maia.ice.cat/mice/) ) doen: bedenk een initieel heelal,
 reken door hoe het er 13 miljard jaar later uitziet en vergelijk het met de
 huidige observaties.
 
