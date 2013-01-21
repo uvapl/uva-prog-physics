@@ -46,7 +46,7 @@ Probeer voor elke opgave animatie van je heelal te maken of andere tests.
 
 Initieer een heelal met 2 deeltjes: een grote massa (m=1000) op (x=0.5 en y=0.1) 
 en een kleine massa (m=1) op (x=0.5 en y=0.9). Bepaal op welke y-waarde de deeltjes 
-elkaar tegenkomen: $y\_(bots)$. Specifiek: maak een grafiek van $y\_(bots)$ als 
+elkaar tegenkomen: $y\_(collide)$. Specifiek: maak een grafiek van $y\_(collide)$ als 
 functie van de grote massa M.
 
 
