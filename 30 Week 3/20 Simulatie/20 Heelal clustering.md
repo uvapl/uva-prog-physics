@@ -63,9 +63,9 @@ van :
 
 ### opgave 2.2: uniform heelal
 
-Initieer een heelal met 100 deeltjes: uniform 10x10 op een grid, dus deeltje 
-1 bevindt zich op ($x\_(1)$,$y\_(1)$) = (0.05, 0.95) en $\Delta\_(x)$ en 
-$\Delta\_(y)$ = 0.10. 
+Initieer een heelal met 25 deeltjes: uniform 10x10 op een grid, dus deeltje 
+1 bevindt zich op ($x\_(1)$,$y\_(1)$) = (0.10, 0.10) en $\Delta\_(x)$ en 
+$\Delta\_(y)$ is steeds 0.20. 
 
 Kijk hoe de deeltjes gaan bewegen. Specifiek:
 
@@ -74,9 +74,12 @@ Kijk hoe de deeltjes gaan bewegen. Specifiek:
 * plot de totale kinetische energie als functie van de tijd
   (wat betekent dit in een statisch heelal)
 
+Als je code werkt, probeer het dan eens met een groter aantal deeltjes.
+
 ### opgave 2.3: de Big Bang
 
-Initieer een heelal met 100 deeltjes die uit 1 punt komen.
+Initieer een heelal met 100 deeltjes die uit 1 punt komen (midden van de doos). 
+Maak in deze opgave de doos heel erg groot zodat er effecitief geen randen zijn.
 
 ![HeelalBigBang](HeelalBigBang.png){:.inline}{: style="width:200px"}
 
