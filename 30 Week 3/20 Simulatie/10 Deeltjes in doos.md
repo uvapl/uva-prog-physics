@@ -1,13 +1,12 @@
-# Opgave 1: Simulatie - deeltjes in een doos
+# Simulatie: deeltjes in een doos
 
-In een doos (afmeting: $0 \leq x \leq 1$ en $ 0 \leq y \leq 1$) worden 
-op een plek ($x_(source)$,$y\_(source)$) = (0.25,0.75) op t=0 een aantal 
-deeltjes geproduceerd met een random snelheid en richting.
-![Doos](Doos.png){:.inline}{: style="width:250px"}
+In een doos met afmeting $0 \leq x \leq 1$ en $ 0 \leq y \leq 1$ worden op een
+plek $(x_(source)$,$y\_(source)) = (0.25,0.75)$ op t=0 een aantal deeltjes
+geproduceerd met een random snelheid en richting.
 
-We gaan in deze opgave bekijken hoe deze deeltjes zich door de doos gaan 
-verplaatsen als functie van de tijd. De deeltjes ketsen elastisch tegen 
-de wanden kunnen de doos niet uit.
+![Doos](Doos.png){:.inline}{:style="width:250px"} We gaan in deze opgave
+bekijken hoe deze deeltjes zich door de doos gaan verplaatsen als functie van
+de tijd. De deeltjes ketsen elastisch tegen de wanden kunnen de doos niet uit.
 
 Schijf een programma `doos.py` en genereer een (groot) aantal deeltjes $i$.
 Geef elk van de deeltjes een random richting en snelheid op t=0:
