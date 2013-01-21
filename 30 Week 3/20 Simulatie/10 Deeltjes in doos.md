@@ -31,6 +31,10 @@ Maak een grafiek van het aantal deeltjes aan de rechterkant van de doos ($x\_(i)
 
 Maak een grafiek van de gemiddelde afstand tussen de deeltjes als functie van de tijd.
 
+.
+
+. 
+
 Stel nou dat er een gat in de doos zit ($y\_(gat) = 0$ en $0.8 \leq x\_(gat) \leq 0.9$). 
 Het is dan mogelijk dat deeltjes uit de doos ontsnappen.
 
