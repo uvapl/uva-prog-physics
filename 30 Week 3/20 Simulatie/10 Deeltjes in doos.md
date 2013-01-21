@@ -60,9 +60,9 @@ Maak een grafiek van het aantal deeltjes in de doos als functie van de tijd. Wat
 waarop de helft van de deeltjes uit de doos ontsnapt is: $t\_(1/2)$ ? Probeer ook eens in 
 een discussie met je mede-studenten zonder het computerprogramma een schatting te geven. 
 
-### opgave 2.4: wegraken deeltjes (warmer gas)
+### opgave 1.4: wegraken deeltjes (warmer gas)
 
 Stel nou dat de deeltjes gemiddeld met een 2x hogere hogere snelheid beginnen: $v\_(i)$ is 
-random tussen 0 en 0.20. Maak weer dezelfde grafiek als bij opgave 2.3 en bepaal opnieuw 
+random tussen 0 en 0.20. Maak weer dezelfde grafiek als bij opgave 1.3 en bepaal opnieuw 
 $t\_(1/2)$. Hoe verschillen deze ?
 
