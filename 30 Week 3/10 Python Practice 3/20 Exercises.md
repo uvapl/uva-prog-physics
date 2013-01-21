@@ -11,7 +11,7 @@ Write a function roots that computes the roots of a quadratic equation. Check
 for [complex roots] and print an error message saying that the roots are
 complex.
 
-[complex roots]: https://en.wikipedia.org/wiki/Square_root#Square_roots_of_negative_and_complex_numbers
+[complex roots]: http://en.wikipedia.org/wiki/Square_root#Square_roots_of_negative_and_complex_numbers
 
 * Hint 1: Your function should take three parameters. What are they?
 * Hint 2: We know the roots are complex when what condition about the
