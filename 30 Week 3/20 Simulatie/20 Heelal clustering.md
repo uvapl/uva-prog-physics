@@ -53,9 +53,9 @@ wat er gebeurt.
 
 Initieer een heelal met 2 deeltjes: een grote massa M=100 op ($x,y$) = (0.5,0.1) 
 en een kleine massa m=1 op (x,y) = (0.5,0.9). Bepaal op welke $y$-waarde de 
-deeltjes elkaar tegenkomen: $y\_(collide)$. Specifiek: maak een grafiek van 
-$y\_(collide)$ als functie van de grote massa M. Kies hierbij M in de range 
-tussen 1 en 1000 (paar stappen). 
+deeltjes elkaar tegenkomen: $y\_(collide)$. Specifiek: 
+* maak een grafiek van $y\_(collide)$ als functie van de grote massa M. 
+Kies hierbij M in de range tussen 1 en 1000 (paar stappen). 
 
 In deze opgave is het goed om wat check-plots te maken om wat van de fysica 
 te volgen (en tegelijk je programma te checken). Maak in deze opgave grafieken 
