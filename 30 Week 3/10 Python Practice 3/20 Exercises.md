@@ -9,7 +9,7 @@ submit.
 
 Write a function roots that computes the roots of a quadratic equation. Check
 for [complex roots] and print an error message saying that the roots are
-complex (so, no, you don't have to calculate them!)
+complex.
 
 [complex roots](https://en.wikipedia.org/wiki/Square_root#Square_roots_of_negative_and_complex_numbers)
 
@@ -21,8 +21,9 @@ complex (so, no, you don't have to calculate them!)
 roots, real roots, and double roots.
 
 Optional: For an extra challenge, compute and print out the complex roots.
-Python can natively handle complex numbers - here's a good reference:
-<http://infohost.nmt.edu/tcc/help/pubs/python/web/complex-type.html>.
+Python can natively handle complex numbers: [reference].
+
+[reference](http://infohost.nmt.edu/tcc/help/pubs/python/web/complex-type.html)
 
 ## 3.1 The game of Nims/Stones
 
