@@ -13,7 +13,8 @@ Let op: de deeltjes kunnen de doos niet uit en ketsen elastisch tegen de wanden.
 We gaan in deze opgave bekijken hoe deze deeltjes zich door de doos gaan verplaatsen. 
 Genereer een (groot) aantal deeltjes $i$ en bepaal voor elk de snelheid in de x-richting 
 ($v\_(x)$) en de y-richting ($v\_(y)$) op t=0. Volg het deeltje daarna in de tijd (neem 
-kleine stapje in t). Hou hierbij de positie van de deeltjes bij.
+kleine stapje in t). Hou hierbij steeds de positie en snelheden van de deeltjes bij, 
+zowel in de x-richting als de y-richting
 
 Tip: gebruik: $x\_(i+1) = x\_(i) + v\_(x)(i)\Delta t$. 
 
@@ -30,6 +31,10 @@ Maak een grafiek van het aantal deeltjes aan de rechterkant van de doos ($x\_(i)
 ### opgave 1.2: gemiddelde afstand
 
 Maak een grafiek van de gemiddelde afstand tussen de deeltjes als functie van de tijd.
+
+.
+
+. 
 
 Stel nou dat er een gat in de doos zit ($y\_(gat) = 0$ en $0.8 \leq x\_(gat) \leq 0.9$). 
 Het is dan mogelijk dat deeltjes uit de doos ontsnappen.
