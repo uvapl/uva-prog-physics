@@ -9,9 +9,9 @@ We gaan in deze opgave bekijken hoe deze deeltjes zich door de doos gaan
 verplaatsen als functie van de tijd. De deeltjes ketsen elastisch tegen 
 de wanden kunnen de doos niet uit.
 
+![Kinematica](Kinematica.png){:.inline}{: style="width:200px" align="left"} 
 Schijf een programma `doos.py` en genereer een (groot) aantal deeltjes $i$. Geef elk van de deeltjes 
 een random richting en snelheid op t=0:
-![Kinematica](Kinematica.png){:.inline}{: style="width:200px" align="left"}
 
 * snelheid ($v\_i$): 0 < $v\_(i)$ < 0.10
 
