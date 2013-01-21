@@ -1,0 +1,6 @@
+name: day5
+required:
+    - homework3.py
+    - nims.py
+optional:
+    - palindromes.py
