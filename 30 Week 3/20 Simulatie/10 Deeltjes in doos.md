@@ -1,16 +1,16 @@
 # Opgave 1: Simulatie - deeltjes in een doos
 
 In een doos (afmeting: $0 \leq x \leq 1$ en $ 0 \leq y \leq 1$) worden 
-op een plek ($x\_(source),y\_(source)) = (0.25,0.75) een aantal deeltjes 
+op een plek ($x_(source)$,$y\_(source)$) = (0.25,0.75) een aantal deeltjes 
 geproduceerd met een random snelheid en richting:
 
-       snelheid ($|v\_(i)|$):  $0 < v\_(i) < 0.10$
+snelheid ($|v\_(i)|$):  $0 < v\_(i) < 0.10$
 
-       hoek($\alpha$):	$0 < \alpha < 2\pi$
+hoek($\alpha$):	$0 < \alpha < 2\pi$
 
 Let op: de deeltjes kunnen de doos niet uit en ketsen elastisch tegen de wanden.
 
-We gaan in deze opgave bekijken hoe een groep deeltjes zich door de doos gaat verplaatsen. 
+We gaan in deze opgave bekijken hoe deze deeltjes zich door de doos gaan verplaatsen. 
 Genereer een (groot) aantal deeltjes $i$ en bepaal voor elk de snelheid in de x-richting 
 ($v\_(x)$) en de y-richting ($v\_(y)$) op t=0. Volg het deeltje daarna in de tijd (neem 
 kleine stapje in t). Hou hierbij de positie van de deeltjes bij.
@@ -18,6 +18,10 @@ kleine stapje in t). Hou hierbij de positie van de deeltjes bij.
 Tip: gebruik: $x\_(i+1) = x\_(i) + v\_(x)(i)\Delta t$. 
 
 Hint: test je code door te volgen (pad in grafiek) hoe 1 deeltje door de doos beweegt
+
+.
+
+.
 
 ### opgave 1.1: uniformiteit
 
