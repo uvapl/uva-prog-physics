@@ -1,13 +1,13 @@
 # Opgave 2: Simulatie - clusteren massa onder de zwaartekracht (het heelal)
 
-We gaan het heelal simuleren. Nou ok, een 2-dimensionaal heelal met een klein 
-aantal deeltjes en allene de zwaartekracht, maar toch. Het is precies wat verschillende 
+We gaan het heelal simuleren. Nou ok, een bescheiden 2-dimensionaal heelal met een klein 
+aantal deeltjes en alleen de zwaartekracht, maar toch. Het is precies wat verschillende 
 onderzoeksgroepen (bijvoorbeeld [*MICE collaboratie*](http://maia.ice.cat/mice/)) doen: 
 bedenk een initieel heelal, reken door hoe het er 13 miljard jaar later uitziet en 
 vergelijk het met de huidige observaties.
 
 
-       1. initieer het heelal. In ons geval en 2-dimensionale doos van 1 bij 1.
+       1. initieer het heelal. In ons geval een 2-dimensionale doos van 1 bij 1.
        
        2. initieer de deeltjes in het heelal (dichtheidsverdeling en type) 
        
@@ -21,13 +21,12 @@ vergelijk het met de huidige observaties.
 
 In ons geval beginnen we simpel. We gebruiken puntdeeltjes met massa m (meestal m=1) 
 en gebruiken alleen de zwaartekracht. De kracht tussen de deeltjes is dus gegeven door:
+
 $F = G\frac(Mm)(r\^(2))$. 
-
-
-
 
 ### Natuurkunde tip:
 * Zorg dat je G kan veranderen in je programma
+  Het is een algemene schaalfactor. Gebruik het om je programma te 'versnellen' zo nodig.
 * Gebruik: $x\_(i+1) = x\_(i) + v\_(x)(i)\Delta t$ (zelfde voor y-richting)
 * Gebruik: $v\_(i+1) = v\_(i) + a\_(x)(i)\Delta t$ (zelfde voor y-richting)
 
