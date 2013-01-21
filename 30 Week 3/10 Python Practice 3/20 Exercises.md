@@ -8,16 +8,17 @@ submit.
 ## 3.0 Quadratic Formula
 
 Write a function roots that computes the roots of a quadratic equation. Check
-for complex roots and print an error message saying that the roots are
-complex.
+for [complex roots] and print an error message saying that the roots are
+complex (so, no, you don't have to calculate them!)
 
-Hint 1: Your function should take three parameters. What are they?
+[complex roots](https://en.wikipedia.org/wiki/Square_root#Square_roots_of_negative_and_complex_numbers)
 
-Hint 2: We know the roots are complex when what condition about the
-discriminant is met?
+* Hint 1: Your function should take three parameters. What are they?
+* Hint 2: We know the roots are complex when what condition about the
+  discriminant is met?
 
-Be sure to use a variety of test cases, that include complex roots, real
-roots, and double roots.
+**Important**. Be sure to use a variety of test cases, that include complex
+roots, real roots, and double roots.
 
 Optional: For an extra challenge, compute and print out the complex roots.
 Python can natively handle complex numbers - here's a good reference:
@@ -42,6 +43,8 @@ Do create a function called `play_nims`, as follows:
 Check out the lines of text in between the sets of `'''`, underneath the
 definition. This is called a *docstring*, and is handy to use to tell other
 programmers what parameters to pass in, and what your program does.
+
+**First**, add a docstring to the function you wrote in the previous problem.
 
 In this problem, you'll write a function to play this game; we've outlined it
 for you. It may seem tricky, so break it down into parts. Like many programs,
@@ -82,7 +85,7 @@ Write a function report card where the user can enter each of his grades,
 after which the program prints out a report card with GPA ([Urban
 dictionary]). Remember to ask the user how many classes he took. Think: why
 would we need to ask this? Could we write the program a different way, which
-wouldn't need that info?. Example output is below.
+wouldn't need that info? Example output is below.
 
 [Urban dictionary]: http://www.urbandictionary.com/define.php?term=gpa
 
@@ -108,7 +111,7 @@ Many games have complex physics engines, and one major function of these
 engines is to figure out if two objects are colliding. Weirdly-shaped objects
 are often approximated as balls. In this problem, we will figure out if two
 balls are colliding. You'll need to remember how to unpack tuples; refer to
-Chapter 9.2 or ask an LA if this is confusing.
+the Tuples chapter in *Think Python* or ask an assistant if this is confusing.
 
 We will think in 2D to simplify things, though 3D isn't different
 conceptually. For calculating collision, we only care about a ball's position
@@ -120,7 +123,7 @@ To figure out if two balls are colliding, we need to compute the distance
 between their centers, then see if this distance is less than or equal to the
 sum of their radii. If so, they are colliding.
 
-In homework3.py, write a function ball_collide that takes two balls as
+In `homework3.py`, write a function `ball_collide` that takes two balls as
 parameters and computes if they are colliding; your function should return a
 Boolean saying whether or not the balls are colliding. Optional: For a little
 extra challenge, write your function to work with balls in 3D space. How
@@ -156,3 +159,14 @@ Hints:
    * You might need to use one of the following (but, maybe not): To convert
      the string '90' to the number 90, use int('90'); to convert the int 90 to
      the string '90', use str(90).
+
+## 3.6 Double check
+
+For every problem, check the following:
+
+* Have you put the problem in a function?
+* Have you added the problem to the right Python file?
+* Have you put your name on top of that file?
+* Have tou made sure the program is NOT interactive (e.g. we don't have to type anything)?
+* Have you written at least three tests to show the program is correct, or even more tests if the problem prescribes this?
+* Do the tests give the expected output?
