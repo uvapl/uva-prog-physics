@@ -1,36 +1,46 @@
 # Opgave 2: Simulatie - clusteren massa onder de zwaartekracht (het heelal)
 
-We gaan het heelal simuleren. Nou ok, een 2-dimensionaal heelal met een klein aantal deeltjes en allene de zwaartekracht, maar toch. Het is precies wat verschillende onderzoeksgroepen (bijvoorbeeld http://maia.ice.cat/mice/) doen: bedenk een initieel heelal, reken door hoe het er 13 miljard jaar later uitziet en vergelijk het met de huidige observaties.
+We gaan het heelal simuleren. Nou ok, een 2-dimensionaal heelal met een klein 
+aantal deeltjes en allene de zwaartekracht, maar toch. Het is precies wat verschillende 
+onderzoeksgroepen (bijvoorbeeld [*MICE collaboratie*](http://maia.ice.cat/mice/)) doen: 
+bedenk een initieel heelal, reken door hoe het er 13 miljard jaar later uitziet en 
+vergelijk het met de huidige observaties.
 
 
        1. initieer het heelal. In ons geval en 2-dimensionale doos van 1 bij 1.
        
-       2. initieer de deeltjes in het heelal. In ons geval puntdeeltjes met massa m (meestal m=1) op bepaalde posities en snelheden.
+       2. initieer de deeltjes in het heelal (dichtheidsverdeling en type) 
        
-       3. bepaal voor elk deeltje de netto kracht die hij ondervindt van alle andere deeltjes. Dit kan je gebruiken om de versnelling uit te rekenen.
-       
-          $F = G\frac(Mm)(r\^(2))$. Zorg dat je G kan veranderen.
-       
-          Tip: behandel x en y afzonderlijk 
-       
+       3. bepaal voor elk deeltje de netto kracht die hij ondervindt van alle andere 
+          deeltjes. Dit kan je gebruiken om de versnelling uit te rekenen.
+              
        4. Neem een kleine stap in de tijd en bepaal de nieuwe snelheid en positie.
        
-          Gebruik: $x\_(i+1) = x\_(i) + v\_(x)(i)\Delta t$. 
-
-          Gebruik: $v\_(i+1) = v\_(i) + a\_(x)(i)\Delta t$. 
-
-
        5. Ga terug naar stap 3.
        
-       
-Note: de deeltjes ketsen elastisch tegen de rand van het heelal
+
+In ons geval beginnen we simpel. We gebruiken puntdeeltjes met massa m (meestal m=1) 
+en gebruiken alleen de zwaartekracht. De kracht tussen de deeltjes is dus gegeven door:
+$F = G\frac(Mm)(r\^(2))$. 
+
+
+
+
+### Natuurkunde tip:
+* Zorg dat je G kan veranderen in je programma
+* Gebruik: $x\_(i+1) = x\_(i) + v\_(x)(i)\Delta t$ (zelfde voor y-richting)
+* Gebruik: $v\_(i+1) = v\_(i) + a\_(x)(i)\Delta t$ (zelfde voor y-richting)
+
+### Note: 
+de deeltjes ketsen in ons voorbeeld elastisch tegen de rand van het heelal
 
 Net als in de vorige opgave gaan we bekijken hoe een groep deeltjes 
 zich door het heelal gaat verplaatsen. Volg de deeltjes in de tijd 
 (neem kleine stapje in t) en hou positie, snelheid en versnelling 
 van de deeltjes bij.
 
-Maak voor elke opgave een grafiek van de gemiddelde afstand tussen de deeltjes als functie van de tijd en probeer een animatie van je heelal te maken.
+Maak voor elke opgave een grafiek van de gemiddelde afstand tussen de deeltjes 
+als functie van de tijd en probeer een animatie van je heelal te maken.
 
 ### opgave 2.1: Felix Baumgartner
 
