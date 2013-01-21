@@ -15,7 +15,7 @@ de deeltjes kunnen de doos niet uit en ketsen elastisch tegen de wanden.
 Schijf een programma `doos.py` en genereer een (groot) aantal deeltjes $i$. Geef elk van de deeltjes 
 een random richting en snelheid op t=0:
 
-* snelheid ($v\(i)$): 0 < $v\_(i)$ < 0.10
+* snelheid ($v\_i$): 0 < $v\_(i)$ < 0.10
 
 * hoek($\alpha$):  $0 < \alpha < 2\pi$
 
@@ -27,7 +27,7 @@ en snelheden van de deeltjes bij, zowel in de x-richting als de y-richting
 
 
 ### Natuurkunde tip: 
-* gebruik: $x\_(i+1) = x\_(i) +x)(i)\Delta t$. 
+* gebruik: $x\_(i+1) = x\_(i) +v\_(x,i)\Delta t$. 
 * behandel de x- en y-richting afzonderlijk
 
 ### Algemene tip:
