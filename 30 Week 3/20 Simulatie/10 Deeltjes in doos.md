@@ -33,7 +33,7 @@ zowel in de $x$-richting als de $y$-richting.
 Test je code door te volgen (pad in grafiek) hoe 1 of 2 deeltjes door de doos
 bewegen.
 
-## De gesloten doos
+# deel A: de gesloten doos
 
 Voor de eerste 2 sub-opgaves is de doos volledig gesloten en is het aantal
 deeltjes dus constant.
@@ -48,7 +48,7 @@ Maak een grafiek van het aantal deeltjes aan de rechterkant van de doos
 Maak een grafiek van de gemiddelde afstand tussen de deeltjes als functie van
 de tijd.
 
-## Een gat in de doos
+# deel B: een gat in de doos
 
 Stel nou dat er een gat in de doos zit:
 
