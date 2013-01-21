@@ -1,8 +1,8 @@
 # Opgave 1: Simulatie - deeltjes in een doos
 
 In een doos (afmeting: $0 \leq x \leq 1$ en $ 0 \leq y \leq 1$) worden 
-op een plek ($x_(source)$,$y\_(source)$) = (0.25,0.75) een aantal deeltjes 
-geproduceerd met een random snelheid en richting.
+op een plek ($x_(source)$,$y\_(source)$) = (0.25,0.75) op t=0 een aantal 
+deeltjes geproduceerd met een random snelheid en richting.
 ![Doos](Doos.png){:.inline}{: style="width:250px"}
 
 We gaan in deze opgave bekijken hoe deze deeltjes zich door de doos gaan 
@@ -14,12 +14,12 @@ de deeltjes kunnen de doos niet uit en ketsen elastisch tegen de wanden.
 
 Schijf een programma `doos.py` en genereer een (groot) aantal deeltjes $i$. Geef elk van de deeltjes 
 een random richting en snelheid op t=0:
+![Kinematica](Kinematica.png){:.inline}{: style="width:200px"}
 
 * snelheid ($v\_i$): 0 < $v\_(i)$ < 0.10
 
 * hoek($\alpha$):  $0 < \alpha < 2\pi$
 
-![Kinematica](Kinematica.png){:.inline}{: style="width:200px"}
 
 Bepaal voor elk de snelheid in de x-richting ($v\_(x)$) en de y-richting ($v\_(y)$). 
 Volg het deeltje daarna in de tijd (neem kleine stapje in t). Hou hierbij steeds de positie 
