@@ -4,16 +4,15 @@ In een doos (afmeting: $0 \leq x \leq 1$ en $ 0 \leq y \leq 1$) worden
 op een plek ($x_(source)$,$y\_(source)$) = (0.25,0.75) een aantal deeltjes 
 geproduceerd met een random snelheid en richting
 
-
-![Doos](Doos.png){:.inline}{: style="width:300px"}
-
-
 snelheid ($v\(i)$): 0 < $v\_(i)$ < 0.10
 
 hoek($\alpha$):	$0 < \alpha < 2\pi$
 
 ![Kinematica](Kinematica.png){:.inline}{: style="width:200px"}
 
+.
+
+![Doos](Doos.png){:.inline}{: style="width:300px"}
 
 Let op: de deeltjes kunnen de doos niet uit en ketsen elastisch tegen de wanden.
 
