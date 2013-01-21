@@ -1,8 +1,10 @@
 # Simulatie: deeltjes in een doos
 
-In een doos met afmeting $0 \leq x \leq 1$ en $0 \leq y \leq 1$ worden op een
-plek $(x_(source),y\_(source)) = (0.25,0.75)$ op $t=0$ een aantal deeltjes
-geproduceerd met een random snelheid en richting.
+In een doos met afmeting $0 \leq x \leq 1$ en $0 \leq y \leq 1$ worden op
+$t=0$ een aantal deeltjes geproduceerd met een random snelheid en richting. De
+plaats van loslaten is
+
+$(x_(source),y\_(source)) = (0.25,0.75)$.
 
 ![Doos](Doos.png){:.inline}{:style="width:250px"} We gaan in deze opgave
 bekijken hoe deze deeltjes zich door de doos gaan verplaatsen als functie van
