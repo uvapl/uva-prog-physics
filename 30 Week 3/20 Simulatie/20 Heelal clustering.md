@@ -51,18 +51,22 @@ Initieer een heelal met 2 deeltjes: een grote massa (m=1000) op (x=0.5 en y=0.1)
 ![HeelalBaumgartner](HeelalBaumgartner.png){:.inline}{: style="width:200px"}
 
 Kijk hoe de 2 deeltjes gaan bewegen. Specifiek:
-       a) plot de afstand tussen de deeltjes als functie van de tijd
-       b) plot de y-positie van de grote massa als functie van de tijd
-       c) bepaal op welke y-waarde de deeltjes elkaar tegenkomen 
-       d) plot de totale kinetische energie als functie van de tijd
+* a) plot de afstand tussen de deeltjes als functie van de tijd
+* b) plot de y-positie van de grote massa als functie van de tijd
+* c) plot de totale kinetische energie als functie van de tijd
+* d) bepaal op welke y-waarde de deeltjes elkaar tegenkomen ($y\_(bots)$). 
+     Maak een grafiek van $y\_(bots)$ als functie van de grote massa M
+
 
 ### opgave 2.2: uniform heelal
 
-Initieer een heelal met 100 deeltjes: uniform 10x10 op een grid, dus deeltje 1 bevindt zich op ($x\_(1)$,$y\_(1)$) = (0.05, 0.95) en $\Delta\_(x)$ en $\Delta\_(y)$ = 0.10. 
+Initieer een heelal met 100 deeltjes: uniform 10x10 op een grid, dus deeltje 
+1 bevindt zich op ($x\_(1)$,$y\_(1)$) = (0.05, 0.95) en $\Delta\_(x)$ en 
+$\Delta\_(y)$ = 0.10. 
 
 Kijk hoe de deeltjes gaan bewegen. Specifiek:
-       a) plot de gemiddelde afstand tussen 2 deeltjes als functie van de tijd
-       b) plot de totale kinetische energie als functie van de tijd
+* a) plot de gemiddelde afstand tussen 2 deeltjes als functie van de tijd
+* b) plot de totale kinetische energie als functie van de tijd
 
 ### opgave 2.3: de Big Bang
 
