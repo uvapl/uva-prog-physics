@@ -69,9 +69,9 @@ Een goede test zou bijvoorbeeld zijn om te beginnen met 2 deeltjes met gelijke m
 
 ![HeelalUniform](HeelalUniform.png){:.inline}{: style="width:200px"}
 
-Initieer een heelal met 25 deeltjes: uniform $10xx10$ op een grid, dus deeltje 
-1 bevindt zich op $(x\_(1),y\_(1)) = (0.10, 0.10)$ en $\Delta\_(x)$ en 
-$\Delta\_(y)$ zijn steeds 0.20. 
+Initieer een heelal met 25 deeltjes: uniform (5x5), dus deeltje 1 bevindt 
+zich op $(x\_(1),y\_(1)) = (0.10, 0.10)$ en $\Delta\_(x)$ en $\Delta\_(y)$ 
+zijn steeds 0.20. 
 
 Kijk hoe de deeltjes gaan bewegen. Specifiek:
 
