@@ -157,8 +157,8 @@ Hints:
      nonnegative number between 0 and 6.
 
    * You might need to use one of the following (but, maybe not): To convert
-     the string '90' to the number 90, use int('90'); to convert the int 90 to
-     the string '90', use str(90).
+     the string '90' to the number 90, use `int('90')`; to convert the int 90 to
+     the string '90', use `str(90)`.
 
 ## 3.6 Double check
 

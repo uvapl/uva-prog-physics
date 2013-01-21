@@ -19,10 +19,10 @@ Some useful things to remember:
 		substr  = astring[1:-1]  #sets substr to 'ell'
 
 * You can decide for yourself whether you want your function to correctly
-  identify palindromes that have spaces (such as 'able was i ere i saw elba')
-  - remember the string.join method we saw in the hangman project?
+  identify palindromes that have spaces (such as 'able was i ere i saw elba').
+  Look up `string.join` for a useful function to use.
 
-* string.lower may also be a useful function.
+* `string.lower` may also be a useful function.
 
 * BE SURE TO TEST WELL! Include multiple test cases, including one where the
   word isn't a palindrome, but the first and last letters are equal (such as
