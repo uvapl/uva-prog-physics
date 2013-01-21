@@ -35,13 +35,13 @@ bewegen.
 
 # deel A: de gesloten doos
 
-Voor de eerste 2 sub-opgaves is de doos volledig gesloten en is het aantal
-deeltjes dus constant.
+In de eerste 2 opgaves is de doos volledig gesloten. Het aantal deeltjes 
+dus constant.
 
 ### Opgave 1.1: uniformiteit
 
-Maak een grafiek van het aantal deeltjes aan de rechterkant van de doos 
-($x\_(i) > 0.5$) als functie van de tijd.
+Maak een grafiek van het aantal deeltjes (of de fractie) aan de rechterkant 
+van de doos ($x\_(i) > 0.5$) als functie van de tijd.
 
 ### Opgave 1.2: gemiddelde afstand
 
@@ -52,7 +52,7 @@ de tijd.
 
 Stel nou dat er een gat in de doos zit:
 
-$y\_(gat) = 0$, $0.8 \leq x\_(gat) \leq 0.9$.
+Rechtonderin: $y\_(gat) = 0$ en $0.8 \leq x\_(gat) \leq 0.9$.
 
 Het is nu dus mogelijk dat deeltjes uit de doos ontsnappen.
 
