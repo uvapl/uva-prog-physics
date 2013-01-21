@@ -1,4 +1,4 @@
-# Opgave 2: Simulatie - clusteren massa onder de zwaartekracht (het heelal)
+# Opgave 2: Simulatie - clusteren massa in het heelal
 
 We gaan het heelal simuleren. Nou ok, een bescheiden 2-dimensionaal heelal met een klein 
 aantal deeltjes en alleen de zwaartekracht, maar toch. Het is precies wat verschillende 
