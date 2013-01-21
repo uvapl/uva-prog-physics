@@ -1,14 +1,14 @@
 # Simulatie: deeltjes in een doos
 
-In een doos met afmeting $0 \leq x \leq 1$ en $0 \leq y \leq 1$ worden op
-$t=0$ een aantal deeltjes geproduceerd met een random snelheid en richting. De
-plaats van loslaten is
+![Doos](Doos.png){:.inline}{:style="width:250px"} In een doos met afmeting $0
+\leq x \leq 1$ en $0 \leq y \leq 1$ worden op $t=0$ een aantal deeltjes
+geproduceerd met een random snelheid en richting. De plaats van loslaten is
 
 $(x_(source),y\_(source)) = (0.25,0.75)$.
 
-![Doos](Doos.png){:.inline}{:style="width:250px"} We gaan in deze opgave
-bekijken hoe deze deeltjes zich door de doos gaan verplaatsen als functie van
-de tijd. De deeltjes ketsen elastisch tegen de wanden kunnen de doos niet uit.
+We gaan in deze opgave bekijken hoe deze deeltjes zich door de doos gaan
+verplaatsen als functie van de tijd. De deeltjes ketsen elastisch tegen de
+wanden kunnen de doos niet uit.
 
 Schijf een programma `doos.py` en genereer een groot aantal deeltjes $i$.
 Geef elk van de deeltjes een random richting en snelheid op $t=0$:
@@ -16,7 +16,7 @@ Geef elk van de deeltjes een random richting en snelheid op $t=0$:
 * snelheid $v\_i$: $0 < v\_i < 0.10$
 * hoek $alpha$: $0 < alpha < 2pi$
 
-![Kinematica](Kinematica.png){:.inline}{:style="width:200px;"}
+![Kinematica](Kinematica.png){:style="width:200px;"}
 
 Bepaal voor elk de snelheid in de x-richting ($v\_(x)$) en de y-richting ($v\_(y)$) 
 en volg het deeltje daarna in de tijd (door kleine stappen in t te nemen). Hou 
