@@ -13,13 +13,10 @@ de tijd. De deeltjes ketsen elastisch tegen de wanden kunnen de doos niet uit.
 Schijf een programma `doos.py` en genereer een groot aantal deeltjes $i$.
 Geef elk van de deeltjes een random richting en snelheid op $t=0$:
 
-![Kinematica](Kinematica.png){:.inline}{:style="width:200px; float:left;"}
-
 * snelheid $v\_i$: $0 < v\_i < 0.10$
-
 * hoek $alpha$: $0 < alpha < 2pi$
 
-
+![Kinematica](Kinematica.png){:.inline}{:style="width:200px;"}
 
 Bepaal voor elk de snelheid in de x-richting ($v\_(x)$) en de y-richting ($v\_(y)$) 
 en volg het deeltje daarna in de tijd (door kleine stappen in t te nemen). Hou 
