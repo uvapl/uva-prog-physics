@@ -52,11 +52,13 @@ functie van de grote massa M.
 
 ![HeelalBaumgartner](HeelalBaumgartner.png){:.inline}{: style="width:200px"}
 
-Kijk hoe de 2 deeltjes gaan bewegen. Specifiek:
+In deze opgave is het goed om wat check-plots te maken om wat van de fysica 
+te volgen (en tegelijk je programma te checken). Maak in deze opgave grafieken 
+van :
 
-* plot de afstand tussen de deeltjes als functie van de tijd
-* plot de y-positie van de grote massa als functie van de tijd
-* plot de totale kinetische energie als functie van de tijd
+* de afstand tussen de deeltjes als functie van de tijd
+* de y-positie van de grote massa als functie van de tijd
+* de totale kinetische energie als functie van de tijd
 
 
 ### opgave 2.2: uniform heelal
@@ -66,12 +68,20 @@ Initieer een heelal met 100 deeltjes: uniform 10x10 op een grid, dus deeltje
 $\Delta\_(y)$ = 0.10. 
 
 Kijk hoe de deeltjes gaan bewegen. Specifiek:
-* plot de gemiddelde afstand tussen 2 deeltjes als functie van de tijd
+
+* plot de gemiddelde afstand tussen de deeltjes als functie van de tijd
+  (clusteren de deeltjes inderdaad)
 * plot de totale kinetische energie als functie van de tijd
+  (wat betekent dit in een statisch heelal)
 
 ### opgave 2.3: de Big Bang
 
 Initieer een heelal met 100 deeltjes die uit 1 punt komen.
 
 ![HeelalBigBang](HeelalBigBang.png){:.inline}{: style="width:200px"}
+
+* plot de gemiddelde afstand tussen de deeltjes als functie van de tijd
+  (hoe lang duurt het voor de deeltje weer bij elkaar komen)
+* plot de totale kinetische energie als functie van de tijd
+
 
