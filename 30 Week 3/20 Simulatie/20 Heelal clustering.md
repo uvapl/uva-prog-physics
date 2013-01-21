@@ -36,6 +36,9 @@ Maak voor elke opgave een grafiek van de gemiddelde afstand tussen de deeltjes a
 
 Initieer een heelal met 2 deeltjes: een grote massa (m=1000) op (x=0.5 en y=0.1) en een kleine massa (m=1) op (x=0.5 en y=0.9).
 
+
+![HeelalBaumgartner](HeelalBaumgartner.png){:.inline}{: style="width:200px"}
+
 Kijk hoe de 2 deeltjes gaan bewegen. Specifiek:
        a) plot de afstand tussen de deeltjes als functie van de tijd
        b) plot de y-positie van de grote massa als functie van de tijd
@@ -53,3 +56,6 @@ Kijk hoe de deeltjes gaan bewegen. Specifiek:
 ### opgave 2.3: de Big Bang
 
 Initieer een heelal met 100 deeltjes die uit 1 punt komen.
+
+![HeelalBigBang](HeelalBigBang.png){:.inline}{: style="width:200px"}
+
