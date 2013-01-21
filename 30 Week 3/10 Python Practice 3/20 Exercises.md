@@ -8,10 +8,10 @@ submit.
 ## 3.0 Quadratic Formula
 
 Write a function roots that computes the roots of a quadratic equation. Check
-for [complex roots] and print an error message saying that the roots are
+for [complex roots][compwiki] and print an error message saying that the roots are
 complex.
 
-[complex roots](https://en.wikipedia.org/wiki/Square_root#Square_roots_of_negative_and_complex_numbers)
+[compwiki](https://en.wikipedia.org/wiki/Square_root#Square_roots_of_negative_and_complex_numbers)
 
 * Hint 1: Your function should take three parameters. What are they?
 * Hint 2: We know the roots are complex when what condition about the
@@ -21,9 +21,9 @@ complex.
 roots, real roots, and double roots.
 
 Optional: For an extra challenge, compute and print out the complex roots.
-Python can natively handle complex numbers: [reference].
+Python can natively handle complex numbers: [reference][refnmt].
 
-[reference](http://infohost.nmt.edu/tcc/help/pubs/python/web/complex-type.html)
+[refnmt](http://infohost.nmt.edu/tcc/help/pubs/python/web/complex-type.html)
 
 ## 3.1 The game of Nims/Stones
 
