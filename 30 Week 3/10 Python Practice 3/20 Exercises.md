@@ -168,6 +168,6 @@ For every problem, check the following:
 * Have you put the problem in a function?
 * Have you added the problem to the right Python file?
 * Have you put your name on top of that file?
-* Have tou made sure the program is NOT interactive (e.g. we don't have to type anything)?
+* Have you made sure the program is NOT interactive (e.g. we don't have to type anything) except 3.1?
 * Have you written at least three tests to show the program is correct, or even more tests if the problem prescribes this?
 * Do the tests give the expected output?
