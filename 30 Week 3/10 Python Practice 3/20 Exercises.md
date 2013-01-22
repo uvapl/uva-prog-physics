@@ -88,13 +88,11 @@ dictionary]). Remember to ask the user how many classes he took. Think: why
 would we need to ask this? Could we write the program a different way, which
 wouldn't need that info? Example output is below.
 
+The function should take a list of tuples as its input.
+
 [Urban dictionary]: http://www.urbandictionary.com/define.php?term=gpa
 
-	>>> report_card()
-	How many classes did you take? 4
-	What was the name of this class? 18.02
-	What was your grade? 94
-	...
+	>>> report_card([('18.02', 94), ('21H.601', 96)])
 	REPORT CARD:
 	18.02 - 94
 	21H.601  96
