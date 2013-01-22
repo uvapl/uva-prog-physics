@@ -92,11 +92,11 @@ The function should take a list of tuples as its input.
 
 [Urban dictionary]: http://www.urbandictionary.com/define.php?term=gpa
 
-	>>> report_card([('18.02', 94), ('21H.601', 96)])
+	>>> report_card([('18.02, 94), ('21H.601', 96), ('8.01', 91), ('5.111', 88)])
 	REPORT CARD:
 	18.02 - 94
-	21H.601  96
-	8.01  91
+	21H.601 - 96
+	8.01 - 91
 	5.111 - 88
 	Overall GPA  92.25
 
