@@ -1,31 +1,31 @@
 # Simulatie: deeltjes in een doos
 
-![Doos](Doos.png){:.inline}{:style="width:250px"} In een doos met afmeting $0
-\leq x \leq 1$ en $0 \leq y \leq 1$ worden op $t=0$ een aantal deeltjes
+![Doos](Doos.png){:.inline}{:style="width:250px"} In een doos met afmeting
+$$ 0 <= x <= 1 $$ en $$ 0 <= y <= 1 $$ worden op $$ t = 0 $$ een aantal deeltjes
 geproduceerd met een random snelheid en richting. De plaats van loslaten is
 
-$(x_(source),y\_(source)) = (0.25,0.75)$.
+$$ (x_"source",y_"source") = (0.25,0.75) $$.
 
 We gaan in deze opgave bekijken hoe deze deeltjes zich door de doos gaan
 verplaatsen als functie van de tijd. De deeltjes ketsen elastisch tegen de
 wanden kunnen de doos niet uit.
 
-Schijf een programma `doos.py` en genereer een groot aantal deeltjes $i$.
-Geef elk van de deeltjes een random richting en snelheid op $t=0$:
+Schijf een programma `doos.py` en genereer een groot aantal deeltjes $$ i $$.
+Geef elk van de deeltjes een random richting en snelheid op $$ t = 0 $$:
 
-* snelheid $v\_i$: $0 < v\_i < 0.10$
-* hoek $alpha$: $0 < alpha < 2pi$
+* snelheid $$ v_i $$: $$ 0 < v_i < 0.10 $$
+* hoek $$ alpha $$: $$ 0 < alpha < 2pi $$
 
 ![Kinematica](Kinematica.png){:style="width:200px;"}
 
-Bepaal voor elk de snelheid in de $x$-richting ($v\_(x)$) en de $y$-richting
-($v\_(y)$) en volg het deeltje daarna in de tijd (door kleine stappen in $t$
-te nemen). Hou hierbij steeds de positie en snelheden van de deeltjes bij,
-zowel in de $x$-richting als de $y$-richting.
+Bepaal voor elk de snelheid in de $$ x $$-richting ($$ v_x $$) en de
+$$y$$-richting ($$v_y$$) en volg het deeltje daarna in de tijd (door kleine
+stappen in $$t$$ te nemen). Hou hierbij steeds de positie en snelheden van de
+deeltjes bij, zowel in de $$x$$-richting als de $$y$$-richting.
 
 ### Natuurkunde-tip
 
-* gebruik: $x\_(i+1) = x\_(i) + v\_(x,i)\Delta t$
+* gebruik: $$x_(i+1) = x_(i) + v_(x,i)\Delta t$$
 * behandel de x- en y-richting afzonderlijk
 
 ### Algemene tip
@@ -41,7 +41,7 @@ dus constant.
 ### Opgave 1.1: uniformiteit
 
 Maak een grafiek van het aantal deeltjes (of de fractie) aan de rechterkant 
-van de doos ($x\_(i) > 0.5$) als functie van de tijd.
+van de doos ($$x_(i) > 0.5$$) als functie van de tijd.
 
 ### Opgave 1.2: gemiddelde afstand
 
@@ -52,7 +52,7 @@ de tijd.
 
 Stel nou dat er een gat (rechts onder) in de doos zit:
 
-locatie gat: $y\_(gat) = 0$ en $0.8 \leq x\_(gat) \leq 0.9$.
+locatie gat: $$y_(gat) = 0$$ en $$0.8 leq x_(gat) leq 0.9$$.
 
 Het is nu dus mogelijk dat deeltjes uit de doos ontsnappen.
 
@@ -60,11 +60,11 @@ Het is nu dus mogelijk dat deeltjes uit de doos ontsnappen.
 
 Maak een grafiek van het aantal deeltjes in de doos als functie van de tijd.
 Wat is de tijd waarop de helft van de deeltjes uit de doos ontsnapt is:
-$t\_(1/2)$? Probeer ook eens in een discussie met je medestudenten zonder het
+$$t_(1/2)$$? Probeer ook eens in een discussie met je medestudenten zonder het
 computerprogramma een schatting te geven.
 
 ### Opgave 1.4: wegraken deeltjes (warmer gas)
 
-Stel nou dat de deeltjes gemiddeld met een $2$ keer hogere hogere snelheid
-beginnen: $v\_i$ is random tussen 0 en 0.20. Maak weer dezelfde grafiek als
-bij opgave 1.3 en bepaal opnieuw $t\_(1/2)$. Hoe verschillen deze?
+Stel nou dat de deeltjes gemiddeld met een $$2$$ keer hogere hogere snelheid
+beginnen: $$v_i$$ is random tussen 0 en 0.20. Maak weer dezelfde grafiek als
+bij opgave 1.3 en bepaal opnieuw $$t_(1/2)$$. Hoe verschillen deze?

@@ -18,11 +18,11 @@ huidige observaties.
 
 5. Ga terug naar stap 3.
 
-In ons geval beginnen we simpel. We gebruiken puntdeeltjes met massa $m$
-(meestal $m=1$) en gebruiken alleen de zwaartekracht. De kracht tussen de
+In ons geval beginnen we simpel. We gebruiken puntdeeltjes met massa $$m$$
+(meestal $$m=1$$) en gebruiken alleen de zwaartekracht. De kracht tussen de
 deeltjes is dus gegeven door:
 
-$F = G\frac(Mm)(r\^(2))$ 
+$$F = G\frac(Mm)(r\^(2))$$
 
 In deze opgave kies je het heelal groot: er zijn geen randen. Het is handig 
 om je assenstelsel niet precies rond (0,0) te kiezen omdat je dan soms in de 
@@ -35,13 +35,13 @@ knoop komt met min-tekens etc.
 
 * Behandel x en y afzonderlijk.
 
-* Gebruik (zelfde voor y): $x\_(i+1) = x\_(i) + v\_(x,i)\Delta t$.
+* Gebruik (zelfde voor y): $$x_(i+1) = x_i + v_(x,i) Delta t$$.
 
-* Gebruik (zelfde voor y): $v\_(x,i+1) = v\_(x,i) + a\_(x,i)\Delta t$.
+* Gebruik (zelfde voor y): $$v_(x,i+1) = v_(x,i) + a_(x,i) Delta t$$.
 
 Net als in de vorige opgave gaan we een programma schrijven (`heelal.py`) om
 te bekijken hoe een groep deeltjes zich gaan verplaatsen. Volg de deeltjes in
-de tijd (neem kleine stapjes in $t$) en hou positie, snelheid en versnelling
+de tijd (neem kleine stapjes in $$t$$) en hou positie, snelheid en versnelling
 van de deeltjes bij.
 
 Probeer voor elke opgave een animatie van je heelal te maken zodat je ziet 
@@ -51,17 +51,17 @@ wat er gebeurt.
 
 ![HeelalBaumgartner](HeelalBaumgartner.png){:.inline}{: style="width:200px"}
 
-Initieer een heelal met 2 deeltjes: een grote massa M=100 op ($x,y$) = (0.5,0.1) 
-en een kleine massa m=1 op (x,y) = (0.5,0.9). Bepaal op welke $y$-waarde de 
-deeltjes elkaar tegenkomen: $y\_(collide)$. Specifiek:
+Initieer een heelal met 2 deeltjes: een grote massa $$M=100$$ op $$(x,y) = (0.5,0.1)$$
+en een kleine massa $$m=1$$ op $$(x,y) = (0.5,0.9)$$. Bepaal op welke $$y$$-waarde de 
+deeltjes elkaar tegenkomen: $$y_(collide)$$. Specifiek:
 
-* maak een grafiek van $y\_(collide)$ als functie van de grote massa M
+* maak een grafiek van $$y_(collide)$$ als functie van de grote massa M
 
 Kies hierbij M in de range tussen 1 en 1000 (paar stappen). In deze opgave is 
 het goed om wat check-plots te maken om wat van de fysica te volgen (en 
 tegelijk je programma te checken). Maak in deze opgave grafieken van:
 
-* de $y$-positie van de kleine en grote massa als functie van de tijd
+* de $$y$$-positie van de kleine en grote massa als functie van de tijd
 * de totale kinetische energie als functie van de tijd
 
 Een goede test zou bijvoorbeeld zijn om te beginnen met 2 deeltjes met gelijke massa.
@@ -69,8 +69,7 @@ Een goede test zou bijvoorbeeld zijn om te beginnen met 2 deeltjes met gelijke m
 Let op: zoals eerder gemeld kan je het assenstelsel ook verplaatsen en G vergroten 
 of verkleinen. Het gaat om de natuurkunde-dynamica van het systeem.
 
-
-## Opgave 2.1: satellieten
+## Opgave 2.2: satellieten
 
 ![HeelalMaan](HeelalMaan.png){:.inline}{: style="width:200px"}
 
@@ -88,9 +87,9 @@ de grote massa toe. Schrijf een programma dat de dynamica van het systeem naboot
 
 ![HeelalUniform](HeelalUniform.png){:.inline}{: style="width:200px"}
 
-Initieer een heelal met 25 deeltjes: uniform (5x5), dus deeltje 1 bevindt 
-zich op $(x\_(1),y\_(1)) = (0.10, 0.10)$ en $\Delta\_(x)$ en $\Delta\_(y)$ 
-zijn steeds 0.20. 
+Initieer een heelal met 25 deeltjes: uniform ($$ 5xx5 $$), dus deeltje 1 bevindt 
+zich op $$(x_(1),y_(1)) = (0.10, 0.10)$$ en $$Delta_x$$ en $$Delta_y$$ 
+zijn steeds 0.20.
 
 Kijk hoe de deeltjes gaan bewegen. Specifiek:
 
