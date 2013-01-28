@@ -16,7 +16,8 @@ maar hier nog een paar korte voorbeelden. Lees zonodig ook de online documentati
 Toegang tot de verschillende parameters in de regel (een string) krijg je door de 
 regel in stukken te ’knippen’, bijvoorbeeld met behulp van het `split` commando. 
 Het commando `elementen = line.split()` levert een list op met elementen die de 
-losse stukken bevatten. Hierop kan je weer afzonderlijke bewerkingen uitvoeren.
+losse stukken bevatten. Deze elementen kan je aan variabelen toekennen en daarop 
+weer afzonderlijke bewerkingen uitvoeren.
 
 2) inlezen en uitschrijven file:
 
