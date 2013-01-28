@@ -24,8 +24,8 @@ Wat waren de hoogste en laagste temperatuur die in De Bilt in de 20ste eeuw zijn
 
 ### opgave 1.2: elfstedentochten
 
-Wat is de langste periode dat het aaneengesloten heeft gevroren (maximumtemperatuur onder 0 $$^\deg$$C) en 
-wanneer eindigde deze periode ?
+Wat is de langste periode dat het aaneengesloten heeft gevroren (maximumtemperatuur onder 0 graden Celcius) 
+en wanneer eindigde deze periode ?
 
 ### opgave 1.3: gemiddelde temperatuur voor specifieke dag in het jaar (abdicatie)
 
@@ -65,7 +65,8 @@ dan de langste periode dat het gevroren heeft ? Wanneer eindigde deze ?
 
 Bepaal het aantal dagen per jaar dat het extreem koud (minimum temperatuur < -8 ◦C) en extreem 
 warm was (max. temp. > 28 ◦C) en maak een grafiek van beide als functie van het jaar voor de 
-hele 20ste eeuw. Zie je een trend ?
+gehele 20ste eeuw. Zie je een trend ?
 
 ### HACKER EDITION: dubbels files inlezen
-Maak een grafiek van de gemiddelde temperatuur per maand (tussen maximum en minimum) per jaar. Zie je een trend ?
+Vergelijk de temperaturen van je 2 favoriete europese weerstations. Zitten er interessante observaties tussen ?
+
