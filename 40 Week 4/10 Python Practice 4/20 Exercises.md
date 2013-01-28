@@ -1,9 +1,7 @@
 # Exercises
 
-## Recursion
-
-recursion (noun)
-: *see* recursion
+> recursion (noun)
+> : *see* recursion
 
 Formal Definition: an algorithmic technique where a function, in order to
 accomplish a task, calls itself with some part of the task.
@@ -19,7 +17,7 @@ Recursive solutions involve two major parts:
 
 Depending on the problem, any of these may be trivial or complex.
 
-### Example: Sum ###
+## Example: Sum ##
 
 Non-recursively calculating the sum from a list:
 
