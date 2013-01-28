@@ -9,7 +9,7 @@ grote ASCII files. Data sets zijn hier beschikbaar:
 
 We beginnen bescheiden: de temperatuur in De Bilt (station 162). Omdat de data 
 sets groot zijn hebben we die van De Bilt beschikbaar gemaakt op 
-[http://www.nikhef.nl/ ̃ivov/Python/KlimaatData/](http://www.nikhef.nl/ ̃ivov/Python/KlimaatData/).
+[http://www.nikhef.nl/ ̃ivov/Python/KlimaatData/](http://www.nikhef.nl\ ̃ivov/Python/KlimaatData/).
 
 Download de file `TX STAID000162.txt` (maximum temperatuur voor elke dag) en `TN STAID000162.txt` 
 (minimum temperatuur voor elke dag), open ze en lees bovenin hoe de data gecodeerd is. We zien 
