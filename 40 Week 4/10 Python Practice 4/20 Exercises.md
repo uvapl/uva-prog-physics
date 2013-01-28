@@ -214,15 +214,22 @@ Test the function with this call below your code:
 Now that we can read the census data into a dictionary, we can do other stuff
 with it.
 
-Create a function that plots the data in a graph showing the population growth
-over time. Give it a reasonable name.
+Create a function that plots data from a dictionary in a graph. Give it a
+reasonable name.
 
-Of course, `pyplot` does not want the data in a dictionary. It
-wants two lists of the same length: one containing the year labels, and one
-containing the data.
+The function should have an extra parameter that tells us what the title of
+the plot should be. Pass this title to `pyplot`.
+
+Of course, because nothing is ever *easy*, you can't feed `pyplot` a
+dictionary. It wants lists of the same length: in this case, one containing
+the year labels, and one containing the data.
 
 How can you extract these lists from a dictionary? It's quite simple, look it
 up.
+
+Again, put a test that calls your function in the file! It needs to read a
+dictionary and save it, and then pass that dictionary to the plotting function
+you just made.
 
 ### Calculating year-over-year growth ###
 
@@ -249,6 +256,8 @@ already had the list `years`, then:
 Each element of the new list is a tuple, containing one element from list 1
 and one element from list 2. And then we put it in the `dict` function to
 convert it to a dictionary. Nice!
+
+Plot your new dictionary using the same function that you defined previously.
 
 ## Acknowledgements
 
