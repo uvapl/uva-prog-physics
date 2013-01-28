@@ -24,7 +24,7 @@ file doorloopt en beantwoord de volgende vragen.
 is 1 juni 1953, dus ook als de eerste 1000 entries hetzelfde zijn hoeft de rest niet te kloppen. 
 * Bouw altijd tests in en wees verdacht op bizarre resultaten.
 * Test je 'loop' programma op de eerste paar dagen zodat je precies kan checken wat er gebeurt. 
-Kan je bijvoorbeeld de temperatuur op 1, 2 en 3 januari 1901 voorspellen.
+Kan je programma bijvoorbeeld de temperatuur op 1, 2 en 3 januari 1901 goed decoderen.
 
 ### opgave 1.1: de extremen
 
@@ -35,14 +35,14 @@ Wat zijn de hoogste en laagste temperatuur die in De Bilt in de 20ste eeuw zijn 
 Wat is de langste periode dat het aaneengesloten heeft gevroren (maximumtemperatuur onder 0 graden Celcius) 
 en wanneer eindigde deze periode ?
 
-### opgave 1.3: gemiddelde temperatuur voor specifieke dag in het jaar (abdicatie)
+### opgave 1.3: gemiddelde temperatuur voor specifieke dag in het jaar
 
 Schrijf een functie die voor een gegeven input (maand en dag) de gemiddelde maximale temperatuur 
 teruggeeft als return value. Voor de duidelijkheid: als je 5 als maand en 30 als dag meegeeft moet 
 je functie de gemiddelde (maximum) temperatuur op 30 mei teruggeven, gemiddeld over de jaren 1900 
 tot en met 1999.
 
-Gebruik de functie om te bepalen of het op koninginnedag (30 april) gemiddeld warmer is dat op 27 april 
+*abdicatie:* Gebruik de functie om te bepalen of het op koninginnedag (30 april) gemiddeld warmer is dat op 27 april 
 (de nieuwe koninginne- / koningsdag).
 
 ### opgave 1.4 uitbreiding vraag 1.3 met grafieken
