@@ -42,8 +42,12 @@ teruggeeft als return value. Voor de duidelijkheid: als je 5 als maand en 30 als
 je functie de gemiddelde (maximum) temperatuur op 30 mei teruggeven, gemiddeld over de jaren 1900 
 tot en met 1999.
 
-*abdicatie:* Gebruik de functie om te bepalen of het op koninginnedag (30 april) gemiddeld warmer is dat op 27 april 
-(de nieuwe koninginne- / koningsdag).
+Gebruik deze functie om wat uit te zoeken:
+
+*abdicatie:* Gebruik de functie om te bepalen of het op koninginnedag (30 april) gemiddeld warmer is 
+dan op koningsdag (27 april).
+
+*warm/koud* Wat zijn gemiddeld de warmste en koudste dag van het jaar ?
 
 ### opgave 1.4 uitbreiding vraag 1.3 met grafieken
 
