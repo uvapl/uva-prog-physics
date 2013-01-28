@@ -4,8 +4,8 @@
 
 Laten we een steentje bijdragen aan de klimaatdiscussie en data analyseren 
 die door de ECA (European Climate Assessment) beschikbaar wordt gemaakt in 
-grote ASCII files. Data sets zijn hier beschikbaar: [ECA data-sets]
-(http://eca.knmi.nl/dailydata/predefinedseries.php)
+grote ASCII files. Data sets zijn hier beschikbaar: 
+[ECA data-sets](http://eca.knmi.nl/dailydata/predefinedseries.php)
 
 We beginnen bescheiden: de temperatuur in De Bilt (station 162). Omdat de data 
 sets groot zijn hebben we die van De Bilt beschikbaar gemaakt op 
