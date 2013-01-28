@@ -45,7 +45,7 @@ tot en met 1999.
 Gebruik de functie om te bepalen of het op koninginnedag (30 april) gemiddeld warmer is dat op 27 april 
 (de nieuwe koninginne- / koningsdag).
 
-### opgave 1.4 
+### opgave 1.4 uitbreiding vraag 1.3 met grafieken
 
 Breid de functie uit vraag 1.3 uit met een optie om een grafiek te maken (histogram) van de 
 maximum temperatuur voor die specifieke dag. Maak vervolgens een grafiek van de maximum temperatuur 
@@ -59,7 +59,7 @@ temperatuur teruggeeft (return value).
 Zorg ervoor dat, nadat je het programma hebt aangeroepen, het resultaat keurig op het scherm 
 geprint wordt met de maand in letters en de temperatuur op 2 decimalen nauwkeurig.
 
-opgave 1.6: grafieken
+### opgave 1.6: uitbreiding vraag 1.5 met grafieken
 
 Schrijf een functie die, gebruikmakend van de functie uit vraag 1.5 een grafiek maakt van de 
 gemiddelde maximum temperatuur per maand (y-as) als functie van de maand (x-as) in de 20ste eeuw. 
