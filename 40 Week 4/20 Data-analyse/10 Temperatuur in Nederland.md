@@ -73,7 +73,7 @@ gemiddelde maximum temperatuur per maand (y-as) als functie van de maand (x-as) 
 Als we de eis iets verlagen: de maximale temperatuur mag 1 dag boven nul geweest mag zijn, wat is 
 dan de langste periode dat het gevroren heeft ? Wanneer eindigde deze ?
 
-### HACKER EDITION: trends (nalyse aantal extreem koude en warme dagen)
+### HACKER EDITION: trends (analyse aantal extreem koude en warme dagen)
 
 Bepaal het aantal dagen per jaar dat het extreem koud (minimum temperatuur < -8 ◦C) en extreem 
 warm was (max. temp. > 28 ◦C) en maak een grafiek van beide als functie van het jaar voor de 
