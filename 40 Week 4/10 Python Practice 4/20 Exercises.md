@@ -215,17 +215,13 @@ Now that we can read the census data into a dictionary, we can do other stuff
 with it.
 
 Create a function that plots data from a dictionary in a graph. Give it a
-reasonable name.
-
-The function should have an extra parameter that tells us what the title of
-the plot should be. Pass this title to `pyplot`.
+reasonable name. The function should have an extra parameter that tells us
+what the title of the plot should be. Pass this title to `pyplot`.
 
 Of course, because nothing is ever *easy*, you can't feed `pyplot` a
 dictionary. It wants lists of the same length: in this case, one containing
-the year labels, and one containing the data.
-
-How can you extract these lists from a dictionary? It's quite simple, look it
-up.
+the year labels, and one containing the data. How can you extract these lists
+from a dictionary? It's quite simple, look it up.
 
 Again, put a test that calls your function in the file! It needs to read a
 dictionary and save it, and then pass that dictionary to the plotting function
@@ -237,11 +233,10 @@ Now, we want some more statistics. Let's calculate the year-over-year growth
 percentage.
 
 Create a function that takes one dictonary as a parameter and returns a new
-dictionary containing year-over-year growth rates.
-
-You know how to extract the population count list from the dictionary. You
-also know how to calculate a growth rate from one year to the next. And you
-know how to save each calculated rate into a new list.
+dictionary containing year-over-year growth rates. You already know how to
+extract the population count list from the dictionary. You also know how to
+calculate a growth rate from one year to the next. And you know how to save
+each calculated rate into a new list.
 
 You probably don't know yet how you can easily create a new dictionary from
 the list you just calculated. Say we have created a list `growth_rates` and we
