@@ -1,24 +1,32 @@
 # Data-analyse: temperatuur in Nederland
 
-![TemperatureMapEurope](TemperatureMapEurope.jpg){:.inline}{:style="width:250px"}
+![TemperatureMapEurope](TemperatureMapEurope.jpg){:.inline}{:style="width:200px"}
 
 Laten we een steentje bijdragen aan de klimaatdiscussie en data analyseren 
 die door de ECA (European Climate Assessment) beschikbaar wordt gemaakt in 
 grote ASCII files. Data sets zijn hier beschikbaar: 
 [ECA data-sets](http://eca.knmi.nl/dailydata/predefinedseries.php)
-Voor elk weerstation, bijvoorbeeld station `XXX` zijn er 2 files: 
-`TX_STAID000XXX` en `TN_STAID000XXX` met respectievelijk de maximum temperatuur 
-voor elke dag.
+Voor elk weerstation, bijvoorbeeld station *XXX* zijn er 2 files: 
+*TX_STAID000XXX* en *TN_STAID000XXX* met respectievelijk de maximum 
+temperatuur voor elke dag.
 
-We beginnen bescheiden: de temperatuur in De Bilt (station 162). Omdat de data sets groot 
-zijn hebben we die van De Bilt hier beschikbaar gemaakt. Download deze files: 
-[`TX_STAID000162.txt`](TX_STAID000162.txt) en [`TN_STAID000162.txt`](TN_STAID000162.txt), 
-open ze en lees bovenin hoe de data gecodeerd is. We zien bijvoorbeeld dat de 
-maximum(minimum) temperatuur op 1 januari 1901 -3.1(-6.8) graden C was. Schrijf een 
-programma dat deze file doorloopt en beantwoord de volgende vragen.
+We beginnen bescheiden: de temperatuur in De Bilt (station 162). Omdat de 
+data sets groot zijn hebben we die van De Bilt hier beschikbaar gemaakt. 
+Download deze files: [`TX_STAID000162.txt`](TX_STAID000162.txt) en 
+[`TN_STAID000162.txt`](TN_STAID000162.txt), open ze en lees bovenin hoe de 
+data gecodeerd is. We zien bijvoorbeeld dat de maximum(minimum) temperatuur 
+op 1 januari 1901 -3.1(-6.8) graden C was. Schrijf een programma dat deze 
+file doorloopt en beantwoord de volgende vragen.
 
+### Note:
 
-### opgave 1.1: extremen
+* In elke ASACII files zijn er uitzonderingen. Er zijn hier bijvoorbeeld in De Bilt 2 *sources* gebruikt (522 en 2128). De eerste keer dat 2128 gebruikt is 
+is 1 juni 1953, dus ook als de eerste 1000 entries hetzelfde zijn hoeft de rest niet te kloppen. 
+* Bouw altijd tests in en wees verdacht op bizarre resultaten.
+* Test je 'loop' programma op de eerste paar dagen zodat je precies kan checken wat er gebeurt. Kan je inderdaad 
+de temperatuur op 1 januari 1901 voorspellen bijvoorbeeld
+
+### opgave 1.1: de extremen
 
 Wat waren de hoogste en laagste temperatuur die in De Bilt in de 20ste eeuw zijn gemeten ? Op welke dagen was dat ?
 
