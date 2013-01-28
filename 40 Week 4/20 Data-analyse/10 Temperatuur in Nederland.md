@@ -8,7 +8,7 @@ grote ASCII files. Data sets zijn hier beschikbaar:
 [ECA data-sets](http://eca.knmi.nl/dailydata/predefinedseries.php)
 Voor elk weerstation, bijvoorbeeld station *XXX* zijn er 2 files: 
 *TX_STAID000XXX* en *TN_STAID000XXX* met respectievelijk de maximum 
-temperatuur voor elke dag.
+en minimumtemperatuur voor elke dag.
 
 We beginnen bescheiden: de temperatuur in De Bilt (station 162). Omdat de 
 data sets groot zijn hebben we die van De Bilt hier beschikbaar gemaakt. 
@@ -20,15 +20,15 @@ file doorloopt en beantwoord de volgende vragen.
 
 ### Note:
 
-* In elke ASACII files zijn er uitzonderingen. Er zijn hier bijvoorbeeld in De Bilt 2 *sources* gebruikt (522 en 2128). De eerste keer dat 2128 gebruikt is 
+* In elke ASCII files zijn er uitzonderingen. Er zijn hier bijvoorbeeld in De Bilt 2 *sources* gebruikt (522 en 2128). De eerste keer dat 2128 gebruikt is 
 is 1 juni 1953, dus ook als de eerste 1000 entries hetzelfde zijn hoeft de rest niet te kloppen. 
 * Bouw altijd tests in en wees verdacht op bizarre resultaten.
-* Test je 'loop' programma op de eerste paar dagen zodat je precies kan checken wat er gebeurt. Kan je inderdaad 
-de temperatuur op 1 januari 1901 voorspellen bijvoorbeeld
+* Test je 'loop' programma op de eerste paar dagen zodat je precies kan checken wat er gebeurt. 
+Kan je bijvoorbeeld de temperatuur op 1, 2 en 3 januari 1901 voorspellen.
 
 ### opgave 1.1: de extremen
 
-Wat waren de hoogste en laagste temperatuur die in De Bilt in de 20ste eeuw zijn gemeten ? Op welke dagen was dat ?
+Wat zijn de hoogste en laagste temperatuur die in De Bilt in de 20ste eeuw zijn gemeten ? Op welke dagen was dat ?
 
 ### opgave 1.2: elfstedentochten
 
@@ -38,7 +38,7 @@ en wanneer eindigde deze periode ?
 ### opgave 1.3: gemiddelde temperatuur voor specifieke dag in het jaar (abdicatie)
 
 Schrijf een functie die voor een gegeven input (maand en dag) de gemiddelde maximale temperatuur 
-teruggeeft als return value. Voor de duidelijkheid: als je 30 als dag en 5 als maand invult moet 
+teruggeeft als return value. Voor de duidelijkheid: als je 5 als maand en 30 als dag meegeeft moet 
 je functie de gemiddelde (maximum) temperatuur op 30 mei teruggeven, gemiddeld over de jaren 1900 
 tot en met 1999.
 
@@ -49,7 +49,7 @@ Gebruik de functie om te bepalen of het op koninginnedag (30 april) gemiddeld wa
 
 Breid de functie uit vraag 1.3 uit met een optie om een grafiek te maken (histogram) van de 
 maximum temperatuur voor die specifieke dag. Maak vervolgens een grafiek van de maximum temperatuur 
-op je verjaardagvoor de gehele 20ste eeuw.
+op je verjaardag voor de gehele 20ste eeuw.
 
 ### opgave 1.5: gemiddelde temperatuur voor een specifieke maand in een specifiek jaar
 
