@@ -57,15 +57,12 @@ op je verjaardag voor de gehele 20ste eeuw.
 ### HACKER EDITION: gemiddelde temperatuur voor een specifieke maand in een specifiek jaar
 
 Schrijf een functie die voor een gegeven input (jaar en maand) de gemiddelde maximum 
-temperatuur teruggeeft (return value).
+temperatuur teruggeeft (return value). Zorg ervoor dat, nadat je het programma hebt 
+aangeroepen, het resultaat keurig op het scherm geprint wordt met de maand in letters 
+en de temperatuur op 2 decimalen nauwkeurig.
 
-Zorg ervoor dat, nadat je het programma hebt aangeroepen, het resultaat keurig op het scherm 
-geprint wordt met de maand in letters en de temperatuur op 2 decimalen nauwkeurig.
-
-### HACKER EDITION: uitbreiding vorige vraag met grafieken
-
-Schrijf een functie die, gebruikmakend van de functie uit vraag 1.5 een grafiek maakt van de 
-gemiddelde maximum temperatuur per maand (y-as) als functie van de maand (x-as) in de 20ste eeuw. 
+Schrijf een programma dat, gebruikmakend van deze functie een grafiek maakt van de gemiddelde 
+maximum temperatuur per maand (y-as) als functie van de maand (x-as) in de 20ste eeuw. 
 
 
 
