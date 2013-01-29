@@ -40,14 +40,13 @@ en wanneer eindigde deze periode ?
 Schrijf een functie die voor een gegeven input (maand en dag) de gemiddelde maximale temperatuur 
 teruggeeft als return value. Voor de duidelijkheid: als je 5 als maand en 30 als dag meegeeft moet 
 je functie de gemiddelde (maximum) temperatuur op 30 mei teruggeven, gemiddeld over de jaren 1900 
-tot en met 1999.
+tot en met 1999. Zorg ervoor dat, nadat je het programma hebt aangeroepen, het resultaat keurig op 
+het scherm geprint wordt met de maand in letters en de temperatuur op 2 decimalen nauwkeurig.
 
 Gebruik deze functie om wat uit te zoeken:
 
 *abdicatie:* Gebruik de functie om te bepalen of het op koninginnedag (30 april) gemiddeld warmer is 
 dan op koningsdag (27 april).
-
-*warm/koud* Wat zijn gemiddeld de warmste en koudste dag van het jaar ?
 
 ### opgave 1.4 uitbreiding vraag 1.3 met grafieken
 
@@ -55,7 +54,7 @@ Breid de functie uit vraag 1.3 uit met een optie om een grafiek te maken (histog
 maximum temperatuur voor die specifieke dag. Maak vervolgens een grafiek van de maximum temperatuur 
 op je verjaardag voor de gehele 20ste eeuw.
 
-### opgave 1.5: gemiddelde temperatuur voor een specifieke maand in een specifiek jaar
+### HACKER EDITION: gemiddelde temperatuur voor een specifieke maand in een specifiek jaar
 
 Schrijf een functie die voor een gegeven input (jaar en maand) de gemiddelde maximum 
 temperatuur teruggeeft (return value).
@@ -63,22 +62,11 @@ temperatuur teruggeeft (return value).
 Zorg ervoor dat, nadat je het programma hebt aangeroepen, het resultaat keurig op het scherm 
 geprint wordt met de maand in letters en de temperatuur op 2 decimalen nauwkeurig.
 
-### opgave 1.6: uitbreiding vraag 1.5 met grafieken
+### HACKER EDITION: uitbreiding vorige vraag met grafieken
 
 Schrijf een functie die, gebruikmakend van de functie uit vraag 1.5 een grafiek maakt van de 
 gemiddelde maximum temperatuur per maand (y-as) als functie van de maand (x-as) in de 20ste eeuw. 
 
 
-### HACKER EDITION: uitbreiding vraag 1.2
-Als we de eis iets verlagen: de maximale temperatuur mag 1 dag boven nul geweest mag zijn, wat is 
-dan de langste periode dat het gevroren heeft ? Wanneer eindigde deze ?
 
-### HACKER EDITION: trends (analyse aantal extreem koude en warme dagen)
-
-Bepaal het aantal dagen per jaar dat het extreem koud (minimum temperatuur < -8 ◦C) en extreem 
-warm was (max. temp. > 28 ◦C) en maak een grafiek van beide als functie van het jaar voor de 
-gehele 20ste eeuw. Zie je een trend ?
-
-### HACKER EDITION: dubbels files inlezen
-Vergelijk de temperaturen van je 2 favoriete europese weerstations. Zitten er interessante observaties tussen ?
 
