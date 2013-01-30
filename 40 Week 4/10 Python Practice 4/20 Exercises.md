@@ -114,9 +114,9 @@ you're still confused.
 
 ## Exercise: data processing ##
 
-First, download [population.csv](population.csv), containing a list of the
-population counts in the Netherlands over the last 60 years. Put it in your
-N:-drive!
+First, download [population.csv](population.csv) (**download, not open in
+Excel!**), containing a list of the population counts in the Netherlands over
+the last 60 years. Put it in your N:-drive!
 
 You will need to read this file and plot its data. Have a look at it first,
 it's quite small.
@@ -131,7 +131,7 @@ Next, open your Python Shell and try to read it into Python:
 Cool! Apparently Python can read your file. This first line isn't so
 interesting to our program. But it does tell us what data can be found where.
 
-Did you notice that the line is output by Python as an **array**? That is very
+Did you notice that the line is output by Python as an **list**? That is very
 convenient. It appears that `csv.reader` will read a line and convert it into
 an array containing the data fields.
 

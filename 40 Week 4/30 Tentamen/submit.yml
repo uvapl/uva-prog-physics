@@ -1,0 +1,3 @@
+name: exam
+required:
+    - tentamen.py
