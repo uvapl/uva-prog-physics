@@ -10,7 +10,7 @@ maar hier nog een paar korte voorbeelden. Lees zonodig ook de online documentati
 
           input_filehandle = open(’inputfile.txt’, ’r’) 
           for line in input_filehandle:
-              print line input_filehandle.close()
+              print line 
           input_filehandle.close()
 
 Toegang tot de verschillende parameters in de regel (een string) krijg je door de 
