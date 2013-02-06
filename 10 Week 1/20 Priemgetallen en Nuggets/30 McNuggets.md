@@ -5,17 +5,17 @@ In de wiskunde bestaat er een klasse vergelijkingen die bekend zijn onder diopha
 zijn vergelijkingen waar de variabelen alleen geheeltallig kunnen zijn. De bekendste diophantische vergelijking 
 is:
 
-$x ^ n + y ^ n = z ^ n$
+$$x ^ n + y ^ n = z ^ n$$
 
-Voor $n = 2$ zijn er oneindig veel oplossingen (waarden van $x,y,z$ die elke geheeltallig zijn): Pythagoras. 
+Voor $$n = 2$$ zijn er oneindig veel oplossingen (waarden van $$x,y,z$$ die elke geheeltallig zijn): Pythagoras. 
 De beroemde stelling van Fermat zegt dat voor waarden groter dan 2 er geen geheeltallige oplossing is. Ook 
 McDonalds gebruikt diophantische vergelijkingen. Jazeker. McDonalds verkoop namelijk McNuggests in verpakkingen 
 van 6, 9 of 20 McNuggets. Het is bijvoorbeeld mogelijk om exact 15 McNuggets te kopen (1x6 + 1x9), maar 
 onmogelijk om 16 McNuggets te kopen. We gaan in deze opgave berekenen wat het grootste aantal McNuggets is 
-dat je kan bestellen dat niet precies 'past'. Om te kijken of je precies $n$ McNuggets kan kopen moet je een 
-diophantische vergelijking oplossen, namelijk: vind positieve gehele getallen $a$, $b$ en $c$ zodanig dat:
+dat je kan bestellen dat niet precies 'past'. Om te kijken of je precies $$n$$ McNuggets kan kopen moet je een 
+diophantische vergelijking oplossen, namelijk: vind positieve gehele getallen $$a$$, $$b$$ en $$c$$ zodanig dat:
 
-$6a + 9b + 20c = n$
+$$6a + 9b + 20c = n$$
 
 Voor we in opgave 5 gaan bepalen wat het grootste aantal McNuggets is dat
 niet precies besteld kan worden proberen we 2 strategie-hints uit te werken.
@@ -24,15 +24,15 @@ niet precies besteld kan worden proberen we 2 strategie-hints uit te werken.
 
 Laat zien dat het mogelijk is om precies 50, 51, 52, 53, 54 en 55 McNuggets te bestellen (met pen en papier of eigen programma). Laat steeds zien hoeveel doosjes van 6,9 en 20 McNuggets je krijgt.
 
-**Theorema**: Als het mogelijk is exact $x, x+1, ..., x+5$ McNuggets te bestellen dan betekent dat, dat je 
-elk aantal McNuggets $>=x$ kan bestellen als de McNuggets komen in doosjes van 6, 9 en 20.
+**Theorema**: Als het mogelijk is exact $$x, x+1, ..., x+5$$ McNuggets te bestellen dan betekent dat, dat je 
+elk aantal McNuggets $$>=x$$ kan bestellen als de McNuggets komen in doosjes van 6, 9 en 20.
 
 Note: Zorg ervoor dat dit verschijnt als je de file `nuggets.py` start, de python file die we gaan gebruiken voor deze opgave.
 
 ## Exercise 3.2 - Strategie en wiskunde achtergrond
 
 Beschrijf waarom bovenstaand theorema waar is (in tekst) en overtuig jezelf dat het antwoord uit vraag 3 
-($50, 51, ..., 55$) betekent dat ook ($56, 57, ... 61$) een oplossing zijn. Sterker: alle aantallen boven de 50.
+($$50, 51, ..., 55$$) betekent dat ook ($$56, 57, ... 61$$) een oplossing zijn. Sterker: alle aantallen boven de 50.
 
 Note: Zorg ervoor dat dit verschijnt als je de file `nuggets.py` start, de python file die we gaan gebruiken voor deze opgave.
 

@@ -151,7 +151,7 @@ top of your program, right underneath the comments with your name:
 
 	import math
 
-If you want to find out what is $sin(90^circ)$, you first need to convert 
+If you want to find out what is $$sin(90^circ)$$, you first need to convert 
 from degrees to radians and then use the `sin` function in the `math`
 module:
 
@@ -165,15 +165,15 @@ For mathematical functions, you can generally call `math.func`, where
 `func` is whatever function you want to call. For example, if you want the
 sine of an angle a (where a is in radians), you can call `math.sin(a)`.
 For logarithms, the function `math.log(n)` calculates the natural logarithm 
-of `n` (So that's $ln(n)$ not $log(n)$!). You can calculate the log of
+of `n` (So that's $$ln(n)$$ not $$log(n)$$!). You can calculate the log of
 any base b using `math.log(n, b)`. The `math` module even includes
-**constants** such as $e$ (`math.e`) and $pi$ (`math.pi`).
+**constants** such as $$e$$ (`math.e`) and $$pi$$ (`math.pi`).
 
 Documentation for the math module is available at:  
 <http://docs.python.org/release/2.6.6/library/math.html>
 
 Many computations can be expressed concisely using the "multadd" operation,
-which takes three operands and computes $a ∗ b + c$. One of the purposes of
+which takes three operands and computes $$a ∗ b + c$$. One of the purposes of
 this exercise is to practice pattern matching: the ability to recognize a
 specific problem as an instance of a general category of problems.
 
@@ -188,13 +188,13 @@ yourself debugging two methods at the same time, which can be very difficult.
 2. Underneath your function definition, compute the following values using 
    `multadd` and print out the result:
 
-   `angle_test = ` $sin(pi/4) + cos(pi/4)/2$
+   `angle_test = ` $$sin(pi/4) + cos(pi/4)/2$$
 	
-   `ceiling_test = ` $\|~276/19~\| + 2 log_7(12)$
+   `ceiling_test = ` $$\|~276/19~\| + 2 log_7(12)$$
 
-   If you are unfamiliar with the notation $\|~x~\|$, this represents the 
+   If you are unfamiliar with the notation $$\|~x~\|$$, this represents the 
    **ceiling** of a number. The ceiling of some `float x` means that we
-   always "round up" `x`. For example, $\|~2.1~\| = \|~2.9~\| = 3.0$.
+   always "round up" `x`. For example, $$\|~2.1~\| = \|~2.9~\| = 3.0$$.
    Look at the `math` module documentation for a way to do this!
 
    If everything is working correctly, your output should look like:
@@ -205,11 +205,11 @@ yourself debugging two methods at the same time, which can be very difficult.
 3. 	Write a new function called `yikes` that has one argument and uses the
     multadd function to calculate the following:
 
-	$xe^(-x) + sqrt(1-e^(-x))$
+	$$xe^(-x) + sqrt(1-e^(-x))$$
 	
-	There are two different ways to raise $e$ to a power: check out the
+	There are two different ways to raise $$e$$ to a power: check out the
 	`math` module documentation. Be sure to `return` the result!
-	Try $x=5$ as a test; your output should look like:
+	Try $$x=5$$ as a test; your output should look like:
 	
 		yikes(5) is 1.0303150673
 
@@ -265,7 +265,7 @@ be. Here's two tests:
 	print "sum_all of [1, 2, 3, 4] is:", sum_all([1, 2, 3, 4])
 
 Now make a new function `cumulative_sum` that returns a new list where the 
-$i$-th element is the sum of the first $i+1$ elements from the original list.
+$$i$$-th element is the sum of the first $$i+1$$ elements from the original list.
 For example, the cumulative sum of `[4, 3, 6]` is `[4, 7, 13]`.
 
 Such a useful function!

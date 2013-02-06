@@ -5,7 +5,7 @@ Schrijf een programma `primes.py` dat het duizendste priemgetal berekent en op h
 
 ### Computing hint:###
 
-* Eén manier om te testen of een getal $a$ een veelvoud is van een getal $b$ ($b$ deelt $a$ met rest $0$) is het gebruik van de `%`-operator. In Python geeft `a % b` de rest: `8 % 3` is `2`. Check zelf de werking in de Python shell.
+* Eén manier om te testen of een getal $$a$$ een veelvoud is van een getal $$b$$ ($$b$$ deelt $$a$$ met rest $$0$$) is het gebruik van de `%`-operator. In Python geeft `a % b` de rest: `8 % 3` is `2`. Check zelf de werking in de Python shell.
 * Vandaag gaan we ook een data type `list` gebruiken. Het is een 'rijtje', lees erover in de documentatie. Voorbeeldje.
 
 Vul een list met 3 getallen en print hem:

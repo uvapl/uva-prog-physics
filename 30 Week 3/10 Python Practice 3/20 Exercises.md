@@ -114,9 +114,9 @@ the Tuples chapter in *Think Python* or ask an assistant if this is confusing.
 
 We will think in 2D to simplify things, though 3D isn't different
 conceptually. For calculating collision, we only care about a ball's position
-in space, as well as its size. We can store a ball's position with the $(x,y)$
+in space, as well as its size. We can store a ball's position with the $$(x,y)$$
 coordinates of its center point, and we can calculate its size if we know its
-radius. Thus, we represent a ball in 2D space as a tuple of $(x, y, r)$.
+radius. Thus, we represent a ball in 2D space as a tuple of $$(x, y, r)$$.
 
 To figure out if two balls are colliding, we need to compute the distance
 between their centers, then see if this distance is less than or equal to the

@@ -100,16 +100,16 @@ Note that we can use variables in the definition of other variables! Mathematica
 
 **Part I**: Input the following sets of equations, and note the difference between `int` arithmetic and `float` arithmetic. You can do this just in your interpreter (you don't need to turn anything in for this part), but pay attention to the output!
 	
-1.	$5/2$, $5/2.0$, and $5.0/2$
+1.	$$5/2$$, $$5/2.0$$, and $$5.0/2$$
 
 	Note that as long as one argument is a float, all of your math 
 	will be floating point!
 
-2.	$7 xx (1 / 2)$ and $7 xx (1 / 2.0)$
+2.	$$7 xx (1 / 2)$$ and $$7 xx (1 / 2.0)$$
 
 3.	`5 ∗∗ 2`, `5.0 ∗∗ 2`, and `5 ∗∗ 2.0`
 
-4.	$1/3.0$
+4.	$$1/3.0$$
 
 	Note that the final digit is rounded. Python does this for
 	non-terminating decimal numbers, as computers cannot store infinite
@@ -117,19 +117,19 @@ Note that we can use variables in the definition of other variables! Mathematica
 
 **Part II**: In `homework1.py`, transcribe the following equations into Python (without simplifying!), preserving order of operation with parenthesis as needed. Save each as the value of a variable, and then print the variable.
 
-1.	$(3 xx 5) / (2 + 3)$
+1.	$$(3 xx 5) / (2 + 3)$$
 
-2.	$sqrt(7 + 9) xx 2$
+2.	$$sqrt(7 + 9) xx 2$$
 
-3.	$(4 - 7) ^ 3$
+3.	$$(4 - 7) ^ 3$$
 
-4.	$root4(-19+100)$
+4.	$$root4(-19+100)$$
 
-5.	$6 mod 4$
+5.	$$6 mod 4$$
 
 	If you aren't familiar with modular arithmetic, it is pretty
-	straightforward: the modulus operator, in the expression $x mod y$,
-	gives the remainder when $x$ is divided by $y$. Try a couple of modular
+	straightforward: the modulus operator, in the expression $$x mod y$$,
+	gives the remainder when $$x$$ is divided by $$y$$. Try a couple of modular
 	expressions until you get the hang of it.
 
 **Part III**: In `homework1.py`, use order of operation mathematics to create two equations that look the same (i.e., have the same numbers) but evaluate to different values (due to parenthesization). Save each as the value of a variable, then print the variables.
@@ -267,7 +267,7 @@ Create a new file called `loops.py` and use it for all parts of this exercise. R
 
 Be sure to test your code for each part before moving on to the next part.
 
-1. Using a for loop, write a program that prints out the decimal equivalents of $1 / 2, 1/3, 1 / 4, ..., 1/10$.
+1. Using a for loop, write a program that prints out the decimal equivalents of $$1 / 2, 1/3, 1 / 4, ..., 1/10$$.
 
 2. Write a program using a while loop that asks the user for a number, and prints a countdown from that number to zero. What should your program do if the user inputs a negative number? As a programmer, you should always consider "edge conditions" like these when you program! (Another way to put it: always assume the users of your program will be trying to find a way to break it! If you don't include a condition that catches negative numbers, what will your program do?)
 
