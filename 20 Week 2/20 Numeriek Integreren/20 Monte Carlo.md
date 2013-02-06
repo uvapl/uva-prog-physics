@@ -4,39 +4,29 @@ Bereken, gebruikmakend van de Monte Carlo-techniek de volgende integralen.
 Maak ook een grafiek met behulp van Matplotlib.
 
 ### opgave 2.1 
+
 bereken $$int_(0)^(1) x^(x) dx $$
 
 Hint: test je functie door te testen of je $$int_(0)^(1) x^(2) dx $$ goed voorspelt
 
 ### opgave 2.2
+
 bereken $$int_(0.1)^(2.0) sin(x) dx$$
 
 Hint: test je functie door te testen of je $$int_(0)^(\pi) sin(x) dx $$ goed voorspelt
 
 ### opgave 2.3 
+
 bereken $$int_(0)^(\pi) sin(x^2) dx$$
 
 ### opgave 2.4 HACKER EDITION: spherical cap
 
-Bereken met behulp van een Monte Carlo techniek een functie die de inhoud van een zogenaamde 
-'spherical cap' geeft voor een eenheidsbol (r=1, zie figuur) als functie van de hoogte $$h $$. Maak 
-vervolgens een grafiek van de inhoud als functie van $$h $$ en vergelijk het met het analytisch 
-resultaat.
+Bereken met behulp van een Monte Carlo techniek een functie die de inhoud van
+een zogenaamde 'spherical cap' geeft voor een eenheidsbol (r=1, zie figuur)
+als functie van de hoogte $$h $$. Maak vervolgens een grafiek van de inhoud
+als functie van $$h $$ en vergelijk het met het analytisch resultaat.
 
-![Spherical Cap](SphericalCap.png){:.inline}{: style="width:150px"} 
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
+![Spherical Cap](SphericalCap.png){: style="width:150px"} 
 
 # Numeriek integreren - Monte Carlo (de theorie)
 
@@ -79,4 +69,6 @@ $$int_a^b f(x)dx = \frac(N_(goed))(N_(goed)+N_(fout)) (x_(max)-x_(min)) (y_(max)
 
 ### Extra:
 
-In "echte" toepassingen wordt uit het oogpunt van efficiëntie de box vaak zo gekozen dat hij de integraal zo nauw mogelijk omsluit. De fractie goede worpen is dan zo groot mogelijk.
+In "echte" toepassingen wordt uit het oogpunt van efficiëntie de box vaak zo
+gekozen dat hij de integraal zo nauw mogelijk omsluit. De fractie goede worpen
+is dan zo groot mogelijk.

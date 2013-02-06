@@ -23,28 +23,20 @@ voor zowel de lineaire (trapezium) als de Simpsonregel. Plot voor beide het
 verschil met de echte waarde als functie van het aantal intervallen $$N$$. 
 Wat zie je ?
 
-.
-
-.
-
-.
-
-.
-
-.
-
 # Numeriek integreren - de Riemannsom  (de theorie)
 
 Evalueer een integraal door het te schrijven als som van kleine rechthoekjes: 
 een zogenaamde Riemannsom.
 
 ### a] Het probleem
+
 Gegeven f(x) op a $$leq$$ x $$leq$$ b: bereken $$int_a^b f(x)dx$$
 
 ### b] Schrijf de integraal als Riemannsom
 
-Verdeel het interval (a, b) in N intervallen van gelijke lengte $$\Delta x$$ en 
-representeer $$f(x)$$ door de waarde van de functie op discrete $$x$$-waarden $$x_i$$:
+Verdeel het interval (a, b) in N intervallen van gelijke lengte $$\Delta x$$
+en representeer $$f(x)$$ door de waarde van de functie op discrete
+$$x$$-waarden $$x_i$$:
 
 $$f_i=f(x_i)$$, waarbij $$x_i = a + i \Delta x$$, met  (i=0,1,2,...,N en $$\Delta x = \frac(b-a)(N)$$) 
 
@@ -54,9 +46,10 @@ $$int_a^b f(x) dx = sum_(i=0)^(N-1) int_(x_i)^(x_(i+1)) f(x) dx$$
 
 ### c] Benader centrale waarde voor f(x) in elke bin en doe sommatie:
 
-Met behulp van een lineaire benadering (de trapeziumregel) kunnen we de centrale waarde voor 
-f(x) benaderen in elke bin door het gemiddelde van de waarden van f(x) op de linker en rechter 
-rand van de bin. In deze lineaire benadering op het interval $$(x_i,x_(i+1))$$ is f(x) dan te schrijven als:
+Met behulp van een lineaire benadering (de trapeziumregel) kunnen we de
+centrale waarde voor f(x) benaderen in elke bin door het gemiddelde van de
+waarden van f(x) op de linker en rechter rand van de bin. In deze lineaire
+benadering op het interval $$(x_i,x_(i+1))$$ is f(x) dan te schrijven als:
 
 $$f(x) = \frac(f_(i)+f_(i+1))(2)+ \mathcal(O)(\Delta x)$$
 
@@ -64,12 +57,11 @@ De sommatie voor de integraal uit vergelijking (1) is dan te schrijven als:
 
 $$\int_a^b f(x) dx \approx \frac(\Delta x)(2) (f_0+2f_1+2f_2+...+2f_(N-1)+f_N) + \mathcal(O)((\Delta x)^2)$$ 
 
-
 ### Extra: hogere orde (meer precieze) benaderingen:
 
-Het is mogelijk de evaluatie van de integraal te verbeteren door niet te uit te gaan van de 
-(te simpele) lineaire benadering. De Simpsonregel bijvoorbeeld is een parabolische benadering 
-(let op, N=even) waarbij $$f(x)$$ op het interval ($$x_(i−1)$$,$$x_(i+1)$$) wordt benaderd door een parabool door 
-de 3 punten ($$f_(i−1)$$, $$f_i$$, $$f_(i+1)$$). Zoek op of werk zelf uit als je deze wilt gebruiken.
-
-
+Het is mogelijk de evaluatie van de integraal te verbeteren door niet te uit
+te gaan van de (te simpele) lineaire benadering. De Simpsonregel bijvoorbeeld
+is een parabolische benadering (let op, N=even) waarbij $$f(x)$$ op het
+interval ($$x_(i−1)$$,$$x_(i+1)$$) wordt benaderd door een parabool door de 3
+punten ($$f_(i−1)$$, $$f_i$$, $$f_(i+1)$$). Zoek op of werk zelf uit als je
+deze wilt gebruiken.
