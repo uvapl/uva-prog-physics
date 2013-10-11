@@ -33,7 +33,7 @@ beide kanten van het $$=$$-teken de logaritme te nemen wordt het product van
 priemgetallen een som van de logaritmes. De oorspronkelijke vergelijking
 hierboven wordt dan:
 
-$$sum_{i~(i="prime", i<n)} log(i) < n$$,
+$$sum_(i="prime", i < n)log(i) < n$$,
 
 waarbij het verschil tussen beide kanten kleiner wordt als $$n$$ groeit. Tip:
 begin met je werkende programma van opgave 1.
