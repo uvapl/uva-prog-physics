@@ -1,5 +1,3 @@
-# Stijlgids
-
 Als nakijkers van jouw practicum merken we al snel of iets goed leesbaar is of niet. Begrijpen we snel wat je code doet? Ook in de praktijk blijkt het handig om goed leesbare code te schrijven. Voor een ander, die je code moet uitbreiden, of voor jezelf, als je een tijdje niet naar de code gekeken hebt.
 
 Er is niet één correcte manier om je code te schrijven. Maar je kunt zeker een hoop fout (of laten we zeggen, onleesbaar) doen. Bij dit vak eisen we niet dat je je aan een vastgelegde stijl houdt, maar we raden je ten strengste aan om de conventies hieronder in acht te nemen, tenzij je jouw assistent kunt overtuigen dat jouw manier net zo goed is, of beter.

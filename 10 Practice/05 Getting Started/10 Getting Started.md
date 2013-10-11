@@ -1,5 +1,3 @@
-# Getting started: Python and IDLE
-
 This handout will cover how to set up Python and introduce you to IDLE, the Python development environment we will be using throughout this course.
 
 ## Setting up Python on Windows
