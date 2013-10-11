@@ -22,7 +22,7 @@ opties):
    `math.sin(0.5)`
 
 2. `from math import *` importeert expliciet alle functies, waardoor je in
-   je programma direct sin(0.5) kunt gebruiken
+   je programma direct `sin(0.5)` kunt gebruiken
 
 ## Strategiehints en wiskundige achtergrond
 
@@ -33,7 +33,7 @@ beide kanten van het $$=$$-teken de logaritme te nemen wordt het product van
 priemgetallen een som van de logaritmes. De oorspronkelijke vergelijking
 hierboven wordt dan:
 
-$$sum_(i (i="prime", i<n)) log(i) < n$$,
+$$sum_{i~(i="prime", i<n)} log(i) < n$$,
 
 waarbij het verschil tussen beide kanten kleiner wordt als $$n$$ groeit. Tip:
 begin met je werkende programma van opgave 1.
