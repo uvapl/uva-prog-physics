@@ -276,3 +276,48 @@ Be sure to test your code for each part before moving on to the next part.
 4. Write a program using a while loop that asks the user to enter a number that is divisible by 2. Give the user a witty message if they enter something that is not divisible by 2, *and make them enter a new number*. Don't let them stop until they enter an even number! Print a congratulatory message when they *finally* get it right.
 
 When you are done, make sure you have answers all exercise questions, and submit your files at the submit tab! If you have time left, take a go at the Hacker edition :-)
+
+# 2.6 Working with this
+
+Check out this function that sums all numbers in a list:
+
+	def sum_all(number_list):
+	    # number_list is a list of numbers
+	    total = 0
+	    for num in number_list:
+	        total += num
+
+	    return total
+
+Note how we specify, with a comment, what the type of the **parameter** must
+be. Here's two tests:
+
+	# tests for sum_all
+	print "sum_all of [4, 3, 6] is:", sum_all([4, 3, 6])
+	print "sum_all of [1, 2, 3, 4] is:", sum_all([1, 2, 3, 4])
+
+Now make a new function `cumulative_sum` that returns a new list where the 
+$$i$$-th element is the sum of the first $$i+1$$ elements from the original list.
+For example, the cumulative sum of `[4, 3, 6]` is `[4, 7, 13]`.
+
+Such a useful function!
+
+# 2.7 Additional list practice
+
+You'll probably also need some practice with lists. Write a function
+`list_intersection` that takes two lists as parameters. Return a list that gives
+the intersection of the two lists; so, a list of elements that are common to
+both lists.
+
+	def list_intersection(list1, list2):
+		# your code here
+
+Put the following test cases below your program and make sure your results 
+are the same. Order doesn't matter, as long as the list contains the same 
+elements.
+
+	# tests for list_intersection
+	list_intersection([1, 3, 5], [5, 3, 1])               # [1, 3, 5]
+	list_intersection([1, 3, 6, 9], [10, 14, 3, 72, 9])   # [3, 9]
+    list_intersection([2, 3], [3,  3,  3,  2, 10])        # [3, 2]
+    list_intersection([2, 4, 6], [1, 3, 5])               # []

@@ -191,3 +191,47 @@ What do you think this code is doing? Without comments it is hard to guess what 
 	for this depending on what you think the code should be doing).
 
 	<textarea name="a[1-15-2]"></textarea>
+
+## List operations
+
+Say we have this list:
+
+	a_list = [3, 5, 6, 12]
+
+For the following, write the line(s) of code that will emit the given output.
+For each problem there may be more than one correct answer; just give one. 
+
+More on lists: [the Python docs](http://docs.python.org/release/2.6.6/tutorial/datastructures.html).
+
+1.	Output: `3`
+
+	<textarea name="a[2-13-1]"></textarea>
+
+2.	Output: `12`
+
+	<textarea name="a[2-13-2]"></textarea>
+
+3.	Output: `[5, 6, 12]`
+
+	<textarea name="a[2-13-3]"></textarea>
+
+4.	Output:
+
+		3
+		5
+		6
+		12
+
+	<textarea name="a[2-13-4]"></textarea>
+
+5.	Output: `[12, 6, 5, 3]`
+
+	<textarea name="a[2-13-5]"></textarea>
+
+6.	Output: `[9, 15, 18, 36]`
+
+	<textarea name="a[2-13-6]"></textarea>
+
+7.	Output: `[False, False, True, True]`
+
+	<textarea name="a[2-13-7]"></textarea>
