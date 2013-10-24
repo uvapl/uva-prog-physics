@@ -1,77 +1,149 @@
-# Inleiding Programmeren voor Natuur- en Sterrenkunde 2013
+# Studiewijzer
 
-![Python](python-logo.png){:.inline} Welkom bij deze cursus *Inleiding Programmeren*. We gaan programmeren in Python, een eenvoudige taal met vele mogelijkheden. Je leert over de basis van het programmeren, maar je gaat ook elke week aan de slag met een toepassing uit de wiskunde, natuurkunde of sterrenkunde.
+*Versie: November 2013 (1.0)*
+
+![Python](python-logo.png){:.inline} Welkom bij deze cursus *Inleiding Programmeren*. We gaan programmeren in Python, een eenvoudige taal met vele mogelijkheden. Je leert over de basis van het programmeren, maar je gaat ook aan de slag met toepassingen uit de wiskunde, natuurkunde en sterrenkunde.
+
+|Opleiding  |Natuur- en sterrenkunde               |
+|Periode    |Studiejaar 1, Semester 1, periode 2   |
+|Coördinator|Ivo van Vulpen                        |
+|Co-docent  |Martijn Stegeman                      |
+|Studielast |3 studiepunten                        |
+|Vakcode    |5092INPR3Y                            |
 
 ## Contact
 
-Voor ziekmelden, overleg over de voortgang, individuele afspraken, spreek je docent aan tijdens het practicum, of stuur een mail.
+De staf bestaat uit je docent en diverse studentassistenten. Door de omvang van
+de cursus kan de staf doorgaans niet reageren op e-mail over problem sets.
+Probeer voor afspraken en hulp zoveel mogelijk de studentassistenten en de docent tijdens het practicum aan te spreken.
 
-Martijn Stegeman (Python practice op dinsdag en donderdag)  
+### Docent
+
+Bij de docenten kun je terecht voor:
+
+* persoonlijke afspraken, uitzonderingen
+* bespreken van de becijfering van een problem set
+* grotere vragen over het hoe en waarom van dit vak
+* het doen van suggesties voor verbetering
+* toestemming voor afwezigheid bij vooruit werken
+* ziekmelding
+
+De docenten zijn wekelijks tijdens het practicum aanwezig om te spreken met
+studenten, om af spraken te maken en die na te komen, en om te luisteren naar
+studenten die problemen signaleren. Als je even wat meer tijd nodig hebt om met
+ze te spreken, bijvoorbeeld voor het maken van persoonlijke afspraken, kun je altijd een korte afspraak inplannen via de e-mail.
+
+Martijn Stegeman (Python practice in weken 1, 3 en 5)  
 <stegeman@uva.nl>  
 
-Ivo van Vulpen (Natuurkunde-programmeren op woensdag en vrijdag)  
+Ivo van Vulpen (Natuurkunde-programmeren in weken 2, 4, 6 en 7)  
 <ivo.van.vulpen@nikhef.nl>
+
+### Studentassistenten
+
+Bij de studentassistenten kun je terecht voor:
+
+* begeleiding bij het oplossen van je opdrachten
+* tips voor een hoger cijfer
+* algemene informatie over het vak zoals die ook op de website staat
+* het doen van suggesties voor verbetering
+* het verkrijgen van feedback op de ingeleverde opdrachten (dit gaat via de
+  website)
+
+De assistenten zijn altijd aanwezig tijdens de ingeroosterde computerpractica.
+Je kunt bovenal op ze rekenen voor hulp bij het maken van je opdracht. Zodra
+jij ergens niet uitkomt, gaan ze met je meedenken over je probleem. Dat
+betekent niet dat ze je direct je antwoord zullen geven! Het doel van de cursus
+is juist dat je zelfstandig de problemen leert oplossen.
+
+De assistenten zullen zich vaak ook actief met je bemoeien. Als je weinig te
+vragen hebt, komen ze af en toe langs om te kijken hoe het gaat en of ze je nog
+tips kunnen geven.
+
+Daarnaast kijken de assistenten je ingeleverde opdrachten na. Daarvoor
+gebruiken ze de becijferingsmethode die vermeld staat op de volgende pagina.
+Omdat zij dit doen, kun je ze tijdens het maken van je opdracht ook al vragen
+er naar te kijken. Zo kunnen ze je tips geven om tot een hoger cijfer te komen.
+
+## Leerdoelen
+
+* Je kunt een specificatie van een programma omzetten naar werkende code.
+* Je kunt bij programmeertalen bijgeleverde bibliotheken gebruiken in je eigen
+  programma’s.
+* Je kunt programma’s overzichtelijk en beter leesbaar maken door een
+  consistente stijl toe te passen.
+* Je kunt programmeerfouten opsporen en verbeteren: syntaxfouten in de code en
+  logische fouten in de achterliggende algoritmes.
+* Je kunt uitleggen hoe je enkele numerieke technieken als programma kunt implementeren.
 
 ## Verwachtingen
 
-Deze cursus bevat 8 dagelijkse opdrachten en 1 tentamen. Ter voorbereiding is er leesstof opgegeven.
+Deze cursus bevat 7 wekelijkse opdrachten en 1 tentamen. Ter voorbereiding is er leesstof opgegeven.
 
-We verwachten dat je **twee dagen per week** aanwezig bent van 9:30 tot 16:30. Je bent twee per week vast ingeroosterd. Aanwezigheid is verplicht, en inhalen kan alleen bij ziekte of andere overmachtsituaties. We moeten streng zijn omdat de cursus maar kort duurt en er veel studenten zijn.
+* We verwachten dat je in weken 1, 3 en 5 reeds vóór het practicum je
+  huiswerk hebt gedaan en dat je je aantekeningen tijdens het eerste practicum
+  bespreekt met een assistent. Dit wordt ter plaatse afgetekend.
 
-We verwachten dat je de opdrachten **dezelfde dag nog inlevert**. De deadline wordt steeds op de dag zelf aangegeven. Ook vragen we soms je opdrachten al voor de deadline te laten zien aan een assistent. Dat is dan verplicht.
+* We verwachten dat per week 8 uur aanwezig bent, tijdens je geroosterde groep.
+  Aanwezigheid is verplicht, maar inhalen kan bij ziekte of andere
+  overmachtsituaties. We moeten streng zijn omdat de cursus maar kort duurt en
+  er veel studenten zijn.
 
-We verwachten dat je je tentamen **voldoende maakt**. Als je alle opdrachten heel aardig begrepen hebt en geen grote openstaande vragen meer hebt, moet dit goed te doen zijn.
+  Als je meer dan een week vooruit loopt én alle programmeeropdrachten (problem
+  sets) hebt gedaan kun je schriftelijk aan de docenten verzoeken om
+  vrijstelling van de aanwezigheidsverplichting. Dit wordt alleen gehonoreerd
+  als je code van uitstekende kwaliteit is.
 
-We verwachten dat je alle leesstof **buiten de practicumuren tot je neemt**. Dat kan thuis zijn, of onderweg. Je hebt deze stof nodig om je opdrachten te maken, maar ook om een voldoende te halen op het tentamen.
+* We verwachten dat je uiterlijk vrijdag om 18:00 uur je opdracht van de week
+  inlevert. Ook vragen we soms je opdrachten al voor de deadline te laten zien
+  aan een assistent. Dat is dan verplicht.
 
-## Beoordeling
+* We verwachten dat je de feedback over je opdrachten gebruikt om de opdrachten
+  van de volgende week beter te maken. We zullen hier actief naar kijken en dit
+  in de becijfering meenemen.
+
+* We verwachten dat je je tentamen *voldoende* maakt. Als je alle opdrachten
+  heel aardig begrepen hebt en geen grote openstaande vragen meer hebt, moet
+  dit goed te doen zijn.
+
+Mocht je in de problemen komen met het vak en het tempo, zorg dan dat je meteen
+contact opneemt. We zijn altijd bereid te zoeken naar oplossingen voor zover
+mogelijk met de hoeveelheid studenten in het vak.
+
+## Eindcijfer
 
 Je krijgt een eindcijfer voor dit vak als je:
 
-* alle dagen aanwezig bent geweest;
-* alle benodigde programma's op tijd werkend hebt aangeleverd;
+* voldoende uren aanwezig bent geweest tijdens de practica;
+* alle aantekeningen van het huiswerk hebt besproken met de assistent;
+* alle benodigde programma's op tijd en naar verwachting hebt aangeleverd;
 * een voldoende hebt gehaald voor het tentamen.
 
-Als je niet aan deze voorwaarden voldoet, krijg je nog geen cijfer voor het vak.
+Als je niet aan de normen voor de opdrachten voldoet, krijg je geen cijfer voor
+het vak, maar een aantekening *niet aan de voorwaarden voldaan (NAV)*, een
+onvoldoende dus. Niettemin denken we dat elke student deze cursus kan halen.
 
-Het **eindcijfer** is het gemiddelde van de problem sets. Het tentamen moet voldoende gemaakt worden maar telt dus niet mee.
+Ben je niet voldoende aanwezig geweest bij de practica, of je bent niet
+aanwezig bij het tentamen, dan krijg je geen eindcijfer maar een aantekening
+*niet aanwezig (NA)* op je cijferlijst.
 
-## Nakijken
+Als je het practicum hebt gehaald, maar de deeltentamens niet, krijg je een
+*NAV* en kun je het tentamen éénmalig herkansen.
 
-Elk ingeleverd programma wordt beoordeeld op de volgende factoren;
+Het eindcijfer bestaat in de basis uit het gemiddelde van de problem sets. Een
+klein deel van het cijfer van de practica wordt bepaald door hoe je beter bent
+gaan programmeren tijdens het vak, en of je al je huiswerk hebt laten
+aftekenen. Dit kan van invloed zijn op je eindcijfer.
 
-* omvang (heb je alle opdrachten gedaan? anders sturen we het terug)
-* correctheid (met dien verstande dat het in principe correct moet werken)
-* stijl (in het kort: hoe leesbaar is het voor de beoordelaar?)
-* ontwerp (is het niet onnodig ingewikkeld?)
+## Literatuur
 
-De bedoeling is dat je tijdens de cursus steeds betere en leesbaardere programma's gaat insturen. De schaal staat dus niet helemaal vast: we kijken ook hoe je prestaties groeien.
+Het volgende boek is verplichte literatuur. In de cursus staat vermeld wanneer
+je delen van deze boeken moet lezen en proberen te begrijpen. Zorg dat je het
+leeswerk één keer aan het begin van de week doet en gedurende de week nog eens.
 
-Het is prima om vóór je instuurt de assistent nog even te vragen naar je opgave te kijken.
+> Allen Downey  
+> *Think Java*  
+> Green Tea Press, 2013  
 
-## Samenwerken
-
-Samenwerken tijdens dit vak is niet toegestaan. Dit vak heeft als doel jouw persoonlijke programmeervaardigheid te ontwikkelen. Bij vervolgvakken is het vaak wél mogelijk om samen te programmeren.
-
-Tijdens de practica is het natuurlijk prima als je de opgave bespreekt met de student die naast je zit. Het is echter **niet toegestaan** om delen van code van je medestudenten, of van internet, over te nemen.
-
-Een belangrijk verschil: je kunt discussiëren over de manier waarop je een probleem aanpakt, maar je kopieert nooit code van anderen. Je kijkt dus ook doorgaans niet op het scherm van een ander.
-
-Als je merkt dat je zodanig aan het overleggen bent dat je dezelfde code krijgt als de student die naast je zit, wordt het tijd om te stoppen en de assistent om hulp te vragen.
-
-Kom je in tijdnood? Bespreek het even met de docent. We willen het graag zo oplossen dat je het vak zelfstandig kunt halen.
-
-## Plagiaatregeling
-
-*Fraude: "Het handelen of nalaten van een student waardoor een juist oordeel over zijn kennis, inzicht en vaardigheden geheel of gedeeltelijk onmogelijk wordt."*
-
-We gebruiken bij de beoordeling van de opdrachten ook plagiaatdetectie. Als blijkt dat je opgave geheel of gedeeltelijk overeenkomt met een andere inzending of een uitwerking van internet, dan zijn er twee mogelijkheden.
-
-* Er is een bronvermelding: in dat geval voldoe je niet aan de eis van het zelfstandig maken van de opgaven en wordt je inzending afgekeurd. Omdat dit meestal na de deadline is betekent dat doorgaans dat je het vak dit jaar niet kunt afronden.
-
-* Er is geen bronvermelding: in dat geval rapporteren we aan de examencommissie welke inzendingen overeenkomen, waarna de commissie beslist over te nemen maatregelen.
-
-Zie ook:
-
-* de [fraude- en plagiaatwebsite](http://studentenserviceplein.uva.nl/serviceplein/content/fraude-plagiaat-en-bronvermelding/plagiaat-volgens-de-uva/plagiaat-volgens-de-uva.html) van de universiteit;
-* de onderwijs- en examenregeling van Natuur- en Sterrenkunde.
+Het boek is gedrukt als syllabus. Deze is voor 3 euro verkrijgbaar bij de
+onderwijsbalie.
