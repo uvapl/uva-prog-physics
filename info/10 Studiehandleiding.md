@@ -144,7 +144,7 @@ je delen van deze boeken moet lezen en proberen te begrijpen. Zorg dat je het
 leeswerk één keer aan het begin van de week doet en gedurende de week nog eens.
 
 > Allen Downey  
-> *Think Java*  
+> *Think Python*  
 > Green Tea Press, 2013  
 
 Het boek is gedrukt als syllabus. Deze is voor 3 euro verkrijgbaar bij de
