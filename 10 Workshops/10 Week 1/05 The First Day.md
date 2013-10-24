@@ -1,6 +1,6 @@
 # The first day!
 
-This *Python Practice* section will be your first day of Python programming.
+This workshop will guide you through your first two days of Python programming.
 Today, you'll learn about communicating with the user, strings, loops, lists
 and if statements.
 

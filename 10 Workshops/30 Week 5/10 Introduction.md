@@ -1,7 +1,8 @@
 # Your last workshop!
 
-This *Python Practice* section kick off your 9th day of Python programming.
-Today, you'll learn about everything about data types in Python, and something about debugging!
+This workshop will kick off your 9th day of Python programming. Today, you'll
+learn about everything about data types in Python, and something about
+debugging!
 
 ## Preparation
 
