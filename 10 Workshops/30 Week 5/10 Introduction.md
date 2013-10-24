@@ -1,29 +1,33 @@
-# Welcome to week 3!
+# Your last workshop!
 
-Today, you'll learn about three ways to store data in your program.
+This *Python Practice* section kick off your 9th day of Python programming.
+Today, you'll learn about everything about data types in Python, and something about debugging!
 
-* Lists, lists and lists.
-* Dictionaries.
-* Tuples.
+## Preparation
 
-Please prepare for this day using the readings below. They will not always
-immediately make sense without practice, but that's no problem. You may want
-to re-read them after this practice session!
+Read and annotate these chapters from your book:
 
-## Readings
+* 9. Dictionaries
+* 10. Tuples
+* 11. Files
+* A. Debugging
 
-From [*How to think like a computer scientist* (Allen Downey)](http://www.greenteapress.com/thinkpython/html/index.html).
+Your annotations will be checked and discussed by a teaching assistant. This is
+how you should annotate:
 
-* [Lists](http://www.greenteapress.com/thinkpython/html/thinkpython011.html)
-* [Dictionaries](http://www.greenteapress.com/thinkpython/html/thinkpython012.html)
-* [Tuples](http://www.greenteapress.com/thinkpython/html/thinkpython013.html)
+* mark any parts of the text that you don't really understand;
+* in the margin, write down any questions that pop up.
 
-## What to turn in
+Don't read too slowly, you do not need to understand it all and you definitely
+do not need to memorize. Still, your programming work will finish a lot faster
+when you prepare like this.
 
-You are to hand in the answers to the exercises, three python source files
-that we can test, and optionally the Python source for the Hacker edition.
+## What to turn in after you finish programming
+
+You are to hand in the answers to the exercises, three python source code files
+that we can test, and optionally one or two python files for the hacker edition.
 
 ## Deadline
 
-The deadline is today, by 18:00. However, you are required to review your
-exercises with an assistant before 16:30.
+The deadline is Friday at 18:00. However, you are required to review your
+exercises with an assistant at the second day of class.

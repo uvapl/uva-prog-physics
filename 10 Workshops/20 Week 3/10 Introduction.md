@@ -1,45 +1,33 @@
-# Welcome to week 2!
+# Welcome again!
 
-Today, you'll learn about:
+This *Python Practice* section will kick off your 5th day of Python programming.
+Today, you'll learn about everything about functions!
 
-* debugging;
-* functions and methods;
-* returning values;
-* `math`;
-* plotting; and
-* lists.
+## Preparation
 
-Please prepare for this day using the readings below. They will not always 
-immediately make sense without practice, but that's no problem. You may want 
-to re-read them after this practice session!
+Read and annotate these chapters from your book:
 
-## Readings
+* 3. Functions
+* 4.8--4.12 Recursion
+* 5. Fruitful functions
+* 7. Strings
 
-From [*How to think like a computer scientist* (Allen Downey)](http://www.greenteapress.com/thinkpython/html/index.html).
+Your annotations will be checked and discussed by a teaching assistant. This is
+how you should annotate:
 
-* [10.1-10.6 Lists](http://www.greenteapress.com/thinkpython/html/thinkpython011.html)
-* [3. Functions](http://www.greenteapress.com/thinkpython/html/thinkpython004.html)
-* [A. Debugging](http://www.greenteapress.com/thinkpython/html/thinkpython021.html)
-* [10.12-10.13 Lists with functions](http://www.greenteapress.com/thinkpython/html/thinkpython011.html)
-* [6.5-6.9 Encapsulation](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html)
+* mark any parts of the text that you don't really understand;
+* in the margin, write down any questions that pop up.
 
-## Lecture
+Don't read too slowly, you do not need to understand it all and you definitely
+do not need to memorize. Still, your programming work will finish a lot faster
+when you prepare like this.
 
-The lecture contains:
+## What to turn in after you finish programming
 
-* a short live coding session of the prime finder;
-* making the prime finder into a function;
-* testing the prime finder with a few test cases;
-* a bit of math in the Python Shell;
-* graphs in the Python Shell.
-
-## What to turn in
-
-You are to hand in the answers to the exercises, three python source code 
-files that we can test, and optionally one or two `.py` files for the Hacker 
-edition.
+You are to hand in the answers to the exercises, three python source code files
+that we can test, and optionally one or two python files for the hacker edition.
 
 ## Deadline
 
-The deadline is today, by 18:00. However, you are required to review your 
-exercises with an assistant before 16:30. 
+The deadline is Friday at 18:00. However, you are required to review your
+exercises with an assistant at the second day of class.
