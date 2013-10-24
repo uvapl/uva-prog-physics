@@ -2,7 +2,9 @@
 
 *Versie: November 2013 (1.0)*
 
-![Python](python-logo.png){:.inline} Welkom bij deze cursus *Inleiding Programmeren*. We gaan programmeren in Python, een eenvoudige taal met vele mogelijkheden. Je leert over de basis van het programmeren, maar je gaat ook aan de slag met toepassingen uit de wiskunde, natuurkunde en sterrenkunde.
+Welkom bij deze cursus *Inleiding Programmeren*. We gaan programmeren in Python, een eenvoudige taal met vele mogelijkheden. Je leert over de basis van het programmeren, maar je gaat ook aan de slag met toepassingen uit de wiskunde, natuurkunde en sterrenkunde.
+
+![Python](python-logo.png){:.inline}  
 
 |Opleiding  |Natuur- en sterrenkunde               |
 |Periode    |Studiejaar 1, Semester 1, periode 2   |
