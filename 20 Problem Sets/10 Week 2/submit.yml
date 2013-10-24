@@ -1,4 +1,4 @@
-name: day2
+name: w2
 form: false
 required:
     - primes.py

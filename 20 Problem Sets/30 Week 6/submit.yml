@@ -1,4 +1,4 @@
-name: day6
+name: w6
 required:
     - doos.py
     - heelal.py

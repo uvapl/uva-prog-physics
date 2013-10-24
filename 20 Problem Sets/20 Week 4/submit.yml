@@ -1,4 +1,4 @@
-name: day4
+name: w4
 required:
     - riemann.py
     - montecarlo.py
