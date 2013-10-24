@@ -7,10 +7,10 @@ Today, you'll learn about everything about functions!
 
 Read and annotate these chapters from your book:
 
-* 3. Functions
-* 4.8--4.12 Recursion
-* 5. Fruitful functions
-* 7. Strings
+* Chapter 3, Functions
+* Chapter 4.8--4.12, Recursion
+* Chapter 5, Fruitful functions
+* Chapter 7, Strings
 
 Your annotations will be checked and discussed by a teaching assistant. This is
 how you should annotate:

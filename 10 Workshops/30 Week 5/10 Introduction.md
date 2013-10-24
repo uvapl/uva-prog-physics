@@ -7,10 +7,10 @@ Today, you'll learn about everything about data types in Python, and something a
 
 Read and annotate these chapters from your book:
 
-* 9. Dictionaries
-* 10. Tuples
-* 11. Files
-* A. Debugging
+* Chapter 9, Dictionaries
+* Chapter 10, Tuples
+* Chapter 11, Files
+* Chapter A, Debugging
 
 Your annotations will be checked and discussed by a teaching assistant. This is
 how you should annotate:

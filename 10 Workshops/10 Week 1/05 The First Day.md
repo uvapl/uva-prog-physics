@@ -8,11 +8,11 @@ and if statements.
 
 Read and annotate these chapters from your book:
 
-* 1. The way of the program
-* 2. Variables, expressions and statements
-* 4. Conditionals and recursion
-* 6. Iteration
-* 8. Lists
+* Chapter 1, The way of the program
+* Chapter 2, Variables, expressions and statements
+* Chapter 4, Conditionals and recursion
+* Chapter 6, Iteration
+* Chapter 8, Lists
 
 Your annotations will be checked and discussed by a teaching assistant. This is
 how you should annotate:
