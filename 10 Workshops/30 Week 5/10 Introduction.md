@@ -1,5 +1,3 @@
-# Your last workshop!
-
 This workshop will kick off your 9th day of Python programming. Today, you'll
 learn about everything about data types in Python, and something about
 debugging!

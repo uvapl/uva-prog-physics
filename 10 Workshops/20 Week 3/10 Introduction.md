@@ -1,5 +1,3 @@
-# Welcome again!
-
 This workshop will kick off your 5th day of Python programming. Today, you'll
 learn about everything about functions!
 
