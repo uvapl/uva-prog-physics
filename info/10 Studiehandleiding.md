@@ -80,7 +80,7 @@ er naar te kijken. Zo kunnen ze je tips geven om tot een hoger cijfer te komen.
 
 ## Verwachtingen
 
-Deze cursus bevat 7 wekelijkse opdrachten en 1 tentamen. Ter voorbereiding is er leesstof opgegeven.
+Deze cursus bevat 3 workshops, 4 problem sets en 1 tentamen (zie *Onderdelen* voor de invulling). Ter voorbereiding is er leesstof opgegeven.
 
 * We verwachten dat je in weken 1, 3 en 5 reeds vóór het practicum je
   huiswerk hebt gedaan en dat je je aantekeningen tijdens het eerste practicum

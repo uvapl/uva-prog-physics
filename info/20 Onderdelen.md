@@ -21,16 +21,18 @@ over de stof. Om deze reden moet je je syllabus elke week meenemen.
 
 ## Workshops
 
-Tijdens de eerste drie weken van het vak volg je workshops waarin je met kleine
-opdrachten de basis van Python en programmeren leert. Je laat het eindresultaat
-zien aan de assistent, die je code bekijkt en wat feedback geeft, en vervolgens
-je opdracht aftekent. De feedback lijkt al een beetje op de feedback die we aan je *Problem Sets* geven.
+In weken 1, 3 en 5 volg je workshops waarin je met kleine opdrachten de basis
+van Python en programmeren leert. Je laat het eindresultaat zien aan de
+assistent, die je code bekijkt en wat feedback geeft, en vervolgens je opdracht
+aftekent. De feedback lijkt al een beetje op de feedback die we aan je *Problem
+Sets* geven.
 
 ## Problem Sets
 
-Er zijn vier *problem sets* waarin je programma's gaat uitwerken en invullen.
-De bedoeling is dat je enigszins zelfstandig de opdrachten leert lezen en
-begrijpen, waarna je een oplossing kunt formuleren en implementeren.
+In weken 2, 4, 6 en 7 doe je *problem sets* waarin je programma's gaat
+uitwerken en invullen. De bedoeling is dat je enigszins zelfstandig de
+opdrachten leert lezen en begrijpen, waarna je een oplossing kunt formuleren en
+implementeren.
 
 Elk ingeleverd programma wordt beoordeeld op de volgende factoren;
 
