@@ -1,12 +1,12 @@
 # Questions
 
-These exercises do not ask you to create a new Python program, but instead ask you to read some code and predict the answer. Sometimes the questions are about other things related to programming.
+These questions do not ask you to create a new Python program, but instead ask you to read some code and predict the answer. Sometimes the questions are about other things related to programming.
 
 ## Before you start
 
-Sign in to the website *before* you start filling in these forms. If you do, your answers will be saved and you can submit your answers when the day is done.
+Sign in to this website *before* you start filling in these forms. If you do, your answers will be saved and you can submit your answers when the day is done.
 
-## Exercise 1.9 – Variable Names
+## 1.1 Variable Names
 
 The Python interpreter has strict rules for variable names. Which of the following are legal Python names? If the name is not legal, state the reason.
 
@@ -21,7 +21,7 @@ The Python interpreter has strict rules for variable names. Which of the followi
 |`your_name`|<input name="a[1-9-7]" type="text">|
 |`COLOR`    |<input name="a[1-9-8]" type="text">|
 
-## Exercise 1.10 – Types
+## 1.2 Types
 
 It is important that we know the type of the values stored in a variable so that we can use the correct operators (as we have already seen!). Python automatically infers the type from the value you assign to the variable. Write down the type of the values stored in each of the variables below. Pay special attention to punctuation: values are not always the type they seem!
 
@@ -44,7 +44,7 @@ To verify your answers, you can use the interactive Python shell, but first try 
 	<type 'int'>
 	>>>
 
-## Exercise 1.11 – Natural Language Processing
+## 1.3 Natural Language Processing
 
 Consider the following sentence:
 
@@ -60,7 +60,7 @@ Consider the following sentence:
 
 The ambiguity illustrated by this sentence is known as "prepositional phrase attachment." Think about this as you continue to learn how to program, and consider how programming languages are designed to avoid the ambiguity illustrated by this example!
 
-## Exercise 1.12 – Boolean operators
+## 1.4 Boolean operators
 
 Boolean operators can seem tricky at first, and it takes practice to evaluate them correctly. Write the value (`True` or `False`) produced by each expession below, using the assigned values of the variables `a`, `b`, and `c`. Try to do this without using your interpreter, but you should check yourself when you think you've got it. Hint: Work from the inside out, starting with the inner-most expressions, like in arithmetic.
 
@@ -75,7 +75,7 @@ Boolean operators can seem tricky at first, and it takes practice to evaluate th
 |`(a and b) or not c`    |<input name="a[12-4]" type="text">|
 |`not b and not (a or c)`|<input name="a[12-5]" type="text">|
 
-## Exercise 1.13 – Conditionals
+## 1.5 Conditionals
 
 The purpose of this exercise is to understand conditionals. Tiberius is looking for his dream job, but has some restrictions. He loves California and would take a job there if it paid over 40,000 a year. He hates Massachusetts and demands at least 100,000 to work there. Any other place he's content to work for 60,000 a year, unless he can work in space in which case he would work for free. The following code shows his basic strategy for evaluating a job offer.
 
@@ -124,7 +124,7 @@ For each of the following job offers, write down the output that would be genera
 
 	<textarea name="a[1-13-5]"></textarea>
 
-## Exercise 1.14 – Understanding loops
+## 1.6 – Understanding loops
 
 For each of the following fragments of code, write what the output would be. Again, do this without running the code (although feel free to check yourself when you're done).
 
@@ -161,7 +161,7 @@ For each of the following fragments of code, write what the output would be. Aga
 
 > <textarea name="a[1-14-4]"></textarea>
 
-## Exercise 1.15 – Buggy loop (aka Find The Bug!)
+## 1.7 Buggy loop (aka Find The Bug!)
 
 Consider the following program that Ben Bitdiddle handed in to the course staff (again, try to do this exercise without running the code in IDLE!):
 
@@ -192,16 +192,15 @@ What do you think this code is doing? Without comments it is hard to guess what 
 
 	<textarea name="a[1-15-2]"></textarea>
 
-## List operations
+## 1.8 List operations
 
 Say we have this list:
 
 	a_list = [3, 5, 6, 12]
 
-For the following, write the line(s) of code that will emit the given output.
-For each problem there may be more than one correct answer; just give one. 
-
-More on lists: [the Python docs](http://docs.python.org/release/2.6.6/tutorial/datastructures.html).
+For the following, write the line(s) of code that will emit the given output
+making use of the variable `a_list`. For each problem there may be more than
+one correct answer; just give one.
 
 1.	Output: `3`
 
