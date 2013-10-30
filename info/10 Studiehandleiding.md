@@ -36,7 +36,8 @@ studenten die problemen signaleren. Als je even wat meer tijd nodig hebt om met
 ze te spreken, bijvoorbeeld voor het maken van persoonlijke afspraken, kun je altijd een korte afspraak inplannen via de e-mail.
 
 Martijn Stegeman (Python practice in weken 1, 3 en 5)  
-<stegeman@uva.nl>  
+tel (020) 525 5235  
+<stegeman@uva.nl>
 
 Ivo van Vulpen (Natuurkunde-programmeren in weken 2, 4, 6 en 7)  
 <ivo.van.vulpen@nikhef.nl>
