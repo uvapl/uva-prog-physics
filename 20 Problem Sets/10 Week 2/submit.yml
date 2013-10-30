@@ -3,4 +3,5 @@ form: false
 required:
     - primes.py
     - products.py
+optional:
     - nuggets.py
