@@ -2,6 +2,6 @@ name: w2
 form: false
 required:
     - primes.py
-    - products.py
 optional:
+    - products.py
     - nuggets.py
