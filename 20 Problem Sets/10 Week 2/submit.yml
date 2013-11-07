@@ -2,7 +2,7 @@ name: w2
 form: false
 required:
     - primes.py
-    - frends.py
+    - friends.py
     - goldbach.py
 optional:
     - products.py
