@@ -1,16 +1,16 @@
-# Questions to answer
+## Questions to answer
 
-## Warm up: recollections
+### Warm up: recollections
 
 Recall that a string is **immutable**, while a list is **mutable**. What does
 this mean? Research it with your neighbor!
 
 <textarea name="a[2-11]"></textarea>
 
-## String operations
+### String operations
 
 String operators might be a little less intuitive than those on numbers. This
-exercise will give you a chance to practice those. Given the following 
+exercise will give you a chance to practice those. Given the following
 variables:
 
 	look = 'Look at me!'

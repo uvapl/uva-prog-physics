@@ -301,4 +301,6 @@ correct. Order doesn't matter, as long as the list contains the same elements.
     
     # your code here for each intersection (l1, l2), (l3, l4), ...
 
-When you are done, make sure you have answers all exercise questions, and submit your files at the submit tab! If you have time left, take a go at the Hacker edition :-)
+When you are done, make sure you have answers all exercise questions, and
+submit your files at the submit tab! If you have time left, take a go at the
+Hacker edition :-)

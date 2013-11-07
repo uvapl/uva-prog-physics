@@ -1,6 +1,6 @@
-# Hacker exercise
+## Hacker exercise
 
-## Palindromes!
+### Palindromes!
 
 Write a function is palindrome which takes a string as parameter, and returns
 True if the string is a palindrome (meaning it is the same forwards as

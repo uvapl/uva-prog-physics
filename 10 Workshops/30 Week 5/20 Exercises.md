@@ -1,31 +1,10 @@
-# Exercises
+## Exercises
 
-**Important**: most of these exercises should be put in a file called
-`homework3.py`. You should make sure this file immediately runs and gives
-correct output for every exercise. The same goes for all other files you
-submit.
+Most of these exercises should be put in a file called `homework3.py`. You
+should make sure this file immediately runs and gives correct output for every
+exercise. The same goes for all other files you submit.
 
-## 3.0 Quadratic Formula
-
-Write a function roots that computes the roots of a quadratic equation. Check
-for [complex roots] and print an error message saying that the roots are
-complex.
-
-[complex roots]: http://en.wikipedia.org/wiki/Square_root#Square_roots_of_negative_and_complex_numbers
-
-* Hint 1: Your function should take three parameters. What are they?
-* Hint 2: We know the roots are complex when what condition about the
-  discriminant is met?
-
-**Important**. Be sure to use a variety of test cases, that include complex
-roots, real roots, and double roots.
-
-Optional: For an extra challenge, compute and print out the complex roots.
-Python can natively handle complex numbers: [reference].
-
-[reference]: http://infohost.nmt.edu/tcc/help/pubs/python/web/complex-type.html
-
-## 3.1 The game of Nims/Stones
+### 3.0 The game of Nims/Stones
 
 In this game, two players sit in front of a pile of 100 stones. They take
 turns, each removing between 1 and 5 stones (assuming there are at least 5
@@ -80,7 +59,7 @@ initially.
 
 When you're finished, test each other's programs by playing them!
 
-## 3.2 Report Card with GPA
+### 3.1 Report Card with GPA
 
 Write a function report card where the user can enter each of his grades,
 after which the program prints out a report card with GPA ([Urban
@@ -104,7 +83,7 @@ Hints: You'll want to use a for loop, and you'll probably want to keep track
 of names and grades seperately; there are a couple ways to do this. Remember,
 add to lists with `my_list.append(elt)`.
 
-## 3.3 Collision Detection of Balls
+### 3.2 Collision Detection of Balls
 
 Many games have complex physics engines, and one major function of these
 engines is to figure out if two objects are colliding. Weirdly-shaped objects
@@ -129,7 +108,7 @@ extra challenge, write your function to work with balls in 3D space. How
 should you represent the balls? You will also need to write your own test
 cases. Be sure to figure out any edge cases you need to test.
 
-## 3.5 Zeller's Algorithm, revisited
+### 3.3 Zeller's Algorithm, revisited
 
 This is similar to the Hacker exercise from Week 1, but in this version we
 will be writing a function that takes parameters, and using dictionaries to
@@ -159,7 +138,12 @@ Hints:
      the string '90' to the number 90, use `int('90')`; to convert the int 90 to
      the string '90', use `str(90)`.
 
-## 3.6 Double check
+### Data Processing
+
+Note that there is a separate tab containing a data processing exercise that
+you have to do.
+
+### Double check
 
 For every problem, check the following:
 

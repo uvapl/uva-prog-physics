@@ -5,3 +5,4 @@ required:
     - pyplot.py
 optional:
     - pig_latin.py
+    - recursion.py

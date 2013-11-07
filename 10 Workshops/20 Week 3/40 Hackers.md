@@ -1,4 +1,4 @@
-# Pig Latin
+## Pig Latin
 
 Write a function pig_latin that takes in a single word, then converts the
 word to Pig Latin. To review, Pig Latin takes the first letter of a word, 
@@ -19,7 +19,7 @@ letter, you can use `word[1:]`.
 Test your function with some interesting tests of which you already know
 the answer!
 
-## Sentences
+### Pig Sentences
 
 Converting one word to Pig Latin is okay, but it would be more useful to be
 able to convert whole sentences; so for this exercise, we'll use `raw_input`
