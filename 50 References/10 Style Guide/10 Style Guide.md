@@ -39,7 +39,7 @@ more:
 
 In the middle of your code you shouldn't write whole sentences, but rather
 small annotations. Even so, they should be properly formatted in your language
-of choice, including spacing and punctuation.
+of choice, including readable spacing.
 
 Don't do this:
 
@@ -49,18 +49,16 @@ Don't do this:
 But do it like this:
 
 {: .language-python}
-    # Compute student's average.
+    # compute student's average
 
 ### Example 3
 
 Atop your Python source code, add a comment block summarizing the goal of the
-program (what does it do for the user?), and also your name.
+program (what does it do for the user?), and preferably your name.
 
 {: .language-python}
-    # Problem Set 1
     # Name: Jane Lee
     # Collaborators: John Doe
-    # Time: 1:30
     #
     # This program calculates the average values of a series
     # of numbers input by the user.
@@ -109,7 +107,8 @@ In Python it is quite easy to know *when* you should indent a line. After a
 line that ends in a `:` (colon), all dependent lines should be indented.
 
 {: .language-python}
-    # This function consists or 4 lines of code and 1 line of commenting.
+    # This function consists of 4 lines of code and
+	# 2 lines of commenting.
     def sum(arrayOfNumbers):
         result = 0
         # This for loop contains exactly 1 line that is repeated.
@@ -142,8 +141,8 @@ typist). It is allowed, however, to use symbols derived from the domain of your
 program, like mathematics.
 
 {: .language-python}
-    d = 0.002                   # d is for "delta", which is a difference in mathematics
-    remaining_pension -= 2000   # clear name, doesn't need any comment
+    d = 0.002                   # d is for "delta"
+    remaining_pension -= 2000   # very good name
 
 ## White space for readability
 
@@ -159,14 +158,17 @@ Here's three very small blocks of code, each responsible for a particular
 function of the program:
 
 {: .language-python}
-	# user input
 	number = input("Please enter a number: ")
+	while number < 0:
+		number = input("Please enter a *positive* number: ")
 	
-	# calculations - uses a complex loop to handle special cases
+	# calculations: uses a complex loop to handle special cases
 	while(number > 0):
 		number -= 1
+	if number == 0:
+		number += 1
 	
-	# output - might not print zero (e.g., if user put in a float)
+	# output: might not print zero (e.g., if user put in a float)
 	print user_input
 
 ### Spaces around operators
