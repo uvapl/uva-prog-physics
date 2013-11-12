@@ -6,3 +6,5 @@ required:
 optional:
     - pig_latin.py
     - recursion.py
+dependent_grades:
+    - hw3
