@@ -5,6 +5,10 @@ should make sure this file immediately runs all tests that you have written and
 gives correct output for every exercise. The same goes for all other files you
 submit.
 
+### EXTRA EXTRA EXTRA!
+
+After doing these exercises, you must also complete the [exercise in this PDF](Lecture_3_Assignments_UvA)!
+
 ### 2.0 Print vs Return
 
 This isn't really an exercise, just an important bit of reading. These two
