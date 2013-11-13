@@ -7,7 +7,7 @@ submit.
 
 ### EXTRA EXTRA EXTRA!
 
-After doing these exercises, you must also complete the [exercise in this PDF](Lecture_3_Assignments_UvA)!
+After doing these exercises, you must also complete the [exercise in this PDF](Lecture_3_Assignments_UvA.pdf)!
 
 ### 2.0 Print vs Return
 
