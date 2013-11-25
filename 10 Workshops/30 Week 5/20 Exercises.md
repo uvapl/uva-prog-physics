@@ -24,8 +24,6 @@ Check out the lines of text in between the sets of `'''`, underneath the
 definition. This is called a *docstring*, and is handy to use to tell other
 programmers what parameters to pass in, and what your program does.
 
-**First**, add a docstring to the function you wrote in the previous problem.
-
 In this problem, you'll write a function to play this game; we've outlined it
 for you. It may seem tricky, so break it down into parts. Like many programs,
 we have to use nested loops (one loop inside another). In the outermost loop,
