@@ -1,4 +1,5 @@
 name: w6
 required:
     - doos.py
-    - heelal.py
+optional:
+    - animatie.py
