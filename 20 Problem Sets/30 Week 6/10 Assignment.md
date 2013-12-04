@@ -1,6 +1,7 @@
 This week, you'll be making your first small Python programs. Download the PDF
 for complete instructions.
 
+* [Slides](Lecture_6_slides.pdf)
 * [Assignment](Lecture_6_Assignments_UvA.pdf)
 * [Animation template](animation_template_circles.py)
 
