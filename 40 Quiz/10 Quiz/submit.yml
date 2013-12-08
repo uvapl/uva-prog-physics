@@ -1,0 +1,5 @@
+name: quiz
+optional:
+    - opgave1.py
+    - opgave2.py
+    - opgave3.py
