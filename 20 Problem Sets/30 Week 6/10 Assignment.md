@@ -1,4 +1,4 @@
-This week, you'll be making your first small Python programs. Download the PDF
+This week, you'll be visualizing physical phenomena. Download the PDF
 for complete instructions.
 
 * [Slides](Lecture_6_slides.pdf)
