@@ -271,7 +271,6 @@ Use whichever form you feel comfortable using. When you are done coding *and tes
 
 You have read about while loops in chapter 6. Another commonly used form of iteration is using for loops. Where a while loop evaluates a certain condition before every iteration, a for loop runs through the elements of a list, where each element can be used in one iteration. For example, the following code:
 
-{: .language-python}
 	for element in mylist:
 		print element
 
@@ -279,14 +278,12 @@ prints the elements of `mylist`. For each iteration, the variable `element` take
 
 Using a combination of `range()` and `len()`, we can let the iteration variable run over the index numbers of the list. Then we can use slicing to get the value associated with the index number. Try the following code:
 
-{: .language-python}
 	mylist = [9,4,5,3,8,7,6]
 	for i in range(len(mylist)):
 		print 'index:',i,' value:',mylist[i]
 		
 Using the index number can be very useful, but also very confusing! The following code:
 
-{: .language-python}
 	for i in mylist:
 		print mylist[i]
 
@@ -294,7 +291,6 @@ generates an `IndexError: list index out of range` message. The error occurs alr
 
 Note that most while loops can also be formulated in a for loop and vice versa. For example, the elements of a list can also be printed by:
 
-{: .language-python}
 	index = 0
 	while(index < len(mylist)):
 		print mylist[index]
