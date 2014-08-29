@@ -267,7 +267,42 @@ Or, you can use the *backslash* symbol to indicate to Python that the next line 
 
 Use whichever form you feel comfortable using. When you are done coding *and testing*, print a copy of the file and turn it in. Make sure your name and section number is in the comment section of your program.
 
-## 1.9 For & While Loops
+## 1.9 For Loops
+
+You have read about while loops in chapter 6. Another commonly used form of iteration is using for loops. Where a while loop evaluates a certain condition before every iteration, a for loop runs through the elements of a list, where each element can be used in one iteration. For example, the following code:
+
+{: .language-python}
+	for element in mylist:
+		print element
+
+prints the elements of `mylist`. For each iteration, the variable `element` takes the value of the next element in `mylist`, until the last element is reached and the iteration stops. You could also write `for number in [1,2,3,4]`, or use `range()` to generate a list: `for number in range(1,5)`. 
+
+Using a combination of `range()` and `len()`, we can let the iteration variable run over the index numbers of the list. Then we can use slicing to get the value associated with the index number. Try the following code:
+
+{: .language-python}
+	mylist = [9,4,5,3,8,7,6]
+	for i in range(len(mylist)):
+		print 'index:',i,' value:',mylist[i]
+		
+Using the index number can be very useful, but also very confusing! The following code:
+
+{: .language-python}
+	for i in mylist:
+		print mylist[i]
+
+generates an `IndexError: list index out of range` message. The error occurs already at the first run through the loop, when `i=9`, and `mylist[9]` does not exist because the length of mylist is only 7. Beware of this common mistake when writing larger programs!
+
+Note that most while loops can also be formulated in a for loop and vice versa. For example, the elements of a list can also be printed by:
+
+{: .language-python}
+	index = 0
+	while(index < len(mylist)):
+		print mylist[index]
+		index += 1
+
+In general, while loops are more useful when a certain condition needs to be reached for the loop to end and for loops are more useful when a fixed number of iterations is required. However, as there is no intrinsic difference in efficiency, ultimately it remains a design choice. It can make your code much easier to read, though.
+
+## 1.10 For & While Loops Exercise
 
 Create a new file called `loops.py` and use it for all parts of this exercise. Remember the difference between input and raw input? If not, look at Exercise 1.5 again.
 
@@ -279,9 +314,17 @@ Be sure to test your code for each part before moving on to the next part.
 
 3. Write a program using a for loop that calculates exponentials. Your program should ask the user for a base `base` and an exponent `exp`, and calculate `base`<sup>`exp`</sup>. You can't use the `^` operator!
 
-4. Write a program using a while loop that asks the user to enter a number that is divisible by 2. Give the user a witty message if they enter something that is not divisible by 2, *and make them enter a new number*. Don't let them stop until they enter an even number! Print a congratulatory message when they *finally* get it right.
+4. Write a program using a while loop that asks the user to enter a number that is divisible by 2. Give the user a witty message if they enter something that is not divisible by 2, *and make them enter a new number*. Don't let them stop until they enter an even number! Print a congratulatory message when they *finally* get it right. You can check if a number is divisible by another number with the modulo operator `%`.
 
-## 1.10 Additional list practice
+5. Use the list [9,4,5,3,8,7,6], the modulo operator, and a for loop. Print every third element. Then print every element that is divisible by 3.
+
+6. Write a program that prints the table for a given number *n*. Using a while loop, check for every number whether it is divisible by *n* with the modulo operator. Add the numbers to a list, stop after 10 are found, and print the list. 
+
+7. Rewrite the table program using a for loop, and this time use the `break` command to stop when the first number is found that is also divisible by 10.
+
+8. Write a program that asks the user for a list of numbers and prints the largest number: use a for loop to examine each number in the list and a variable to save the largest number. While going through the list, compare each element to the previous maximum and 'remember' the new maximum. After the loop, print out the maximum. 
+
+## 1.11 Additional List Practice
 
 You'll probably also need some practice with lists. Write a program
 `list_intersection` that takes the intersection of the two lists; so, a list of
@@ -301,6 +344,6 @@ correct. Order doesn't matter, as long as the list contains the same elements.
     
     # your code here for each intersection (l1, l2), (l3, l4), ...
 
-When you are done, make sure you have answers all exercise questions, and
+When you are done, make sure you have answered all exercise questions, and
 submit your files at the submit tab! If you have time left, take a go at the
 Hacker edition :-)
