@@ -3,9 +3,9 @@
 Dit ben je per week kwijt aan dit vak:
 
 * 8 uur computerpracticum
-* 2,5 uur thuis lezen
+* 3 uur thuis lezen en een beetje programmeren
 
-Dat betekent een wekelijkse studielast per week van gemiddeld 10,5 uur. Hou er
+Dat betekent een wekelijkse studielast per week van gemiddeld 11 uur. Hou er
 rekening mee dat je best wat meer tijd kwijt kan zijn, studenten verschillen nu
 eenmaal. Als je nog niet eerder geprogrammeerd hebt moet je even over een
 drempel heen voordat je het begint te begrijpen.
@@ -13,28 +13,22 @@ drempel heen voordat je het begint te begrijpen.
 ## Huiswerk
 
 Vóór aanvang van alle lesweken moet je een aantal hoofdstukken uit de syllabus
-lezen. Hierin moet je aantekenen welke onderdelen je moeilijk te begrijpen
-vindt, en welke vragen in je opkomen bij het lezen. In weken 1, 3 en 5 zullen
-de assistenten deze aantekeningen met je bespreken bespreken. In de andere
-weken verwachten we dat je zelf naar de assistenten toekomt als je vragen hebt
-over de stof. Om deze reden moet je je syllabus elke week meenemen.
+lezen. We verwachten we dat je zelf naar de assistenten toekomt als je vragen
+hebt over de stof.
 
 ## Workshops
 
 In weken 1, 3 en 5 volg je workshops waarin je met kleine opdrachten de basis
 van Python en programmeren leert. Je laat het eindresultaat zien aan de
-assistent, die je code bekijkt en wat feedback geeft, en vervolgens je opdracht
-aftekent. De feedback lijkt al een beetje op de feedback die we aan je *Problem
-Sets* geven.
+assistent, die je code bekijkt en wat feedback geeft. De feedback lijkt op de
+feedback die we voor je *Problem Sets* geven.
 
 ## Problem Sets
 
 In weken 2, 4, 6 en 7 doe je *problem sets* waarin je programma's gaat
 uitwerken en invullen. De bedoeling is dat je enigszins zelfstandig de
 opdrachten leert lezen en begrijpen, waarna je een oplossing kunt formuleren en
-implementeren.
-
-Elk ingeleverd programma wordt beoordeeld op de volgende factoren;
+implementeren. Elk ingeleverd programma wordt beoordeeld op de volgende factoren:
 
 * Omvang --- heb je alles geprobeerd?
 

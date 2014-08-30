@@ -99,7 +99,7 @@ Deze cursus bevat 3 workshops, 4 problem sets en 1 tentamen (zie *Onderdelen* vo
   Als je meer dan een week vooruit loopt én alle programmeeropdrachten (problem
   sets) hebt gedaan kun je schriftelijk aan de docenten verzoeken om
   vrijstelling van de aanwezigheidsverplichting. Dit wordt alleen gehonoreerd
-  als je code van uitstekende kwaliteit is en we vertrouwen hebben dat je het vak zelfstandig kunt halen.
+  als je code van uitstekende kwaliteit is en we vertrouwen hebben dat je het vak zelfstandig kunt halen. (Wil je vooruitlopen? Dan eerst mailen!)
 
 * We verwachten dat je de feedback over je opdrachten gebruikt om de opdrachten
   van de volgende week beter te maken. We zullen hier actief naar kijken en dit
