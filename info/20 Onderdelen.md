@@ -70,21 +70,17 @@ implementeren. Elk ingeleverd programma wordt beoordeeld op de volgende factoren
 	5. perfectie, veel eigen principes maar volledig consistent
 	{: start="0"}
 
-Voor de berekening van het cijfer van je problem set geven we ongeveer de volgende gewichten aan je deelcijfers:
-
-* Omvang: factor 6
-* Correctheid: factor 3
-* Ontwerp: factor 2
-* Stijl: factor 1
-
-Toch is het zo dat stijl een zwaarwegende factor kan worden als je bijvoorbeeld bij herhaling geen vooruitgang maakt hierin.
+Deze cijfers leiden niet volgens een formule tot een totaalcijfer voor de week. Je kunt er wel vanuit gaan dat als je vier keer een 3 scoort, dit gelijk is aan een eindcijfer 6. Als je vier keer een 4 scoort, wordt het waarschijnlijk een 8. Maar als je de feedback niet toepast, dan kan het wel eens minder worden!
 
 ### Deadline
 
-De deadline is vrijdag om 18:00 voor alle studenten. Op dat moment wordt het ingeleverde werk verdeeld onder de nakijkers en gaan zij aan de slag. Er is geen mogelijkheid om het later in te leveren; wél eerder natuurlijk!
+De deadline is op je laatste practicumdag om 18:00 voor alle studenten. Op dat
+moment wordt het ingeleverde werk verdeeld onder de nakijkers en gaan zij aan
+de slag. Er is geen mogelijkheid om het later in te leveren; wél eerder
+natuurlijk!
 
 Het is prima om vóór je instuurt de assistent nog even te vragen naar je opgave
-te kijken en verbeteringen aan te brengen.
+te kijken, zodat je nog verbeteringen kunt aanbrengen.
 
 ## Tentamen
 
