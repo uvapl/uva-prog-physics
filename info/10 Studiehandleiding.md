@@ -88,7 +88,7 @@ Deze cursus bevat 3 workshops, 4 problem sets en 1 tentamen (zie *Onderdelen* vo
   opdrachten al voor de deadline te laten zien aan een assistent. Dat is dan
   verplicht.
 
-* We verwachten dat je in weken 1, 3 en 5 reeds vóór het practicum je
+* We verwachten dat je reeds vóór het practicum je
   huiswerk hebt gedaan en dat je eventuele vragen bespreekt met je assistent.
 
 * We verwachten dat per week 8 uur aanwezig bent, tijdens je geroosterde groep.
