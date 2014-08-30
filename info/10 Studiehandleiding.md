@@ -1,6 +1,6 @@
 # Studiewijzer
 
-*Versie: November 2013 (1.0)*
+*Versie: September 2014 (4.0)*
 
 Welkom bij deze cursus *Inleiding Programmeren*. We gaan programmeren in Python, een eenvoudige taal met vele mogelijkheden. Je leert over de basis van het programmeren, maar je gaat ook aan de slag met toepassingen uit de wiskunde, natuurkunde en sterrenkunde.
 
@@ -17,9 +17,9 @@ Welkom bij deze cursus *Inleiding Programmeren*. We gaan programmeren in Python,
 
 De staf bestaat uit je docent en diverse studentassistenten. Door de omvang van
 de cursus kan de staf doorgaans niet reageren op e-mail over problem sets.
-Probeer voor afspraken en hulp zoveel mogelijk de studentassistenten en de docent tijdens het practicum aan te spreken.
+Probeer voor afspraken en hulp zoveel mogelijk de studentassistenten en de docent tijdens het practicum aan te spreken. Heb je een praktische vraag? Mail dan gerust naar <progns@mprog.nl>. We proberen je binnen 24 uur te antwoorden.
 
-### Docent
+### Docenten
 
 Bij de docenten kun je terecht voor:
 
@@ -30,13 +30,12 @@ Bij de docenten kun je terecht voor:
 * toestemming voor afwezigheid bij vooruit werken
 * ziekmelding
 
-De docenten zijn wekelijks tijdens het practicum aanwezig om te spreken met
+De docenten zijn regelmatig tijdens het practicum aanwezig om te spreken met
 studenten, om af spraken te maken en die na te komen, en om te luisteren naar
 studenten die problemen signaleren. Als je even wat meer tijd nodig hebt om met
-ze te spreken, bijvoorbeeld voor het maken van persoonlijke afspraken, kun je altijd een korte afspraak inplannen via de e-mail.
+ze te spreken, bijvoorbeeld voor het maken van persoonlijke afspraken, kun je altijd een korte afspraak inplannen via de e-mail. Mail bij voorkeur naar <progns@mprog.nl>.
 
 Martijn Stegeman (Python practice in weken 1, 3 en 5)  
-tel (020) 525 5235  
 <stegeman@uva.nl>
 
 Ivo van Vulpen (Natuurkunde-programmeren in weken 2, 4, 6 en 7)  
@@ -83,9 +82,14 @@ er naar te kijken. Zo kunnen ze je tips geven om tot een hoger cijfer te komen.
 
 Deze cursus bevat 3 workshops, 4 problem sets en 1 tentamen (zie *Onderdelen* voor de invulling). Ter voorbereiding is er leesstof opgegeven.
 
+* We verwachten dat je uiterlijk op de laatste practicumdag om 18:00 uur je
+  opdracht van de week inlevert. Zit je in de donderdaggroep? Deadline
+  donderdag. Zit je in de vrijdaggroep? Deadline vrijdag. Ook vragen we soms je
+  opdrachten al voor de deadline te laten zien aan een assistent. Dat is dan
+  verplicht.
+
 * We verwachten dat je in weken 1, 3 en 5 reeds vóór het practicum je
-  huiswerk hebt gedaan en dat je je aantekeningen tijdens het eerste practicum
-  bespreekt met een assistent. Dit wordt ter plaatse afgetekend.
+  huiswerk hebt gedaan en dat je eventuele vragen bespreekt met je assistent.
 
 * We verwachten dat per week 8 uur aanwezig bent, tijdens je geroosterde groep.
   Aanwezigheid is verplicht, maar inhalen kan bij ziekte of andere
@@ -95,11 +99,7 @@ Deze cursus bevat 3 workshops, 4 problem sets en 1 tentamen (zie *Onderdelen* vo
   Als je meer dan een week vooruit loopt én alle programmeeropdrachten (problem
   sets) hebt gedaan kun je schriftelijk aan de docenten verzoeken om
   vrijstelling van de aanwezigheidsverplichting. Dit wordt alleen gehonoreerd
-  als je code van uitstekende kwaliteit is.
-
-* We verwachten dat je uiterlijk vrijdag om 18:00 uur je opdracht van de week
-  inlevert. Ook vragen we soms je opdrachten al voor de deadline te laten zien
-  aan een assistent. Dat is dan verplicht.
+  als je code van uitstekende kwaliteit is en we vertrouwen hebben dat je het vak zelfstandig kunt halen.
 
 * We verwachten dat je de feedback over je opdrachten gebruikt om de opdrachten
   van de volgende week beter te maken. We zullen hier actief naar kijken en dit
@@ -118,8 +118,7 @@ mogelijk met de hoeveelheid studenten in het vak.
 Je krijgt een eindcijfer voor dit vak als je:
 
 * voldoende uren aanwezig bent geweest tijdens de practica;
-* alle aantekeningen van het huiswerk hebt besproken met de assistent;
-* alle benodigde programma's op tijd en naar verwachting hebt aangeleverd;
+* elke week je opdracht op tijd en naar verwachting hebt aangeleverd;
 * een voldoende hebt gehaald voor het tentamen.
 
 Als je niet aan de normen voor de opdrachten voldoet, krijg je geen cijfer voor
@@ -148,5 +147,5 @@ leeswerk één keer aan het begin van de week doet en gedurende de week nog eens
 > *Think Python*  
 > Green Tea Press, 2013  
 
-Het boek is gedrukt als syllabus. Deze is voor 3 euro verkrijgbaar bij de
-onderwijsbalie.
+Het boek is open source. De betreffende hoofdstukken staan gelinkt bij elke opdracht.
+
