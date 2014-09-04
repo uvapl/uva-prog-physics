@@ -1,21 +1,13 @@
 This small practice will cover how to set up Python and introduce you to IDLE,
 the Python development environment we will be using throughout this course.
 
-Python should be set up correctly on all Windows machines. Find **Python
-(x,y)** in the start menu, and then choose "IDLE". This should start up the
-Python development environment.
-
 ## Installing on your own machine
 
-Warning: On the Python homepage, the latest version available for download
-is actually 3.0. Do not install this! This version is not backwards compatible
-with the code that you'll be writing in this course. This is also why Python
-2.7 is still the most-used version in research. So, be sure to download
-the version listed above.
+Download the free Canopy Python distribution at <https://store.enthought.com/downloads/>. It contains everything you need for this course, and more.
 
 ## Using IDLE
 
-IDLE is the standard Python development environment Its name is an acronym of
+IDLE is the standard Python development environment. Its name is an acronym of
 "Integrated DeveLopment Environment". It works well on both Unix and Windows
 platforms.
 
