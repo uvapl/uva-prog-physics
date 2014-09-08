@@ -2,8 +2,6 @@ name: w2
 form: false
 required:
     - primes.py
-    - friends.py
     - goldbach.py
 optional:
-    - products.py
     - nuggets.py
