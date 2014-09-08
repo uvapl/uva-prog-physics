@@ -1,13 +1,13 @@
 # Studiewijzer
 
-*Versie: September 2014 (4.0)*
+*Versie: September 2014 (4.1)*
 
 Welkom bij deze cursus *Inleiding Programmeren*. We gaan programmeren in Python, een eenvoudige taal met vele mogelijkheden. Je leert over de basis van het programmeren, maar je gaat ook aan de slag met toepassingen uit de wiskunde, natuurkunde en sterrenkunde.
 
 ![Python](python-logo.png){:.inline}  
 
 |Opleiding  |Natuur- en sterrenkunde               |
-|Periode    |Studiejaar 1, Semester 1, periode 2   |
+|Periode    |Studiejaar 1, Semester 1, periode 1 of 2   |
 |Coördinator|Ivo van Vulpen                        |
 |Co-docent  |Martijn Stegeman                      |
 |Studielast |3 studiepunten                        |

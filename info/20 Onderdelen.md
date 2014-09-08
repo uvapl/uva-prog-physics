@@ -86,5 +86,5 @@ te kijken, zodat je nog verbeteringen kunt aanbrengen.
 
 Omdat het mogelijk is ongemerkt mee te liften met een medestudent tijdens het
 maken van de practica (als je steevast overlegt over de manier van code
-schrijven), checken we het tentamen nog een keer of je zelfstandig de
-leerdoelen van het vak gehaald hebt.
+schrijven), checken we met behulp van het tentamen nog een keer of je
+zelfstandig de leerdoelen van het vak gehaald hebt.
