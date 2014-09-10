@@ -134,8 +134,7 @@ Als je het practicum hebt gehaald, maar de deeltentamens niet, krijg je een
 
 Het eindcijfer bestaat in de basis uit het gemiddelde van de problem sets. Een
 klein deel van het cijfer van de practica wordt bepaald door hoe je beter bent
-gaan programmeren tijdens het vak, en of je al je huiswerk hebt laten
-aftekenen. Dit kan van invloed zijn op je eindcijfer.
+gaan programmeren tijdens het vak. Dit kan van invloed zijn op je eindcijfer.
 
 ## Literatuur
 
