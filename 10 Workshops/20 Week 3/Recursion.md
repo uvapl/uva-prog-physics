@@ -1,6 +1,6 @@
-## Totally Extra Exercises on Recursion
+## Hacker Exercises on Recursion
 
-These exercises are fully optional but can be very interesting mind teasers.
+These exercises are optional but can be very interesting mind teasers.
 
 > recursion (noun)
 > : *see* recursion
