@@ -39,7 +39,7 @@ if you haven't seen your code in a while. You will also be graded on this under 
 Now, about functions, what can we use them for?
 
 A function can be a mathematical function, exactly like we know functions from calculus. 
-For example, $$y=f(x)$$ would be:
+For example, $$f(x)=x^2$$ would be:
 
 	def square(x):
 		'''
@@ -78,7 +78,7 @@ variable again.
 It might be obvious, but remember that whatever is put after return in your 
 function will be sent to the position in your main code where you called the
 function. You can then print it, save it to a variable, or use it in a computation.
-You can also choose not to return anything, then the function returns `'None'`. 
+You can also choose not to return anything, then the function returns `None`. 
 However, the code inside the function is still executed and may contain print 
 statements. The next section is all about the difference between print and return.
 
