@@ -347,7 +347,100 @@ functions for these common tasks. Include three test cases with each function.
 
 ### 2.9 Plotting
 
-Ooooh this is nice! Graphical output with Python. Work through the [PyPlot
+Ooooh this is nice! Graphical output with Python. We will cover the basic plotting functions 
+that you need in the next few weeks, but you are encouraged to look up functions yourself to 
+create even better looking plots. Note however that even though you may use other functions 
+for this part, you should still understand what is happening in your code, and we may ask you about it. 
+
+Create a file called `pyplot.py` to save the exercises for this section. Put each example in a
+separate function.
+
+We will use the pyplot section of matplotlib, which is the main plotting library for Python.
+To be able to use its functions, add `import matplotlib.pyplot as plt` to the top of your file.
+We can now call any of the plotting functions as `plt.func`, where `func` is the function we want to use.
+
+Now, let's make a plot of the `square()` function that we defined earlier. Remember the definition:
+
+	def square(x):
+		'''
+		This function computes the square value. It has one parameter, number x.
+		'''
+		return x*x
+
+The first thing we need is a range of x-values:
+
+	xlist = range(-10,11)
+
+We cannot multiply lists, so for the y-values we have to use a loop:
+
+	ylist = []
+	for xvalue in xlist:
+		ylist.append(square(xvalue))
+
+Now we can make a plot with the `plot` command. The absolute minimum we need is a command 
+to create a plot of the y-values and a command to show our plot:
+	
+	plt.plot(ylist)
+	plt.show()
+	
+You may have noticed that the y-values were not matched to the right x-values, because we didn't include 
+the xlist-values. The full syntax of the `plot` command is: `plot(x,y,marker,x2,y2,marker2,...etc)`. There 
+are many options for the markers, like `r.` for red dots, or `go` for green circles, or `b--` for blue dashes, etc.
+Let's use red circles for now. We can also add some labels with `xlabel('label')` and `ylabel('label')`, 
+and specify the plotting range with `axes([xmin,xmax,ymin,ymax])`. After setting all the options, we 
+can show the plot with `show()`:
+
+	plt.plot(xlist,ylist)
+	plt.xlabel('x')
+	plt.ylabel('y')
+	plt.axis([-15,15,0,110])
+	plt.show()
+
+1.	As a first exercise, plot the sine and cosine function in one figure, in the x-range of $$0$$ to $$2pi$$. 
+	To use the `sin()` and `cos()` function, you have to import the `numpy` module. This module also contains the 
+	`arange(start,stop,step)` function, which you can use to create a range of values with a step size smaller than 
+	one. Use a different color for each function.
+
+Another form of graphical output that we're going to use is a histogram. The syntax for a histogram is `hist(x,bins)`, 
+where `x` is a list of values and `bins` is the amount of bins that the data is divided into. A high number of
+bins makes it easier to see fluctuations, but may result in a very low count per bin, so this number should always 
+be tailored to your data. Try the following code, which shows a normal distributed range of IQs centered around 100.Notice that we have added some text and included a grid to the histogram.
+
+	import numpy as np
+	import matplotlib.pyplot as plt
+	
+	mu = 100
+	sigma = 15
+	x = mu + sigma * np.random.randn(10000)
+	
+	# the histogram of the data
+	plt.hist(x, 50,normed=1,facecolor='g')
+	
+	plt.xlabel('Smarts')
+	plt.ylabel('Probability')
+	plt.title('Histogram of IQ')
+	plt.text(60, .025, r'$\mu=100,\ \sigma=15$')
+	plt.axis([40, 160, 0, 0.03])
+	plt.grid(True)
+	plt.show()
+
+For the next exercise you need to show two figures side by side. You can do this by using `subplot`.
+The syntax is `subplot(numberofrows,numberofcolumns,activeplotnr)`. For example, the following code
+
+histogram
+
+figure, subplots
+
+copy example including text, linewidth, errorbars, title, legend. Give dataset.
+	
+
+
+
+
+
+
+
+Work through the [PyPlot
 tutorial] and create a file called `pyplot.py` to save your tutorial tests. Put
 each example in a separate function!
 
