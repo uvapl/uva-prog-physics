@@ -385,12 +385,12 @@ to create a plot of the y-values and a command to show our plot:
 	
 You may have noticed that the y-values were not matched to the right x-values, because we didn't include 
 the xlist-values. The full syntax of the `plot` command is: `plot(x,y,marker,x2,y2,marker2,...etc)`. There 
-are many options for the markers, like `r.` for red dots, or `go` for green circles, or `b--` for blue dashes, etc.
+are many options for the markers, like `'r.'` for red dots, or `'go'` for green circles, or `'b--'` for blue dashes, etc.
 Let's use red circles for now. We can also add some labels with `xlabel('label')` and `ylabel('label')`, 
 and specify the plotting range with `axes([xmin,xmax,ymin,ymax])`. After setting all the options, we 
 can show the plot with `show()`:
 
-	plt.plot(xlist,ylist)
+	plt.plot(xlist,ylist,'ro')
 	plt.xlabel('x')
 	plt.ylabel('y')
 	plt.axis([-15,15,0,110])
@@ -450,21 +450,21 @@ creates a grid of four figures:
 	plt.show()
 
 2.	In this exercise we will use everything we have learned so far to plot a set of
-	datapoints that we're going to fit next week. Using the sine and cosine function
+	datapoints that we're going to fit next week. Use the sine and cosine function
 	from the previous exercise for the left figure, and this data for the right figure:
 	
 	![Dataset](dataset.png)
 
-	Create the following plot:
+	To create the following plot:
 	
 	![exampleplot](exampleplot.png)
 	
 	Functions that we haven't seen and you may want to use are:
-	`linewidth=3` - as an option for `plot`
-	`errorbar(x,y,yerror,fmt='o')` - instead of `plot()`
-	`xticks([0,np.pi,2*np.pi],[0,'$\pi$','$2\pi$'])`
-	`legend()` - without any options. Include a `label=...` in your `plot` command.
-	`subplots_adjust(hspace = 0.5)` to get the spacing of figures right.
+	* `linewidth=3` - as an option for `plot`
+	* `errorbar(x,y,yerror,fmt='o')` - instead of `plot()`
+	* `xticks([0,np.pi,2*np.pi],[0,'$\pi$','$2\pi$'])`
+	* `legend()` - without any options. Include a `label=...` in your `plot` command.
+	* `subplots_adjust(hspace = 0.5)` to get the spacing of figures right.
 	
 Congratulations, you are now well-prepared for most of the plots that you will need to make in 
 the rest of your study!
