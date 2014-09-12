@@ -404,7 +404,8 @@ can show the plot with `show()`:
 Another form of graphical output that we're going to use is a histogram. The syntax for a histogram is `hist(x,bins)`, 
 where `x` is a list of values and `bins` is the amount of bins that the data is divided into. A high number of
 bins makes it easier to see fluctuations, but may result in a very low count per bin, so this number should always 
-be tailored to your data. Try the following code, which shows a normal distributed range of IQs centered around 100.Notice that we have added some text and included a grid to the histogram.
+be tailored to your data. Try the following code, which shows a normal distributed range of IQs centered around 100.
+Notice that we have added some text and included a grid to the histogram.
 
 	import numpy as np
 	import matplotlib.pyplot as plt
@@ -426,25 +427,47 @@ be tailored to your data. Try the following code, which shows a normal distribut
 
 For the next exercise you need to show two figures side by side. You can do this by using `subplot`.
 The syntax is `subplot(numberofrows,numberofcolumns,activeplotnr)`. For example, the following code
+creates a grid of four figures:
 
-histogram
-
-figure, subplots
-
-copy example including text, linewidth, errorbars, title, legend. Give dataset.
+	import matplotlib.pyplot as plt
 	
+	plt.subplot(2,2,1)
+	plt.xticks([]), plt.yticks([])
+	plt.text(0.5,0.5, 'subplot(2,2,1)',ha='center',va='center',size=20)
+	
+	plt.subplot(2,2,2)
+	plt.xticks([]), plt.yticks([])
+	plt.text(0.5,0.5, 'subplot(2,2,2)',ha='center',va='center',size=20)
+	
+	plt.subplot(2,2,3)
+	plt.xticks([]), plt.yticks([])
+	plt.text(0.5,0.5, 'subplot(2,2,3)',ha='center',va='center',size=20)
+	
+	plt.subplot(2,2,4)
+	plt.xticks([]), plt.yticks([])
+	plt.text(0.5,0.5, 'subplot(2,2,4)',ha='center',va='center',size=20)
+	
+	plt.show()
 
+2.	In this exercise we will use everything we have learned so far to plot a set of
+	datapoints that we're going to fit next week. Using the sine and cosine function
+	from the previous exercise for the left figure, and this data for the right figure:
+	
+	![Dataset](dataset.png)
 
-
-
-
-
-
-Work through the [PyPlot
-tutorial] and create a file called `pyplot.py` to save your tutorial tests. Put
-each example in a separate function!
-
-[PyPlot tutorial]: http://matplotlib.org/users/pyplot_tutorial.html
+	Create the following plot:
+	
+	![exampleplot](exampleplot.png)
+	
+	Functions that we haven't seen and you may want to use are:
+	`linewidth=3` - as an option for `plot`
+	`errorbar(x,y,yerror,fmt='o')` - instead of `plot()`
+	`xticks([0,np.pi,2*np.pi],[0,'$\pi$','$2\pi$'])`
+	`legend()` - without any options. Include a `label=...` in your `plot` command.
+	`subplots_adjust(hspace = 0.5)` to get the spacing of figures right.
+	
+Congratulations, you are now well-prepared for most of the plots that you will need to make in 
+the rest of your study!
 
 ### Double check
 
