@@ -5,13 +5,86 @@ should make sure this file immediately runs all tests that you have written and
 gives correct output for every exercise. The same goes for all other files you
 submit.
 
-### EXTRA EXTRA EXTRA!
+### 2.0 General Notes on Functions
 
-After doing these exercises, you must also complete the [exercise in this PDF](Lecture_3_Assignments_UvA.pdf)!
+Before we start doing exercises, there are a few general but important things to know
+about functions. Functions are an essential part of programming; they are used to 
+perform tasks that may need to be performed more than once, and to split your program 
+up in logical parts in a clear and useful way. They are used so much that most programs 
+consist of only a few lines of main code. Almost every task is handled by functions, 
+or functions of functions, and the main code is only used to call these functions with 
+certain parameters. 
 
-### 2.0 Print vs Return
+To keep the structure of your program clear, and to know where to look if you want to 
+find the definition of a function, the convention is to put function definitions 
+at the top of your script. The structure of your script then looks like this:
 
-This isn't really an exercise, just an important bit of reading. These two
+	## Name
+	## Date
+	## Short description of the program
+	
+	def function1(parameter1, parameter2):
+		...
+	
+	def function2(parameter1, parameter2):
+		...
+	
+	## ---------- Main ----------
+	This is where you execute your program and call the functions that you need.
+
+You will probably have to get used to this way of organizing your program, but you will soon
+realize that it makes your code much easier to read and work with for others, or for yourself 
+if you haven't seen your code in a while. You will also be graded on this under style.
+
+Now, about functions, what can we use them for?
+
+A function can be a mathematical function, exactly like we know functions from calculus. 
+For example, $$y=f(x)$$ would be:
+
+	def square(x):
+		'''
+		This function computes the square value. It has one parameter, number x.
+		'''
+		return x*x
+
+Or it can do a job for you:
+
+	def get_number():
+		'''
+		This function keeps asking for a number until the user gives a number. It has no parameters.
+		'''
+		number = input('Number: ')
+		while type(number) != int:
+			print 'That is not a number, please try again.\n'
+			number = input('Number: ')
+		return number
+
+Note that we have included a short description and that we mention the 
+parameters for both functions. This is also part of a good style.
+
+Remember that these functions are not executed until you call them in your 
+main code. With the first function, you can print the square value directly:
+
+	print square(2)
+
+Or you can save the square value to a variable and then print the variable:
+
+	y = square(2)
+	print y
+
+The second method is preferred because there you can later print or use the 
+variable again.
+
+It might be obvious, but remember that whatever is put after return in your 
+function will be sent to the position in your main code where you called the
+function. You can then print it, save it to a variable, or use it in a computation.
+You can also choose not to return anything, then the function returns `'None'`. 
+However, the code inside the function is still executed and may contain print 
+statements. The next section is all about the difference between print and return.
+
+### 2.1 Print vs Return
+
+Still no exercises, just another important bit of reading. These two
 functions are defined:
 
 	def f1(x):
@@ -54,7 +127,7 @@ to add to 1, and an error is generated. In the second case, the function
 returns the value 4, which is added to 1, and the result, 5, is printed by 
 the Python read-eval-print loop.
 
-But for just about everything we do, it will be returned values that matter, 
+For just about everything we do, it will be returned values that matter, 
 and printing will be used only for debugging, or to give information to the
 user.
 
@@ -78,7 +151,7 @@ to do so.
 
 ---
 
-### 2.1 Defining A Function
+### 2.2 Defining A Function
 
 Recall how we define a function using `def`, and how we pass in parameters. 
 In `homework2.py`, paste your code from exercise 1.8 (the rock, paper, scissors
@@ -89,7 +162,7 @@ printing it.
 Think a bit about the name you give to the function. Discuss with your 
 neighbor what name would be best.
 
-### 2.2 Testing your function
+### 2.3 Testing your function
 
 Because rock, paper, scissors now is a function that returns a value,
 you can easily call it in a test. Write three test cases for
@@ -106,7 +179,7 @@ code for each exercise.
 
 ---
 
-### 2.3 A few simple methods
+### 2.4 A few simple methods
 
 In this problem you'll be asked to write two simple methods (*method* is an
 interchangeable term for *function*). Be sure to test your functions well, 
@@ -131,22 +204,6 @@ including at least 3 test cases for each method.
    as the `!=` operator. Obviously, you cannot use `!=` within your 
    function! Test if your code works by thinking of examples and making sure
    the output is the same for your new method as `!=` gives you.
-
-### 2.4 Additional List Practice
-
-Remember your list intersections from week 1? You can write a function for it,
-so you can re-use the functionality in other programs.
-
-Write a function `list_intersection` that takes two lists as parameters. Return
-a list that gives the intersection of the two lists: a list of elements that
-are common to both lists.
-
-	def list_intersection(list1, list2):
-		# your code here
-
-Create test cases from the examples in week 1. Put them immediately below your
-program and make sure your results are the same. Order doesn't matter, as long
-as the list contains the same elements.
 
 ### 2.5 The `math` module
 
@@ -220,9 +277,11 @@ yourself debugging two methods at the same time, which can be very difficult.
 
 ### 2.6 More functions
 
-Here's two more functions to try your hand at.
+Here's three more functions to try your hand at.
 
-1.	Write a method `rand_divis_3` that takes no parameters, generates and
+1.	Write a method that takes one number as input and returns the absolute value.
+	
+2.	Write a method `rand_divis_3` that takes no parameters, generates and
 	prints a random number, and finally returns `True` if the randomly 
 	generated number is divisible by 3, and `False` otherwise. For this 
 	method we'll use a new module, the `random` module. At the top of your
@@ -236,7 +295,7 @@ Here's two more functions to try your hand at.
 	to generate a random integer (this range is *inclusive*). 0 to 100 is
 	probably a decent range.
 
-2.	Write a method roll dice that takes in 2 parameters:
+3.	Write a method roll dice that takes in 2 parameters:
 
 	* the number of sides of the die, and
 	* the number of dice to roll
@@ -273,7 +332,20 @@ Now make a new function `cumulative_sum` that returns a new list where the
 $$i$$-th element is the sum of the first $$i+1$$ elements from the original list.
 For example, the cumulative sum of `[4, 3, 6]` is `[4, 7, 13]`.
 
-### 2.8 Plotting
+Next, we want to get some practice writing functions that we will often use in 
+the rest of the course. Write the following functions, and from now on, use your own 
+functions for these common tasks. Include three test cases with each function.
+
+1.	Write a function that takes a list as argument and sums all the elements. Return 
+	the sum.
+
+2.	Write a function that finds the position of an element in a list. The function should
+	take two arguments: a value and a list. Return the position of the first element that 
+	contains the value, or `None` if there is none.
+
+3.	Write a function that finds the maximum value in a list and returns it.
+
+### 2.9 Plotting
 
 Ooooh this is nice! Graphical output with Python. Work through the [PyPlot
 tutorial] and create a file called `pyplot.py` to save your tutorial tests. Put
@@ -288,6 +360,11 @@ For every problem, check the following:
 * Have you put the problem in a function?
 * Have you added the problem to the right Python file?
 * Have you put your name on top of that file?
-* Have you made sure the program is NOT interactive (e.g. we don't have to type anything) except 3.1?
+* Have you made sure the program is NOT interactive (e.g. we don't have to type anything)?
 * Have you written at least three tests to show the program is correct, or even more tests if the problem prescribes this?
 * Do the tests give the expected output?
+
+### Hacker Exercises
+
+When you have double checked and submitted your exercises, you can proceed with the hacker exercises. 
+Do the recursion problems first, and then the bingo exercise.
