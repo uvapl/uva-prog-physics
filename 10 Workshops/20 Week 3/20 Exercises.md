@@ -5,6 +5,13 @@ should make sure this file immediately runs all tests that you have written and
 gives correct output for every exercise. The same goes for all other files you
 submit.
 
+### Warm up: recollections
+
+Recall that a string is **immutable**, while a list is **mutable**. What does
+this mean? Research it with your neighbor!
+
+<textarea name="a[2-11]"></textarea>
+
 ### 2.0 General Notes on Functions
 
 Before we start doing exercises, there are a few general but important things to know
@@ -345,7 +352,34 @@ functions for these common tasks. Include three test cases with each function.
 
 3.	Write a function that finds the maximum value in a list and returns it.
 
-### 2.8 Plotting
+
+### 2.8 String operations
+
+String operators might be a little less intuitive than those on numbers. This
+exercise will give you a chance to practice those. Given the following
+variables:
+
+	look = 'Look at me!'
+	now = ' NOW'
+
+What are the values of the following expressions? Try to guess on your own
+before using your interpreter (but feel free to use your interpreter once you 
+get stuck).
+
+|expression                           |value                               |
+|-------------------------------------|------------------------------------|
+|`look[:4]`                           |<input name="a[2-12-1]" type="text">|
+|`look[-1]`                           |<input name="a[2-12-2]" type="text">|
+|`look*2`                             |<input name="a[2-12-3]" type="text">|
+|`look[:-1] + now + look[-1]`         |<input name="a[2-12-4]" type="text">|
+|`now[1]`                             |<input name="a[2-12-5]" type="text">|
+|`now[4]`                             |<input name="a[2-12-6]" type="text">|
+|`look*2 + look[:-1] + now + look[-1]`|<input name="a[2-12-7]" type="text">|
+
+For more on strings, see [the Python docs](http://docs.python.org/release/2.6.6/library/stdtypes.html#string-methods).
+
+
+### 2.9 Plotting
 
 Ooooh this is nice! Graphical output with Python. We will cover the basic plotting functions 
 that you need in the next few weeks, but you are encouraged to look up functions yourself to 
@@ -480,7 +514,3 @@ For every problem, check the following:
 * Have you written at least three tests to show the program is correct, or even more tests if the problem prescribes this?
 * Do the tests give the expected output?
 
-### Hacker Exercises
-
-When you have double checked and submitted your exercises, you can proceed with the hacker exercises. 
-Do the recursion problems first, and then the bingo exercise.

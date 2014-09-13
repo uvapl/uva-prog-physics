@@ -4,7 +4,5 @@ required:
     - homework2.py
     - pyplot.py
 optional:
-    - pig_latin.py
+    - bingo.py
     - recursion.py
-dependent_grades:
-    - hw3
