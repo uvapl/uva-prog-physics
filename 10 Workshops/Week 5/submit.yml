@@ -5,5 +5,3 @@ required:
     - data.py
 optional:
     - palindromes.py
-dependent_grades:
-    - hw5
