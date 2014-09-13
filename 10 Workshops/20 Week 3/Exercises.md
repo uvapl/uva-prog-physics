@@ -345,7 +345,7 @@ functions for these common tasks. Include three test cases with each function.
 
 3.	Write a function that finds the maximum value in a list and returns it.
 
-### 2.9 Plotting
+### 2.8 Plotting
 
 Ooooh this is nice! Graphical output with Python. We will cover the basic plotting functions 
 that you need in the next few weeks, but you are encouraged to look up functions yourself to 
@@ -449,7 +449,7 @@ creates a grid of four figures:
 	
 	plt.show()
 
-2.	In this exercise we will use everything we have learned so far to plot a set of
+2.	In this exercise we'll use everything we have learned so far to plot a set of
 	datapoints that we're going to fit next week. Use the sine and cosine function
 	from the previous exercise for the top figure, and this data for the bottom figure:
 	
