@@ -451,7 +451,7 @@ creates a grid of four figures:
 
 2.	In this exercise we will use everything we have learned so far to plot a set of
 	datapoints that we're going to fit next week. Use the sine and cosine function
-	from the previous exercise for the left figure, and this data for the right figure:
+	from the previous exercise for the top figure, and this data for the bottom figure:
 	
 	![Dataset](dataset.png)
 
