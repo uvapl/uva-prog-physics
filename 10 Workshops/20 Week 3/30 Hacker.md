@@ -98,7 +98,7 @@ with a smaller input space.
 #### Exercises
 
 You are asked to write several recursive functions. Test them for at least
-three special cases. Put this excercise in `homework4.py`.
+three special cases. Put this excercise in `recursion.py`.
 
 For all these problems, be sure to carefully consider your base and recursive
 cases carefully before you start coding!

@@ -494,6 +494,7 @@ creates a grid of four figures:
 	![exampleplot](exampleplot.png)
 	
 	Functions that we haven't seen and you may want to use are:
+    
 	* `linewidth=3` - as an option for `plot`
 	* `errorbar(x,y,yerror,fmt='o')` - instead of `plot()`
 	* `xticks([0,np.pi,2*np.pi],[0,'$\pi$','$2\pi$'])`
