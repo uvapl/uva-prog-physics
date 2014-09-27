@@ -1,7 +1,6 @@
 name: w5
 required:
     - homework3.py
-    - nims.py
     - data.py
 optional:
-    - palindromes.py
+    - hackers.py

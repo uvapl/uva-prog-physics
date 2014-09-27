@@ -4,84 +4,30 @@ Most of these exercises should be put in a file called `homework3.py`. You
 should make sure this file immediately runs and gives correct output for every
 exercise. The same goes for all other files you submit.
 
-### 3.0 The game of Nims/Stones
+### 3.0 Horizontal Bar Chart
 
-In this game, two players sit in front of a pile of 100 stones. They take
-turns, each removing between 1 and 5 stones (assuming there are at least 5
-stones left in the pile). The person who removes the last stone(s) wins.
+For this exercise we will write a program that sorts a list of numbers by their last decimal and displays a simple bar chart for the number of times each decimal occurs.
 
-Because this game is interactive, put it in a separate file named `nims.py`.
-Do create a function called `play_nims`, as follows:
+First, write a function that takes a list as parameter and returns a dictionary for which each number is sorted by its last digit. For example, the following input:
 
-	def play_nims(pile, max_stones):
-		'''
-		An interactive two-person game; also known as Stones.
-		@param pile: the number of stones in the pile to start
-		@param max_stones: the maximum number of stones you can take on one turn
-		'''
+	[45, 90, 30, 33, 34, 64, 34, 28, 72, 20]
 
-Check out the lines of text in between the sets of `'''`, underneath the
-definition. This is called a *docstring*, and is handy to use to tell other
-programmers what parameters to pass in, and what your program does.
+Should return this dictionary:
 
-In this problem, you'll write a function to play this game; we've outlined it
-for you. It may seem tricky, so break it down into parts. Like many programs,
-we have to use nested loops (one loop inside another). In the outermost loop,
-we want to keep playing until we are out of stones. Inside that, we want to
-keep alternating players. You have the option of either writing two blocks of
-code, or keeping a variable that tracks the current player. The second way
-could be slightly trickier, but it's definitely do-able!
+	{0: [90, 30, 20], 2: [72], 3: [33], 4: [34, 64, 34], 5: [45], 8: [28]}
 
-Finally, we might want to have an innermost loop that checks if the user's
-input is valid. Is it a number? Is it a valid number (e.g. between 1 and 5)?
-Are there enough stones in the pile to take off this many? If any of these
-answers are no, we should tell the user and re-ask them the question.
+Hint: you can use the modulo sign (%) to select the last digit of a number.
 
-As always, feel free to ask the assistants for help on any part of this
-problem.
+Then, use the output of your function to plot a simple horizontal bar chart. For the same list, your output should look like this:
 
-If you choose to write two blocks of code, the basic outline of the program
-should be something like this:
+	0 ###
+	2 #
+	3 #
+	4 ###
+	5 #
+	8 #
 
-	while [pile is not empty]:
-		while [player 1's answer is not valid]:
-			[ask player 1]
-		[execute player 1's move]
-		[same as above for player 2]
-
-Be careful with the validity checks. Specifically, we want to keep asking
-player 1 for their choice as long as their answer is not valid, BUT we want to
-make sure we ask them at least ONCE. So, for example, we will want to keep a
-variable that tracks whether their answer is valid, and set it to False
-initially.
-
-When you're finished, test each other's programs by playing them!
-
-### 3.1 Report Card with GPA
-
-Write a function report card where the user can enter each of his grades,
-after which the program prints out a report card with GPA ([Urban
-dictionary]). Remember to ask the user how many classes he took. Think: why
-would we need to ask this? Could we write the program a different way, which
-wouldn't need that info? Example output is below.
-
-The function should take a list of tuples as its input.
-
-[Urban dictionary]: http://www.urbandictionary.com/define.php?term=gpa
-
-	>>> report_card([('18.02, 94), ('21H.601', 96), ('8.01', 91), ('5.111', 88)])
-	REPORT CARD:
-	18.02 - 94
-	21H.601 - 96
-	8.01 - 91
-	5.111 - 88
-	Overall GPA  92.25
-
-Hints: You'll want to use a for loop, and you'll probably want to keep track
-of names and grades seperately; there are a couple ways to do this. Remember,
-add to lists with `my_list.append(elt)`.
-
-### 3.2 Collision Detection of Balls
+### 3.1 Collision Detection of Balls
 
 Many games have complex physics engines, and one major function of these
 engines is to figure out if two objects are colliding. Weirdly-shaped objects
@@ -90,7 +36,7 @@ balls are colliding. You'll need to remember how to unpack tuples; refer to
 the Tuples chapter in *Think Python* or ask an assistant if this is confusing.
 
 We will think in 2D to simplify things, though 3D isn't different
-conceptually. For calculating collision, we only care about a ball's position
+conceptually. For calculating a collision, we only care about a ball's position
 in space, as well as its size. We can store a ball's position with the $$(x,y)$$
 coordinates of its center point, and we can calculate its size if we know its
 radius. Thus, we represent a ball in 2D space as a tuple of $$(x, y, r)$$.
@@ -106,37 +52,21 @@ extra challenge, write your function to work with balls in 3D space. How
 should you represent the balls? You will also need to write your own test
 cases. Be sure to figure out any edge cases you need to test.
 
-### 3.3 Zeller's Algorithm, revisited
+### 3.2 Moving Balls
 
-This is similar to the Hacker exercise from Week 1, but in this version we
-will be writing a function that takes parameters, and using dictionaries to
-facilitate "pretty printing" (where the answer is given to the user in a nice
-looking fashion). For the rules of the algorithm, please take a look at the
-description written in the Week 1 section.
+Another important function of a physics engine is to calculate how an object moves under the laws of physics. This time, write a function `ball_step` that moves a ball over one time step. Your function should take as parameters a tuple  that contains the ball's position and speed - $$(x,y,vx,vy)$$ - and the length of the time step: `dt`. 
 
-Calling `zellers("March", 10, 1940)` should give the output: `Sunday`.
+In your function, compute the change in position over a time `dt` for *x* and *y* separately. Let your ball bounce back from the walls at $$x=0$$, $$y=0$$, $$x=10$$, and $$y=10$$. Return the new position of the ball.
 
-Hints:
+Now build another function `move_ball` that uses the step function to move a ball for a number of seconds. The input parameters are a ball tuple, a number of seconds, and a time step `dt`. Check your function with the following input:
 
-1. Use a dictionary to map between the month and its numerical value.
+	move_ball((2,3,1,-2),5,1)
 
-2. You can use either a list or dictionary to convert the final output of the
-   algorithm to the day of the week.
+This should give as output:
 
-3. Make sure you handle the following three points correctly.
+	(7, 5, 1, 2)
 
-   * Note: If the month is January or February, then the preceding year is
-     used for computation. This is because there was a period in history when
-     March 1st, not January 1st, was the beginning of the year.
-
-   * If the computed value of R is a negative number, add 7 to get a
-     nonnegative number between 0 and 6.
-
-   * You might need to use one of the following (but, maybe not): To convert
-     the string '90' to the number 90, use `int('90')`; to convert the int 90 to
-     the string '90', use `str(90)`.
-
-### Data Processing
+### 3.3 Data Processing
 
 Note that there is a separate tab containing a data processing exercise that
 you have to do.
@@ -148,6 +78,6 @@ For every problem, check the following:
 * Have you put the problem in a function?
 * Have you added the problem to the right Python file?
 * Have you put your name on top of that file?
-* Have you made sure the program is NOT interactive (e.g. we don't have to type anything) except 3.1?
+* Have you made sure the program is NOT interactive (e.g. we don't have to type anything)?
 * Have you written at least three tests to show the program is correct, or even more tests if the problem prescribes this?
 * Do the tests give the expected output?

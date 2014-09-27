@@ -1,8 +1,10 @@
 ## Exercise: data processing
 
+Put your work for these exercises in a separate file called `data.py`.
+
 First, download [population.csv](population.csv) (**download, not open in
 Excel!**), containing a list of the population counts in the Netherlands over
-the last 60 years. Put it in your N:-drive!
+the last 60 years.
 
 You will need to read this file and plot its data. Have a look at it first,
 it's quite small.
@@ -10,7 +12,7 @@ it's quite small.
 Next, open your Python Shell and try to read it into Python:
 
 	>>> import csv
-	>>> file = csv.reader(open("n:\population.csv"))
+	>>> file = csv.reader(open("population.csv"))
 	>>> file.next()
 	>>> ['country', 'country isocode', 'year', 'POP']
 
@@ -93,7 +95,7 @@ calculations with, so we would like to have that as an integer.
 
 Test the function with this call below your code:
 
-	print population_dict('N:\population.csv')
+	print population_dict('population.csv')
 
 ### Plotting the population
 
