@@ -8,7 +8,7 @@ exercise. The same goes for all other files you submit.
 
 For this exercise we will write a program that sorts a list of numbers by their last decimal and displays a simple bar chart for the number of times each decimal occurs.
 
-First, write a function that takes a list as parameter and returns a dictionary for which each number is sorted by its last digit. For example, the following input:
+First, write a function `sort_by_digit` that takes a list as parameter and returns a dictionary for which each number is sorted by its last digit. For example, the following input:
 
 	[45, 90, 30, 33, 34, 64, 34, 28, 72, 20]
 
@@ -16,9 +16,9 @@ Should return this dictionary:
 
 	{0: [90, 30, 20], 2: [72], 3: [33], 4: [34, 64, 34], 5: [45], 8: [28]}
 
-Hint: you can use the modulo sign (%) to select the last digit of a number.
+Hint: think about how you can get the least significant digit from a number using a Python operator.
 
-Then, use the output of your function to plot a simple horizontal bar chart. For the same list, your output should look like this:
+Then, write a function `chart` that plots a simple horizontal bar chart from such a generated dictionary. For the dictionary above, your output should look like this:
 
 	0 ###
 	2 #
@@ -26,6 +26,8 @@ Then, use the output of your function to plot a simple horizontal bar chart. For
 	4 ###
 	5 #
 	8 #
+
+Write a test function `test_chart` that runs `chart` using at least three test cases. If you want some extra practice, make `test_chart` generate three lists of random numbers and chart those.
 
 ### 3.1 Collision Detection of Balls
 
@@ -45,12 +47,13 @@ To figure out if two balls are colliding, we need to compute the distance
 between their centers, then see if this distance is less than or equal to the
 sum of their radii. If so, they are colliding.
 
-In `homework3.py`, write a function `ball_collide` that takes two balls as
-parameters and computes if they are colliding; your function should return a
-Boolean saying whether or not the balls are colliding. Optional: For a little
-extra challenge, write your function to work with balls in 3D space. How
-should you represent the balls? You will also need to write your own test
-cases. Be sure to figure out any edge cases you need to test.
+Write a function `ball_collide` that takes two balls as parameters and computes
+if they are colliding; your function should return a Boolean saying whether or
+not the balls are colliding. Optional: For a little extra challenge, write your
+function to work with balls in 3D space. How should you represent the balls?
+
+Write your own test function for `ball_collide`. Be sure to figure out any *edge
+cases* you need to test. (Do you know what edge cases are? If not, discuss with your teaching assistant!)
 
 ### 3.2 Moving Balls
 
@@ -60,16 +63,11 @@ In your function, compute the change in position over a time `dt` for *x* and *y
 
 Now build another function `move_ball` that uses the step function to move a ball for a number of seconds. The input parameters are a ball tuple, a number of seconds, and a time step `dt`. Check your function with the following input:
 
-	move_ball((2,3,1,-2),5,1)
+	move_ball((2, 3, 1, -2), 5, 1)
 
 This should give as output:
 
 	(7, 5, 1, 2)
-
-### 3.3 Data Processing
-
-Note that there is a separate tab containing a data processing exercise that
-you have to do.
 
 ### Double check
 
@@ -78,6 +76,6 @@ For every problem, check the following:
 * Have you put the problem in a function?
 * Have you added the problem to the right Python file?
 * Have you put your name on top of that file?
-* Have you made sure the program is NOT interactive (e.g. we don't have to type anything)?
-* Have you written at least three tests to show the program is correct, or even more tests if the problem prescribes this?
+* Have you made sure that we don't have to type anything when testing?
+* Have you written at least three tests to show the program is correct?
 * Do the tests give the expected output?

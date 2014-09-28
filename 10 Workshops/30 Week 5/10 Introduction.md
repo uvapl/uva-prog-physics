@@ -4,12 +4,12 @@ debugging!
 
 ## Preparation
 
-Read and annotate these chapters from your book:
+Read and annotate these chapters from the book:
 
-* Chapter 9, Dictionaries
-* Chapter 10, Tuples
-* Chapter 11, Files
-* Chapter A, Debugging
+* Chapter 9, [Dictionaries](http://www.greenteapress.com/thinkpython/html/thinkpython012.html)
+* Chapter 10, [Tuples](http://www.greenteapress.com/thinkpython/html/thinkpython013.html)
+* Chapter 11, [Files](http://www.greenteapress.com/thinkpython/html/thinkpython015.html)
+* Chapter A, [Debugging](http://www.greenteapress.com/thinkpython/html/thinkpython021.html)
 
 Don't read too slowly, you do not need to understand it all and you definitely
 do not need to memorize. Still, your programming work will finish a lot faster
@@ -22,5 +22,4 @@ that we can test, and optionally one or two python files for the hacker edition.
 
 ## Deadline
 
-The deadline is Friday at 15:00. However, you are required to review your
-exercises with an assistant at the second day of class.
+The deadline is Friday at 15:00.

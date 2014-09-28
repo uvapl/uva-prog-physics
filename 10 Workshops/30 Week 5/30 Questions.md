@@ -20,10 +20,12 @@ Immutable:
 The following set of instructions were given to Ben Bitdiddle, and he produced
 the code below. Find at least three bugs he made, and say how to fix them.
 
-Instructions: Write a negate function that takes a number and returns the
+> Instructions: Write a negate function that takes a number and returns the
 negation of that number. Also write a large num function that takes a number,
 and returns True if that number is bigger than 10000, and False otherwise.
 Additionally, write some code to test your functions.
+
+This is the program Ben wrote:
 
 	def negate(num):
 		return -num
