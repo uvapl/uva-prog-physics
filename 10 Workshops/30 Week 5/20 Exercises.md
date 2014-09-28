@@ -4,7 +4,22 @@ Most of these exercises should be put in a file called `homework3.py`. You
 should make sure this file immediately runs and gives correct output for every
 exercise. The same goes for all other files you submit.
 
-### 3.0 Horizontal Bar Chart
+### 3.0 Mutability
+
+We've learned about many Python data structures (strings, lists, tuples,
+dictionaries). For both "mutable" and "immutable", please give a short (5
+words or fewer) definition, and then list what data structure(s) have that
+characteristic.
+
+Mutable:
+
+<textarea name="a[3-1-1]"></textarea>
+
+Immutable:
+
+<textarea name="a[3-1-2]"></textarea>
+
+### 3.1 Horizontal Bar Chart
 
 For this exercise we will write a program that sorts a list of numbers by their last decimal and displays a simple bar chart for the number of times each decimal occurs.
 
@@ -29,7 +44,40 @@ Then, write a function `chart` that plots a simple horizontal bar chart from suc
 
 Write a test function `test_chart` that runs `chart` using at least three test cases. If you want some extra practice, make `test_chart` generate three lists of random numbers and chart those.
 
-### 3.1 Collision Detection of Balls
+### 3.2 Finding Bugs
+
+The following set of instructions were given to Ben Bitdiddle, and he produced
+the code below. Find at least three bugs he made, and say how to fix them.
+
+> Instructions: Write a negate function that takes a number and returns the
+negation of that number. Also write a large num function that takes a number,
+and returns True if that number is bigger than 10000, and False otherwise.
+Additionally, write some code to test your functions.
+
+This is the program Ben wrote:
+
+	def negate(num):
+		return -num
+
+	def large_num(num):
+		res = (num > 10000)
+
+	negate(b)
+	neg_b = num
+	print 'b:', b, 'neg_b:', neg_b
+
+	big = large_num(b)
+	print 'b is big:', big
+
+Bugs:
+
+1. <textarea name="a[3-2-1]"></textarea>
+
+2. <textarea name="a[3-2-2]"></textarea>
+
+3. <textarea name="a[3-2-3]"></textarea>
+
+### 3.3 Collision Detection of Balls
 
 Many games have complex physics engines, and one major function of these
 engines is to figure out if two objects are colliding. Weirdly-shaped objects
@@ -55,7 +103,7 @@ function to work with balls in 3D space. How should you represent the balls?
 Write your own test function for `ball_collide`. Be sure to figure out any *edge
 cases* you need to test. (Do you know what edge cases are? If not, discuss with your teaching assistant!)
 
-### 3.2 Moving Balls
+### 3.4 Moving Balls
 
 Another important function of a physics engine is to calculate how an object moves under the laws of physics. This time, write a function `ball_step` that moves a ball over one time step. Your function should take as parameters a tuple  that contains the ball's position and speed - $$(x,y,vx,vy)$$ - and the length of the time step: `dt`. 
 
@@ -68,6 +116,62 @@ Now build another function `move_ball` that uses the step function to move a bal
 This should give as output:
 
 	(7, 5, 1, 2)
+
+### 3.5 A Mystery Program
+
+Ben next turned in the following uncommented code (WTF?? WHY) to the
+assistants. Help us figure out what it does!
+
+	 1 print "Think of a number between 1 and 100, but don't tell me what you choose."
+	 2 min_n = 1
+	 3 max_n = 100
+	 4 right_answer = False
+	 5
+	 6 while not right_answer:
+	 7     mid_n = (max_n + min_n + 1)/2
+	 8     answer = raw_input('Is it ' + str(mid_n) + '? ')
+	 9     if answer[0] == 'y':
+	10         right_answer = True
+	11     elif answer.startswith('higher'):
+	12         min_n = mid_n + 1
+	13     elif answer.startswith('lower'):
+	14         max_n = mid_n - 1
+	15     else:
+	16         print "Sorry, I don't understand your answer."
+	17
+	18 print 'Woohoo! I got it!'
+
+1. The while loop exits when the variable right answer is True. What will
+   cause right answer to be true?
+
+   <textarea name="a[3-3-1]"></textarea>
+
+2. How many times will the program print out 'Woohoo! I got it!'?
+
+   <textarea name="a[3-3-2]"></textarea>
+
+3. What are we using the variable answer for?
+
+   <textarea name="a[3-3-3]"></textarea>
+
+4. The program makes a guess in line 8. What user responses will be understood
+   by the program after it makes its guess?
+
+   <textarea name="a[3-3-4]"></textarea>
+
+5. If the program gets the response 'higher', what does that tell it about its
+   guess?
+
+   <textarea name="a[3-3-5]"></textarea>
+
+6. What are the variables min n, max n and mid n used for?
+
+   <textarea name="a[3-3-6]"></textarea>
+
+This is an example of binary search, a simple but important algorithm in
+computer science. If you're curious, or confused, read the Wikipedia article
+on binary search to find out more and get a good explanation of what's going
+on here.
 
 ### Double check
 
