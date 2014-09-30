@@ -1,4 +1,5 @@
 name: w5
+form: true
 required:
     - homework3.py
     - data.py
