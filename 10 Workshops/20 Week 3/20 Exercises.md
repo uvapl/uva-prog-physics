@@ -515,3 +515,27 @@ For every problem, check the following:
 * Have you written at least three tests to show the program is correct, or even more tests if the problem prescribes this?
 * Do the tests give the expected output?
 
+When you are done, make sure you have answered all exercise questions, and
+submit your files at the submit tab. Check if you can perform the tasks in the summary below. If you have time left, take a go at the
+Hacker edition :-)
+
+### Summary
+
+At the end of this week, you should be able to perform the following tasks. If you do not understand what is meant by the following tasks or cannot perform them, have another look at the exercises, or ask an assistant to help you out.
+
+* Define functions at the top of your file and call them in your main code.
+* Return a value or variable from your function and print the result.
+* Use the result of a function in a computation.
+* Use arguments in a function.
+* Test a function using test cases.
+* Import and use functions from modules.
+* Write functions for common tasks (e.g. abs,sum,max,position).
+* Generate a random integer.
+* Perform the same task a number of times using a loop.
+* Keep track of a single sum variable in a for loop.
+* Use indices to select parts of strings.
+* Use the matplotlib module to plot one or more functions or lists of values.
+* Change the layout and labeling of your plot.
+* Create a list of non-integer values.
+* Make a histogram.
+

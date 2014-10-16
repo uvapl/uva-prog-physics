@@ -341,5 +341,33 @@ correct. Order doesn't matter, as long as the list contains the same elements.
     # your code here for each intersection (l1, l2), (l3, l4), ...
 
 When you are done, make sure you have answered all exercise questions, and
-submit your files at the submit tab! If you have time left, take a go at the
+submit your files at the submit tab! Check if you can perform the tasks in the summary below. If you have time left, take a go at the
 Hacker edition :-)
+
+## Summary
+
+At the end of this week, you should be able to perform the following tasks. If you do not understand what is meant by the following tasks or cannot perform them, have another look at the exercises, or ask an assistant to help you out.
+
+* Print a string, a variable, or a combination of the two.
+* Assign a value to a variable.
+* Change the order of operation in a computation using brackets.
+* Convert a variable to a string, integer, or float.
+* Check the type of a variable.
+* Divide two integers without rounding the result to an integer.
+* Use the modulo and power operators.
+* Assign user input to a variable using either `raw_input` or `input`.
+* Use the relation operators (`==`,`!=`,`<`,`>`,`<=`,`>=`).
+* Combine Booleans using `and`, `or`, and `not`.
+* Combine several statements in an `if` condition using `and`/`or`.
+* Use `range` to print a list of numbers.
+* Use the modulo operator to check if a number is divisible by another number.
+* Add an element to a list.
+* Select one or more elements from a list using the index `[i]`.
+* Use a `for` loop to traverse a list. Use as iteration variable either:
+	* the elements of the list
+	* the index of the list
+* Use a `while` loop to check if a condition has been reached.
+* `break` a `for` loop when a certain condition is satisfied.
+* Rewrite a `for` loop into a `while` loop.
+* Traverse a list and find the largest number.
+* Use a double `for` loop to compare the elements of two lists.
