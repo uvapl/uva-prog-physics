@@ -1,3 +1,3 @@
-Submit your quiz programs here. You need to implement correctly 2 out of 3.
+Submit your quiz programs here.
 
-**You cannot use len() and sum() in your implementations!!**
+It needs to be one file, containing 1 or more functions that implement each quiz assignment. Please provide a test for each assignment.
