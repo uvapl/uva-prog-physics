@@ -183,3 +183,25 @@ For every problem, check the following:
 * Have you made sure that we don't have to type anything when testing?
 * Have you written at least three tests to show the program is correct?
 * Do the tests give the expected output?
+
+When you are done, make sure you have answered all exercise questions, and
+submit your files at the submit tab. Check if you can perform the tasks in the summary below. If you have time left, take a go at the
+Hacker edition :-)
+
+### Summary
+
+At the end of this week, you should be able to perform the following tasks. If you do not understand what is meant by the following tasks or cannot perform them, have another look at the exercises, or ask an assistant to help you out.
+
+* Create a dictionary and add keys & values to it.
+* Create a list of values if several values share the same key.
+* Select the last digit of a number using the modulo operator.
+* Print the keys and values of a dictionary.
+* Represent a ball by a tuple that contains the position and size of the ball.
+* Determine the distance between two points.
+* Move a ball tuple that contains the position and velocity of the ball by one timestep `dt`.
+* Let a ball bounce off a wall.
+* Use a loop to move a ball for a given time in timesteps `dt`.
+* Read and parse data from a file into lists or a dictionary.
+* Convert a dictionary into lists to create a plot of the dictionary.
+* Zip two lists into a list of tuples.
+* Create a dictionary from a list of tuples.
