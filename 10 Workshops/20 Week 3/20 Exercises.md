@@ -37,7 +37,12 @@ at the top of your script. The structure of your script then looks like this:
 		...
 	
 	## ---------- Main ----------
-	This is where you execute your program and call the functions that you need.
+	This is where you execute your program and call the functions that you need:
+	
+	print '********** Exercise 1 **********'
+	print 'Testing function1(p1,p2): ',function1(p1,p2)
+	print '********** Exercise 2 **********'
+	print 'Testing function2(s1,s2): ',function2(s1,s2)
 
 You will probably have to get used to this way of organizing your program, but you will soon
 realize that it makes your code much easier to read and work with for others, or for yourself 
@@ -58,7 +63,8 @@ Or it can do a job for you:
 
 	def get_number():
 		'''
-		This function keeps asking for a number until the user gives a number. It has no parameters.
+		This function keeps asking for a number until the user gives a number. It has no   
+		parameters.
 		'''
 		number = input('Number: ')
 		while type(number) != int:
@@ -91,8 +97,7 @@ statements. The next section is all about the difference between print and retur
 
 ### 2.1 Print vs Return
 
-Still no exercises, just another important bit of reading. These two
-functions are defined:
+These two functions are defined:
 
 	def f1(x):
 	    print x + 1
@@ -430,15 +435,11 @@ can show the plot with `show()`:
 	plt.axis([-15,15,0,110])
 	plt.show()
 
-1.	As a first exercise, plot the sine and cosine function in one figure, in the x-range of $$0$$ to $$2pi$$. 
-	To use the `sin()` and `cos()` function, you have to import the `numpy` module. This module also contains the 
-	`arange(start,stop,step)` function, which you can use to create a range of values with a step size smaller than 
-	one. Use a different color for each function.
+As a first exercise, plot the sine and cosine function in one figure, in the x-range of $$0$$ to $$2pi$$. To use the `sin()` and `cos()` function, you have to import the `numpy` module. This module also contains the `arange(start,stop,step)` function, which you can use to create a range of values with a step size smaller than one. Use a different color for each function.
 
-Another form of graphical output that we're going to use is a histogram. The syntax for a histogram is `hist(x,bins)`, 
-where `x` is a list of values and `bins` is the amount of bins that the data is divided into. A high number of
-bins makes it easier to see fluctuations, but may result in a very low count per bin, so this number should always 
-be tailored to your data. Try the following code, which shows a normal distributed range of IQs centered around 100.
+#### 2.9.1 Histograms
+
+Another form of graphical output that we're going to use is a histogram. The syntax for a histogram is `hist(x,bins)`, where `x` is a list of values and `bins` is the amount of bins that the data is divided into. A high number of bins makes it easier to see fluctuations, but may result in a very low count per bin, so this number should always be tailored to your data. Try the following code, which shows a normal distributed range of IQs centered around 100.
 Notice that we have added some text and included a grid to the histogram.
 
 	import numpy as np
@@ -458,6 +459,12 @@ Notice that we have added some text and included a grid to the histogram.
 	plt.axis([40, 160, 0, 0.03])
 	plt.grid(True)
 	plt.show()
+
+Make a histogram for the following list. Use a bin size of 2.
+
+		histlist = [0,1,2,3,4,5,6,7,8,9,10,3,3,4,5,4,7,7]
+
+#### 2.9.2 Subplots
 
 For the next exercise you need to show two figures side by side. You can do this by using `subplot`.
 The syntax is `subplot(numberofrows,numberofcolumns,activeplotnr)`. For example, the following code
@@ -483,23 +490,23 @@ creates a grid of four figures:
 	
 	plt.show()
 
-2.	In this exercise we'll use everything we have learned so far to plot a set of
-	datapoints that we're going to fit next week. Use the sine and cosine function
-	from the previous exercise for the top figure, and this data for the bottom figure:
+In this exercise we'll use everything we have learned so far to plot a set of
+datapoints that we're going to fit next week. Use the sine and cosine function
+from the first exercise for the top figure, and this data for the bottom figure:
 	
-	![Dataset](dataset.png)
+![Dataset](dataset.png)
 
-	To create the following plot:
+To create the following plot:
 	
-	![exampleplot](exampleplot.png)
+![exampleplot](exampleplot.png)
 	
-	Functions that we haven't seen and you may want to use are:
+Functions that we haven't seen and you may want to use are:
     
-	* `linewidth=3` - as an option for `plot`
-	* `errorbar(x,y,yerror,fmt='o')` - instead of `plot()`
-	* `xticks([0,np.pi,2*np.pi],[0,'$\pi$','$2\pi$'])`
-	* `legend()` - without any options. Include a `label=...` in your `plot` command.
-	* `subplots_adjust(hspace = 0.5)` to get the spacing of figures right.
+* `linewidth=3` - as an option for `plot`
+* `errorbar(x,y,yerror,fmt='o')` - instead of `plot()`
+* `xticks([0,np.pi,2*np.pi],[0,'$\pi$','$2\pi$'])`
+* `legend()` - without any options. Include a `label=...` in your `plot` command.
+* `subplots_adjust(hspace = 0.5)` to get the spacing of figures right.
 	
 Congratulations, you are now well-prepared for most of the plots that you will need to make in 
 the rest of your study!

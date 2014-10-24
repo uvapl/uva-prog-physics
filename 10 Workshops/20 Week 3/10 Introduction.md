@@ -16,7 +16,7 @@ when you prepare like this.
 
 ### What to turn in after you finish programming
 
-You are to hand in the answers to the exercises, three python source code files
+You are to hand in the answers to the exercises, two python source code files
 that we can test, and optionally one or two python files for the hacker edition.
 
 ### Deadline
