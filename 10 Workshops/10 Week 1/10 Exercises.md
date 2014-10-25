@@ -274,15 +274,27 @@ You have read about while loops in chapter 6. Another commonly used form of iter
 	for element in mylist:
 		print element
 
-prints the elements of `mylist`. For each iteration, the variable `element` takes the value of the next element in `mylist`, until the last element is reached and the iteration stops. You could also write `for number in [1,2,3,4]`, or use `range()` to generate a list: `for number in range(1,5)`. 
+prints the elements of `mylist`. For each iteration, the variable `element` takes the value of the next element in `mylist`, until the last element is reached and the iteration stops. 
+You could also write 
 
-Using a combination of `range()` and `len()`, we can let the iteration variable run over the index numbers of the list. Then we can use slicing to get the value associated with the index number. Try the following code:
+	for number in [1,2,3,4]:
+		print 'the value of the variable \'number\' for this iteration is: ',number
+
+to print the numbers in the list `[1,2,3,4]`. Try this code for yourself.
+
+To generate a list of numbers, we can use the `range` command. The full syntax is `range(start,stop,step)`, to print a list of integer numbers between the value `start` and `stop`, not including stop, in steps of `step`. The `start` and `step` variables are optional. For example, the command
+
+	range(5)
+
+generates the list `[0,1,2,3,4]`. Now try for yourself to generate the list `[2,4,6,8,10]` using the `range` command.
+
+Using a combination of `range` and `len` in a for loop, we can let the iteration variable run over the index numbers of the list. Then we can use slicing to get the value associated with the index number. Try the following code:
 
 	mylist = [9,4,5,3,8,7,6]
 	for i in range(len(mylist)):
 		print 'index:',i,' value:',mylist[i]
 		
-Using the index number can be very useful, but also very confusing! The following code:
+Using the index number instead of the value of an element can be very useful, but also very confusing! The following code:
 
 	for i in mylist:
 		print mylist[i]
@@ -308,15 +320,15 @@ Be sure to test your code for each part before moving on to the next part.
 
 2. Write a program using a while loop that asks the user for a number, and prints a countdown from that number to zero. What should your program do if the user inputs a negative number? As a programmer, you should always consider "edge conditions" like these when you program! (Another way to put it: always assume the users of your program will be trying to find a way to break it! If you don't include a condition that catches negative numbers, what will your program do?)
 
-3. Write a program using a for loop that calculates exponentials. Your program should ask the user for a base `base` and an exponent `exp`, and calculate `base`<sup>`exp`</sup>. You can't use the `^` operator!
+3. Write a program using a for loop that calculates exponentials. Your program should ask the user for a base `base` and an exponent `exp`, and calculate `base`<sup>`exp`</sup>. You can't use the `**` operator!
 
 4. Write a program using a while loop that asks the user to enter a number that is divisible by 2. Give the user a witty message if they enter something that is not divisible by 2, *and make them enter a new number*. Don't let them stop until they enter an even number! Print a congratulatory message when they *finally* get it right. You can check if a number is divisible by another number with the modulo operator `%`.
 
-5. Use the list [9,4,5,3,8,7,6], the modulo operator, and a for loop. Print every third element. Then print every element that is divisible by 3.
+5. Use the list [9,4,5,3,8,7,6], the modulo operator, and a for loop. Print every third element using `range` and `len`. Then print every element that is divisible by 3 without using `range` and `len`.
 
-6. Write a program that prints the table for a given number *n*. Using a while loop, check for every number whether it is divisible by *n* with the modulo operator. Add the numbers to a list, stop after 10 are found, and print the list. 
+6. Write a program that prints the multiplication table for a given number *n*. Using a while loop, check for every number whether it is divisible by *n* with the modulo operator. Add the numbers to a list, stop after 10 are found, and print the list. 
 
-7. Rewrite the table program using a for loop, and this time use the `break` command to stop when the first number is found that is also divisible by 10.
+7. Rewrite the multiplication table program using a for loop, and this time use the `break` command to stop when the first number is found that is also divisible by 10.
 
 8. Write a program that asks the user for a list of numbers and prints the largest number: use a for loop to examine each number in the list and a variable to save the largest number. While going through the list, compare each element to the previous maximum and 'remember' the new maximum. After the loop, print out the maximum. 
 
@@ -325,6 +337,8 @@ Be sure to test your code for each part before moving on to the next part.
 You'll probably also need some practice with lists. Write a program
 `list_intersection` that takes the intersection of the two lists; so, a list of
 elements that are common to both lists. Put the program in `homework1.py`.
+
+Do not use the construction `if x in list`. Instead, loop through the lists and manually check every element.
 
 Put the following test cases above your program and make sure your results are
 correct. Order doesn't matter, as long as the list contains the same elements.

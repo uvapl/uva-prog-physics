@@ -4,46 +4,41 @@ Put your work for these exercises in a separate file called `data.py`.
 
 First, download [population.csv](population.csv) (**download, not open in
 Excel!**), containing a list of the population counts in the Netherlands over
-the last 60 years.
+the last 60 years. Save the file in the same folder as your python script.
 
 You will need to read this file and plot its data. Have a look at it first,
 it's quite small.
 
 Next, open your Python Shell and try to read it into Python:
 
-	>>> import csv
-	>>> file = csv.reader(open("population.csv"))
-	>>> file.next()
-	>>> ['country', 'country isocode', 'year', 'POP']
+	>>> filehandle = open("population.csv")
+	>>> print filehandle
+	>>> <open file 'population.csv', mode 'r' at 0x1002d6c90>
+	
+It appears that the variable `filehandle` is now a reference to your file. You can't just print it, but you can loop through it as if it were a list. Start a new script and try the following:
 
-Cool! Apparently Python can read your file. This first line isn't so
-interesting to our program. But it does tell us what data can be found where.
+	for line in filehandle:
+		print line
 
-Did you notice that the line is output by Python as an **list**? That is very
-convenient. It appears that `csv.reader` will read a line and convert it into
-an array containing the data fields.
+This will print all the lines in your file. If you want to restrict yourself to only a few lines, you can keep track of a linenumber, like so:
 
-Now, let's go on:
+	linenumber = 0
+    for line in filehandle:
+        if linenumber < 5:
+            print line
+        linenumber += 1
 
-	>>> file.next()
-	>>> ['Netherlands', 'NLD', '1950', '10113.527']
+As you can see, the first line tells us what data can be found where. The real data starts from the second line. Now, we would like to select only one column, but the lines are printed as strings. We can split the strings at the comma's with `split(',')`:
 
-Now, that's the *real* data. Line 2 and all other lines contain the data that
-was promised.
+	linenumber = 0
+    for line in filehandle:
+        if linenumber < 5:
+            print line.split(',')
+        linenumber += 1
 
-Let's parse the data:
+Now we have a list of column values for each line. We can select one column by slicing the list. For example, `line.split(',')[2]` only prints the year for each line. Try this for yourself. Can you also use slicing to get rid of the quotation marks?
 
-	>>> line = file.next()
-	>>> line[0]
-	'Netherlands'
-
-So you can actually save the next line in a variable and use it as a list.
-Column 0 always contains the string `'Netherlands'`. And column 1 always
-contains `'NLD'`.
-
-Column 2 and 3 are more interesting. They contain the year and population in
-that year. But... they are strings. That's of no use in calculations. And
-there's a decimal point in the population count!
+Now you can save the columns to lists and use them in the rest of your program. But don't forget that you need to convert the strings first if you want to use them for calculations!
 
 ### Printing the population list nicely
 

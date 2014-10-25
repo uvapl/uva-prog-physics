@@ -204,9 +204,9 @@ including at least 3 test cases for each method.
    Here's three test cases for that one:
 
 		# tests for is_divisible
-		print "is_divisible(10, 5) == True",  is_divisible(10, 5) == True
-		print "is_divisible(18, 7) == False", is_divisible(18, 7) == False
-		print "is_divisible(42, 0) == ",      is_divisible(42, 0) == False
+		print "Testing is_divisible(10, 5) == True",  is_divisible(10, 5) == True
+		print "Testing is_divisible(18, 7) == False", is_divisible(18, 7) == False
+		print "Testing is_divisible(42, 0) == ",      is_divisible(42, 0) == False
 	
    Look at the conditions that they test and try to make sure your future 
    test cases are comprehensive.
@@ -291,7 +291,7 @@ yourself debugging two methods at the same time, which can be very difficult.
 
 Here's three more functions to try your hand at.
 
-1.	Write a method that takes one number as input and returns the absolute value.
+1.	Write a method that takes one number as input and returns the absolute value. Do not use `abs` or `fabs`.
 	
 2.	Write a method `rand_divis_3` that takes no parameters, generates and
 	prints a random number, and finally returns `True` if the randomly 
@@ -439,28 +439,13 @@ As a first exercise, plot the sine and cosine function in one figure, in the x-r
 
 #### 2.9.1 Histograms
 
-Another form of graphical output that we're going to use is a histogram. The syntax for a histogram is `hist(x,bins)`, where `x` is a list of values and `bins` is the amount of bins that the data is divided into. A high number of bins makes it easier to see fluctuations, but may result in a very low count per bin, so this number should always be tailored to your data. Try the following code, which shows a normal distributed range of IQs centered around 100.
-Notice that we have added some text and included a grid to the histogram.
+Another form of graphical output that we're going to use is a histogram. For a histogram, the horizontal axis shows a data range divided into several bins and the vertical axis shows the amount of datapoints that fall within each bin. For example, this histogram shows the distribution of grades in a class of students:
 
-	import numpy as np
-	import matplotlib.pyplot as plt
-	
-	mu = 100
-	sigma = 15
-	x = mu + sigma * np.random.randn(10000)
-	
-	# the histogram of the data
-	plt.hist(x, 50,normed=1,facecolor='g')
-	
-	plt.xlabel('Smarts')
-	plt.ylabel('Probability')
-	plt.title('Histogram of IQ')
-	plt.text(60, .025, r'$\mu=100,\ \sigma=15$')
-	plt.axis([40, 160, 0, 0.03])
-	plt.grid(True)
-	plt.show()
+![Dataset](Histogram-Student-Scores.png =350x)
 
-Make a histogram for the following list. Use a bin size of 2.
+The bin size for this histogram is 10. In the function we're going to use, the bin size is determined automatically and depends on the data range and the number of bins. The syntax is `hist(x,bins)`, where `x` is a list of data and `bins` is the amount of bins the data should be divided into.
+
+For this exercise, make a histogram of the following list. Use a bin size of 2.
 
 		histlist = [0,1,2,3,4,5,6,7,8,9,10,3,3,4,5,4,7,7]
 
@@ -501,7 +486,8 @@ To create the following plot:
 ![exampleplot](exampleplot.png)
 	
 Functions that we haven't seen and you may want to use are:
-    
+
+* `title()`
 * `linewidth=3` - as an option for `plot`
 * `errorbar(x,y,yerror,fmt='o')` - instead of `plot()`
 * `xticks([0,np.pi,2*np.pi],[0,'$\pi$','$2\pi$'])`
