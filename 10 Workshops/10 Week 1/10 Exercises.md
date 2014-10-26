@@ -38,7 +38,7 @@ When you run your code, it first prints the line `>>> ===== RESTART =====`, then
 
 ## 1.2 – Printing
 
-From the course website, download the [homework1.py](homework1.py) template. Remember to put your name and section at the top. If you don't we'll be highly grumpy.
+Download the [homework1.py](homework1.py) template. Remember to put your name and section at the top. If you don't we'll be highly grumpy.
 
 Write a program using print that, when run, prints out a tic-tac-toe board. Remember to save your program regularly, to keep from losing your work! The purpose of this exercise is to make sure you understand how to write programs using your computing environment; many students in introductory courses experience trouble with assignments not because they have trouble with the material, but because of some weird environment quirk.
 
@@ -470,7 +470,7 @@ In this exercise, you are going to practice using conditionals (`if`, `elif`, `e
 	|<input name="a[1-7-16]" type="text">|<input name="a[1-7-17]" type="text">|<input name="a[1-7-18]" type="text">|
 	|<input name="a[1-7-19]" type="text">|<input name="a[1-7-20]" type="text">|<input name="a[1-7-21]" type="text">|
 
-2. Download [`rps.py`](rps.py) and put in the code to generate the outcome of the rock, scissors, paper game. The program should ask the user for input and display the answer as follows:
+2. Download [rps.py](rps.py) and put in the code to generate the outcome of the rock, scissors, paper game. The program should ask the user for input and display the answer as follows:
 
 		Player 1? rock
 		Player 2? scissors
@@ -539,7 +539,7 @@ In general, while loops are more useful when a certain condition needs to be rea
 
 ## 1.17 For & While Loops Exercise
 
-Download [`loops.py`](loops.py) and use it for all parts of this exercise. Remember the difference between input and raw input? If not, look at Exercise 1.5 again.
+Download [loops.py](loops.py) and use it for all parts of this exercise. Remember the difference between input and raw input? If not, look at Exercise 1.5 again.
 
 Be sure to test your code for each part before moving on to the next part.
 
