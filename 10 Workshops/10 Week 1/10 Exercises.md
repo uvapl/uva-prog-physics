@@ -18,7 +18,7 @@ Create a new program called `hello_world.py`. You will use this file to write yo
 
 	![File -> New](file-new.png)
 
-2. Save the file as `hello_world.py`. Do NOT skip the `.py` portion of the file name --- otherwise, you will lose out on syntax highlighting!
+2. Save the file as `hello_world.py`. Do NOT skip the `.py` portion of the file name --- otherwise, you will lose out on `syntax highlighting`!
 
 	![Filename](filename.png)
 
@@ -183,11 +183,67 @@ concatenation operations now to get everything to look its prettiest.
 
 ## Intermezzo: Questions
 
-At this point, we suggest completing questions 1.1--1.3 to cement your understanding of these topics. Just go to the next tab, answer the questions and return here to code some more.
+These questions do not ask you to create a new Python program, but instead ask you to read some code and predict the answer. Sometimes the questions are about other things related to programming.
 
-## 1.7 New Operators
+Sign in to this website *before* you start filling in these forms. If you do, your answers will be saved and you can submit your answers when the day is done.
 
-Open up IDLE and play around with the new operators showed today in class. Make sure that you understand how to use them and what they are used for! The operators `==`, `!=`, `<`, `>`, `<=`, `>=` are called *relation* operators. 
+## 1.7 Variable Names
+
+The Python interpreter has strict rules for variable names. Which of the following are legal Python names? If the name is not legal, state the reason.
+
+|expression |legal?                             |
+|-----------|-----------------------------------|
+|`and`      |<input name="a[1-9-1]" type="text">|
+|`_and`     |<input name="a[1-9-2]" type="text">|
+|`var`      |<input name="a[1-9-3]" type="text">|
+|`var1`     |<input name="a[1-9-4]" type="text">|
+|`1var`     |<input name="a[1-9-5]" type="text">|
+|`my-name`  |<input name="a[1-9-6]" type="text">|
+|`your_name`|<input name="a[1-9-7]" type="text">|
+|`COLOR`    |<input name="a[1-9-8]" type="text">|
+
+## 1.8 Types
+
+It is important that we know the type of the values stored in a variable so that we can use the correct operators (as we have already seen!). Python automatically infers the type from the value you assign to the variable. Write down the type of the values stored in each of the variables below. Pay special attention to punctuation: values are not always the type they seem!
+
+|variable       |type                                |
+|---------------|------------------------------------|
+|`a = False`    |<input name="a[1-10-1]" type="text">|
+|`b = 3.7`      |<input name="a[1-10-2]" type="text">|
+|`c = 'Alex'`   |<input name="a[1-10-3]" type="text">|
+|`d = 7`        |<input name="a[1-10-4]" type="text">|
+|`e = 'True'`   |<input name="a[1-10-5]" type="text">|
+|`f = 17`       |<input name="a[1-10-6]" type="text">|
+|`g = '17'`     |<input name="a[1-10-7]" type="text">|
+|`h = True`     |<input name="a[1-10-8]" type="text">|
+|`i = '3.14159'`|<input name="a[1-10-9]" type="text">|
+
+To verify your answers, you can use the interactive Python shell, but first try to do the exercise without help.
+
+	>>> x = 100
+	>>> type(x)
+	<type 'int'>
+	>>>
+
+## 1.9 Natural Language Processing
+
+Consider the following sentence:
+
+> **Alice saw the boy on the hill with the telescope.**
+
+1. Draw a sketch of what's described in this sentence.
+
+2. Draw a different sketch that could also be described by this sentence.
+
+3. Write the sentence in two different ways, that clarifies the meaning of each of your sketches (hint: rewrite the sentence using extra words, commas, etc).
+
+<textarea name="a[1-11-3]"></textarea>
+
+The ambiguity illustrated by this sentence is known as "prepositional phrase attachment." Think about this as you continue to learn how to program, and consider how programming languages are designed to avoid the ambiguity illustrated by this example!
+
+## 1.10 New Operators
+
+Open up IDLE and play around with operators. Make sure that you understand how to use them and what they are used for! The operators `==`, `!=`, `<`, `>`, `<=`, `>=` are called *relation* operators. 
 
 They work on all types, not just numbers, and return a `Boolean` (`True`/`False`) value. Remember, if you are using `Boolean`s, to capitalize `True` and `False`! Here's an example shell session; try other examples you can think of.
 
@@ -217,11 +273,182 @@ Next, the operators `+=`, `-=`, `*=`, `/=` change the value of a stored variable
 	>>> print y
 	11
 
-## Intermezzo: Questions
+## 1.11 Boolean operators
 
-We strongly suggest you finish all questions now, before continuing on with the next exercise. Just go to the next tab and return here when you have finished.
+Boolean operators can seem tricky at first, and it takes practice to evaluate them correctly. Write the value (`True` or `False`) produced by each expession below, using the assigned values of the variables `a`, `b`, and `c`. Try to do this without using your interpreter, but you should check yourself when you think you've got it. Hint: Work from the inside out, starting with the inner-most expressions, like in arithmetic.
 
-## 1.8 Rock, Paper, Scissors
+|expression              |value                             |
+|------------------------|----------------------------------|
+|`a`                     |False                             |
+|`b`                     |True                              |
+|`c`                     |False                             |
+|`b and c`               |<input name="a[12-1]" type="text">|
+|`b or c`                |<input name="a[12-2]" type="text">|
+|`not a and b`           |<input name="a[12-3]" type="text">|
+|`(a and b) or not c`    |<input name="a[12-4]" type="text">|
+|`not b and not (a or c)`|<input name="a[12-5]" type="text">|
+
+## 1.12 Conditionals
+
+The purpose of this exercise is to understand conditionals. Tiberius is looking for his dream job, but has some restrictions. He loves California and would take a job there if it paid over 40,000 a year. He hates Massachusetts and demands at least 100,000 to work there. Any other place he's content to work for 60,000 a year, unless he can work in space in which case he would work for free. The following code shows his basic strategy for evaluating a job offer.
+
+{: .language-python}
+	pay = _____
+	location = _____
+
+	if location == "U.S.S. Enterprise":
+		print "So long, suckers! I'll take it!"
+	elif location == "Massachusetts":
+		if pay < 100000:
+			print "No way"
+		else:
+			print "I'll take it!"
+	elif location == "California" and pay > 40000:
+		print "I'll take it!"
+	elif pay > 60000:
+		print "I'll take it!"
+	else:
+		print "No thanks, I can find something better."
+
+For each of the following job offers, write down the output that would be generated. Do this without running the code. It is an important skill to be able to understand what a piece of code does without running it.
+
+1.	`location = "Massachusetts"`  
+	`pay = 50000`
+
+	<textarea name="a[1-13-1]"></textarea>
+
+2.	`location = "Iowa"`  
+	`pay = 50000`
+
+	<textarea name="a[1-13-2]"></textarea>
+
+3.	`location = "California"`  
+	`pay = 50000`
+
+	<textarea name="a[1-13-3]"></textarea>
+
+4.	`location = "U.S.S. Enterprise"`  
+	`pay = 1`
+
+	<textarea name="a[1-13-4]"></textarea>
+
+5.	`location = "California"`  
+	`pay = 25000`
+
+	<textarea name="a[1-13-5]"></textarea>
+
+## 1.13 – Understanding loops
+
+For each of the following fragments of code, write what the output would be. Again, do this without running the code (although feel free to check yourself when you're done).
+
+{: .language-python}
+	num = 10
+	while num > 3:
+		print num
+		num = num - 1
+
+> <textarea name="a[1-14-1]"></textarea>
+
+{: .language-python}
+	divisor = 2
+	for i in range(0, 10, 2):
+		print i/divisor
+
+> <textarea name="a[1-14-2]"></textarea>
+
+{: .language-python}
+	num = 10
+	while True:
+		if num < 7:
+			break
+		print num
+		num -= 1
+
+> <textarea name="a[1-14-3]"></textarea>
+
+{: .language-python}
+	count = 0
+	for letter in 'Snow!':
+		print 'Letter #', count, 'is', letter
+		count += 1
+
+> <textarea name="a[1-14-4]"></textarea>
+
+## 1.14 Buggy loop (aka Find The Bug!)
+
+Consider the following program that Ben Bitdiddle handed in to the course staff (again, try to do this exercise without running the code in IDLE!):
+
+{: .language-python}
+	n = 10
+	i = 10
+	
+	while i > 0:
+		print i
+		if i % 2 == 0:
+			i = i / 2
+		else:
+			i = i + 1
+
+What do you think this code is doing? Without comments it is hard to guess what Ben’s intention was (*cough* -- this is why the staff loves to look at commented code!!), so read through it and make a sensible guess as to what it is doing. There's a lot of mistakes in the code so your guess is as good as ours!
+
+1.	Make a table that shows the value of the variables `n` and `i` during the
+	execution of the program. Your table should contain two columns (one for
+	each variable) and one row for each iteration. For each row in the table,
+	write down the values of the variables as they would be at the line
+	containing the print statement.
+
+	<textarea name="a[1-15-1]"></textarea>
+
+2.	Ben made a lot of mistakes. State what you think Ben was trying to do and
+	suggest one or more ways he could fix his code (there's a few good answers
+	for this depending on what you think the code should be doing).
+
+	<textarea name="a[1-15-2]"></textarea>
+
+## 1.15 List operations
+
+Say we have this list:
+
+	a_list = [3, 5, 6, 12]
+
+For the following, write the line(s) of code that will emit the given output
+making use of the variable `a_list`. For each problem there may be more than
+one correct answer; just give one.
+
+1.	Output: `3`
+
+	<textarea name="a[2-13-1]"></textarea>
+
+2.	Output: `12`
+
+	<textarea name="a[2-13-2]"></textarea>
+
+3.	Output: `[5, 6, 12]`
+
+	<textarea name="a[2-13-3]"></textarea>
+
+4.	Output:
+
+		3
+		5
+		6
+		12
+
+	<textarea name="a[2-13-4]"></textarea>
+
+5.	Output: `[12, 6, 5, 3]`
+
+	<textarea name="a[2-13-5]"></textarea>
+
+6.	Output: `[9, 15, 18, 36]`
+
+	<textarea name="a[2-13-6]"></textarea>
+
+7.	Output: `[False, False, True, True]`
+
+	<textarea name="a[2-13-7]"></textarea>
+
+## 1.16 Rock, Paper, Scissors
 
 In this exercise, you are going to practice using conditionals (`if`, `elif`, `else`). You will write a small program that will determine the result of a "rock, paper, scissors" game, given Player 1 and Player 2's choices. Your program will print out the result. Here are the rules of the game:
 
@@ -243,7 +470,7 @@ In this exercise, you are going to practice using conditionals (`if`, `elif`, `e
 	|<input name="a[1-7-16]" type="text">|<input name="a[1-7-17]" type="text">|<input name="a[1-7-18]" type="text">|
 	|<input name="a[1-7-19]" type="text">|<input name="a[1-7-20]" type="text">|<input name="a[1-7-21]" type="text">|
 
-2. Create a new file `rps.py` that will generate the outcome of the rock, scissors, paper game. The program should ask the user for input and display the answer as follows:
+2. Download [`rps.py`](rps.py) and put in the code to generate the outcome of the rock, scissors, paper game. The program should ask the user for input and display the answer as follows:
 
 		Player 1? rock
 		Player 2? scissors
@@ -267,7 +494,7 @@ Or, you can use the *backslash* symbol to indicate to Python that the next line 
 
 Use whichever form you feel comfortable using. When you are done coding *and testing*, print a copy of the file and turn it in. Make sure your name and section number is in the comment section of your program.
 
-## 1.9 For Loops
+## For Loops
 
 You have read about while loops in chapter 6. Another commonly used form of iteration is using for loops. Where a while loop evaluates a certain condition before every iteration, a for loop runs through the elements of a list, where each element can be used in one iteration. For example, the following code:
 
@@ -310,9 +537,9 @@ Note that most while loops can also be formulated in a for loop and vice versa. 
 
 In general, while loops are more useful when a certain condition needs to be reached for the loop to end and for loops are more useful when a fixed number of iterations is required. However, as there is no intrinsic difference in efficiency, ultimately it remains a design choice. It can make your code much easier to read, though.
 
-## 1.10 For & While Loops Exercise
+## 1.17 For & While Loops Exercise
 
-Create a new file called `loops.py` and use it for all parts of this exercise. Remember the difference between input and raw input? If not, look at Exercise 1.5 again.
+Download [`loops.py`](loops.py) and use it for all parts of this exercise. Remember the difference between input and raw input? If not, look at Exercise 1.5 again.
 
 Be sure to test your code for each part before moving on to the next part.
 
@@ -332,7 +559,7 @@ Be sure to test your code for each part before moving on to the next part.
 
 8. Write a program that asks the user for a list of numbers and prints the largest number: use a for loop to examine each number in the list and a variable to save the largest number. While going through the list, compare each element to the previous maximum and 'remember' the new maximum. After the loop, print out the maximum. 
 
-## 1.11 Additional List Practice
+## 1.18 Additional List Practice
 
 You'll probably also need some practice with lists. Write a program
 `list_intersection` that takes the intersection of the two lists; so, a list of
