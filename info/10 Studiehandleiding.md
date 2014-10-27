@@ -13,6 +13,8 @@ Welkom bij deze cursus *Inleiding Programmeren*. We gaan programmeren in Python,
 |Studielast |3 studiepunten                        |
 |Vakcode    |5092INPR3Y                            |
 
+<iframe src="//player.vimeo.com/video/110169252?byline=0&amp;portrait=0" width="784" height="571" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 ## Contact
 
 De staf bestaat uit je docent en diverse studentassistenten. Door de omvang van
