@@ -22,4 +22,4 @@ that we can test, and optionally one or two python files for the hacker edition.
 
 ## Deadline
 
-The deadline is Friday at 15:00.
+The deadline is on your last day of class at 23:59 (either Thursday or Friday). 

@@ -81,7 +81,7 @@ er naar te kijken. Zo kunnen ze je tips geven om tot een hoger cijfer te komen.
 
 Deze cursus bevat 3 workshops, 4 problem sets en 1 tentamen (zie *Onderdelen* voor de invulling). Ter voorbereiding is er leesstof opgegeven.
 
-* We verwachten dat je uiterlijk op de laatste practicumdag om 21:00 uur je
+* We verwachten dat je uiterlijk op de laatste practicumdag om 23:59 uur je
   opdracht van de week inlevert. Zit je in de donderdaggroep? Deadline
   donderdag. Zit je in de vrijdaggroep? Deadline vrijdag. Ook vragen we soms je
   opdrachten al voor de deadline te laten zien aan een assistent. Dat is dan

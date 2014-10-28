@@ -21,4 +21,4 @@ that we can test, and optionally one or two python files for the hacker edition.
 
 ### Deadline
 
-The deadline is on your last day of class at 21:00 (either Thursday or Friday). You are required to review your exercises with an assistant at the second day of class.
+The deadline is on your last day of class at 23:59 (either Thursday or Friday). 

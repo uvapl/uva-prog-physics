@@ -66,7 +66,7 @@ Deze cijfers leiden niet volgens een formule tot een totaalcijfer voor de week. 
 
 ### Deadline
 
-De deadline is op je laatste practicumdag om 21:00 voor alle studenten. Op dat
+De deadline is op je laatste practicumdag om 23:59 voor alle studenten. Op dat
 moment wordt het ingeleverde werk verdeeld onder de nakijkers en gaan zij aan
 de slag. Er is geen mogelijkheid om het later in te leveren; wél eerder
 natuurlijk!
