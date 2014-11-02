@@ -30,39 +30,33 @@ uitwerken en invullen. De bedoeling is dat je enigszins zelfstandig de
 opdrachten leert lezen en begrijpen, waarna je een oplossing kunt formuleren en
 implementeren. Elk ingeleverd programma wordt beoordeeld op de volgende factoren:
 
-* Omvang --- heb je alles geprobeerd?
+* Correctness --- heb je alles geprobeerd?
 
-	1. onaf
-	2. basis staat maar niet alles afgemaakt
-	3. precies het minimum zoals in de opdracht
-	4. optionele onderdelen uit de opdracht gedaan
-	5. meer dan in de opdracht stond
+	1. belangrijk deel niet gedaan of teveel bugs om werkend te krijgen
+	2. moet gewijzigd om werkend te krijgen
+	3. basis staat, het werkt wel, maar niet alles afgemaakt
+	4. alles gedaan, maar niet altijd goede antwoord
+	5. werkt perfect met alle voorbeelden uit de opgave
 
-* Correctheid --- doet het programma wat de gebruiker mag verwachten?
+* Design --- hoe ordelijk is je code?
 
-	1. kost teveel tijd om werkend te krijgen
-	2. problemen in de werking, waarschijnlijk een vergissing
-	3. werkt, maar niet altijd goede antwoord
-	4. goede uitvoer voor alle te verwachten invoer
-	5. perfectie, ook foutieve invoer afgevangen
-
-* Ontwerp --- hoe ordelijk is je code?
-
-	1. veel onnodig ingewikkelde constructies, vermijden bepaalde mogelijkheden
+	1. veel onnodig ingewikkelde constructies, zoals vermijden `for`-loop
 	2. ingewikkeld, maar toont kennis van mogelijkheden
 	3. ongecompliceerd, details misschien inefficiënt
 	4. goed gebruik van de mogelijkheden die te taal biedt
 	5. perfectie, je hebt erover gelezen en het uitstekend toegepast
 
-* Stijl --- hoe leesbaar is je code?
+* Style --- hoe leesbaar is je code?
 
-	1. soms is er iets moois, maar over het algemeen niet goed leesbaar
+	1. over het algemeen niet goed leesbaar
 	2. elementen uit de stijlgids zijn toegepast maar niet consistent
-	3. leesbaar en consistent, misschien nog een enkel probleem
-	4. helemaal consistent, afwijkingen van de stijlgids alleen goed beredeneerd
+	3. leesbaar en behoorlijk consistent, misschien nog een enkel probleem
+	4. helemaal consistent, inclusief afwijkingen van de stijlgids
 	5. perfectie, veel eigen principes maar volledig consistent
 
-Deze cijfers leiden niet volgens een formule tot een totaalcijfer voor de week. Je kunt er wel vanuit gaan dat als je vier keer een 3 scoort, dit gelijk is aan een eindcijfer 6. Als je vier keer een 4 scoort, wordt het waarschijnlijk een 8. Maar als je de feedback niet toepast, dan kan het wel eens minder worden!
+Voor de berekening van het cijfer van je problem set geven we ongeveer de volgende gewichten aan je deelcijfers: correctness > design > style.
+
+Toch is het zo dat style een zwaarwegende factor kan worden als je bijvoorbeeld bij herhaling geen vooruitgang maakt hierin.
 
 ### Deadline
 
