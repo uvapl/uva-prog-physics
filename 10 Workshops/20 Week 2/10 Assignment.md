@@ -1,3 +1,5 @@
+<iframe src="//player.vimeo.com/video/110594812?byline=0&amp;portrait=0" width="400" height="314" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 This week, you'll be making your first small Python programs. Download the PDF
 for complete instructions.
 
