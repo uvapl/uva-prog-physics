@@ -5,10 +5,9 @@ learn about everything about functions!
 
 ### Preparation
 
-Read and annotate these chapters from your book:
+Read these chapters from your book:
 
 * Chapter 3, [Functions](http://www.greenteapress.com/thinkpython/html/thinkpython004.html)
-* Chapter 4.8--4.12, [Recursion](http://www.greenteapress.com/thinkpython/html/thinkpython006.html#toc59)
 * Chapter 5, [Fruitful functions](http://www.greenteapress.com/thinkpython/html/thinkpython007.html)
 * Chapter 7, [Strings](http://www.greenteapress.com/thinkpython/html/thinkpython009.html)
 
@@ -23,4 +22,4 @@ that we can test, and optionally one or two python files for the hacker edition.
 
 ### Deadline
 
-The deadline is on your last day of class at 23:59 (either Thursday or Friday). 
+The deadline is on your last day of class at 23:59 (either Thursday or Friday).
