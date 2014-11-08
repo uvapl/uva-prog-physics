@@ -153,37 +153,11 @@ are separated by commas. Try this:
 
 ---
 
-### Intermezzo: Functions
+### Intermezzo: Functions & testing
 
 So far we have been using `raw_input` to get user input. For the remainder of
 this course we will move away from this tool, instead writing **functions**
-that take in parameters as opposed to prompting the user for input. So, for
-this and all following problems, do not use `raw_input` unless explicitly told
-to do so.
-
----
-
-### 2.2 Defining A Function
-
-Recall how we define a function using `def`, and how we pass in parameters. 
-In `homework2.py`, paste your code from exercise 1.8 (the rock, paper, scissors
-game). Then, transform it into a function that takes parameters, instead of
-asking the user for input. Make sure to return your answer, rather than 
-printing it.
-
-Think a bit about the name you give to the function. Discuss with your 
-neighbor what name would be best.
-
-### 2.3 Testing your function
-
-Because rock, paper, scissors now is a function that returns a value,
-you can easily call it in a test. Write three test cases for
-rock, paper, scissors. Put them directly below your function and mark in a
-comment that they are testing statements.
-
----
-
-### Intermezzo: Testing
+that take in parameters as opposed to prompting the user for input. So, for all following problems, do not use `raw_input` unless explicitly told to do so.
 
 In order to quickly evaluate the code you have written, and to get some
 practice in writing test, you are to include *at least 3* test cases below your
@@ -191,7 +165,7 @@ code for each exercise.
 
 ---
 
-### 2.4 A few simple methods
+### 2.2 A few simple methods
 
 In this problem you'll be asked to write two simple methods (*method* is an
 interchangeable term for *function*). Be sure to test your functions well, 
@@ -217,7 +191,7 @@ including at least 3 test cases for each method.
    function! Test if your code works by thinking of examples and making sure
    the output is the same for your new method as `!=` gives you.
 
-### 2.5 The `math` module
+### 2.3 The `math` module
 
 In this exercise, we will play with some of the functions provided in the
 `math` module. A **module** is a Python file with a collection of related
@@ -287,7 +261,7 @@ yourself debugging two methods at the same time, which can be very difficult.
 	
 		yikes(5) is 1.0303150673
 
-### 2.6 More functions
+### 2.4 More functions
 
 Here's three more functions to try your hand at.
 
@@ -321,7 +295,7 @@ Here's three more functions to try your hand at.
 		6
 		That's all!
 
-### 2.7 Working with lists
+### 2.5 Working with lists
 
 Check out this function that sums all numbers in a list:
 
@@ -358,7 +332,7 @@ functions for these common tasks. Include three test cases with each function.
 3.	Write a function that finds the maximum value in a list and returns it.
 
 
-### 2.8 String operations
+### 2.6 String operations
 
 String operators might be a little less intuitive than those on numbers. This
 exercise will give you a chance to practice those. Given the following
@@ -384,7 +358,7 @@ get stuck).
 For more on strings, see [the Python docs](http://docs.python.org/release/2.6.6/library/stdtypes.html#string-methods).
 
 
-### 2.9 Plotting
+### 2.7 Plotting
 
 Ooooh this is nice! Graphical output with Python. We will cover the basic plotting functions 
 that you need in the next few weeks, but you are encouraged to look up functions yourself to 
@@ -437,7 +411,7 @@ can show the plot with `show()`:
 
 As a first exercise, plot the sine and cosine function in one figure, in the x-range of $$0$$ to $$2pi$$. To use the `sin()` and `cos()` function, you have to import the `numpy` module. This module also contains the `arange(start,stop,step)` function, which you can use to create a range of values with a step size smaller than one. Use a different color for each function.
 
-#### 2.9.1 Histograms
+#### 2.7.1 Histograms
 
 Another form of graphical output that we're going to use is a histogram. For a histogram, the horizontal axis shows a data range divided into several bins and the vertical axis shows the amount of datapoints that fall within each bin. For example, this histogram shows the distribution of grades in a class of students:
 
@@ -449,7 +423,7 @@ For this exercise, make a histogram of the following list. Use a bin size of 2.
 
 		histlist = [0,1,2,3,4,5,6,7,8,9,10,3,3,4,5,4,7,7]
 
-#### 2.9.2 Subplots
+#### 2.7.2 Subplots
 
 For the next exercise you need to show two figures side by side. You can do this by using `subplot`.
 The syntax is `subplot(numberofrows,numberofcolumns,activeplotnr)`. For example, the following code
