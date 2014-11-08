@@ -5,13 +5,6 @@ should make sure this file immediately runs all tests that you have written and
 gives correct output for every exercise. The same goes for all other files you
 submit.
 
-### Warm up: recollections
-
-Recall that a string is **immutable**, while a list is **mutable**. What does
-this mean? Research it with your neighbor!
-
-<textarea name="a[2-11]"></textarea>
-
 ### 2.0 General Notes on Functions
 
 Before we start doing exercises, there are a few general but important things to know

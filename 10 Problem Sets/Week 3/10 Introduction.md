@@ -1,6 +1,8 @@
 This workshop will kick off your 5th day of Python programming. Today, you'll
 learn about everything about functions!
 
+<iframe src="//player.vimeo.com/video/111292293?byline=0&amp;portrait=0" width="400" height="304" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 ### Preparation
 
 Read and annotate these chapters from your book:
