@@ -20,7 +20,7 @@ class ansi_colors:
 def assert_equal(have, want):
     try:
         result = eval(have)
-        if result == str(want):
+        if str(result) == str(want):
             print ansi_colors.GREEN + ":)", have, "yields", str(want) + ansi_colors.ENDC
         else:
             print ansi_colors.FAIL + ":(", have + ansi_colors.ENDC
