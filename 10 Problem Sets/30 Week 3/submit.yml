@@ -2,6 +2,7 @@ name: w3
 form: true
 required:
     - homework2.py
+    - test_homework2.py
     - pyplot.py
 optional:
     - bingo.py
