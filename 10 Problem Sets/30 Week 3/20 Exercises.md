@@ -408,7 +408,7 @@ As a first exercise, plot the sine and cosine function in one figure, in the x-r
 
 Another form of graphical output that we're going to use is a histogram. For a histogram, the horizontal axis shows a data range divided into several bins and the vertical axis shows the amount of datapoints that fall within each bin. For example, this histogram shows the distribution of grades in a class of students:
 
-![Dataset](Histogram-Student-Scores.png =350x)
+![Dataset](Histogram-Student-Scores.png)
 
 The bin size for this histogram is 10. In the function we're going to use, the bin size is determined automatically and depends on the data range and the number of bins. The syntax is `hist(x,bins)`, where `x` is a list of data and `bins` is the amount of bins the data should be divided into.
 
