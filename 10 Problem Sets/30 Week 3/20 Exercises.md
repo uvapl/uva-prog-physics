@@ -3,7 +3,7 @@
 Download the starter files:
 
 - [homework2.py](homework2.py)
-- [test_homework2.py](homework2.py)
+- [test_homework2.py](test_homework2.py)
 
 You should make sure `test_homework2.py` immediately runs all tests that you
 have written and gives correct output for every exercise. The same goes for all
