@@ -12,21 +12,16 @@ from homework2 import *
 
 import sys
 
-class ansi_colors:
-    GREEN = '\033[92m'
-    FAIL = '\033[91m'
-    ENDC = '\033[0m'
-
 def assert_equal(have, want):
     try:
         result = eval(have)
         if str(result) == str(want):
-            print ansi_colors.GREEN + ":)", have, "yields", str(want) + ansi_colors.ENDC
+            print ":)", have, "yields", str(want)
         else:
-            print ansi_colors.FAIL + ":(", have + ansi_colors.ENDC
+            print ":(", have
             print "   \\ expected " + str(want) + ", but returned " + str(result)
     except:
-        print ansi_colors.FAIL + ":(", have + ansi_colors.ENDC
+        print ":(", have
         print "   \\ evaluating the expression `" + str(have) + "` fails with error:"
         print "     " + str(sys.exc_info()[1])
 
