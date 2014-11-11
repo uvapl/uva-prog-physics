@@ -8,9 +8,10 @@
 # change this section.
 #
 
-from homework2 import *
-
 import sys
+sys.dont_write_bytecode = True
+
+from homework2 import *
 
 def assert_equal(have, want):
     try:
