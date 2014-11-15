@@ -1,6 +1,8 @@
 This week, you'll be taking your first steps in numerical methods. Download the
 PDF for complete instructions.
 
+<iframe src="//player.vimeo.com/video/111913708?byline=0&amp;portrait=0" width="500" height="408" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 * [Assignment](Lecture_4_Assignments_UvA.pdf)
 * [Slides](Lecture_4_slides.pdf)
 
