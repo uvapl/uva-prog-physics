@@ -1,6 +1,8 @@
 This week, you'll be visualizing physical phenomena. Download the PDF
 for complete instructions.
 
+<iframe src="//player.vimeo.com/video/113079224" width="500" height="395" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 * [Slides](Lecture_6_slides_blok2.pdf)
 * [Assignment](Lecture_6_Assignments_UvA.pdf)
 * [Animation template](animation_template.py)
