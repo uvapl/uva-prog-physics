@@ -1,3 +1,5 @@
+<iframe src="//player.vimeo.com/video/113904171?byline=0&amp;portrait=0" width="500" height="406" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 This week, you'll analyzing tabular data from an external source. Download the
 PDF for complete instructions.
 
